@@ -1,0 +1,14 @@
+{
+  "sim_id": "response-coding-theme-workbench",
+  "diagram_name": "Response Coding and Theme Workbench",
+  "chapter_number": 18,
+  "chapter_title": "Marketing Metrics and Pattern Analysis",
+  "chapter_dir": "18-marketing-metrics-analysis",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Organize persona response excerpts into evidence-linked codes and themes while preserving counterexamples and reviewer disagreement.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** response-coding-theme-workbench<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** organize\n\n**Learning objective:** Organize persona response excerpts into evidence-linked codes and themes while preserving counterexamples and reviewer disagreement.\n\n**Interaction:** Learners highlight excerpts, apply code definitions, write memos, compare another reviewer's coding, and assemble themes. Source links remain visible.\n\n**Feedback:** The workbench flags vague themes, unsupported grouping, missing negative cases, and code drift. Agreement is shown by code, not one total.\n\n**Responsive design:** Source, codebook, and theme panels become tabs on narrow screens, with keyboard annotation and resize handling.\n\n**Instructional rationale:** Evidence coding and relationship grouping directly support analysis.\n\nImplementation: p5.js annotation workspace with semantic text panels."
+}

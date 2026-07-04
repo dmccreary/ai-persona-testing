@@ -1,0 +1,52 @@
+{
+  "title": "Language Model Response Laboratory",
+  "creator": "Dan McCreary",
+  "subject": ["Artificial Intelligence", "Language Models", "AI Literacy"],
+  "description": "Step through a simplified language-model response process from instructions and tokens to context constraints and variable output.",
+  "date": "2026-07-03",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "language-model-response-lab",
+  "library": "p5.js",
+  "bloomLevel": "Understand",
+  "educational": {
+    "gradeLevel": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "subjectArea": "Artificial Intelligence",
+    "topic": "Language model response generation",
+    "learningObjectives": [
+      "Explain how instructions, tokens, context limits, and probabilistic selection combine to produce a model response."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 715
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict and step through a worked example",
+    "keyQuestions": ["Which input most strongly shapes the response?"],
+    "commonMisconceptions": ["A model retrieves one fixed response or exposes its actual internal probabilities."],
+    "assessmentOpportunities": ["Explain each stage and compare stable meaning with variable wording."]
+  },
+  "chapter": "01-ai-customer-research"
+}

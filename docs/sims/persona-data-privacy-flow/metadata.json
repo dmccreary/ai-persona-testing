@@ -1,0 +1,22 @@
+{
+  "title": "Persona Data Privacy Flow",
+  "description": "Examine how personal data and sensitive attributes move from customer research into persona profiles, prompts, model providers, reports, and archives.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "persona-data-privacy-flow",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 4,
+  "chapter_title": "Responsible AI, Privacy, and Governance",
+  "chapter_dir": "04-responsible-ai-governance"
+}

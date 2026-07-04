@@ -1,0 +1,22 @@
+{
+  "title": "Switching Forces Balance Lab",
+  "description": "Examine how push, pull, habit, and anxiety forces combine to produce switching, delay, or retention.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "switching-forces-balance",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 8,
+  "chapter_title": "Jobs-to-Be-Done and Customer Journeys",
+  "chapter_dir": "08-jobs-customer-journeys"
+}

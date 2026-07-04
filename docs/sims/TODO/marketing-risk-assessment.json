@@ -1,0 +1,14 @@
+{
+  "sim_id": "marketing-risk-assessment",
+  "diagram_name": "Marketing Risk Assessment Lab",
+  "chapter_number": 19,
+  "chapter_title": "Risk-Based Recommendations and Knowledge Graphs",
+  "chapter_dir": "19-risk-knowledge-graphs",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Assess marketing risks using severity, likelihood, detectability, affected audience, evidence quality, and confidence.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** marketing-risk-assessment<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** assess\n\n**Learning objective:** Assess marketing risks using severity, likelihood, detectability, affected audience, evidence quality, and confidence.\n\n**Interaction:** Learners review persona findings and evidence, assign transparent categories, and place risks on a matrix. Severe accessibility and privacy cases demonstrate why frequency is not the only priority factor.\n\n**Feedback:** The tool flags likelihood estimates based only on synthetic frequency and asks for validation. Sensitivity view shows how uncertainty changes priority.\n\n**Responsive design:** Matrix becomes a ranked card list on narrow screens, with keyboard controls and resize handling.\n\n**Instructional rationale:** Criteria-based risk judgment supports evaluation and explicit uncertainty.\n\nImplementation: p5.js risk workspace with semantic evidence cards."
+}

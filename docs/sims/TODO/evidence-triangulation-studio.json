@@ -1,0 +1,14 @@
+{
+  "sim_id": "evidence-triangulation-studio",
+  "diagram_name": "Evidence Triangulation Studio",
+  "chapter_number": 4,
+  "chapter_title": "Responsible AI, Privacy, and Governance",
+  "chapter_dir": "04-responsible-ai-governance",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Validate a marketing claim by combining appropriately independent synthetic, behavioral, qualitative, quantitative, and expert evidence.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: graph-model\n**sim-id:** evidence-triangulation-studio<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** validate\n\n**Learning objective:** Validate a marketing claim by combining appropriately independent synthetic, behavioral, qualitative, quantitative, and expert evidence.\n\n**Node types:** Claim, Synthetic Finding, Interview Theme, Survey Result, Behavioral Metric, Market Source, Expert Review, Assumption, and Limitation. Node properties show owner, date, method, and independence group.\n\n**Edges:** SUPPORTS, CONTRADICTS, SHARES_SOURCE_WITH, LIMITED_BY, and REQUIRES_VALIDATION. Clicking an edge explains its evidentiary meaning.\n\n**Interaction:** Learners build a support network for one of four claims. The credibility meter rewards method diversity and source independence, flags duplicated evidence, and lowers confidence when contradictory evidence is ignored.\n\n**Feedback:** Selecting “Ready to report” generates a claim audit explaining its supported scope, unresolved uncertainty, and next validation step.\n\n**Responsive design:** Force-directed graph with zoom, pan, drag, keyboard traversal, accessible side panel, and resize handling.\n\n**Instructional rationale:** Constructing and auditing a multi-source evidence network directly practices evaluation rather than simple recall.\n\nImplementation: vis-network with rule-based independence scoring and JSON scenarios."
+}

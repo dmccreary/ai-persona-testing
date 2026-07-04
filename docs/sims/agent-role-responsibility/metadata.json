@@ -1,0 +1,22 @@
+{
+  "title": "Agent Role and Responsibility Map",
+  "description": "Differentiate persona, moderator, skeptic, expert reviewer, and synthesis responsibilities and detect conflicting authority.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "agent-role-responsibility",
+  "library": "vis-network",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 13,
+  "chapter_title": "Designing AI Agents and Expert Roles",
+  "chapter_dir": "13-ai-agents-expert-roles"
+}

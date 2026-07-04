@@ -1,0 +1,14 @@
+{
+  "sim_id": "prompt-clarity-clinic",
+  "diagram_name": "Prompt Specificity and Clarity Clinic",
+  "chapter_number": 11,
+  "chapter_title": "Structured Prompts and Reliable Outputs",
+  "chapter_dir": "11-structured-prompts",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Critique vague or conflicting prompt instructions and revise them into specific, clear, testable requirements.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** prompt-clarity-clinic<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** critique\n\n**Learning objective:** Critique vague or conflicting prompt instructions and revise them into specific, clear, testable requirements.\n\n**Interaction:** Learners annotate ambiguity, missing evidence, undefined criteria, hidden sequence, and conflicting constraints in sample prompts. They rewrite each issue and compare expected outputs.\n\n**Feedback:** The tool explains whether a revision increases useful specificity or merely adds length. A “different reasonable interpretation” button exposes remaining ambiguity.\n\n**Responsive design:** Prompt and feedback panes become tabs on narrow screens; provide keyboard annotation and resize handling.\n\n**Instructional rationale:** Rubric-guided revision supports evaluation of prompt quality.\n\nImplementation: p5.js annotation layer with semantic HTML editor."
+}

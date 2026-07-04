@@ -1,0 +1,14 @@
+{
+  "sim_id": "goal-motivation-need-network",
+  "diagram_name": "Goal–Motivation–Need Network",
+  "chapter_number": 5,
+  "chapter_title": "Building Complete Customer Personas",
+  "chapter_dir": "05-customer-personas",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Construct a traceable network connecting persona goals to motivations, needs, context, behaviors, and marketing evidence.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: graph-model\n**sim-id:** goal-motivation-need-network<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** construct\n\n**Learning objective:** Construct a traceable network connecting persona goals to motivations, needs, context, behaviors, and marketing evidence.\n\n**Node types:** Goal, Motivation, Need, Context, Behavior, Asset Claim, and Evidence. Node properties show source and confidence.\n\n**Edges:** MOTIVATED_BY, REQUIRES, OCCURS_IN, EXPRESSED_AS, ADDRESSED_BY, and SUPPORTED_BY. Every node and edge is clickable and explains the relationship.\n\n**Interaction:** Learners build a network for a scenario, test whether each asset claim addresses a need, and highlight disconnected decorative persona details. The tool flags circular reasoning and unsupported motivations.\n\n**Visual design:** Hierarchical layout from goals to evidence, with zoom, pan, drag, neighborhood highlighting, accessible side panel, and responsive resizing.\n\n**Instructional rationale:** Building a relationship model supports creating and makes the persona's decision logic inspectable.\n\nImplementation: vis-network model editor with keyboard navigation and JSON export."
+}

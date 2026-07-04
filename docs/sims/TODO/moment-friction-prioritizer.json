@@ -1,0 +1,14 @@
+{
+  "sim_id": "moment-friction-prioritizer",
+  "diagram_name": "Moment and Friction Prioritizer",
+  "chapter_number": 8,
+  "chapter_title": "Jobs-to-Be-Done and Customer Journeys",
+  "chapter_dir": "08-jobs-customer-journeys",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Prioritize journey opportunities by customer impact, frequency, severity, equity, evidence strength, and implementation risk.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** moment-friction-prioritizer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** prioritize\n\n**Learning objective:** Prioritize journey opportunities by customer impact, frequency, severity, equity, evidence strength, and implementation risk.\n\n**Layout:** Touchpoint cards plot on an Impact versus Evidence matrix. Additional badges show frequency, affected persona, and whether friction is necessary.\n\n**Interaction:** Learners inspect evidence, adjust criteria weights, compare two personas, and move proposed opportunities into Now, Investigate, or Later. Feedback warns when frequency hides severe accessibility harm.\n\n**Responsive design:** Matrix becomes a ranked card list on narrow screens, with keyboard controls, patterns, and resize handling.\n\n**Instructional rationale:** Ranking opportunities against explicit criteria supports evaluation and justified recommendation.\n\nImplementation: Responsive p5.js matrix with accessible control panel."
+}

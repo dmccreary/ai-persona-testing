@@ -69,8 +69,91 @@ nav:
       - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
 
   - MicroSims:
-      - List of MicroSims: sims/index.md
-      - Learning Graph Viewer: sims/graph-viewer/index.md
+    - List of MicroSims: sims/index.md
+    - Agent Autonomy and Boundary Simulator: sims/agent-autonomy-boundary/index.md
+    - Agent Role and Responsibility Map: sims/agent-role-responsibility/index.md
+    - Agent Specification Builder: sims/agent-specification-builder/index.md
+    - AI Persona Testing Evidence Workflow: sims/persona-testing-evidence-workflow/index.md
+    - Baseline and Benchmark Comparison Explorer: sims/baseline-benchmark-explorer/index.md
+    - Bias Pathway and Control Map: sims/bias-pathway-control-map/index.md
+    - Brand Strategy Alignment Map: sims/brand-strategy-alignment/index.md
+    - Capability and Claim Boundary Explorer: sims/capability-claim-boundary/index.md
+    - Capstone System Architecture: sims/capstone-system-architecture/index.md
+    - Complete Evaluation Graph Schema: sims/complete-evaluation-graph-schema/index.md
+    - Confidence Calibration Challenge: sims/confidence-calibration-challenge/index.md
+    - Context Budget Laboratory: sims/context-budget-lab/index.md
+    - Context Contamination Laboratory: sims/context-contamination-lab/index.md
+    - Context Shift Response Explorer: sims/context-shift-response/index.md
+    - Controlled Prompt Comparison Lab: sims/prompt-comparison-lab/index.md
+    - Cross-Channel Campaign Consistency Map: sims/campaign-consistency-map/index.md
+    - Customer Job Statement Builder: sims/customer-job-statement-builder/index.md
+    - Customer State Transition Explorer: sims/customer-state-transition/index.md
+    - Debate and Consensus Protocol Simulator: sims/debate-consensus-protocol/index.md
+    - Evaluation Framework Builder: sims/evaluation-framework-builder/index.md
+    - Evidence Triangulation Studio: sims/evidence-triangulation-studio/index.md
+    - Evidence-Grounded Journey Mapper: sims/evidence-grounded-journey/index.md
+    - Evidence-Preserving Synthesis Workbench: sims/evidence-synthesis-workbench/index.md
+    - Evidence-to-Claim Traceability Map: sims/evidence-claim-traceability/index.md
+    - Evidence-to-Decision Trace: sims/evidence-decision-trace/index.md
+    - Gap, Signal, and Confusion Map: sims/gap-signal-confusion-map/index.md
+    - Goal–Motivation–Need Network: sims/goal-motivation-need-network/index.md
+    - Governance and Ethical Escalation Simulator: sims/governance-escalation-simulator/index.md
+    - Governed No-Code Evaluation Pipeline: sims/no-code-evaluation-pipeline/index.md
+    - Hallucination Detection Workbench: sims/hallucination-detection-workbench/index.md
+    - Information and Channel Fit Lab: sims/information-channel-fit/index.md
+    - Instruction Conflict Debugger: sims/instruction-conflict-debugger/index.md
+    - Language Model Response Laboratory: sims/language-model-response-lab/index.md
+    - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Marketing Construct Evidence Lab: sims/marketing-construct-evidence/index.md
+    - Marketing Risk Assessment Lab: sims/marketing-risk-assessment/index.md
+    - Message Element Testing Lab: sims/message-element-testing/index.md
+    - Message Hierarchy Composer: sims/message-hierarchy-composer/index.md
+    - Moment and Friction Prioritizer: sims/moment-friction-prioritizer/index.md
+    - Multi-Agent Workflow Composer: sims/multi-agent-workflow-composer/index.md
+    - Need and Driver Trade-Off Map: sims/need-driver-tradeoff-map/index.md
+    - Neutral Moderation Practice Lab: sims/neutral-moderation-practice/index.md
+    - Opinion Contamination Experiment: sims/opinion-contamination-experiment/index.md
+    - Page Task and Evidence Explorer: sims/page-task-evidence-explorer/index.md
+    - Parallel–Sequential Trade-Off Explorer: sims/parallel-sequential-explorer/index.md
+    - Persona Completeness Auditor: sims/persona-completeness-auditor/index.md
+    - Persona Consistency Test Bench: sims/persona-consistency-test-bench/index.md
+    - Persona Data Privacy Flow: sims/persona-data-privacy-flow/index.md
+    - Persona Drift Monitor: sims/persona-drift-monitor/index.md
+    - Persona Evaluation Knowledge Graph Builder: sims/persona-evaluation-graph-builder/index.md
+    - Persona Evidence Layer Builder: sims/persona-evidence-layer-builder/index.md
+    - Persona Fidelity Tuning Lab: sims/persona-fidelity-tuning/index.md
+    - Persona Portfolio Balancer: sims/persona-portfolio-balancer/index.md
+    - Persona Purpose Canvas: sims/persona-purpose-canvas/index.md
+    - Persona Release Quality Gate: sims/persona-release-quality-gate/index.md
+    - Persona Simulation Mode Explorer: sims/persona-simulation-mode-explorer/index.md
+    - Portfolio Coverage and Overlap Explorer: sims/persona-coverage-overlap/index.md
+    - Prompt Architecture Builder: sims/prompt-architecture-builder/index.md
+    - Prompt Chain Trace Explorer: sims/prompt-chain-trace/index.md
+    - Prompt Instruction Quality Auditor: sims/prompt-instruction-auditor/index.md
+    - Prompt Role Routing Lab: sims/prompt-role-routing/index.md
+    - Prompt Specificity and Clarity Clinic: sims/prompt-clarity-clinic/index.md
+    - Prompt Template Variable Workbench: sims/prompt-template-workbench/index.md
+    - Prompt Test Suite Builder: sims/prompt-test-suite-builder/index.md
+    - Rating Anchor Calibration Lab: sims/rating-anchor-calibration/index.md
+    - Recommendation Priority Portfolio: sims/recommendation-priority-portfolio/index.md
+    - Reporting and Dashboard Design Studio: sims/reporting-dashboard-studio/index.md
+    - Research Brief Builder: sims/research-brief-builder/index.md
+    - Research Dialogue Practice Studio: sims/research-dialogue-studio/index.md
+    - Research Question Method Navigator: sims/research-method-navigator/index.md
+    - Response Coding and Theme Workbench: sims/response-coding-theme-workbench/index.md
+    - Sample, Time, Cost, and Claim Explorer: sims/research-tradeoff-explorer/index.md
+    - Segmentation Basis Classifier: sims/segmentation-basis-classifier/index.md
+    - Specialist Review Panel: sims/specialist-review-panel/index.md
+    - Stress-Testing Role Lab: sims/stress-testing-role-lab/index.md
+    - Structured Response Schema Lab: sims/structured-response-schema/index.md
+    - Switching Forces Balance Lab: sims/switching-forces-balance/index.md
+    - Trigger-to-Decision Journey Simulator: sims/trigger-decision-journey/index.md
+    - Trust and Clarity Evidence Lab: sims/trust-clarity-evidence/index.md
+    - Validity and Reliability Diagnostic: sims/validity-reliability-diagnostic/index.md
+    - Visual Identity Evaluation Studio: sims/visual-identity-evaluation/index.md
+    - Weighting and Normalization Explorer: sims/weighting-normalization-explorer/index.md
+
+
 
   - License: license.md
   - Contact: contact.md

@@ -1,0 +1,14 @@
+{
+  "sim_id": "governance-escalation-simulator",
+  "diagram_name": "Governance and Ethical Escalation Simulator",
+  "chapter_number": 4,
+  "chapter_title": "Responsible AI, Privacy, and Governance",
+  "chapter_dir": "04-responsible-ai-governance",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Execute a governance workflow by assigning reviews, applying guardrails, preserving an audit trail, and escalating ethical concerns to an accountable decision owner.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: workflow\n**sim-id:** governance-escalation-simulator<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** execute\n\n**Learning objective:** Execute a governance workflow by assigning reviews, applying guardrails, preserving an audit trail, and escalating ethical concerns to an accountable decision owner.\n\n**Layout:** Swimlanes for Researcher, Privacy, Fairness, Domain Expert, Decision Owner, and Audit System. A case card advances through intake, risk screening, review, decision, and monitoring.\n\n**Interaction:** Learners choose reviewers and controls for scenarios involving sensitive health data, international personas, accessibility claims, and synthetic quotations. Decision points allow Proceed, Revise, Escalate, or Stop.\n\n**Feedback:** The simulator exposes missed stakeholders, inadequate controls, conflicting duties, and incomplete audit records. Clicking any audit event shows actor, time, rationale, and artifact version.\n\n**Completion:** A case passes only when purpose, data, evidence, disclosure, harm controls, accountable approval, and retention are addressed. The final screen explains that escalation is a successful safety action, not a workflow failure.\n\n**Responsive and accessible design:** Stack lanes on small screens, support keyboard navigation, and update layout on resize.\n\n**Instructional rationale:** Scenario decisions with consequences support applying because learners practice an operational governance process.\n\nImplementation: Responsive p5.js swimlane simulator with semantic controls and structured audit events."
+}

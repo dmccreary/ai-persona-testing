@@ -1,0 +1,14 @@
+{
+  "sim_id": "message-hierarchy-composer",
+  "diagram_name": "Message Hierarchy Composer",
+  "chapter_number": 15,
+  "chapter_title": "Moderation Risks and Brand Strategy",
+  "chapter_dir": "15-moderation-brand-strategy",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Compose and test a message hierarchy connecting value proposition, product messaging, proof, qualification, tone, and action for a selected persona and journey stage.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** message-hierarchy-composer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** compose\n\n**Learning objective:** Compose and test a message hierarchy connecting value proposition, product messaging, proof, qualification, tone, and action for a selected persona and journey stage.\n\n**Interaction:** Learners arrange message cards on a responsive asset canvas, choose visual emphasis, and preview through different persona and context lenses.\n\n**Feedback:** The tool flags unsupported prominence, missing proof, buried qualifications, voice-tone mismatch, and calls to action appearing before necessary information.\n\n**Responsive design:** Desktop and mobile previews, keyboard arrangement, reading-order text view, and resize handling.\n\n**Instructional rationale:** Message composition and audience testing support creating.\n\nImplementation: p5.js layout composer with semantic DOM cards."
+}

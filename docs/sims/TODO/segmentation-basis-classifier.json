@@ -1,0 +1,14 @@
+{
+  "sim_id": "segmentation-basis-classifier",
+  "diagram_name": "Segmentation Basis Classifier",
+  "chapter_number": 7,
+  "chapter_title": "Customer Segmentation and Persona Archetypes",
+  "chapter_dir": "07-segmentation-archetypes",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Classify customer evidence by segmentation basis and judge whether the proposed difference is decision-relevant and actionable.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** segmentation-basis-classifier<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** classify\n\n**Learning objective:** Classify customer evidence by segmentation basis and judge whether the proposed difference is decision-relevant and actionable.\n\n**Interaction:** Learners sort evidence cards into Behavioral, Demographic, Psychographic, Needs-Based, or Value-Based zones. They then select the marketing decision each distinction could inform.\n\n**Feedback:** Cards can fit more than one basis; feedback explains the strongest interpretation and why mixed bases must remain explicit. Weak cards such as “modern customers” are rejected until operationalized.\n\n**Scenarios:** Subscription renewal, nonprofit donation, commuter service, and business software. Include contradictory and missing evidence.\n\n**Responsive design:** Five zones wrap into an accordion on narrow displays. Provide keyboard sorting, text alternatives, and resize handling.\n\n**Instructional rationale:** Sorting evidence and connecting it to action supports applying rather than merely recalling category names.\n\nImplementation: Responsive p5.js sorting canvas with semantic HTML cards."
+}

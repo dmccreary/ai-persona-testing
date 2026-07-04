@@ -1,0 +1,22 @@
+{
+  "title": "Evidence-Preserving Synthesis Workbench",
+  "description": "Synthesize multi-agent findings while preserving citations, minority opinions, conflicts, uncertainty, and distinct expert critique.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "evidence-synthesis-workbench",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 15,
+  "chapter_title": "Moderation Risks and Brand Strategy",
+  "chapter_dir": "15-moderation-brand-strategy"
+}

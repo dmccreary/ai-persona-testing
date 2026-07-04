@@ -1,0 +1,14 @@
+{
+  "sim_id": "specialist-review-panel",
+  "diagram_name": "Specialist Review Panel",
+  "chapter_number": 13,
+  "chapter_title": "Designing AI Agents and Expert Roles",
+  "chapter_dir": "13-ai-agents-expert-roles",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Use distinct specialist lenses to review one marketing asset while preserving evidence, scope, disagreement, and human authority.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** specialist-review-panel<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** use\n\n**Learning objective:** Use distinct specialist lenses to review one marketing asset while preserving evidence, scope, disagreement, and human authority.\n\n**Interaction:** Learners select specialists for a scenario, inspect each structured review, identify out-of-scope claims, and route findings to Accept, Verify, Revise, or Escalate.\n\n**Asset scenarios:** Pricing page, sustainability advertisement, onboarding flow, and crisis email. Every specialist cites observable evidence and its rubric.\n\n**Feedback:** The panel flags duplicated lenses, unsupported authority, false consensus, and missing consumer-research review. A synthesis view preserves disagreements.\n\n**Responsive design:** Specialist cards form a grid on wide screens and tabs on narrow screens, with keyboard controls and resize handling.\n\n**Instructional rationale:** Applying specialist roles to a shared asset teaches scoped expertise and integration.\n\nImplementation: p5.js review workspace with semantic HTML cards and routing controls."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "page-task-evidence-explorer",
+  "diagram_name": "Page Task and Evidence Explorer",
+  "chapter_number": 16,
+  "chapter_title": "Evaluating Marketing Assets and Messaging",
+  "chapter_dir": "16-marketing-asset-evaluation",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Examine how page hierarchy, content, proof, navigation, and friction support or block a persona's task.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: workflow\n**sim-id:** page-task-evidence-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** examine\n\n**Learning objective:** Examine how page hierarchy, content, proof, navigation, and friction support or block a persona's task.\n\n**Layout:** Responsive page wireframe beside a task path. Selectable regions include headline, navigation, value, proof, terms, form, and action.\n\n**Interaction:** Learners predict where a persona looks next, click regions to reveal content, and mark confusion, missing evidence, or task progress. Compare desktop and mobile reading order.\n\n**Feedback:** The tool distinguishes page-level failures from product or source-channel problems and preserves exact evidence.\n\n**Responsive design:** Wireframe scales and task panel stacks below 750 pixels, with keyboard region navigation.\n\n**Instructional rationale:** Tracing a goal through page evidence supports analysis of information architecture and friction.\n\nImplementation: p5.js interactive wireframe with semantic region buttons."
+}

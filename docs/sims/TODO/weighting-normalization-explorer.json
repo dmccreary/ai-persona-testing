@@ -1,0 +1,14 @@
+{
+  "sim_id": "weighting-normalization-explorer",
+  "diagram_name": "Weighting and Normalization Explorer",
+  "chapter_number": 17,
+  "chapter_title": "Evaluation Rubrics, Scoring, and Evidence",
+  "chapter_dir": "17-rubrics-scoring-evidence",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Examine how weighting, normalization, missing data, and noncompensatory gates affect an evaluation result.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** weighting-normalization-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** examine\n\n**Learning objective:** Examine how weighting, normalization, missing data, and noncompensatory gates affect an evaluation result.\n\n**Controls:** Criterion weights, raw ratings, scale ranges, missing-data policy, and mandatory gates. Defaults compare two campaign concepts.\n\n**Visual elements:** Original ratings, normalized values, weighted contribution, final score, and decision stability. Every transformation is visible.\n\n**Interaction:** Learners adjust weights, predict the effect, and run sensitivity analysis. Feedback flags hidden compensation and unstable ranking.\n\n**Responsive design:** Contribution chart and controls stack on narrow screens, with keyboard sliders and table alternative.\n\n**Instructional rationale:** Parameter manipulation supports analysis of score construction and sensitivity.\n\nImplementation: p5.js transparent calculation view with accessible controls."
+}

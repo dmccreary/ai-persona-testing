@@ -1,0 +1,22 @@
+{
+  "title": "Stress-Testing Role Lab",
+  "description": "Differentiate negative, edge-case, adversarial, and skeptical persona roles and select the correct role for a research risk.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "stress-testing-role-lab",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 7,
+  "chapter_title": "Customer Segmentation and Persona Archetypes",
+  "chapter_dir": "07-segmentation-archetypes"
+}

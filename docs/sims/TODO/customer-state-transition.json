@@ -1,0 +1,14 @@
+{
+  "sim_id": "customer-state-transition",
+  "diagram_name": "Customer State Transition Explorer",
+  "chapter_number": 7,
+  "chapter_title": "Customer Segmentation and Persona Archetypes",
+  "chapter_dir": "07-segmentation-archetypes",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Explain how experience, value, trust, price, changing needs, and service recovery can move customers among new, loyal, lapsed, budget, and premium states.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** customer-state-transition<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Understand (L2)\n\n**Bloom verb:** explain\n\n**Learning objective:** Explain how experience, value, trust, price, changing needs, and service recovery can move customers among new, loyal, lapsed, budget, and premium states.\n\n**Data visibility requirements:** Show a customer timeline, the current relationship state, triggering event, evidence considered, and resulting state. Learners predict the transition before revealing it.\n\n**Controls:** Next/Previous, scenario selector, service-recovery toggle, value change, price change, and trust event. States are treated as overlapping lenses rather than mutually exclusive boxes.\n\n**Feedback:** The simulator explains why the same event can produce different transitions under different needs and risk. It rejects deterministic demographic rules.\n\n**Responsive design:** Timeline becomes vertical on narrow screens, with keyboard controls, text alternative, and resize response.\n\n**Instructional rationale:** Worked transitions support understanding by making state changes and their evidence visible step by step.\n\nImplementation: p5.js step-through timeline with accessible controls and scenario data."
+}

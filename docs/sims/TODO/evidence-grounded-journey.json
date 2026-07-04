@@ -1,0 +1,14 @@
+{
+  "sim_id": "evidence-grounded-journey",
+  "diagram_name": "Evidence-Grounded Journey Mapper",
+  "chapter_number": 8,
+  "chapter_title": "Jobs-to-Be-Done and Customer Journeys",
+  "chapter_dir": "08-jobs-customer-journeys",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Construct a customer journey connecting stages, jobs, outcomes, contexts, touchpoints, forces, evidence, and alternative paths.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: workflow\n**sim-id:** evidence-grounded-journey<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** construct\n\n**Learning objective:** Construct a customer journey connecting stages, jobs, outcomes, contexts, touchpoints, forces, evidence, and alternative paths.\n\n**Layout:** Responsive journey lanes with stages as columns and rows for Job, Outcome, Context, Action, Touchpoint, Evidence, Emotion, and Barrier.\n\n**Interaction:** Learners drag research notes into cells, create branches, and click a connector to explain why movement occurs. Unsupported cells remain visibly marked as assumptions.\n\n**Feedback:** The mapper flags company-centered stages, missing customer outcomes, unsupported linearity, and touchpoints without evidence. Compare mode overlays two personas.\n\n**Accessibility:** Keyboard editing, text export, collapsible rows, and vertical stage cards on narrow screens.\n\n**Instructional rationale:** Building and revising a journey model supports creating by integrating many evidence types into a coherent path.\n\nImplementation: Responsive p5.js journey canvas with semantic HTML editors."
+}

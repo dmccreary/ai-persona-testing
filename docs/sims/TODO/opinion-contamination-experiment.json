@@ -1,0 +1,14 @@
+{
+  "sim_id": "opinion-contamination-experiment",
+  "diagram_name": "Opinion Contamination Experiment",
+  "chapter_number": 15,
+  "chapter_title": "Moderation Risks and Brand Strategy",
+  "chapter_dir": "15-moderation-brand-strategy",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Compare independent and socially exposed persona responses to identify anchoring, convergence, and preserved disagreement.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: chart\n**sim-id:** opinion-contamination-experiment<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** compare\n\n**Learning objective:** Compare independent and socially exposed persona responses to identify anchoring, convergence, and preserved disagreement.\n\n**Chart:** Paired response-position plots before and after exposure, with semantic-theme similarity and confidence. Values are illustrative teaching data.\n\n**Interaction:** Learners toggle which opinion appears first, moderator wording, anonymity, and required evidence. Hover reveals exact response excerpts and change rationale.\n\n**Feedback:** The tool explains that increased agreement can reflect evidence, anchoring, or role pressure and asks learners to classify the cause.\n\n**Responsive design:** Charts stack with keyboard data access and a table alternative.\n\n**Instructional rationale:** Controlled comparison supports analysis of social influence.\n\nImplementation: Responsive Chart.js paired plots linked to accessible transcripts."
+}

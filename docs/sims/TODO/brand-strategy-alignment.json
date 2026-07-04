@@ -1,0 +1,14 @@
+{
+  "sim_id": "brand-strategy-alignment",
+  "diagram_name": "Brand Strategy Alignment Map",
+  "chapter_number": 15,
+  "chapter_title": "Moderation Risks and Brand Strategy",
+  "chapter_dir": "15-moderation-brand-strategy",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Examine alignment among positioning, promise, identity, personality, voice, tone, value proposition, product messaging, hierarchy, assets, and customer evidence.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: graph-model\n**sim-id:** brand-strategy-alignment<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** examine\n\n**Learning objective:** Examine alignment among positioning, promise, identity, personality, voice, tone, value proposition, product messaging, hierarchy, assets, and customer evidence.\n\n**Node types:** Audience, Positioning, Promise, Identity Element, Personality Trait, Voice Rule, Tone Choice, Value Proposition, Message, Asset, Experience Evidence, and Customer Finding.\n\n**Edges:** INFORMS, EXPRESSES, ADAPTS_TO, SUPPORTS, CONTRADICTS, and VALIDATED_BY. Every node and edge is selectable.\n\n**Interaction:** Learners trace one asset back to strategy, identify broken links, and attach evidence. Highlight mode shows unsupported promises or messages inconsistent with positioning.\n\n**Responsive design:** Zoomable graph with keyboard traversal, side panel, text hierarchy, and resize handling.\n\n**Instructional rationale:** Relationship tracing supports analysis of brand coherence.\n\nImplementation: vis-network alignment graph with accessible detail panel."
+}

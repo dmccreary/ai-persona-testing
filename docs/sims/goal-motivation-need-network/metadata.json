@@ -1,0 +1,22 @@
+{
+  "title": "Goal–Motivation–Need Network",
+  "description": "Construct a traceable network connecting persona goals to motivations, needs, context, behaviors, and marketing evidence.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "goal-motivation-need-network",
+  "library": "vis-network",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 5,
+  "chapter_title": "Building Complete Customer Personas",
+  "chapter_dir": "05-customer-personas"
+}

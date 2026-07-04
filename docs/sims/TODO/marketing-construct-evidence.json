@@ -1,0 +1,14 @@
+{
+  "sim_id": "marketing-construct-evidence",
+  "diagram_name": "Marketing Construct Evidence Lab",
+  "chapter_number": 18,
+  "chapter_title": "Marketing Metrics and Pattern Analysis",
+  "chapter_dir": "18-marketing-metrics-analysis",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Judge whether evidence supports a score for resonance, memorability, intent, credibility, relevance, differentiation, persuasion, or accessibility.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** marketing-construct-evidence<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** judge\n\n**Learning objective:** Judge whether evidence supports a score for resonance, memorability, intent, credibility, relevance, differentiation, persuasion, or accessibility.\n\n**Interaction:** Learners pair findings and sources with constructs, identify overclaims, and rewrite score interpretations. Some evidence supports several constructs with different limits.\n\n**Feedback:** The tool distinguishes synthetic hypothesis, expert check, customer report, behavioral measure, and experiment.\n\n**Responsive design:** Construct zones become tabs on narrow screens, with keyboard sorting and resize handling.\n\n**Instructional rationale:** Evidence-to-construct judgment supports evaluation and prevents metric laundering.\n\nImplementation: Responsive p5.js evidence sorting workspace."
+}

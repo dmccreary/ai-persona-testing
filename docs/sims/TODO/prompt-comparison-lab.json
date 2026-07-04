@@ -1,0 +1,14 @@
+{
+  "sim_id": "prompt-comparison-lab",
+  "diagram_name": "Controlled Prompt Comparison Lab",
+  "chapter_number": 12,
+  "chapter_title": "Prompt Testing and Research Dialogue",
+  "chapter_dir": "12-prompt-testing-dialogue",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Compare two prompt versions across quality dimensions, repeated runs, and failure severity, then justify a release decision.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: chart\n**sim-id:** prompt-comparison-lab<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** compare\n\n**Learning objective:** Compare two prompt versions across quality dimensions, repeated runs, and failure severity, then justify a release decision.\n\n**Chart:** Interactive small multiples for grounding, completeness, fidelity, consistency, and review effort, plus a failure-event strip. Hover shows exact case, run, reviewer note, and prompt version.\n\n**Controls:** Prompt version, test category, persona, model, run count, and metric. A blind-review mode hides version labels until judgment is recorded.\n\n**Feedback:** The tool prevents declaring a winner when cases or settings differ and highlights severe regressions hidden by averages.\n\n**Responsive design:** Charts stack on narrow screens, with keyboard data navigation and table alternative.\n\n**Instructional rationale:** Multi-criteria comparison and release justification support evaluation.\n\nImplementation: Responsive Chart.js dashboard with accessible test-result table."
+}

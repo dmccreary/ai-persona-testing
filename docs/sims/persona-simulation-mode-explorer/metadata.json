@@ -1,0 +1,52 @@
+{
+  "title": "Persona Simulation Mode Explorer",
+  "creator": "Dan McCreary",
+  "subject": ["AI Personas", "Marketing Research", "Simulation Methods"],
+  "description": "Compare four AI persona simulation modes by purpose, participants, interaction pattern, and expected evidence.",
+  "date": "2026-07-03",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "persona-simulation-mode-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Analyze",
+  "educational": {
+    "gradeLevel": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "AI persona simulation modes",
+    "learningObjectives": [
+      "Differentiate four persona simulation modes by structure, purpose, and evidence."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 710
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive exploration",
+    "keyQuestions": ["Which interaction structure produces the evidence this research goal needs?"],
+    "commonMisconceptions": ["All multi-persona methods are equivalent to a focus group."],
+    "assessmentOpportunities": ["Pin comparisons and scenario-to-method matching."]
+  },
+  "chapter": "01-ai-customer-research"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Persona Consistency Test Bench",
+  "description": "Compare repeated persona responses and distinguish harmless variation, context-sensitive change, behavioral inconsistency, and loss of character fidelity.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "persona-consistency-test-bench",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 9,
+  "chapter_title": "Persona Consistency, Validation, and Reuse",
+  "chapter_dir": "09-persona-quality-reuse"
+}

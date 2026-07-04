@@ -1,0 +1,22 @@
+{
+  "title": "Trust and Clarity Evidence Lab",
+  "description": "Justify trust and clarity ratings using anchored dimensions, supporting evidence, confidence, persona context, and noncompensatory concerns.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "trust-clarity-evidence",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 17,
+  "chapter_title": "Evaluation Rubrics, Scoring, and Evidence",
+  "chapter_dir": "17-rubrics-scoring-evidence"
+}

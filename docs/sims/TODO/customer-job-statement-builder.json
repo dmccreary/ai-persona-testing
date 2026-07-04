@@ -1,0 +1,14 @@
+{
+  "sim_id": "customer-job-statement-builder",
+  "diagram_name": "Customer Job Statement Builder",
+  "chapter_number": 8,
+  "chapter_title": "Jobs-to-Be-Done and Customer Journeys",
+  "chapter_dir": "08-jobs-customer-journeys",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Formulate an evidence-grounded customer job statement containing circumstance, desired progress, functional outcome, emotional outcome, and social responsibility.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** customer-job-statement-builder<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** formulate\n\n**Learning objective:** Formulate an evidence-grounded customer job statement containing circumstance, desired progress, functional outcome, emotional outcome, and social responsibility.\n\n**Layout:** Five sentence-building zones with a research-note tray. A preview assembles the selected elements into a job statement.\n\n**Interaction:** Learners sort notes, edit language, and remove solution-specific or demographic wording. Feedback flags statements that name a product, lack a circumstance, or confuse the company's objective with customer progress.\n\n**Scenarios:** Scheduling, household energy, business banking, and healthcare appointments.\n\n**Accessibility and responsiveness:** Keyboard card selection, text export, stacked zones on narrow screens, and resize handling.\n\n**Instructional rationale:** Combining evidence into a new job statement directly supports creating.\n\nImplementation: Responsive p5.js canvas with semantic HTML sentence fields."
+}

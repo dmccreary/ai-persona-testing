@@ -1,0 +1,14 @@
+{
+  "sim_id": "confidence-calibration-challenge",
+  "diagram_name": "Confidence Calibration Challenge",
+  "chapter_number": 4,
+  "chapter_title": "Responsible AI, Privacy, and Governance",
+  "chapter_dir": "04-responsible-ai-governance",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Assess evidence quality and assign a defensible confidence level with a specific uncertainty disclosure.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** confidence-calibration-challenge<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** assess\n\n**Learning objective:** Assess evidence quality and assign a defensible confidence level with a specific uncertainty disclosure.\n\n**Controls:** Evidence-source toggles, run-stability slider, persona-grounding selector, contradiction indicator, and validation-status selector. Learners set Low, Moderate, or High confidence and write a one-sentence disclosure.\n\n**Scenarios:** Brand clarity, accessibility, purchase intent, cultural interpretation, and competitor fact. Each scenario reveals evidence in stages.\n\n**Feedback:** The tool compares the learner's rating with a criteria-based range, highlights overconfidence or underconfidence, and critiques whether the disclosure names the material uncertainty.\n\n**Visual design:** Evidence cards feed a transparent balance scale rather than a fake precision gauge. Patterns and labels supplement color.\n\n**Responsive behavior:** Cards wrap by available width; controls remain keyboard accessible and re-render on resize.\n\n**Instructional rationale:** Calibration requires repeated judgment against evidence criteria and immediate feedback about the gap between certainty and support.\n\nImplementation: p5.js balance visualization with semantic HTML controls and rubric feedback."
+}

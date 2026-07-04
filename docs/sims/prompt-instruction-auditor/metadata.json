@@ -1,0 +1,22 @@
+{
+  "title": "Prompt Instruction Quality Auditor",
+  "description": "Critique a persona-evaluation prompt for objective alignment, role separation, context quality, task clarity, constraints, criteria, output structure, and uncertainty handling.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "prompt-instruction-auditor",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 10,
+  "chapter_title": "Prompt Engineering Foundations",
+  "chapter_dir": "10-prompt-engineering"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "recommendation-priority-portfolio",
+  "diagram_name": "Recommendation Priority Portfolio",
+  "chapter_number": 19,
+  "chapter_title": "Risk-Based Recommendations and Knowledge Graphs",
+  "chapter_dir": "19-risk-knowledge-graphs",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Prioritize recommendations using risk, business impact, implementation effort, evidence confidence, dependencies, equity, and learning value.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** recommendation-priority-portfolio<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** prioritize\n\n**Learning objective:** Prioritize recommendations using risk, business impact, implementation effort, evidence confidence, dependencies, equity, and learning value.\n\n**Interaction:** Learners place recommendations on an Impact versus Effort canvas, then reveal risk and confidence overlays. They can change criteria and inspect ranking stability.\n\n**Feedback:** The tool flags easy but low-value work, severe risks hidden by effort, duplicate recommendations, and actions unsupported by findings.\n\n**Responsive design:** Canvas becomes a sortable accessible list on narrow screens, with keyboard movement and resize handling.\n\n**Instructional rationale:** Multi-criteria ranking and sensitivity support evaluation.\n\nImplementation: Responsive p5.js portfolio with evidence-linked cards."
+}

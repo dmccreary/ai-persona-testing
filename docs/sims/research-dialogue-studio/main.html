@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Research Dialogue Practice Studio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Research Dialogue Practice Studio</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> research-dialogue-studio</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Practice selecting neutral, open, probing, adversarial, and follow-up questions while maintaining persona fidelity and evidence boundaries.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** research-dialogue-studio<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    **Bloom level:** Apply (L3)
+    
+    **Bloom verb:** practice
+    
+    **Learning objective:** Practice selecting neutral, open, probing, adversarial, and follow-up questions while maintaining persona fidelity and evidence boundaries.
+    
+    **Interaction:** A persona produces a short response to a marketing asset. Learners select or write the next question. The dialogue branches and displays feedback on leading assumptions, depth, evidence, and role pressure.
+    
+    **Controls:** Question-type filter, Neutrality Check, Persona Fidelity meter, Evidence Trace, Undo, and Compare Path. No score rewards agreement with the marketer.
+    
+    **Feedback:** The system explains how each question shaped the next response and offers a more neutral alternative when needed.
+    
+    **Responsive design:** Conversation and coaching panel become tabs on narrow screens, with keyboard input and resize handling.
+    
+    **Instructional rationale:** Guided dialogue practice with immediate feedback supports applying question-design principles.
+    
+    Implementation: p5.js conversation map with semantic HTML chat and coaching controls.
+    -->
+</body>
+</html>

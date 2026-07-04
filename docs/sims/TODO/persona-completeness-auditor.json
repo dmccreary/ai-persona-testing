@@ -1,0 +1,14 @@
+{
+  "sim_id": "persona-completeness-auditor",
+  "diagram_name": "Persona Completeness Auditor",
+  "chapter_number": 6,
+  "chapter_title": "Persona Motivations, Behaviors, and Evidence",
+  "chapter_dir": "06-persona-behavior-evidence",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Assess a persona for evidence quality, causal coherence, relevant specificity, privacy, and completeness for a stated use.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** persona-completeness-auditor<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** assess\n\n**Learning objective:** Assess a persona for evidence quality, causal coherence, relevant specificity, privacy, and completeness for a stated use.\n\n**Controls:** Purpose selector, profile-field checklist, source-status toggles, contradiction flag, sensitivity flag, and scenario completeness controls.\n\n**Visual elements:** A transparent radar-style quality view with axes for Purpose Fit, Evidence, Decision Logic, Scenario, Safety, and Uncertainty. Scores reveal criteria and never hide missing information behind one total.\n\n**Interaction:** Learners audit two profiles, revise weak fields, and compare improvements. The tool rewards removal of irrelevant fictional detail as well as addition of necessary evidence.\n\n**Feedback:** Every warning links to the exact field and explains whether to source, revise, remove, narrow, or mark unknown.\n\n**Responsive and accessible design:** Use labeled HTML controls, a table alternative, patterns, keyboard access, and resize events.\n\n**Instructional rationale:** Rubric-based revision supports evaluation by requiring judgments about fitness for purpose rather than profile length.\n\nImplementation: p5.js quality visualization with semantic form controls and exportable audit report."
+}

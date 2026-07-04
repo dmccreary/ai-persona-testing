@@ -1,0 +1,22 @@
+{
+  "title": "Persona Portfolio Balancer",
+  "description": "Design a persona portfolio that balances primary, secondary, negative, edge-case, adversarial, international, accessibility, and customer-state perspectives.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "persona-portfolio-balancer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 7,
+  "chapter_title": "Customer Segmentation and Persona Archetypes",
+  "chapter_dir": "07-segmentation-archetypes"
+}

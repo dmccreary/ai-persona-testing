@@ -1,0 +1,14 @@
+{
+  "sim_id": "capstone-system-architecture",
+  "diagram_name": "Capstone System Architecture",
+  "chapter_number": 20,
+  "chapter_title": "Automation, Reporting, and Capstone Systems",
+  "chapter_dir": "20-automation-reporting-capstone",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Design an end-to-end capstone architecture integrating research, personas, prompts, agents, rubrics, graph memory, automation, human governance, validation, and reporting.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: diagram\n**sim-id:** capstone-system-architecture<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** design\n\n**Learning objective:** Design an end-to-end capstone architecture integrating research, personas, prompts, agents, rubrics, graph memory, automation, human governance, validation, and reporting.\n\n**Components:** Intake, Governance, Asset Registry, Persona Library, Prompt Registry, Agent Workflow, Evaluation Store, Knowledge Graph, Review Queue, Reporting, Decision Record, Validation Research, and Improvement Tracking.\n\n**Interaction:** Clicking any component reveals inputs, outputs, owner, tests, risks, and dependencies. Learners can remove a component and observe which controls or evidence paths fail.\n\n**Feedback:** Architecture checks flag missing ownership, circular approval, unvalidated external claims, sensitive data exposure, and reports without provenance.\n\n**Responsive design:** Layered architecture becomes collapsible vertical sections on narrow screens, with keyboard navigation and resize handling.\n\n**Instructional rationale:** Integrating all course systems into a governed architecture represents the Create-level capstone outcome.\n\nImplementation: Responsive p5.js architecture explorer with accessible detail panel."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "research-brief-builder",
+  "diagram_name": "Research Brief Builder",
+  "chapter_number": 2,
+  "chapter_title": "Research Design and Evidence Quality",
+  "chapter_dir": "02-research-design-evidence",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Formulate a coherent research brief that connects a marketing decision to questions, objectives, scope, assumptions, constraints, and evidence criteria.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: workflow\n**sim-id:** research-brief-builder<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** formulate\n\n**Learning objective:** Formulate a coherent research brief that connects a marketing decision to questions, objectives, scope, assumptions, constraints, and evidence criteria.\n\n**Layout:** A responsive left-to-right workflow with cards for Decision, Question, Objectives, Scope, Assumptions, Constraints, Method, and Evidence Standard. On narrow screens, cards stack vertically.\n\n**Interaction:** Learners choose one of three marketing scenarios or enter their own. They drag statement cards into the appropriate stage, edit weak statements, and click connectors to see why each output becomes the next stage's input. The tool flags objectives that cannot answer the question and scope statements that conflict with constraints.\n\n**Feedback:** A completeness meter explains missing connections. “Stress-test brief” introduces a new constraint and asks the learner to revise the design. Export produces a plain-text brief.\n\n**Accessibility:** All drag actions have keyboard alternatives; cards use text labels in addition to color. Layout and connectors respond to window resize events.\n\n**Instructional rationale:** Building and revising a brief supports creating because learners combine design elements into an original research plan.\n\nImplementation: p5.js workflow canvas with semantic HTML editors and rule-based feedback."
+}

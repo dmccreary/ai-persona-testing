@@ -1,0 +1,14 @@
+{
+  "sim_id": "capability-claim-boundary",
+  "diagram_name": "Capability and Claim Boundary Explorer",
+  "chapter_number": 3,
+  "chapter_title": "AI Capabilities, Limitations, and Bias",
+  "chapter_dir": "03-ai-limits-bias",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Judge whether an AI persona task supports brainstorming, directional insight, or a validated customer claim.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** capability-claim-boundary<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** judge\n\n**Learning objective:** Judge whether an AI persona task supports brainstorming, directional insight, or a validated customer claim.\n\n**Layout:** A responsive three-zone board labeled Generate, Investigate, and Validate. Marketing claim cards appear beside evidence cards describing model outputs, analytics, interviews, surveys, or verified sources.\n\n**Interaction:** Learners pair a claim with available evidence and place it in a zone. Feedback explains whether the wording exceeds the evidence. A rewrite control asks the learner to narrow an unsupported claim rather than merely marking it wrong.\n\n**Scenarios:** Include a tagline review, accessibility concern, pricing reaction, international launch, and demand estimate. Each scenario has at least one ambiguous answer that requires a written justification.\n\n**Accessibility:** Keyboard card movement, high-contrast patterns, and a text list alternative. Reflow zones vertically below 700 pixels and respond to resize events.\n\n**Instructional rationale:** Evaluating claim boundaries requires applying evidence criteria to consequential marketing statements.\n\nImplementation: Responsive p5.js board with semantic HTML cards and rule-based feedback."
+}

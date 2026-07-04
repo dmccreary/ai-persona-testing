@@ -1,0 +1,14 @@
+{
+  "sim_id": "validity-reliability-diagnostic",
+  "diagram_name": "Validity and Reliability Diagnostic",
+  "chapter_number": 2,
+  "chapter_title": "Research Design and Evidence Quality",
+  "chapter_dir": "02-research-design-evidence",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Distinguish threats to research validity from threats to research reliability and recommend an appropriate design correction.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** validity-reliability-diagnostic<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** distinguish\n\n**Learning objective:** Distinguish threats to research validity from threats to research reliability and recommend an appropriate design correction.\n\n**Layout:** A two-by-two validity/reliability matrix beside a scenario panel. Scenarios include a leading persona prompt, changing rubrics between runs, surveying only loyal customers, and measuring visual appeal as a substitute for trust.\n\n**Interaction:** Learners place each scenario in the matrix and select a correction. The system highlights the relevant words in the scenario, explains the threat, and shows how one problem can affect both dimensions.\n\n**Feedback:** Corrective actions include neutralizing instructions, standardizing procedure, improving recruitment, aligning measures with constructs, or narrowing the claim. A confidence selector encourages learners to acknowledge ambiguous cases.\n\n**Responsive behavior:** Matrix and scenario panel sit side by side on wide displays and stack on narrow displays. All regions are keyboard selectable and resize dynamically.\n\n**Instructional rationale:** Sorting realistic design failures requires learners to analyze what each study actually measures and how consistently it does so.\n\nImplementation: Responsive p5.js matrix with semantic HTML scenario and correction controls."
+}

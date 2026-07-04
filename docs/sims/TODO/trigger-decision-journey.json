@@ -1,0 +1,14 @@
+{
+  "sim_id": "trigger-decision-journey",
+  "diagram_name": "Trigger-to-Decision Journey Simulator",
+  "chapter_number": 6,
+  "chapter_title": "Persona Motivations, Behaviors, and Evidence",
+  "chapter_dir": "06-persona-behavior-evidence",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Demonstrate how purchase triggers, barriers, decision criteria, evidence, and stakeholder approval alter a buying path.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** trigger-decision-journey<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** demonstrate\n\n**Learning objective:** Demonstrate how purchase triggers, barriers, decision criteria, evidence, and stakeholder approval alter a buying path.\n\n**Controls:** Trigger selector, barrier-strength sliders, criterion-priority controls, available evidence toggles, and stakeholder approval status. Defaults model a moderate-risk software purchase.\n\n**Visual elements:** A branching journey from inactive need to research, shortlist, trial, approval, purchase, defer, or reject. The current path is highlighted and every branch displays the condition that caused it.\n\n**Interaction:** Learners predict the next state before changing a parameter. The simulator explains why a barrier blocks progress or why evidence satisfies a criterion. It avoids claiming to predict real conversion rates.\n\n**Accessibility and responsiveness:** Use HTML controls, a text path summary, patterned states, keyboard access, and vertical layout on narrow screens.\n\n**Instructional rationale:** Parameter exploration supports applying by requiring learners to use decision concepts in unfamiliar scenarios.\n\nImplementation: p5.js state diagram with deterministic teaching rules and scenario JSON."
+}

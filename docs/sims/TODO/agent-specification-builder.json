@@ -1,0 +1,14 @@
+{
+  "sim_id": "agent-specification-builder",
+  "diagram_name": "Agent Specification Builder",
+  "chapter_number": 13,
+  "chapter_title": "Designing AI Agents and Expert Roles",
+  "chapter_dir": "13-ai-agents-expert-roles",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Design a bounded AI agent specification connecting role, goal, instructions, context, memory, tools, output, autonomy, and boundaries.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** agent-specification-builder<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** design\n\n**Learning objective:** Design a bounded AI agent specification connecting role, goal, instructions, context, memory, tools, output, autonomy, and boundaries.\n\n**Interaction:** Learners assemble specification cards for a marketing scenario. The tool flags goals outside the role, tools without purpose, memory without retention rules, outputs without consumers, and autonomy without escalation.\n\n**Feedback:** Clicking a component reveals its contract and one failure caused by omission. Export produces a reviewable agent card.\n\n**Responsive design:** Component canvas becomes a vertical form on narrow screens with keyboard control and resize handling.\n\n**Instructional rationale:** Constructing a complete agent contract supports creating and systems thinking.\n\nImplementation: Responsive p5.js block builder with semantic HTML fields."
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Rating Anchor Calibration Lab",
+  "description": "Apply anchored rating guidance to marketing evidence and calibrate disagreements among reviewers.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "rating-anchor-calibration",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 17,
+  "chapter_title": "Evaluation Rubrics, Scoring, and Evidence",
+  "chapter_dir": "17-rubrics-scoring-evidence"
+}

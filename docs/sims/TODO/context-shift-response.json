@@ -1,0 +1,14 @@
+{
+  "sim_id": "context-shift-response",
+  "diagram_name": "Context Shift Response Explorer",
+  "chapter_number": 5,
+  "chapter_title": "Building Complete Customer Personas",
+  "chapter_dir": "05-customer-personas",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Explain how changing task, device, time pressure, journey stage, and decision stakes can change a persona's evaluation without changing its core profile.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** context-shift-response<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Understand (L2)\n\n**Bloom verb:** explain\n\n**Learning objective:** Explain how changing task, device, time pressure, journey stage, and decision stakes can change a persona's evaluation without changing its core profile.\n\n**Data visibility requirements:** Stage 1 shows a fixed persona profile and marketing message. Stage 2 displays baseline context fields. Stage 3 lets the learner change one field. Stage 4 shows a side-by-side response with changed phrases highlighted. Final stage asks which change plausibly caused each difference.\n\n**Controls:** Device, time available, journey stage, social setting, decision authority, and consequence severity. Next, Previous, Predict, Reveal, and Reset buttons support step-through learning.\n\n**Feedback:** The simulation distinguishes evidence-grounded contextual effects from unsupported claims. Learners must explain a change before revealing the worked interpretation.\n\n**Responsive design:** Side-by-side comparison becomes stacked cards on narrow screens; all controls are semantic HTML and update on resize.\n\n**Instructional rationale:** Concrete before-and-after data supports understanding better than continuous animation because learners can predict and trace each contextual change.\n\nImplementation: p5.js comparison view with accessible HTML selectors and fixed worked examples."
+}

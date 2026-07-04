@@ -1,0 +1,22 @@
+{
+  "title": "Persona Completeness Auditor",
+  "description": "Assess a persona for evidence quality, causal coherence, relevant specificity, privacy, and completeness for a stated use.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "persona-completeness-auditor",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 6,
+  "chapter_title": "Persona Motivations, Behaviors, and Evidence",
+  "chapter_dir": "06-persona-behavior-evidence"
+}

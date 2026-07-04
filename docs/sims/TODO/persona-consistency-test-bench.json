@@ -1,0 +1,14 @@
+{
+  "sim_id": "persona-consistency-test-bench",
+  "diagram_name": "Persona Consistency Test Bench",
+  "chapter_number": 9,
+  "chapter_title": "Persona Consistency, Validation, and Reuse",
+  "chapter_dir": "09-persona-quality-reuse",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Compare repeated persona responses and distinguish harmless variation, context-sensitive change, behavioral inconsistency, and loss of character fidelity.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** persona-consistency-test-bench<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** compare\n\n**Learning objective:** Compare repeated persona responses and distinguish harmless variation, context-sensitive change, behavioral inconsistency, and loss of character fidelity.\n\n**Data visibility requirements:** Show the fixed profile, scenario conditions, three responses, extracted criteria, and changed variables. Learners reveal each layer step by step.\n\n**Interaction:** Highlight passages supporting or contradicting profile fields, classify each difference, and propose a correction. A context toggle demonstrates when changed behavior is justified.\n\n**Feedback:** The tool distinguishes exact-text matching from semantic stability and flags tests that reward robotic repetition.\n\n**Responsive design:** Responses display in columns on wide screens and tabs on narrow screens, with keyboard annotation and resize handling.\n\n**Instructional rationale:** Side-by-side evidence comparison supports analysis of subtle consistency failures.\n\nImplementation: p5.js annotation layer with semantic HTML response panels."
+}

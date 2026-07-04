@@ -1,0 +1,22 @@
+{
+  "title": "Context Budget Laboratory",
+  "description": "Prioritize and compress prompt context while preserving instructions, verified facts, persona fidelity, criteria, uncertainty, and source traceability.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "context-budget-lab",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 10,
+  "chapter_title": "Prompt Engineering Foundations",
+  "chapter_dir": "10-prompt-engineering"
+}

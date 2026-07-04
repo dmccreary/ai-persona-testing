@@ -1,0 +1,14 @@
+{
+  "sim_id": "rating-anchor-calibration",
+  "diagram_name": "Rating Anchor Calibration Lab",
+  "chapter_number": 17,
+  "chapter_title": "Evaluation Rubrics, Scoring, and Evidence",
+  "chapter_dir": "17-rubrics-scoring-evidence",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Apply anchored rating guidance to marketing evidence and calibrate disagreements among reviewers.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** rating-anchor-calibration<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** apply\n\n**Learning objective:** Apply anchored rating guidance to marketing evidence and calibrate disagreements among reviewers.\n\n**Interaction:** Learners rate asset excerpts on a five-level clarity scale, attach evidence, and compare with two reviewer ratings. Borderline cases require written rationale.\n\n**Feedback:** The tool reveals which anchor conditions were met, distinguishes missing evidence from poor performance, and shows whether disagreement comes from evidence or anchor interpretation.\n\n**Responsive design:** Evidence and anchor panels become tabs on narrow screens, with keyboard ratings and resize handling.\n\n**Instructional rationale:** Repeated anchored judgment with feedback supports applying and calibration.\n\nImplementation: p5.js rating interface with semantic HTML evidence controls."
+}

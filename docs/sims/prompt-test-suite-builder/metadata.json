@@ -1,0 +1,22 @@
+{
+  "title": "Prompt Test Suite Builder",
+  "description": "Design a balanced prompt test suite with routine, boundary, missing-data, adversarial, persona-fidelity, and schema cases.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "prompt-test-suite-builder",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 12,
+  "chapter_title": "Prompt Testing and Research Dialogue",
+  "chapter_dir": "12-prompt-testing-dialogue"
+}

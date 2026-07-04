@@ -1,0 +1,14 @@
+{
+  "sim_id": "evidence-synthesis-workbench",
+  "diagram_name": "Evidence-Preserving Synthesis Workbench",
+  "chapter_number": 15,
+  "chapter_title": "Moderation Risks and Brand Strategy",
+  "chapter_dir": "15-moderation-brand-strategy",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Synthesize multi-agent findings while preserving citations, minority opinions, conflicts, uncertainty, and distinct expert critique.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** evidence-synthesis-workbench<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** synthesize\n\n**Learning objective:** Synthesize multi-agent findings while preserving citations, minority opinions, conflicts, uncertainty, and distinct expert critique.\n\n**Interaction:** Learners group structured findings into themes, inspect source links, classify conflicts, and draft a synthesis. A devil's-advocate control introduces a supported counterargument.\n\n**Feedback:** The workbench flags unsupported merging, vanished minority evidence, double-counted duplicate agents, and recommendations attributed to personas.\n\n**Responsive design:** Evidence tray and synthesis canvas stack on narrow screens, with keyboard grouping, text export, and resize handling.\n\n**Instructional rationale:** Evidence-based integration and conflict judgment support evaluation and synthesis.\n\nImplementation: Responsive p5.js card workspace with provenance graph."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "message-element-testing",
+  "diagram_name": "Message Element Testing Lab",
+  "chapter_number": 16,
+  "chapter_title": "Evaluating Marketing Assets and Messaging",
+  "chapter_dir": "16-marketing-asset-evaluation",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Evaluate taglines, headlines, and calls to action in isolation and context across personas and journey stages.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** message-element-testing<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** evaluate\n\n**Learning objective:** Evaluate taglines, headlines, and calls to action in isolation and context across personas and journey stages.\n\n**Interaction:** Learners reveal message layers sequentially, record predicted meaning, switch personas, and test alternative action labels. Feedback compares interpretation with intended purpose and evidence.\n\n**Controls:** Element type, context amount, persona, journey stage, channel, and mobile/desktop preview.\n\n**Responsive design:** Preview and interpretation panel stack on narrow screens with keyboard controls.\n\n**Instructional rationale:** Context manipulation and prediction support applied message evaluation.\n\nImplementation: p5.js message preview with accessible form controls."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "prompt-instruction-auditor",
+  "diagram_name": "Prompt Instruction Quality Auditor",
+  "chapter_number": 10,
+  "chapter_title": "Prompt Engineering Foundations",
+  "chapter_dir": "10-prompt-engineering",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Critique a persona-evaluation prompt for objective alignment, role separation, context quality, task clarity, constraints, criteria, output structure, and uncertainty handling.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** prompt-instruction-auditor<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** critique\n\n**Learning objective:** Critique a persona-evaluation prompt for objective alignment, role separation, context quality, task clarity, constraints, criteria, output structure, and uncertainty handling.\n\n**Interaction:** Learners annotate a prompt, select failure risks, and rewrite weak sections. The auditor runs scenario-based checks rather than assigning an unexplained total score.\n\n**Test cases:** Hidden instruction inside marketing copy, missing persona evidence, conflicting roles, vague “be unbiased” constraint, undefined rating scale, and output without citations.\n\n**Feedback:** Each issue links to the affected output and shows how a revised instruction changes the expected behavior. Compare mode displays version differences.\n\n**Responsive design:** Prompt and audit panel sit side by side on wide screens and become tabs on narrow screens. Support keyboard annotation and resize handling.\n\n**Instructional rationale:** Rubric-based prompt critique supports evaluation and prepares learners for systematic testing.\n\nImplementation: p5.js annotation overlay with semantic HTML prompt editor and tests."
+}

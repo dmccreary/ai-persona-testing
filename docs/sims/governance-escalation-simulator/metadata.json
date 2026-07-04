@@ -1,0 +1,22 @@
+{
+  "title": "Governance and Ethical Escalation Simulator",
+  "description": "Execute a governance workflow by assigning reviews, applying guardrails, preserving an audit trail, and escalating ethical concerns to an accountable decision owner.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "governance-escalation-simulator",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 4,
+  "chapter_title": "Responsible AI, Privacy, and Governance",
+  "chapter_dir": "04-responsible-ai-governance"
+}

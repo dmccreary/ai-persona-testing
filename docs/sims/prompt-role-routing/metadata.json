@@ -1,0 +1,22 @@
+{
+  "title": "Prompt Role Routing Lab",
+  "description": "Classify instructions by persona, moderator, reviewer, skeptic, or evaluation role and repair conflicting authority.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "prompt-role-routing",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 10,
+  "chapter_title": "Prompt Engineering Foundations",
+  "chapter_dir": "10-prompt-engineering"
+}

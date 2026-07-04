@@ -1,0 +1,22 @@
+{
+  "title": "Persona Evaluation Knowledge Graph Builder",
+  "description": "Construct a provenance-rich evaluation graph linking personas, assets, goals, pain points, reactions, evidence, risks, and recommendations.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "persona-evaluation-graph-builder",
+  "library": "vis-network",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 19,
+  "chapter_title": "Risk-Based Recommendations and Knowledge Graphs",
+  "chapter_dir": "19-risk-knowledge-graphs"
+}

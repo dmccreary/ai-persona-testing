@@ -1,0 +1,14 @@
+{
+  "sim_id": "language-model-response-lab",
+  "diagram_name": "Language Model Response Laboratory",
+  "chapter_number": 1,
+  "chapter_title": "AI-Powered Customer Research Foundations",
+  "chapter_dir": "01-ai-customer-research",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Explain how instructions, tokens, context limits, and probabilistic selection combine to produce a model response.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** language-model-response-lab<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Understand (L2)\n\n**Bloom verb:** explain\n\n**Learning objective:** Explain how instructions, tokens, context limits, and probabilistic selection combine to produce a model response.\n\n**Interaction pattern:** A step-through worked example rather than continuous animation. Learners first predict what information will influence the response, then reveal each processing stage with Next and Previous controls.\n\n**Data visibility requirements:**\n\n1. Stage 1 shows the raw instruction: “Act as a budget-conscious commuter and evaluate this e-bike headline.”\n2. Stage 2 displays a simplified token array with color coding for role, task, asset, and constraint tokens.\n3. Stage 3 places those tokens inside a context-window meter and lets the learner add irrelevant background until the meter approaches capacity.\n4. Stage 4 shows five possible next phrases with illustrative probabilities, clearly labeled as a teaching simplification rather than actual model internals.\n5. Stage 5 reveals the selected continuation and builds a complete response.\n6. Final stage compares two runs and asks the learner to identify stable meaning versus variable wording.\n\n**Controls:** Next, Previous, Reset, “Add irrelevant context,” and a variability slider labeled Low to High. Default context utilization is 45 percent; default variability is Medium.\n\n**Feedback:** Clicking any token or probability opens an infobox defining the term and connecting it to the example. Prediction choices receive explanatory feedback.\n\n**Responsive design:** Use a horizontal pipeline above 850 pixels and stacked stage cards below that width. All controls must be keyboard accessible and respond to window resize events.\n\n**Instructional rationale:** An Understand objective requires seeing concrete data at each transformation. Step-through prediction exposes the causal sequence more clearly than decorative animation.\n\nImplementation: p5.js canvas for token and probability views, HTML controls for accessibility, and fixed illustrative data."
+}

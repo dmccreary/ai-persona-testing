@@ -1,0 +1,14 @@
+{
+  "sim_id": "context-budget-lab",
+  "diagram_name": "Context Budget Laboratory",
+  "chapter_number": 10,
+  "chapter_title": "Prompt Engineering Foundations",
+  "chapter_dir": "10-prompt-engineering",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Prioritize and compress prompt context while preserving instructions, verified facts, persona fidelity, criteria, uncertainty, and source traceability.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** context-budget-lab<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** prioritize\n\n**Learning objective:** Prioritize and compress prompt context while preserving instructions, verified facts, persona fidelity, criteria, uncertainty, and source traceability.\n\n**Controls:** Context-window budget, item cards with token costs, priority, sensitivity, age, and source status; Compress, Reference, Exclude, and Restore actions.\n\n**Visual elements:** A context meter and quality indicators for Role Fidelity, Evidence, Criteria, Safety, and Traceability. Learners must fit a scenario within the budget.\n\n**Feedback:** Removing essential context triggers a specific predicted failure. Compression choices reveal what was preserved or lost. Decorative persona detail competes with decision-relevant evidence.\n\n**Responsive design:** Cards wrap, meter remains visible, keyboard actions are supported, and layout updates on resize.\n\n**Instructional rationale:** Resource-constrained prioritization supports analysis of information value and loss.\n\nImplementation: p5.js budget visualization with accessible context cards."
+}

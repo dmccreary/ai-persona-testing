@@ -1,0 +1,14 @@
+{
+  "sim_id": "persona-release-quality-gate",
+  "diagram_name": "Persona Release Quality Gate",
+  "chapter_number": 9,
+  "chapter_title": "Persona Consistency, Validation, and Reuse",
+  "chapter_dir": "09-persona-quality-reuse",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Execute a persona release workflow using documentation review, test cases, acceptance tests, benchmark comparison, approval, versioning, and rollback.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: workflow\n**sim-id:** persona-release-quality-gate<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** execute\n\n**Learning objective:** Execute a persona release workflow using documentation review, test cases, acceptance tests, benchmark comparison, approval, versioning, and rollback.\n\n**Workflow:** Change Request, Evidence Review, Profile Revision, Predicted Effects, Test Suite, Benchmark Comparison, Privacy/Fairness Review, Approval, Release, Monitoring, and Rollback.\n\n**Interaction:** Learners inspect a proposed update, choose tests, interpret results, and decide Release, Revise, or Reject. Every workflow node and connector reveals responsibility and artifact.\n\n**Feedback:** The simulator penalizes releases based only on average score, missing regression tests, outdated benchmarks, absent documentation, or unapproved purpose expansion.\n\n**Responsive design:** Swimlanes stack on narrow screens, with keyboard navigation, audit-log text view, and resize handling.\n\n**Instructional rationale:** Practicing a complete release decision supports applying governance and quality controls.\n\nImplementation: Responsive p5.js workflow simulator with structured test results."
+}

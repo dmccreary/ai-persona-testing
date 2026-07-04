@@ -1,0 +1,22 @@
+{
+  "title": "Need and Driver Trade-Off Map",
+  "description": "Organize emotional drivers, functional needs, and social needs into a causal network that explains a persona's competing priorities.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "need-driver-tradeoff-map",
+  "library": "vis-network",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 6,
+  "chapter_title": "Persona Motivations, Behaviors, and Evidence",
+  "chapter_dir": "06-persona-behavior-evidence"
+}

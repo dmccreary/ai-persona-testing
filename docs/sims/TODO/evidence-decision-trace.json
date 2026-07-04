@@ -1,0 +1,14 @@
+{
+  "sim_id": "evidence-decision-trace",
+  "diagram_name": "Evidence-to-Decision Trace",
+  "chapter_number": 19,
+  "chapter_title": "Risk-Based Recommendations and Knowledge Graphs",
+  "chapter_dir": "19-risk-knowledge-graphs",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Use a traceable workflow to convert evidence into risk, alternatives, decision, improvement hypothesis, implementation, validation, and learning.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: workflow\n**sim-id:** evidence-decision-trace<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** use\n\n**Learning objective:** Use a traceable workflow to convert evidence into risk, alternatives, decision, improvement hypothesis, implementation, validation, and learning.\n\n**Interaction:** Learners move a finding through decision gates, attach evidence, compare alternatives, and define a test. Every stage shows owner and confidence.\n\n**Feedback:** The workflow flags recommendations without findings, actions without owners, hypotheses without measures, and decisions that ignore contradictory evidence.\n\n**Responsive design:** Swimlane flow stacks on narrow screens, with keyboard controls and text audit trail.\n\n**Instructional rationale:** Executing the complete decision loop supports applying evidence-based improvement.\n\nImplementation: Responsive p5.js workflow with semantic artifacts."
+}

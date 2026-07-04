@@ -66,7 +66,7 @@ AI-assisted research belongs inside this established landscape. It is not a magi
 
 #### Diagram: Research Question Method Navigator
 
-<iframe src="../../sims/research-method-navigator/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/research-method-navigator/main.html" width="100%" height="652" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Research Question Method Navigator</summary>
@@ -131,7 +131,7 @@ The following sequence reinforces the concepts just defined.
 
 #### Diagram: Language Model Response Laboratory
 
-<iframe src="../../sims/language-model-response-lab/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/language-model-response-lab/main.html" width="100%" height="717" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Language Model Response Laboratory</summary>
@@ -197,7 +197,7 @@ The following table summarizes the progression from a broad synthetic user to a 
 
 #### Diagram: Persona Simulation Mode Explorer
 
-<iframe src="../../sims/persona-simulation-mode-explorer/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-simulation-mode-explorer/main.html" width="100%" height="712" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Persona Simulation Mode Explorer</summary>
@@ -246,7 +246,7 @@ This workflow produces value before a live study begins. It can reveal that a su
 
 #### Diagram: AI Persona Testing Evidence Workflow
 
-<iframe src="../../sims/persona-testing-evidence-workflow/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-testing-evidence-workflow/main.html" width="100%" height="752" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>AI Persona Testing Evidence Workflow</summary>

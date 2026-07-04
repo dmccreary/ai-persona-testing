@@ -1,0 +1,14 @@
+{
+  "sim_id": "debate-consensus-protocol",
+  "diagram_name": "Debate and Consensus Protocol Simulator",
+  "chapter_number": 14,
+  "chapter_title": "Multi-Agent Workflows, Debate, and Consensus",
+  "chapter_dir": "14-multi-agent-orchestration",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Execute a debate protocol that preserves evidence, balanced turns, rational updating, minority positions, and unresolved disagreement.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** debate-consensus-protocol<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** execute\n\n**Learning objective:** Execute a debate protocol that preserves evidence, balanced turns, rational updating, minority positions, and unresolved disagreement.\n\n**Interaction:** Learners moderate three agents reviewing a claim. They select speakers, request evidence, flag repetition, introduce verified information, and decide whether to continue, synthesize, or stop.\n\n**Feedback:** The simulator identifies anchoring, unequal turns, unsupported certainty, false consensus, and changes made only under social pressure.\n\n**Responsive design:** Debate timeline and evidence panel become tabs on narrow screens, with keyboard controls and resize handling.\n\n**Instructional rationale:** Guided protocol execution supports applying fair discussion controls.\n\nImplementation: p5.js debate timeline with semantic transcript and evidence controls."
+}

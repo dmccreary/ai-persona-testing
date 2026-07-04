@@ -1,0 +1,14 @@
+{
+  "sim_id": "persona-evidence-layer-builder",
+  "diagram_name": "Persona Evidence Layer Builder",
+  "chapter_number": 5,
+  "chapter_title": "Building Complete Customer Personas",
+  "chapter_dir": "05-customer-personas",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Classify research statements as behavior, preference, attitude, value, belief, demographic, psychographic, background, or context and connect each statement to evidence.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** persona-evidence-layer-builder<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** classify\n\n**Learning objective:** Classify research statements as behavior, preference, attitude, value, belief, demographic, psychographic, background, or context and connect each statement to evidence.\n\n**Layout:** A layered profile silhouette beside an evidence tray. Layers represent observable action, expressed choice, evaluation, guiding principle, accepted proposition, identity context, and situation.\n\n**Interaction:** Learners drag statements from interview notes and analytics into layers. They then attach a source and set evidence status to Observed, Reported, Inferred, or Assumed.\n\n**Feedback:** Misclassified cards receive explanations. Contradictory evidence remains visible instead of being averaged away. A profile-quality panel rewards traceability and penalizes unsupported certainty.\n\n**Accessibility and responsiveness:** Provide keyboard sorting, text labels, a nonvisual table view, and layout changes on window resize.\n\n**Instructional rationale:** Sorting authentic evidence and preserving its status supports analysis of closely related persona fields.\n\nImplementation: Responsive p5.js layered canvas with semantic evidence cards."
+}

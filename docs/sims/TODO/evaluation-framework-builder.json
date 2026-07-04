@@ -1,0 +1,14 @@
+{
+  "sim_id": "evaluation-framework-builder",
+  "diagram_name": "Evaluation Framework Builder",
+  "chapter_number": 17,
+  "chapter_title": "Evaluation Rubrics, Scoring, and Evidence",
+  "chapter_dir": "17-rubrics-scoring-evidence",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Design an evaluation framework linking decision, audience, context, criteria, dimensions, evidence, scoring, confidence, and action.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** evaluation-framework-builder<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** design\n\n**Learning objective:** Design an evaluation framework linking decision, audience, context, criteria, dimensions, evidence, scoring, confidence, and action.\n\n**Interaction:** Learners select a marketing decision, arrange framework components, and connect each criterion to evidence and a decision use. The tool flags decorative criteria and scores with no action.\n\n**Feedback:** Clicking a component shows weak and strong examples. Coverage view reveals duplicated or missing dimensions.\n\n**Responsive design:** Canvas becomes a vertical framework form on narrow screens, with keyboard controls and resize handling.\n\n**Instructional rationale:** Framework synthesis supports creating a coherent measurement system.\n\nImplementation: Responsive p5.js block builder with semantic forms."
+}

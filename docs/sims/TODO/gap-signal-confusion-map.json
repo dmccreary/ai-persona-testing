@@ -1,0 +1,14 @@
+{
+  "sim_id": "gap-signal-confusion-map",
+  "diagram_name": "Gap, Signal, and Confusion Map",
+  "chapter_number": 18,
+  "chapter_title": "Marketing Metrics and Pattern Analysis",
+  "chapter_dir": "18-marketing-metrics-analysis",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Attribute messaging gaps, credibility gaps, trust signals, and confusion points to specific asset evidence, persona context, and consequences.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: graph-model\n**sim-id:** gap-signal-confusion-map<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** attribute\n\n**Learning objective:** Attribute messaging gaps, credibility gaps, trust signals, and confusion points to specific asset evidence, persona context, and consequences.\n\n**Node types:** Intended Message, Asset Element, Persona Interpretation, Evidence, Trust Signal, Confusion Point, Messaging Gap, Credibility Gap, and Action.\n\n**Interaction:** Select a gap to highlight its causal path, attach missing proof or revised message, and compare persona responses. Every edge reveals rationale.\n\n**Feedback:** The graph flags unsupported fixes and trust signals unrelated to the identified gap.\n\n**Responsive design:** Zoomable graph with keyboard traversal, side panel, text path view, and resize handling.\n\n**Instructional rationale:** Causal attribution across evidence supports analysis and targeted correction.\n\nImplementation: vis-network with editable evidence relationships."
+}

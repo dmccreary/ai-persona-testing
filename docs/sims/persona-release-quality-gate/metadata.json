@@ -1,0 +1,22 @@
+{
+  "title": "Persona Release Quality Gate",
+  "description": "Execute a persona release workflow using documentation review, test cases, acceptance tests, benchmark comparison, approval, versioning, and rollback.",
+  "creator": "AI Persona Testing",
+  "author": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "persona-release-quality-gate",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 9,
+  "chapter_title": "Persona Consistency, Validation, and Reuse",
+  "chapter_dir": "09-persona-quality-reuse"
+}

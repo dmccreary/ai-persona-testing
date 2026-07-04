@@ -1,0 +1,14 @@
+{
+  "sim_id": "complete-evaluation-graph-schema",
+  "diagram_name": "Complete Evaluation Graph Schema",
+  "chapter_number": 20,
+  "chapter_title": "Automation, Reporting, and Capstone Systems",
+  "chapter_dir": "20-automation-reporting-capstone",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Construct a complete evaluation schema connecting persona, asset, goal, pain point, reaction, criterion, evidence, finding, risk, recommendation, decision, implementation, and outcome nodes.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: graph-model\n**sim-id:** complete-evaluation-graph-schema<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** construct\n\n**Learning objective:** Construct a complete evaluation schema connecting persona, asset, goal, pain point, reaction, criterion, evidence, finding, risk, recommendation, decision, implementation, and outcome nodes.\n\n**Interaction:** Learners add node types, define relationship direction, inspect required properties, and validate sample paths from source evidence to outcome.\n\n**Feedback:** The schema flags vague relationships, unsupported findings, recommendations without owners, and outcomes detached from decisions.\n\n**Responsive design:** Zoomable graph with keyboard traversal, searchable side panel, text triple view, and resize handling.\n\n**Instructional rationale:** Schema construction integrates the course's evidence and decision concepts at the Create level.\n\nImplementation: vis-network model editor with JSON schema validation."
+}

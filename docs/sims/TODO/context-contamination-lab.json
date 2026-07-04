@@ -1,0 +1,14 @@
+{
+  "sim_id": "context-contamination-lab",
+  "diagram_name": "Context Contamination Laboratory",
+  "chapter_number": 14,
+  "chapter_title": "Multi-Agent Workflows, Debate, and Consensus",
+  "chapter_dir": "14-multi-agent-orchestration",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Examine how shared opinions, hidden role instructions, and prior summaries alter agent independence and the interpretation of agreement.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** context-contamination-lab<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** examine\n\n**Learning objective:** Examine how shared opinions, hidden role instructions, and prior summaries alter agent independence and the interpretation of agreement.\n\n**Data visibility requirements:** Show three agents' role-specific context, shared factual context, initial responses, and responses after one agent's opinion is shared.\n\n**Interaction:** Learners toggle context items and predict whether agreement, anchoring, role drift, or privacy exposure will change. A provenance view traces every item.\n\n**Feedback:** The simulator distinguishes legitimate shared facts from contaminating opinions and shows that increased consensus can reduce evidentiary value.\n\n**Responsive design:** Agent panels become tabs on narrow screens, with keyboard toggles and resize handling.\n\n**Instructional rationale:** Controlled before-and-after comparison supports analysis of causal contamination.\n\nImplementation: p5.js context panels with semantic controls and fixed examples."
+}

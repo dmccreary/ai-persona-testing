@@ -1,0 +1,14 @@
+{
+  "sim_id": "visual-identity-evaluation",
+  "diagram_name": "Visual Identity Evaluation Studio",
+  "chapter_number": 16,
+  "chapter_title": "Evaluating Marketing Assets and Messaging",
+  "chapter_dir": "16-marketing-asset-evaluation",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Assess a visual identity and logo across recognition, meaning, legibility, accessibility, scale, context, and brand alignment.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** visual-identity-evaluation<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** assess\n\n**Learning objective:** Assess a visual identity and logo across recognition, meaning, legibility, accessibility, scale, context, and brand alignment.\n\n**Interaction:** Learners test an identity on mobile headers, invoices, social icons, presentations, packaging, and monochrome backgrounds. Persona and expert views remain separate.\n\n**Controls:** Size, background, color mode, viewing distance, persona, and asset context. Clicking an element reveals evaluation criteria and evidence.\n\n**Feedback:** The studio flags conclusions unsupported by observation and distinguishes subjective preference from task failure.\n\n**Responsive design:** Preview grid becomes a carousel on narrow screens, with keyboard controls and resize handling.\n\n**Instructional rationale:** Applying a shared rubric across contexts teaches practical visual evaluation.\n\nImplementation: p5.js preview canvas with semantic controls and supplied sample assets."
+}
