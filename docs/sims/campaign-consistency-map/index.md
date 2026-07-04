@@ -1,49 +1,53 @@
 ---
-title: Cross-Channel Campaign Consistency Map
-description: Compare campaign assets across channels for message continuity, appropriate adaptation, proof, tone, audience, and action.
-status: scaffold
-library: vis-network
-bloom_level: TBD
+title: "Cross-Channel Campaign Consistency Map"
+description: "Compare campaign assets across channels for message continuity, appropriate adaptation, proof, tone, audience, and action."
+status: deployed
+quality_score: 100
+image: /sims/campaign-consistency-map/campaign-consistency-map.png
+og:image: /sims/campaign-consistency-map/campaign-consistency-map.png
+twitter:image: /sims/campaign-consistency-map/campaign-consistency-map.png
+social:
+   cards: false
 ---
 
 # Cross-Channel Campaign Consistency Map
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Cross-Channel Campaign Consistency Map MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Compare campaign assets across channels for message continuity, appropriate adaptation, proof, tone, audience, and action.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 16: Evaluating Marketing Assets and Messaging](../../chapters/16-marketing-asset-evaluation/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: graph-model
-**sim-id:** campaign-consistency-map<br/>
-**Library:** vis-network<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Analyze (L4)
-
-**Bloom verb:** compare
-
-**Learning objective:** Compare campaign assets across channels for message continuity, appropriate adaptation, proof, tone, audience, and action.
-
-**Node types:** Campaign Goal, Persona, Journey Stage, Advertisement, Social Post, Email, Video, Landing Page, Claim, Proof, and Action.
-
-**Edges:** LEADS_TO, EXPRESSES, ADAPTS, SUPPORTS, CONTRADICTS, and TARGETS. Every element reveals evidence and version.
-
-**Interaction:** Select a journey path, compare message changes, and flag intentional adaptation or inconsistency. The system highlights broken promises and missing proof.
-
-**Responsive design:** Zoomable graph with keyboard navigation, side panel, text path alternative, and resize handling.
-
-**Instructional rationale:** Cross-asset relationship comparison supports analysis of campaign systems.
-
-Implementation: vis-network graph with accessible detail and filtering.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/campaign-consistency-map/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 16: Evaluating Marketing Assets and Messaging](../../chapters/16-marketing-asset-evaluation/index.md)
+### Learning Objective
+
+Compare campaign assets across channels for message continuity, appropriate adaptation, proof, tone, audience, and action.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/16-marketing-asset-evaluation/index.md) - Full instructional context and specification.
+2. [vis-network documentation](https://visjs.github.io/vis-network/docs/network/) - Rendering-library reference.
+

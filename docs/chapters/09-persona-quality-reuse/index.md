@@ -78,7 +78,7 @@ The final point matters. A consistent skeptic should accept strong evidence. Ref
 
 #### Diagram: Persona Consistency Test Bench
 
-<iframe src="../../sims/persona-consistency-test-bench/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-consistency-test-bench/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Persona Consistency Test Bench</summary>
@@ -126,7 +126,7 @@ Use a layered detection process:
 
 #### Diagram: Persona Drift Monitor
 
-<iframe src="../../sims/persona-drift-monitor/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-drift-monitor/main.html" width="100%" height="652" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Persona Drift Monitor</summary>
@@ -196,7 +196,7 @@ The table reinforces the distinctions.
 
 #### Diagram: Portfolio Coverage and Overlap Explorer
 
-<iframe src="../../sims/persona-coverage-overlap/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-coverage-overlap/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Portfolio Coverage and Overlap Explorer</summary>
@@ -278,7 +278,7 @@ Example acceptance rules include:
 
 #### Diagram: Persona Release Quality Gate
 
-<iframe src="../../sims/persona-release-quality-gate/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-release-quality-gate/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Persona Release Quality Gate</summary>

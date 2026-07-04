@@ -1,11 +1,12 @@
 {
   "title": "Persona Evaluation Knowledge Graph Builder",
   "description": "Construct a provenance-rich evaluation graph linking personas, assets, goals, pain points, reactions, evidence, risks, and recommendations.",
-  "creator": "AI Persona Testing",
-  "author": "Dan McCreary",
+  "creator": "Dan McCreary",
   "date": "2026-07-03",
   "subject": [
-    "AI Persona Testing"
+    "AI Persona Testing",
+    "Marketing Research",
+    "Persona Evaluation Knowledge Graph Builder"
   ],
   "type": "Interactive Simulation",
   "format": "text/html",
@@ -13,10 +14,53 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "persona-evaluation-graph-builder",
   "library": "vis-network",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
-  "chapter_number": 19,
-  "chapter_title": "Risk-Based Recommendations and Knowledge Graphs",
-  "chapter_dir": "19-risk-knowledge-graphs"
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Persona Evaluation Knowledge Graph Builder",
+    "learningObjectives": [
+      "Construct a provenance-rich evaluation graph linking personas, assets, goals, pain points, reactions, evidence, risks, and recommendations."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Construct a provenance-rich evaluation graph linking personas, assets, goals, pain points, reactions, evidence, risks, and recommendations."
+    ]
+  },
+  "chapter": "19-risk-knowledge-graphs",
+  "completion_status": "deployed"
 }

@@ -1,11 +1,12 @@
 {
   "title": "Research Dialogue Practice Studio",
   "description": "Practice selecting neutral, open, probing, adversarial, and follow-up questions while maintaining persona fidelity and evidence boundaries.",
-  "creator": "AI Persona Testing",
-  "author": "Dan McCreary",
+  "creator": "Dan McCreary",
   "date": "2026-07-03",
   "subject": [
-    "AI Persona Testing"
+    "AI Persona Testing",
+    "Marketing Research",
+    "Research Dialogue Practice Studio"
   ],
   "type": "Interactive Simulation",
   "format": "text/html",
@@ -13,10 +14,53 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "research-dialogue-studio",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
-  "chapter_number": 12,
-  "chapter_title": "Prompt Testing and Research Dialogue",
-  "chapter_dir": "12-prompt-testing-dialogue"
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Research Dialogue Practice Studio",
+    "learningObjectives": [
+      "Practice selecting neutral, open, probing, adversarial, and follow-up questions while maintaining persona fidelity and evidence boundaries."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Practice selecting neutral, open, probing, adversarial, and follow-up questions while maintaining persona fidelity and evidence boundaries."
+    ]
+  },
+  "chapter": "12-prompt-testing-dialogue",
+  "completion_status": "deployed"
 }

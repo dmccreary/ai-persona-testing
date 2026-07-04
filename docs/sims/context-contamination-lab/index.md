@@ -1,49 +1,55 @@
 ---
-title: Context Contamination Laboratory
-description: Examine how shared opinions, hidden role instructions, and prior summaries alter agent independence and the interpretation of agreement.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Context Contamination Laboratory"
+description: "Examine how shared opinions, hidden role instructions, and prior summaries alter agent independence and the interpretation of agreement."
+status: deployed
+quality_score: 98
+image: /sims/context-contamination-lab/context-contamination-lab.png
+og:image: /sims/context-contamination-lab/context-contamination-lab.png
+twitter:image: /sims/context-contamination-lab/context-contamination-lab.png
+social:
+   cards: false
 ---
 
 # Context Contamination Laboratory
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Context Contamination Laboratory MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Examine how shared opinions, hidden role instructions, and prior summaries alter agent independence and the interpretation of agreement.
 
-The full specification below is extracted from
-[Chapter 14: Multi-Agent Workflows, Debate, and Consensus](../../chapters/14-multi-agent-orchestration/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** context-contamination-lab<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Analyze (L4)
+## Iframe Embed Code
 
-**Bloom verb:** examine
-
-**Learning objective:** Examine how shared opinions, hidden role instructions, and prior summaries alter agent independence and the interpretation of agreement.
-
-**Data visibility requirements:** Show three agents' role-specific context, shared factual context, initial responses, and responses after one agent's opinion is shared.
-
-**Interaction:** Learners toggle context items and predict whether agreement, anchoring, role drift, or privacy exposure will change. A provenance view traces every item.
-
-**Feedback:** The simulator distinguishes legitimate shared facts from contaminating opinions and shows that increased consensus can reduce evidentiary value.
-
-**Responsive design:** Agent panels become tabs on narrow screens, with keyboard toggles and resize handling.
-
-**Instructional rationale:** Controlled before-and-after comparison supports analysis of causal contamination.
-
-Implementation: p5.js context panels with semantic controls and fixed examples.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/context-contamination-lab/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 14: Multi-Agent Workflows, Debate, and Consensus](../../chapters/14-multi-agent-orchestration/index.md)
+### Learning Objective
+
+Examine how shared opinions, hidden role instructions, and prior summaries alter agent independence and the interpretation of agreement.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/14-multi-agent-orchestration/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

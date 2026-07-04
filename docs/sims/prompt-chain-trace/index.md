@@ -1,49 +1,55 @@
 ---
-title: Prompt Chain Trace Explorer
-description: Examine how data, evidence, uncertainty, and errors move through a multi-stage prompt chain.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Prompt Chain Trace Explorer"
+description: "Examine how data, evidence, uncertainty, and errors move through a multi-stage prompt chain."
+status: deployed
+quality_score: 98
+image: /sims/prompt-chain-trace/prompt-chain-trace.png
+og:image: /sims/prompt-chain-trace/prompt-chain-trace.png
+twitter:image: /sims/prompt-chain-trace/prompt-chain-trace.png
+social:
+   cards: false
 ---
 
 # Prompt Chain Trace Explorer
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Prompt Chain Trace Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Examine how data, evidence, uncertainty, and errors move through a multi-stage prompt chain.
 
-The full specification below is extracted from
-[Chapter 11: Structured Prompts and Reliable Outputs](../../chapters/11-structured-prompts/index.md).
+## How to Use
 
-```text
-Type: workflow
-**sim-id:** prompt-chain-trace<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Analyze (L4)
+## Iframe Embed Code
 
-**Bloom verb:** examine
-
-**Learning objective:** Examine how data, evidence, uncertainty, and errors move through a multi-stage prompt chain.
-
-**Workflow:** Input Validation, Claim Extraction, Persona Review, Expert Review, Evidence Check, Synthesis, and Report. Each node displays prompt version and schema.
-
-**Interaction:** Learners click handoffs to inspect payloads, inject a missing field or unsupported claim, and choose Stop, Repair, Retry, or Continue. Downstream effects become visible.
-
-**Feedback:** The simulator highlights lost citations, collapsed disagreement, instruction injection, and incompatible schema versions.
-
-**Responsive design:** Horizontal flow becomes a vertical trace on narrow screens; every node and connector is keyboard accessible and responds to resize.
-
-**Instructional rationale:** Tracing propagation and controls supports analysis of system behavior.
-
-Implementation: Responsive p5.js workflow with structured sample payloads.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/prompt-chain-trace/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 11: Structured Prompts and Reliable Outputs](../../chapters/11-structured-prompts/index.md)
+### Learning Objective
+
+Examine how data, evidence, uncertainty, and errors move through a multi-stage prompt chain.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/11-structured-prompts/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

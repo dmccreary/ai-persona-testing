@@ -1,49 +1,55 @@
 ---
-title: Persona Purpose Canvas
-description: Formulate a bounded persona purpose connecting a customer pattern, use context, evaluation task, decision, and explicit exclusions.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Persona Purpose Canvas"
+description: "Formulate a bounded persona purpose connecting a customer pattern, use context, evaluation task, decision, and explicit exclusions."
+status: deployed
+quality_score: 98
+image: /sims/persona-purpose-canvas/persona-purpose-canvas.png
+og:image: /sims/persona-purpose-canvas/persona-purpose-canvas.png
+twitter:image: /sims/persona-purpose-canvas/persona-purpose-canvas.png
+social:
+   cards: false
 ---
 
 # Persona Purpose Canvas
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Persona Purpose Canvas MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Formulate a bounded persona purpose connecting a customer pattern, use context, evaluation task, decision, and explicit exclusions.
 
-The full specification below is extracted from
-[Chapter 5: Building Complete Customer Personas](../../chapters/05-customer-personas/index.md).
+## How to Use
 
-```text
-Type: interactive infographic
-**sim-id:** persona-purpose-canvas<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Create (L6)
+## Iframe Embed Code
 
-**Bloom verb:** formulate
-
-**Learning objective:** Formulate a bounded persona purpose connecting a customer pattern, use context, evaluation task, decision, and explicit exclusions.
-
-**Layout:** Five responsive canvas zones labeled Represents, Situation, Evaluates, Informs, and Does Not Establish. A scenario tray provides evidence and business-decision cards.
-
-**Interaction:** Learners drag relevant cards into zones, discard irrelevant detail, and edit a generated purpose sentence. The system flags purposes that name only demographics, omit a decision, or claim population authority.
-
-**Feedback:** Clicking a card explains its relevance. A “Change the decision” button demonstrates that the same audience may require a different persona design for pricing, accessibility, onboarding, or brand-trust research.
-
-**Accessibility:** Keyboard card controls, visible focus, text export, and stacked layout below 700 pixels. Respond to window resize events.
-
-**Instructional rationale:** A synthesis canvas supports creating because learners combine research and decision constraints into an original persona purpose.
-
-Implementation: Responsive p5.js workspace with semantic HTML card editors.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/persona-purpose-canvas/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 5: Building Complete Customer Personas](../../chapters/05-customer-personas/index.md)
+### Learning Objective
+
+Formulate a bounded persona purpose connecting a customer pattern, use context, evaluation task, decision, and explicit exclusions.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/05-customer-personas/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

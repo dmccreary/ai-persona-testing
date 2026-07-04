@@ -1,47 +1,53 @@
 ---
-title: Agent Role and Responsibility Map
-description: Differentiate persona, moderator, skeptic, expert reviewer, and synthesis responsibilities and detect conflicting authority.
-status: scaffold
-library: vis-network
-bloom_level: TBD
+title: "Agent Role and Responsibility Map"
+description: "Differentiate persona, moderator, skeptic, expert reviewer, and synthesis responsibilities and detect conflicting authority."
+status: deployed
+quality_score: 100
+image: /sims/agent-role-responsibility/agent-role-responsibility.png
+og:image: /sims/agent-role-responsibility/agent-role-responsibility.png
+twitter:image: /sims/agent-role-responsibility/agent-role-responsibility.png
+social:
+   cards: false
 ---
 
 # Agent Role and Responsibility Map
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Agent Role and Responsibility Map MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Differentiate persona, moderator, skeptic, expert reviewer, and synthesis responsibilities and detect conflicting authority.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 13: Designing AI Agents and Expert Roles](../../chapters/13-ai-agents-expert-roles/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: graph-model
-**sim-id:** agent-role-responsibility<br/>
-**Library:** vis-network<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Analyze (L4)
-
-**Bloom verb:** differentiate
-
-**Learning objective:** Differentiate persona, moderator, skeptic, expert reviewer, and synthesis responsibilities and detect conflicting authority.
-
-**Node types:** Agent Role, Goal, Input, Tool, Output, Decision, Human Owner, and Boundary. Edges show RECEIVES, PERFORMS, PRODUCES, REVIEWS, APPROVES, and ESCALATES_TO.
-
-**Interaction:** Learners assign responsibilities in a workflow. The graph flags missing owners, two roles controlling one decision, persona-to-recommendation shortcuts, and outputs without reviewers.
-
-**Responsive design:** Selectable graph with zoom, drag, keyboard traversal, side panel, text matrix, and resize handling.
-
-**Instructional rationale:** Mapping authority relationships supports analysis of role separation.
-
-Implementation: vis-network responsibility graph with rule-based conflict checks.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/agent-role-responsibility/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 13: Designing AI Agents and Expert Roles](../../chapters/13-ai-agents-expert-roles/index.md)
+### Learning Objective
+
+Differentiate persona, moderator, skeptic, expert reviewer, and synthesis responsibilities and detect conflicting authority.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/13-ai-agents-expert-roles/index.md) - Full instructional context and specification.
+2. [vis-network documentation](https://visjs.github.io/vis-network/docs/network/) - Rendering-library reference.
+

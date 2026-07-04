@@ -1,49 +1,55 @@
 ---
-title: Context Shift Response Explorer
-description: Explain how changing task, device, time pressure, journey stage, and decision stakes can change a persona's evaluation without changing its core profile.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Context Shift Response Explorer"
+description: "Explain how changing task, device, time pressure, journey stage, and decision stakes can change a persona's evaluation without changing its core profile."
+status: deployed
+quality_score: 98
+image: /sims/context-shift-response/context-shift-response.png
+og:image: /sims/context-shift-response/context-shift-response.png
+twitter:image: /sims/context-shift-response/context-shift-response.png
+social:
+   cards: false
 ---
 
 # Context Shift Response Explorer
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Context Shift Response Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Explain how changing task, device, time pressure, journey stage, and decision stakes can change a persona's evaluation without changing its core profile.
 
-The full specification below is extracted from
-[Chapter 5: Building Complete Customer Personas](../../chapters/05-customer-personas/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** context-shift-response<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Understand (L2)
+## Iframe Embed Code
 
-**Bloom verb:** explain
-
-**Learning objective:** Explain how changing task, device, time pressure, journey stage, and decision stakes can change a persona's evaluation without changing its core profile.
-
-**Data visibility requirements:** Stage 1 shows a fixed persona profile and marketing message. Stage 2 displays baseline context fields. Stage 3 lets the learner change one field. Stage 4 shows a side-by-side response with changed phrases highlighted. Final stage asks which change plausibly caused each difference.
-
-**Controls:** Device, time available, journey stage, social setting, decision authority, and consequence severity. Next, Previous, Predict, Reveal, and Reset buttons support step-through learning.
-
-**Feedback:** The simulation distinguishes evidence-grounded contextual effects from unsupported claims. Learners must explain a change before revealing the worked interpretation.
-
-**Responsive design:** Side-by-side comparison becomes stacked cards on narrow screens; all controls are semantic HTML and update on resize.
-
-**Instructional rationale:** Concrete before-and-after data supports understanding better than continuous animation because learners can predict and trace each contextual change.
-
-Implementation: p5.js comparison view with accessible HTML selectors and fixed worked examples.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/context-shift-response/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 5: Building Complete Customer Personas](../../chapters/05-customer-personas/index.md)
+### Learning Objective
+
+Explain how changing task, device, time pressure, journey stage, and decision stakes can change a persona's evaluation without changing its core profile.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/05-customer-personas/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

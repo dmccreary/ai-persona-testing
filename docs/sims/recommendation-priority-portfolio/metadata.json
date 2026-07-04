@@ -1,11 +1,12 @@
 {
   "title": "Recommendation Priority Portfolio",
   "description": "Prioritize recommendations using risk, business impact, implementation effort, evidence confidence, dependencies, equity, and learning value.",
-  "creator": "AI Persona Testing",
-  "author": "Dan McCreary",
+  "creator": "Dan McCreary",
   "date": "2026-07-03",
   "subject": [
-    "AI Persona Testing"
+    "AI Persona Testing",
+    "Marketing Research",
+    "Recommendation Priority Portfolio"
   ],
   "type": "Interactive Simulation",
   "format": "text/html",
@@ -13,10 +14,53 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "recommendation-priority-portfolio",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
-  "chapter_number": 19,
-  "chapter_title": "Risk-Based Recommendations and Knowledge Graphs",
-  "chapter_dir": "19-risk-knowledge-graphs"
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Recommendation Priority Portfolio",
+    "learningObjectives": [
+      "Prioritize recommendations using risk, business impact, implementation effort, evidence confidence, dependencies, equity, and learning value."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Prioritize recommendations using risk, business impact, implementation effort, evidence confidence, dependencies, equity, and learning value."
+    ]
+  },
+  "chapter": "19-risk-knowledge-graphs",
+  "completion_status": "deployed"
 }

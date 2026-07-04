@@ -72,7 +72,7 @@ Keep severity and likelihood separate. Teams often reduce a risk because it seem
 
 #### Diagram: Marketing Risk Assessment Lab
 
-<iframe src="../../sims/marketing-risk-assessment/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/marketing-risk-assessment/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Marketing Risk Assessment Lab</summary>
@@ -116,7 +116,7 @@ A priority model can use categories rather than false precision:
 
 #### Diagram: Recommendation Priority Portfolio
 
-<iframe src="../../sims/recommendation-priority-portfolio/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/recommendation-priority-portfolio/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Recommendation Priority Portfolio</summary>
@@ -163,7 +163,7 @@ Use this loop:
 
 #### Diagram: Evidence-to-Decision Trace
 
-<iframe src="../../sims/evidence-decision-trace/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/evidence-decision-trace/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Evidence-to-Decision Trace</summary>
@@ -223,7 +223,7 @@ Useful graph queries include:
 
 #### Diagram: Persona Evaluation Knowledge Graph Builder
 
-<iframe src="../../sims/persona-evaluation-graph-builder/main.html" width="100%" height="560px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-evaluation-graph-builder/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Persona Evaluation Knowledge Graph Builder</summary>

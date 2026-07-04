@@ -1,11 +1,12 @@
 {
   "title": "Persona Drift Monitor",
   "description": "Examine persona behavior across versions and identify factual, goal, expertise, preference, and tone drift.",
-  "creator": "AI Persona Testing",
-  "author": "Dan McCreary",
+  "creator": "Dan McCreary",
   "date": "2026-07-03",
   "subject": [
-    "AI Persona Testing"
+    "AI Persona Testing",
+    "Marketing Research",
+    "Persona Drift Monitor"
   ],
   "type": "Interactive Simulation",
   "format": "text/html",
@@ -13,10 +14,53 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "persona-drift-monitor",
   "library": "Chart.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
-  "chapter_number": 9,
-  "chapter_title": "Persona Consistency, Validation, and Reuse",
-  "chapter_dir": "09-persona-quality-reuse"
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Persona Drift Monitor",
+    "learningObjectives": [
+      "Examine persona behavior across versions and identify factual, goal, expertise, preference, and tone drift."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Chart.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 650
+    },
+    "responsive": true,
+    "dependencies": [
+      "Chart.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Examine persona behavior across versions and identify factual, goal, expertise, preference, and tone drift."
+    ]
+  },
+  "chapter": "09-persona-quality-reuse",
+  "completion_status": "deployed"
 }

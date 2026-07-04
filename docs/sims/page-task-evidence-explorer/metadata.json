@@ -1,11 +1,12 @@
 {
   "title": "Page Task and Evidence Explorer",
   "description": "Examine how page hierarchy, content, proof, navigation, and friction support or block a persona's task.",
-  "creator": "AI Persona Testing",
-  "author": "Dan McCreary",
+  "creator": "Dan McCreary",
   "date": "2026-07-03",
   "subject": [
-    "AI Persona Testing"
+    "AI Persona Testing",
+    "Marketing Research",
+    "Page Task and Evidence Explorer"
   ],
   "type": "Interactive Simulation",
   "format": "text/html",
@@ -13,10 +14,53 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "page-task-evidence-explorer",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
-  "chapter_number": 16,
-  "chapter_title": "Evaluating Marketing Assets and Messaging",
-  "chapter_dir": "16-marketing-asset-evaluation"
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Page Task and Evidence Explorer",
+    "learningObjectives": [
+      "Examine how page hierarchy, content, proof, navigation, and friction support or block a persona's task."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Examine how page hierarchy, content, proof, navigation, and friction support or block a persona's task."
+    ]
+  },
+  "chapter": "16-marketing-asset-evaluation",
+  "completion_status": "deployed"
 }

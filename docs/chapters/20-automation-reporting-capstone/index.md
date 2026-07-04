@@ -77,7 +77,7 @@ The completed graph can connect:
 
 #### Diagram: Complete Evaluation Graph Schema
 
-<iframe src="../../sims/complete-evaluation-graph-schema/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/complete-evaluation-graph-schema/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Complete Evaluation Graph Schema</summary>
@@ -139,7 +139,7 @@ Design automation using four categories:
 
 #### Diagram: Governed No-Code Evaluation Pipeline
 
-<iframe src="../../sims/no-code-evaluation-pipeline/main.html" width="100%" height="560px" scrolling="no"></iframe>
+<iframe src="../../sims/no-code-evaluation-pipeline/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Governed No-Code Evaluation Pipeline</summary>
@@ -198,7 +198,7 @@ A **Recommendation List** provides action, finding, evidence, priority, owner, e
 
 #### Diagram: Reporting and Dashboard Design Studio
 
-<iframe src="../../sims/reporting-dashboard-studio/main.html" width="100%" height="560px" scrolling="no"></iframe>
+<iframe src="../../sims/reporting-dashboard-studio/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Reporting and Dashboard Design Studio</summary>
@@ -263,7 +263,7 @@ The capstone includes:
 
 #### Diagram: Capstone System Architecture
 
-<iframe src="../../sims/capstone-system-architecture/main.html" width="100%" height="570px" scrolling="no"></iframe>
+<iframe src="../../sims/capstone-system-architecture/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Capstone System Architecture</summary>

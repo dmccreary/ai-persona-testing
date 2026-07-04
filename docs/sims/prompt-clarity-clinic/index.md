@@ -1,47 +1,55 @@
 ---
-title: Prompt Specificity and Clarity Clinic
-description: Critique vague or conflicting prompt instructions and revise them into specific, clear, testable requirements.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Prompt Specificity and Clarity Clinic"
+description: "Critique vague or conflicting prompt instructions and revise them into specific, clear, testable requirements."
+status: deployed
+quality_score: 98
+image: /sims/prompt-clarity-clinic/prompt-clarity-clinic.png
+og:image: /sims/prompt-clarity-clinic/prompt-clarity-clinic.png
+twitter:image: /sims/prompt-clarity-clinic/prompt-clarity-clinic.png
+social:
+   cards: false
 ---
 
 # Prompt Specificity and Clarity Clinic
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Prompt Specificity and Clarity Clinic MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Critique vague or conflicting prompt instructions and revise them into specific, clear, testable requirements.
 
-The full specification below is extracted from
-[Chapter 11: Structured Prompts and Reliable Outputs](../../chapters/11-structured-prompts/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** prompt-clarity-clinic<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Evaluate (L5)
+## Iframe Embed Code
 
-**Bloom verb:** critique
-
-**Learning objective:** Critique vague or conflicting prompt instructions and revise them into specific, clear, testable requirements.
-
-**Interaction:** Learners annotate ambiguity, missing evidence, undefined criteria, hidden sequence, and conflicting constraints in sample prompts. They rewrite each issue and compare expected outputs.
-
-**Feedback:** The tool explains whether a revision increases useful specificity or merely adds length. A “different reasonable interpretation” button exposes remaining ambiguity.
-
-**Responsive design:** Prompt and feedback panes become tabs on narrow screens; provide keyboard annotation and resize handling.
-
-**Instructional rationale:** Rubric-guided revision supports evaluation of prompt quality.
-
-Implementation: p5.js annotation layer with semantic HTML editor.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/prompt-clarity-clinic/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 11: Structured Prompts and Reliable Outputs](../../chapters/11-structured-prompts/index.md)
+### Learning Objective
+
+Critique vague or conflicting prompt instructions and revise them into specific, clear, testable requirements.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/11-structured-prompts/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

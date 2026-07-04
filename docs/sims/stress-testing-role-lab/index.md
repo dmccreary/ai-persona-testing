@@ -1,49 +1,55 @@
 ---
-title: Stress-Testing Role Lab
-description: Differentiate negative, edge-case, adversarial, and skeptical persona roles and select the correct role for a research risk.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Stress-Testing Role Lab"
+description: "Differentiate negative, edge-case, adversarial, and skeptical persona roles and select the correct role for a research risk."
+status: deployed
+quality_score: 98
+image: /sims/stress-testing-role-lab/stress-testing-role-lab.png
+og:image: /sims/stress-testing-role-lab/stress-testing-role-lab.png
+twitter:image: /sims/stress-testing-role-lab/stress-testing-role-lab.png
+social:
+   cards: false
 ---
 
 # Stress-Testing Role Lab
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Stress-Testing Role Lab MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Differentiate negative, edge-case, adversarial, and skeptical persona roles and select the correct role for a research risk.
 
-The full specification below is extracted from
-[Chapter 7: Customer Segmentation and Persona Archetypes](../../chapters/07-segmentation-archetypes/index.md).
+## How to Use
 
-```text
-Type: interactive infographic
-**sim-id:** stress-testing-role-lab<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Analyze (L4)
+## Iframe Embed Code
 
-**Bloom verb:** differentiate
-
-**Learning objective:** Differentiate negative, edge-case, adversarial, and skeptical persona roles and select the correct role for a research risk.
-
-**Interaction:** Scenario cards describe a customer, condition, or test goal. Learners assign the appropriate role, identify the evidence required, and write a fair prompt.
-
-**Feedback:** The tool flags insulting negative personas, implausible edge cases, adversarial prompts that manufacture failure, and skeptics who cannot be persuaded by evidence.
-
-**Scenarios:** Free-trial misuse, low-bandwidth checkout, exaggerated sustainability claim, hidden renewal term, and unsupported medical claim.
-
-**Responsive design:** Cards and role zones stack on narrow screens, with keyboard controls and resize events.
-
-**Instructional rationale:** Comparing closely related testing roles requires analysis of purpose, conditions, and fair behavior.
-
-Implementation: Responsive p5.js classification lab with editable prompt feedback.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/stress-testing-role-lab/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 7: Customer Segmentation and Persona Archetypes](../../chapters/07-segmentation-archetypes/index.md)
+### Learning Objective
+
+Differentiate negative, edge-case, adversarial, and skeptical persona roles and select the correct role for a research risk.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/07-segmentation-archetypes/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

@@ -1,49 +1,53 @@
 ---
-title: Opinion Contamination Experiment
-description: Compare independent and socially exposed persona responses to identify anchoring, convergence, and preserved disagreement.
-status: scaffold
-library: Chart.js
-bloom_level: TBD
+title: "Opinion Contamination Experiment"
+description: "Compare independent and socially exposed persona responses to identify anchoring, convergence, and preserved disagreement."
+status: deployed
+quality_score: 100
+image: /sims/opinion-contamination-experiment/opinion-contamination-experiment.png
+og:image: /sims/opinion-contamination-experiment/opinion-contamination-experiment.png
+twitter:image: /sims/opinion-contamination-experiment/opinion-contamination-experiment.png
+social:
+   cards: false
 ---
 
 # Opinion Contamination Experiment
 
+<iframe src="main.html" height="652" width="100%" scrolling="no"></iframe>
 
+[Run the Opinion Contamination Experiment MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Compare independent and socially exposed persona responses to identify anchoring, convergence, and preserved disagreement.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 15: Moderation Risks and Brand Strategy](../../chapters/15-moderation-brand-strategy/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: chart
-**sim-id:** opinion-contamination-experiment<br/>
-**Library:** Chart.js<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Analyze (L4)
-
-**Bloom verb:** compare
-
-**Learning objective:** Compare independent and socially exposed persona responses to identify anchoring, convergence, and preserved disagreement.
-
-**Chart:** Paired response-position plots before and after exposure, with semantic-theme similarity and confidence. Values are illustrative teaching data.
-
-**Interaction:** Learners toggle which opinion appears first, moderator wording, anonymity, and required evidence. Hover reveals exact response excerpts and change rationale.
-
-**Feedback:** The tool explains that increased agreement can reflect evidence, anchoring, or role pressure and asks learners to classify the cause.
-
-**Responsive design:** Charts stack with keyboard data access and a table alternative.
-
-**Instructional rationale:** Controlled comparison supports analysis of social influence.
-
-Implementation: Responsive Chart.js paired plots linked to accessible transcripts.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/opinion-contamination-experiment/main.html" height="652" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 15: Moderation Risks and Brand Strategy](../../chapters/15-moderation-brand-strategy/index.md)
+### Learning Objective
+
+Compare independent and socially exposed persona responses to identify anchoring, convergence, and preserved disagreement.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/15-moderation-brand-strategy/index.md) - Full instructional context and specification.
+2. [Chart.js documentation](https://www.chartjs.org/docs/latest/) - Rendering-library reference.
+

@@ -74,7 +74,7 @@ Build in this order:
 
 #### Diagram: Evaluation Framework Builder
 
-<iframe src="../../sims/evaluation-framework-builder/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/evaluation-framework-builder/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Evaluation Framework Builder</summary>
@@ -139,7 +139,7 @@ A **Rating Scale** is an ordered set of response options. An ordinal scale indic
 
 #### Diagram: Rating Anchor Calibration Lab
 
-<iframe src="../../sims/rating-anchor-calibration/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/rating-anchor-calibration/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Rating Anchor Calibration Lab</summary>
@@ -185,7 +185,7 @@ Perform sensitivity analysis. Change plausible weights and observe whether the d
 
 #### Diagram: Weighting and Normalization Explorer
 
-<iframe src="../../sims/weighting-normalization-explorer/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/weighting-normalization-explorer/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Weighting and Normalization Explorer</summary>
@@ -259,7 +259,7 @@ Separate scores by persona and context before aggregating. A page can be clear t
 
 #### Diagram: Trust and Clarity Evidence Lab
 
-<iframe src="../../sims/trust-clarity-evidence/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/trust-clarity-evidence/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Trust and Clarity Evidence Lab</summary>

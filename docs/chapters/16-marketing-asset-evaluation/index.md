@@ -80,7 +80,7 @@ Do not ask only “Do you like it?” Ask what the logo suggests, which category
 
 #### Diagram: Visual Identity Evaluation Studio
 
-<iframe src="../../sims/visual-identity-evaluation/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/visual-identity-evaluation/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Visual Identity Evaluation Studio</summary>
@@ -142,7 +142,7 @@ Evaluate pages at three levels:
 
 #### Diagram: Page Task and Evidence Explorer
 
-<iframe src="../../sims/page-task-evidence-explorer/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/page-task-evidence-explorer/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Page Task and Evidence Explorer</summary>
@@ -197,7 +197,7 @@ For video, record:
 
 #### Diagram: Cross-Channel Campaign Consistency Map
 
-<iframe src="../../sims/campaign-consistency-map/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/campaign-consistency-map/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Cross-Channel Campaign Consistency Map</summary>
@@ -245,7 +245,7 @@ Use short-form tests:
 
 #### Diagram: Message Element Testing Lab
 
-<iframe src="../../sims/message-element-testing/main.html" width="100%" height="510px" scrolling="no"></iframe>
+<iframe src="../../sims/message-element-testing/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Message Element Testing Lab</summary>

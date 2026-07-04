@@ -1,47 +1,55 @@
 ---
-title: Marketing Risk Assessment Lab
-description: Assess marketing risks using severity, likelihood, detectability, affected audience, evidence quality, and confidence.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Marketing Risk Assessment Lab"
+description: "Assess marketing risks using severity, likelihood, detectability, affected audience, evidence quality, and confidence."
+status: deployed
+quality_score: 98
+image: /sims/marketing-risk-assessment/marketing-risk-assessment.png
+og:image: /sims/marketing-risk-assessment/marketing-risk-assessment.png
+twitter:image: /sims/marketing-risk-assessment/marketing-risk-assessment.png
+social:
+   cards: false
 ---
 
 # Marketing Risk Assessment Lab
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Marketing Risk Assessment Lab MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Assess marketing risks using severity, likelihood, detectability, affected audience, evidence quality, and confidence.
 
-The full specification below is extracted from
-[Chapter 19: Risk-Based Recommendations and Knowledge Graphs](../../chapters/19-risk-knowledge-graphs/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** marketing-risk-assessment<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Evaluate (L5)
+## Iframe Embed Code
 
-**Bloom verb:** assess
-
-**Learning objective:** Assess marketing risks using severity, likelihood, detectability, affected audience, evidence quality, and confidence.
-
-**Interaction:** Learners review persona findings and evidence, assign transparent categories, and place risks on a matrix. Severe accessibility and privacy cases demonstrate why frequency is not the only priority factor.
-
-**Feedback:** The tool flags likelihood estimates based only on synthetic frequency and asks for validation. Sensitivity view shows how uncertainty changes priority.
-
-**Responsive design:** Matrix becomes a ranked card list on narrow screens, with keyboard controls and resize handling.
-
-**Instructional rationale:** Criteria-based risk judgment supports evaluation and explicit uncertainty.
-
-Implementation: p5.js risk workspace with semantic evidence cards.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/marketing-risk-assessment/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 19: Risk-Based Recommendations and Knowledge Graphs](../../chapters/19-risk-knowledge-graphs/index.md)
+### Learning Objective
+
+Assess marketing risks using severity, likelihood, detectability, affected audience, evidence quality, and confidence.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/19-risk-knowledge-graphs/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

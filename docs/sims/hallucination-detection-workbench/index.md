@@ -1,49 +1,55 @@
 ---
-title: Hallucination Detection Workbench
-description: Validate model statements by tracing each factual claim to supplied context, external evidence, or an explicit persona interpretation.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Hallucination Detection Workbench"
+description: "Validate model statements by tracing each factual claim to supplied context, external evidence, or an explicit persona interpretation."
+status: deployed
+quality_score: 98
+image: /sims/hallucination-detection-workbench/hallucination-detection-workbench.png
+og:image: /sims/hallucination-detection-workbench/hallucination-detection-workbench.png
+twitter:image: /sims/hallucination-detection-workbench/hallucination-detection-workbench.png
+social:
+   cards: false
 ---
 
 # Hallucination Detection Workbench
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Hallucination Detection Workbench MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Validate model statements by tracing each factual claim to supplied context, external evidence, or an explicit persona interpretation.
 
-The full specification below is extracted from
-[Chapter 3: AI Capabilities, Limitations, and Bias](../../chapters/03-ai-limits-bias/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** hallucination-detection-workbench<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Apply (L3)
+## Iframe Embed Code
 
-**Bloom verb:** validate
-
-**Learning objective:** Validate model statements by tracing each factual claim to supplied context, external evidence, or an explicit persona interpretation.
-
-**Data visibility requirements:** The left pane shows a product brief with numbered evidence sentences. The center pane shows a persona response with selectable claims. The right pane displays claim status: Supported, Interpretation, Contradicted, or Unsupported.
-
-**Interaction:** Learners highlight a claim and attach an evidence sentence or classification. Immediate feedback explains whether the evidence actually supports the claim. A second round introduces a plausible but nonexistent competitor statistic.
-
-**Controls:** Scenario selector, Show Sources, Verify Claim, Reveal Hint, and Reset. A final report counts unsupported claims and shows corrected wording.
-
-**Responsive behavior and accessibility:** Stack panes on small screens, maintain numbered cross-links, support keyboard highlights, and resize dynamically.
-
-**Instructional rationale:** A worked evidence-tracing task supports applying because learners practice the same verification procedure required in a real study.
-
-Implementation: p5.js highlighting layer with semantic HTML source and response panes.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/hallucination-detection-workbench/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 3: AI Capabilities, Limitations, and Bias](../../chapters/03-ai-limits-bias/index.md)
+### Learning Objective
+
+Validate model statements by tracing each factual claim to supplied context, external evidence, or an explicit persona interpretation.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Apply** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/03-ai-limits-bias/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

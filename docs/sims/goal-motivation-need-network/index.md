@@ -1,49 +1,53 @@
 ---
-title: Goal–Motivation–Need Network
-description: Construct a traceable network connecting persona goals to motivations, needs, context, behaviors, and marketing evidence.
-status: scaffold
-library: vis-network
-bloom_level: TBD
+title: "Goal\u2013Motivation\u2013Need Network"
+description: "Construct a traceable network connecting persona goals to motivations, needs, context, behaviors, and marketing evidence."
+status: deployed
+quality_score: 100
+image: /sims/goal-motivation-need-network/goal-motivation-need-network.png
+og:image: /sims/goal-motivation-need-network/goal-motivation-need-network.png
+twitter:image: /sims/goal-motivation-need-network/goal-motivation-need-network.png
+social:
+   cards: false
 ---
 
 # Goal–Motivation–Need Network
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Goal–Motivation–Need Network MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Construct a traceable network connecting persona goals to motivations, needs, context, behaviors, and marketing evidence.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 5: Building Complete Customer Personas](../../chapters/05-customer-personas/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: graph-model
-**sim-id:** goal-motivation-need-network<br/>
-**Library:** vis-network<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Create (L6)
-
-**Bloom verb:** construct
-
-**Learning objective:** Construct a traceable network connecting persona goals to motivations, needs, context, behaviors, and marketing evidence.
-
-**Node types:** Goal, Motivation, Need, Context, Behavior, Asset Claim, and Evidence. Node properties show source and confidence.
-
-**Edges:** MOTIVATED_BY, REQUIRES, OCCURS_IN, EXPRESSED_AS, ADDRESSED_BY, and SUPPORTED_BY. Every node and edge is clickable and explains the relationship.
-
-**Interaction:** Learners build a network for a scenario, test whether each asset claim addresses a need, and highlight disconnected decorative persona details. The tool flags circular reasoning and unsupported motivations.
-
-**Visual design:** Hierarchical layout from goals to evidence, with zoom, pan, drag, neighborhood highlighting, accessible side panel, and responsive resizing.
-
-**Instructional rationale:** Building a relationship model supports creating and makes the persona's decision logic inspectable.
-
-Implementation: vis-network model editor with keyboard navigation and JSON export.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/goal-motivation-need-network/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 5: Building Complete Customer Personas](../../chapters/05-customer-personas/index.md)
+### Learning Objective
+
+Construct a traceable network connecting persona goals to motivations, needs, context, behaviors, and marketing evidence.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/05-customer-personas/index.md) - Full instructional context and specification.
+2. [vis-network documentation](https://visjs.github.io/vis-network/docs/network/) - Rendering-library reference.
+

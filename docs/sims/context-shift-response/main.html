@@ -3,112 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
-    <title>Context Shift Response Explorer</title>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Context Shift Response Explorer using p5.js</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <script src="context-shift-response.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Context Shift Response Explorer</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> context-shift-response</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> Explain how changing task, device, time pressure, journey stage, and decision stakes can change a persona's evaluation without changing its core profile.</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: microsim
-    **sim-id:** context-shift-response<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    **Bloom level:** Understand (L2)
-    
-    **Bloom verb:** explain
-    
-    **Learning objective:** Explain how changing task, device, time pressure, journey stage, and decision stakes can change a persona's evaluation without changing its core profile.
-    
-    **Data visibility requirements:** Stage 1 shows a fixed persona profile and marketing message. Stage 2 displays baseline context fields. Stage 3 lets the learner change one field. Stage 4 shows a side-by-side response with changed phrases highlighted. Final stage asks which change plausibly caused each difference.
-    
-    **Controls:** Device, time available, journey stage, social setting, decision authority, and consequence severity. Next, Previous, Predict, Reveal, and Reset buttons support step-through learning.
-    
-    **Feedback:** The simulation distinguishes evidence-grounded contextual effects from unsupported claims. Learners must explain a change before revealing the worked interpretation.
-    
-    **Responsive design:** Side-by-side comparison becomes stacked cards on narrow screens; all controls are semantic HTML and update on resize.
-    
-    **Instructional rationale:** Concrete before-and-after data supports understanding better than continuous animation because learners can predict and trace each contextual change.
-    
-    Implementation: p5.js comparison view with accessible HTML selectors and fixed worked examples.
-    -->
+    <main></main>
+    <br/>
+    <a href=".">Back to Lesson Plan</a>
 </body>
 </html>

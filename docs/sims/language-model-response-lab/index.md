@@ -1,6 +1,7 @@
 ---
 title: Language Model Response Laboratory
 description: Step through a simplified language-model response process from instruction and tokens to context and variable output.
+status: deployed
 image: /sims/language-model-response-lab/language-model-response-lab.png
 og:image: /sims/language-model-response-lab/language-model-response-lab.png
 twitter:image: /sims/language-model-response-lab/language-model-response-lab.png

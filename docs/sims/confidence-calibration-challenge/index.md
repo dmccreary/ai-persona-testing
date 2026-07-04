@@ -1,51 +1,55 @@
 ---
-title: Confidence Calibration Challenge
-description: Assess evidence quality and assign a defensible confidence level with a specific uncertainty disclosure.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Confidence Calibration Challenge"
+description: "Assess evidence quality and assign a defensible confidence level with a specific uncertainty disclosure."
+status: deployed
+quality_score: 98
+image: /sims/confidence-calibration-challenge/confidence-calibration-challenge.png
+og:image: /sims/confidence-calibration-challenge/confidence-calibration-challenge.png
+twitter:image: /sims/confidence-calibration-challenge/confidence-calibration-challenge.png
+social:
+   cards: false
 ---
 
 # Confidence Calibration Challenge
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Confidence Calibration Challenge MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Assess evidence quality and assign a defensible confidence level with a specific uncertainty disclosure.
 
-The full specification below is extracted from
-[Chapter 4: Responsible AI, Privacy, and Governance](../../chapters/04-responsible-ai-governance/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** confidence-calibration-challenge<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Evaluate (L5)
+## Iframe Embed Code
 
-**Bloom verb:** assess
-
-**Learning objective:** Assess evidence quality and assign a defensible confidence level with a specific uncertainty disclosure.
-
-**Controls:** Evidence-source toggles, run-stability slider, persona-grounding selector, contradiction indicator, and validation-status selector. Learners set Low, Moderate, or High confidence and write a one-sentence disclosure.
-
-**Scenarios:** Brand clarity, accessibility, purchase intent, cultural interpretation, and competitor fact. Each scenario reveals evidence in stages.
-
-**Feedback:** The tool compares the learner's rating with a criteria-based range, highlights overconfidence or underconfidence, and critiques whether the disclosure names the material uncertainty.
-
-**Visual design:** Evidence cards feed a transparent balance scale rather than a fake precision gauge. Patterns and labels supplement color.
-
-**Responsive behavior:** Cards wrap by available width; controls remain keyboard accessible and re-render on resize.
-
-**Instructional rationale:** Calibration requires repeated judgment against evidence criteria and immediate feedback about the gap between certainty and support.
-
-Implementation: p5.js balance visualization with semantic HTML controls and rubric feedback.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/confidence-calibration-challenge/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 4: Responsible AI, Privacy, and Governance](../../chapters/04-responsible-ai-governance/index.md)
+### Learning Objective
+
+Assess evidence quality and assign a defensible confidence level with a specific uncertainty disclosure.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/04-responsible-ai-governance/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

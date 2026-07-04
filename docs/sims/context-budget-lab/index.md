@@ -1,49 +1,55 @@
 ---
-title: Context Budget Laboratory
-description: Prioritize and compress prompt context while preserving instructions, verified facts, persona fidelity, criteria, uncertainty, and source traceability.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Context Budget Laboratory"
+description: "Prioritize and compress prompt context while preserving instructions, verified facts, persona fidelity, criteria, uncertainty, and source traceability."
+status: deployed
+quality_score: 98
+image: /sims/context-budget-lab/context-budget-lab.png
+og:image: /sims/context-budget-lab/context-budget-lab.png
+twitter:image: /sims/context-budget-lab/context-budget-lab.png
+social:
+   cards: false
 ---
 
 # Context Budget Laboratory
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Context Budget Laboratory MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Prioritize and compress prompt context while preserving instructions, verified facts, persona fidelity, criteria, uncertainty, and source traceability.
 
-The full specification below is extracted from
-[Chapter 10: Prompt Engineering Foundations](../../chapters/10-prompt-engineering/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** context-budget-lab<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Analyze (L4)
+## Iframe Embed Code
 
-**Bloom verb:** prioritize
-
-**Learning objective:** Prioritize and compress prompt context while preserving instructions, verified facts, persona fidelity, criteria, uncertainty, and source traceability.
-
-**Controls:** Context-window budget, item cards with token costs, priority, sensitivity, age, and source status; Compress, Reference, Exclude, and Restore actions.
-
-**Visual elements:** A context meter and quality indicators for Role Fidelity, Evidence, Criteria, Safety, and Traceability. Learners must fit a scenario within the budget.
-
-**Feedback:** Removing essential context triggers a specific predicted failure. Compression choices reveal what was preserved or lost. Decorative persona detail competes with decision-relevant evidence.
-
-**Responsive design:** Cards wrap, meter remains visible, keyboard actions are supported, and layout updates on resize.
-
-**Instructional rationale:** Resource-constrained prioritization supports analysis of information value and loss.
-
-Implementation: p5.js budget visualization with accessible context cards.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/context-budget-lab/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 10: Prompt Engineering Foundations](../../chapters/10-prompt-engineering/index.md)
+### Learning Objective
+
+Prioritize and compress prompt context while preserving instructions, verified facts, persona fidelity, criteria, uncertainty, and source traceability.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/10-prompt-engineering/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

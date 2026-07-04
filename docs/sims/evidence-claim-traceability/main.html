@@ -3,114 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
-    <title>Evidence-to-Claim Traceability Map</title>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Evidence-to-Claim Traceability Map using vis-network</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+    <script src="evidence-claim-traceability.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Evidence-to-Claim Traceability Map</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> evidence-claim-traceability</p>
-            <p><strong>Library:</strong> vis-network</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> Validate whether a marketing research claim is adequately supported by its source evidence, method, assumptions, and limitations.</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: graph-model
-    **sim-id:** evidence-claim-traceability<br/>
-    **Library:** vis-network<br/>
-    **Status:** Specified
-    
-    **Bloom level:** Evaluate (L5)
-    
-    **Bloom verb:** validate
-    
-    **Learning objective:** Validate whether a marketing research claim is adequately supported by its source evidence, method, assumptions, and limitations.
-    
-    **Node types:** Decision, Research Question, Method, Evidence Item, Interpretation, Claim, Assumption, Constraint, and Limitation. Nodes show a short label plus properties such as source, date, and evidence status.
-    
-    **Edge types:** ANSWERS, PRODUCES, SUPPORTS, DEPENDS_ON, LIMITED_BY, and CONTRADICTS. Clicking an edge explains the relationship and displays the exact source passage or data field when available.
-    
-    **Sample graph:** A pricing-page decision connected to interview quotes, a survey result, three synthetic persona findings, and two proposed claims. One claim is deliberately too broad and displays a broken support path.
-    
-    **Interaction:** Hover shows properties; click highlights the evidence neighborhood; a “Trace claim” control reveals every supporting path; learners can attach or remove evidence and receive feedback about unsupported claims.
-    
-    **Layout and accessibility:** Hierarchical flow from question to claim, with zoom, pan, drag, keyboard node navigation, text-based graph alternative, and responsive resizing.
-    
-    **Instructional rationale:** Inspecting and repairing support paths requires evaluation against evidence-quality criteria.
-    
-    Implementation: vis-network with an accessible side panel and JSON-based sample cases.
-    -->
+    <main></main>
+    <br/>
+    <a href=".">Back to Lesson Plan</a>
 </body>
 </html>

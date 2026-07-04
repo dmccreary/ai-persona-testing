@@ -1,49 +1,53 @@
 ---
-title: Persona Drift Monitor
-description: Examine persona behavior across versions and identify factual, goal, expertise, preference, and tone drift.
-status: scaffold
-library: Chart.js
-bloom_level: TBD
+title: "Persona Drift Monitor"
+description: "Examine persona behavior across versions and identify factual, goal, expertise, preference, and tone drift."
+status: deployed
+quality_score: 100
+image: /sims/persona-drift-monitor/persona-drift-monitor.png
+og:image: /sims/persona-drift-monitor/persona-drift-monitor.png
+twitter:image: /sims/persona-drift-monitor/persona-drift-monitor.png
+social:
+   cards: false
 ---
 
 # Persona Drift Monitor
 
+<iframe src="main.html" height="652" width="100%" scrolling="no"></iframe>
 
+[Run the Persona Drift Monitor MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Examine persona behavior across versions and identify factual, goal, expertise, preference, and tone drift.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 9: Persona Consistency, Validation, and Reuse](../../chapters/09-persona-quality-reuse/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: chart
-**sim-id:** persona-drift-monitor<br/>
-**Library:** Chart.js<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Analyze (L4)
-
-**Bloom verb:** examine
-
-**Learning objective:** Examine persona behavior across versions and identify factual, goal, expertise, preference, and tone drift.
-
-**Chart:** Multi-series line and event chart. X-axis shows test date or version. Y-axis shows transparent rubric scores for five fidelity dimensions. Model, prompt, and evidence updates appear as selectable event markers.
-
-**Interaction:** Hover reveals exact score, test case, evidence excerpt, and version. Learners toggle dimensions, select a suspicious change, and inspect before/after responses. A threshold control demonstrates sensitivity without declaring one universal cutoff.
-
-**Feedback:** The tool asks whether the change is expected, harmful, or an intentional persona refinement, then compares the answer with documented change notes.
-
-**Responsive design:** Chart legend collapses on small screens; provide a table alternative and keyboard data navigation.
-
-**Instructional rationale:** Pattern finding across versions supports analysis and makes drift attributable to change events.
-
-Implementation: Responsive Chart.js visualization linked to accessible response panels.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/persona-drift-monitor/main.html" height="652" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 9: Persona Consistency, Validation, and Reuse](../../chapters/09-persona-quality-reuse/index.md)
+### Learning Objective
+
+Examine persona behavior across versions and identify factual, goal, expertise, preference, and tone drift.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/09-persona-quality-reuse/index.md) - Full instructional context and specification.
+2. [Chart.js documentation](https://www.chartjs.org/docs/latest/) - Rendering-library reference.
+

@@ -1,49 +1,55 @@
 ---
-title: Trigger-to-Decision Journey Simulator
-description: Demonstrate how purchase triggers, barriers, decision criteria, evidence, and stakeholder approval alter a buying path.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Trigger-to-Decision Journey Simulator"
+description: "Demonstrate how purchase triggers, barriers, decision criteria, evidence, and stakeholder approval alter a buying path."
+status: deployed
+quality_score: 98
+image: /sims/trigger-decision-journey/trigger-decision-journey.png
+og:image: /sims/trigger-decision-journey/trigger-decision-journey.png
+twitter:image: /sims/trigger-decision-journey/trigger-decision-journey.png
+social:
+   cards: false
 ---
 
 # Trigger-to-Decision Journey Simulator
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Trigger-to-Decision Journey Simulator MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Demonstrate how purchase triggers, barriers, decision criteria, evidence, and stakeholder approval alter a buying path.
 
-The full specification below is extracted from
-[Chapter 6: Persona Motivations, Behaviors, and Evidence](../../chapters/06-persona-behavior-evidence/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** trigger-decision-journey<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Apply (L3)
+## Iframe Embed Code
 
-**Bloom verb:** demonstrate
-
-**Learning objective:** Demonstrate how purchase triggers, barriers, decision criteria, evidence, and stakeholder approval alter a buying path.
-
-**Controls:** Trigger selector, barrier-strength sliders, criterion-priority controls, available evidence toggles, and stakeholder approval status. Defaults model a moderate-risk software purchase.
-
-**Visual elements:** A branching journey from inactive need to research, shortlist, trial, approval, purchase, defer, or reject. The current path is highlighted and every branch displays the condition that caused it.
-
-**Interaction:** Learners predict the next state before changing a parameter. The simulator explains why a barrier blocks progress or why evidence satisfies a criterion. It avoids claiming to predict real conversion rates.
-
-**Accessibility and responsiveness:** Use HTML controls, a text path summary, patterned states, keyboard access, and vertical layout on narrow screens.
-
-**Instructional rationale:** Parameter exploration supports applying by requiring learners to use decision concepts in unfamiliar scenarios.
-
-Implementation: p5.js state diagram with deterministic teaching rules and scenario JSON.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/trigger-decision-journey/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 6: Persona Motivations, Behaviors, and Evidence](../../chapters/06-persona-behavior-evidence/index.md)
+### Learning Objective
+
+Demonstrate how purchase triggers, barriers, decision criteria, evidence, and stakeholder approval alter a buying path.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Apply** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/06-persona-behavior-evidence/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

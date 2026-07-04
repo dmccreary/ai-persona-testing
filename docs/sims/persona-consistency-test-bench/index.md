@@ -1,49 +1,55 @@
 ---
-title: Persona Consistency Test Bench
-description: Compare repeated persona responses and distinguish harmless variation, context-sensitive change, behavioral inconsistency, and loss of character fidelity.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Persona Consistency Test Bench"
+description: "Compare repeated persona responses and distinguish harmless variation, context-sensitive change, behavioral inconsistency, and loss of character fidelity."
+status: deployed
+quality_score: 98
+image: /sims/persona-consistency-test-bench/persona-consistency-test-bench.png
+og:image: /sims/persona-consistency-test-bench/persona-consistency-test-bench.png
+twitter:image: /sims/persona-consistency-test-bench/persona-consistency-test-bench.png
+social:
+   cards: false
 ---
 
 # Persona Consistency Test Bench
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Persona Consistency Test Bench MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Compare repeated persona responses and distinguish harmless variation, context-sensitive change, behavioral inconsistency, and loss of character fidelity.
 
-The full specification below is extracted from
-[Chapter 9: Persona Consistency, Validation, and Reuse](../../chapters/09-persona-quality-reuse/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** persona-consistency-test-bench<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Analyze (L4)
+## Iframe Embed Code
 
-**Bloom verb:** compare
-
-**Learning objective:** Compare repeated persona responses and distinguish harmless variation, context-sensitive change, behavioral inconsistency, and loss of character fidelity.
-
-**Data visibility requirements:** Show the fixed profile, scenario conditions, three responses, extracted criteria, and changed variables. Learners reveal each layer step by step.
-
-**Interaction:** Highlight passages supporting or contradicting profile fields, classify each difference, and propose a correction. A context toggle demonstrates when changed behavior is justified.
-
-**Feedback:** The tool distinguishes exact-text matching from semantic stability and flags tests that reward robotic repetition.
-
-**Responsive design:** Responses display in columns on wide screens and tabs on narrow screens, with keyboard annotation and resize handling.
-
-**Instructional rationale:** Side-by-side evidence comparison supports analysis of subtle consistency failures.
-
-Implementation: p5.js annotation layer with semantic HTML response panels.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/persona-consistency-test-bench/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 9: Persona Consistency, Validation, and Reuse](../../chapters/09-persona-quality-reuse/index.md)
+### Learning Objective
+
+Compare repeated persona responses and distinguish harmless variation, context-sensitive change, behavioral inconsistency, and loss of character fidelity.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/09-persona-quality-reuse/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

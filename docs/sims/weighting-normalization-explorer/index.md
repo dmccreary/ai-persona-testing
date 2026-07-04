@@ -1,49 +1,55 @@
 ---
-title: Weighting and Normalization Explorer
-description: Examine how weighting, normalization, missing data, and noncompensatory gates affect an evaluation result.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Weighting and Normalization Explorer"
+description: "Examine how weighting, normalization, missing data, and noncompensatory gates affect an evaluation result."
+status: deployed
+quality_score: 98
+image: /sims/weighting-normalization-explorer/weighting-normalization-explorer.png
+og:image: /sims/weighting-normalization-explorer/weighting-normalization-explorer.png
+twitter:image: /sims/weighting-normalization-explorer/weighting-normalization-explorer.png
+social:
+   cards: false
 ---
 
 # Weighting and Normalization Explorer
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Weighting and Normalization Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Examine how weighting, normalization, missing data, and noncompensatory gates affect an evaluation result.
 
-The full specification below is extracted from
-[Chapter 17: Evaluation Rubrics, Scoring, and Evidence](../../chapters/17-rubrics-scoring-evidence/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** weighting-normalization-explorer<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Analyze (L4)
+## Iframe Embed Code
 
-**Bloom verb:** examine
-
-**Learning objective:** Examine how weighting, normalization, missing data, and noncompensatory gates affect an evaluation result.
-
-**Controls:** Criterion weights, raw ratings, scale ranges, missing-data policy, and mandatory gates. Defaults compare two campaign concepts.
-
-**Visual elements:** Original ratings, normalized values, weighted contribution, final score, and decision stability. Every transformation is visible.
-
-**Interaction:** Learners adjust weights, predict the effect, and run sensitivity analysis. Feedback flags hidden compensation and unstable ranking.
-
-**Responsive design:** Contribution chart and controls stack on narrow screens, with keyboard sliders and table alternative.
-
-**Instructional rationale:** Parameter manipulation supports analysis of score construction and sensitivity.
-
-Implementation: p5.js transparent calculation view with accessible controls.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/weighting-normalization-explorer/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 17: Evaluation Rubrics, Scoring, and Evidence](../../chapters/17-rubrics-scoring-evidence/index.md)
+### Learning Objective
+
+Examine how weighting, normalization, missing data, and noncompensatory gates affect an evaluation result.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/17-rubrics-scoring-evidence/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

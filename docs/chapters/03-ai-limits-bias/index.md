@@ -70,7 +70,7 @@ The following capability-boundary table summarizes distinctions after introducin
 
 #### Diagram: Capability and Claim Boundary Explorer
 
-<iframe src="../../sims/capability-claim-boundary/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/capability-claim-boundary/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Capability and Claim Boundary Explorer</summary>
@@ -114,7 +114,7 @@ A high-fidelity persona is not the longest profile. It is the profile that prese
 
 #### Diagram: Persona Fidelity Tuning Lab
 
-<iframe src="../../sims/persona-fidelity-tuning/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-fidelity-tuning/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Persona Fidelity Tuning Lab</summary>
@@ -180,7 +180,7 @@ Use this sequence:
 
 #### Diagram: Hallucination Detection Workbench
 
-<iframe src="../../sims/hallucination-detection-workbench/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/hallucination-detection-workbench/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Hallucination Detection Workbench</summary>
@@ -235,7 +235,7 @@ The table summarizes where bias can enter after those pathways have been explain
 
 #### Diagram: Bias Pathway and Control Map
 
-<iframe src="../../sims/bias-pathway-control-map/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/bias-pathway-control-map/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Bias Pathway and Control Map</summary>

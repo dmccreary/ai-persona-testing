@@ -1,47 +1,55 @@
 ---
-title: Parallel–Sequential Trade-Off Explorer
-description: Justify parallel, sequential, or hybrid execution based on task dependency, independence, latency, cost, contamination, and error propagation.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Parallel\u2013Sequential Trade-Off Explorer"
+description: "Justify parallel, sequential, or hybrid execution based on task dependency, independence, latency, cost, contamination, and error propagation."
+status: deployed
+quality_score: 98
+image: /sims/parallel-sequential-explorer/parallel-sequential-explorer.png
+og:image: /sims/parallel-sequential-explorer/parallel-sequential-explorer.png
+twitter:image: /sims/parallel-sequential-explorer/parallel-sequential-explorer.png
+social:
+   cards: false
 ---
 
 # Parallel–Sequential Trade-Off Explorer
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Parallel–Sequential Trade-Off Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Justify parallel, sequential, or hybrid execution based on task dependency, independence, latency, cost, contamination, and error propagation.
 
-The full specification below is extracted from
-[Chapter 14: Multi-Agent Workflows, Debate, and Consensus](../../chapters/14-multi-agent-orchestration/index.md).
+## How to Use
 
-```text
-Type: interactive infographic
-**sim-id:** parallel-sequential-explorer<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Evaluate (L5)
+## Iframe Embed Code
 
-**Bloom verb:** justify
-
-**Learning objective:** Justify parallel, sequential, or hybrid execution based on task dependency, independence, latency, cost, contamination, and error propagation.
-
-**Interaction:** Learners arrange the same roles in three patterns and inspect predicted consequences. Parameter controls adjust dependency strength, review budget, context sensitivity, and urgency.
-
-**Feedback:** The tool flags sequential persona anchoring, parallel stages with missing prerequisites, and hybrid plans without a clear convergence gate.
-
-**Responsive design:** Flows stack on narrow screens, with keyboard arrangement and text comparison.
-
-**Instructional rationale:** Multi-criteria design judgment supports evaluation.
-
-Implementation: Responsive p5.js flow comparison with accessible controls.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/parallel-sequential-explorer/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 14: Multi-Agent Workflows, Debate, and Consensus](../../chapters/14-multi-agent-orchestration/index.md)
+### Learning Objective
+
+Justify parallel, sequential, or hybrid execution based on task dependency, independence, latency, cost, contamination, and error propagation.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/14-multi-agent-orchestration/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

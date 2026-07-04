@@ -70,7 +70,7 @@ Protect independence with procedural controls:
 
 #### Diagram: Neutral Moderation Practice Lab
 
-<iframe src="../../sims/neutral-moderation-practice/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/neutral-moderation-practice/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Neutral Moderation Practice Lab</summary>
@@ -117,7 +117,7 @@ The following table summarizes the risks after defining them.
 
 #### Diagram: Opinion Contamination Experiment
 
-<iframe src="../../sims/opinion-contamination-experiment/main.html" width="100%" height="510px" scrolling="no"></iframe>
+<iframe src="../../sims/opinion-contamination-experiment/main.html" width="100%" height="652" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Opinion Contamination Experiment</summary>
@@ -168,7 +168,7 @@ An **Expert Critique** applies a defined professional lens to findings or assets
 
 #### Diagram: Evidence-Preserving Synthesis Workbench
 
-<iframe src="../../sims/evidence-synthesis-workbench/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/evidence-synthesis-workbench/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Evidence-Preserving Synthesis Workbench</summary>
@@ -212,7 +212,7 @@ These concepts align vertically. Positioning informs what the brand wants to sta
 
 #### Diagram: Brand Strategy Alignment Map
 
-<iframe src="../../sims/brand-strategy-alignment/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/brand-strategy-alignment/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Brand Strategy Alignment Map</summary>
@@ -278,7 +278,7 @@ Evaluate hierarchy by asking what a customer sees first, what meaning is formed,
 
 #### Diagram: Message Hierarchy Composer
 
-<iframe src="../../sims/message-hierarchy-composer/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/message-hierarchy-composer/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Message Hierarchy Composer</summary>

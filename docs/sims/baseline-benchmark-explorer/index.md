@@ -1,49 +1,53 @@
 ---
-title: Baseline and Benchmark Comparison Explorer
-description: Compare an asset with valid baselines and benchmarks while detecting incompatible conditions and unstable differences.
-status: scaffold
-library: Chart.js
-bloom_level: TBD
+title: "Baseline and Benchmark Comparison Explorer"
+description: "Compare an asset with valid baselines and benchmarks while detecting incompatible conditions and unstable differences."
+status: deployed
+quality_score: 100
+image: /sims/baseline-benchmark-explorer/baseline-benchmark-explorer.png
+og:image: /sims/baseline-benchmark-explorer/baseline-benchmark-explorer.png
+twitter:image: /sims/baseline-benchmark-explorer/baseline-benchmark-explorer.png
+social:
+   cards: false
 ---
 
 # Baseline and Benchmark Comparison Explorer
 
+<iframe src="main.html" height="652" width="100%" scrolling="no"></iframe>
 
+[Run the Baseline and Benchmark Comparison Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Compare an asset with valid baselines and benchmarks while detecting incompatible conditions and unstable differences.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 18: Marketing Metrics and Pattern Analysis](../../chapters/18-marketing-metrics-analysis/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: chart
-**sim-id:** baseline-benchmark-explorer<br/>
-**Library:** Chart.js<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Analyze (L4)
-
-**Bloom verb:** compare
-
-**Learning objective:** Compare an asset with valid baselines and benchmarks while detecting incompatible conditions and unstable differences.
-
-**Chart:** Interactive grouped bars and interval markers by criterion and persona. Hover reveals asset, version, context, rubric, run count, confidence, and evidence.
-
-**Controls:** Reference type, persona, criterion, version, and compatible-only filter. Sensitivity view shows whether conclusions survive plausible variation.
-
-**Feedback:** The tool blocks comparisons with mismatched criteria or contexts until the learner explains and corrects them.
-
-**Responsive design:** Charts stack on narrow screens with keyboard access and table alternative.
-
-**Instructional rationale:** Conditional comparison supports analysis rather than superficial ranking.
-
-Implementation: Responsive Chart.js visualization with metadata validation.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/baseline-benchmark-explorer/main.html" height="652" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 18: Marketing Metrics and Pattern Analysis](../../chapters/18-marketing-metrics-analysis/index.md)
+### Learning Objective
+
+Compare an asset with valid baselines and benchmarks while detecting incompatible conditions and unstable differences.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/18-marketing-metrics-analysis/index.md) - Full instructional context and specification.
+2. [Chart.js documentation](https://www.chartjs.org/docs/latest/) - Rendering-library reference.
+

@@ -1,47 +1,55 @@
 ---
-title: Multi-Agent Workflow Composer
-description: Construct a multi-agent workflow with bounded roles, validated handoffs, human review, exception paths, and an accountable final decision.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Multi-Agent Workflow Composer"
+description: "Construct a multi-agent workflow with bounded roles, validated handoffs, human review, exception paths, and an accountable final decision."
+status: deployed
+quality_score: 98
+image: /sims/multi-agent-workflow-composer/multi-agent-workflow-composer.png
+og:image: /sims/multi-agent-workflow-composer/multi-agent-workflow-composer.png
+twitter:image: /sims/multi-agent-workflow-composer/multi-agent-workflow-composer.png
+social:
+   cards: false
 ---
 
 # Multi-Agent Workflow Composer
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Multi-Agent Workflow Composer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Construct a multi-agent workflow with bounded roles, validated handoffs, human review, exception paths, and an accountable final decision.
 
-The full specification below is extracted from
-[Chapter 14: Multi-Agent Workflows, Debate, and Consensus](../../chapters/14-multi-agent-orchestration/index.md).
+## How to Use
 
-```text
-Type: workflow
-**sim-id:** multi-agent-workflow-composer<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Create (L6)
+## Iframe Embed Code
 
-**Bloom verb:** construct
-
-**Learning objective:** Construct a multi-agent workflow with bounded roles, validated handoffs, human review, exception paths, and an accountable final decision.
-
-**Interaction:** Learners drag persona, moderator, specialist, skeptic, validator, synthesis, and human-review stages onto a canvas. They connect typed outputs to compatible inputs and define stop conditions.
-
-**Feedback:** The composer flags redundant roles, cycles, missing validation, persona-to-decision shortcuts, and outputs with no consumer or owner.
-
-**Responsive design:** Canvas becomes an ordered stage list on narrow screens, with keyboard editing, text export, and resize handling.
-
-**Instructional rationale:** Workflow construction supports creating by integrating roles, evidence, and controls into a functioning system.
-
-Implementation: Responsive p5.js workflow builder with semantic stage forms.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/multi-agent-workflow-composer/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 14: Multi-Agent Workflows, Debate, and Consensus](../../chapters/14-multi-agent-orchestration/index.md)
+### Learning Objective
+
+Construct a multi-agent workflow with bounded roles, validated handoffs, human review, exception paths, and an accountable final decision.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/14-multi-agent-orchestration/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

@@ -1,47 +1,55 @@
 ---
-title: Agent Autonomy and Boundary Simulator
-description: Assess an agent action by consequence, reversibility, data sensitivity, tool scope, and required human approval.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Agent Autonomy and Boundary Simulator"
+description: "Assess an agent action by consequence, reversibility, data sensitivity, tool scope, and required human approval."
+status: deployed
+quality_score: 98
+image: /sims/agent-autonomy-boundary/agent-autonomy-boundary.png
+og:image: /sims/agent-autonomy-boundary/agent-autonomy-boundary.png
+twitter:image: /sims/agent-autonomy-boundary/agent-autonomy-boundary.png
+social:
+   cards: false
 ---
 
 # Agent Autonomy and Boundary Simulator
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Agent Autonomy and Boundary Simulator MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Assess an agent action by consequence, reversibility, data sensitivity, tool scope, and required human approval.
 
-The full specification below is extracted from
-[Chapter 13: Designing AI Agents and Expert Roles](../../chapters/13-ai-agents-expert-roles/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** agent-autonomy-boundary<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Evaluate (L5)
+## Iframe Embed Code
 
-**Bloom verb:** assess
-
-**Learning objective:** Assess an agent action by consequence, reversibility, data sensitivity, tool scope, and required human approval.
-
-**Controls:** Action selector, consequence, reversibility, sensitivity, external communication, cost limit, and evidence quality. Learners assign Allow, Allow with Log, Require Approval, Escalate, or Prohibit.
-
-**Feedback:** The simulator explains why a harmless drafting action differs from publishing, exporting data, or changing a decision record. It exposes boundaries missed by one-dimensional risk scores.
-
-**Responsive design:** Controls and decision path stack on narrow screens, with keyboard access and text summary.
-
-**Instructional rationale:** Scenario judgment against explicit criteria supports evaluation of autonomy.
-
-Implementation: p5.js decision visualization with accessible controls.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/agent-autonomy-boundary/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 13: Designing AI Agents and Expert Roles](../../chapters/13-ai-agents-expert-roles/index.md)
+### Learning Objective
+
+Assess an agent action by consequence, reversibility, data sensitivity, tool scope, and required human approval.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/13-ai-agents-expert-roles/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

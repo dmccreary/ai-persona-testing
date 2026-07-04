@@ -1,6 +1,7 @@
 ---
 title: Persona Simulation Mode Explorer
 description: Compare four AI persona simulation modes by purpose, participants, interaction pattern, and evidence.
+status: deployed
 image: /sims/persona-simulation-mode-explorer/persona-simulation-mode-explorer.png
 og:image: /sims/persona-simulation-mode-explorer/persona-simulation-mode-explorer.png
 twitter:image: /sims/persona-simulation-mode-explorer/persona-simulation-mode-explorer.png

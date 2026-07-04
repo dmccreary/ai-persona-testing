@@ -1,49 +1,55 @@
 ---
-title: Research Dialogue Practice Studio
-description: Practice selecting neutral, open, probing, adversarial, and follow-up questions while maintaining persona fidelity and evidence boundaries.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Research Dialogue Practice Studio"
+description: "Practice selecting neutral, open, probing, adversarial, and follow-up questions while maintaining persona fidelity and evidence boundaries."
+status: deployed
+quality_score: 98
+image: /sims/research-dialogue-studio/research-dialogue-studio.png
+og:image: /sims/research-dialogue-studio/research-dialogue-studio.png
+twitter:image: /sims/research-dialogue-studio/research-dialogue-studio.png
+social:
+   cards: false
 ---
 
 # Research Dialogue Practice Studio
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Research Dialogue Practice Studio MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Practice selecting neutral, open, probing, adversarial, and follow-up questions while maintaining persona fidelity and evidence boundaries.
 
-The full specification below is extracted from
-[Chapter 12: Prompt Testing and Research Dialogue](../../chapters/12-prompt-testing-dialogue/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** research-dialogue-studio<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Apply (L3)
+## Iframe Embed Code
 
-**Bloom verb:** practice
-
-**Learning objective:** Practice selecting neutral, open, probing, adversarial, and follow-up questions while maintaining persona fidelity and evidence boundaries.
-
-**Interaction:** A persona produces a short response to a marketing asset. Learners select or write the next question. The dialogue branches and displays feedback on leading assumptions, depth, evidence, and role pressure.
-
-**Controls:** Question-type filter, Neutrality Check, Persona Fidelity meter, Evidence Trace, Undo, and Compare Path. No score rewards agreement with the marketer.
-
-**Feedback:** The system explains how each question shaped the next response and offers a more neutral alternative when needed.
-
-**Responsive design:** Conversation and coaching panel become tabs on narrow screens, with keyboard input and resize handling.
-
-**Instructional rationale:** Guided dialogue practice with immediate feedback supports applying question-design principles.
-
-Implementation: p5.js conversation map with semantic HTML chat and coaching controls.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/research-dialogue-studio/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 12: Prompt Testing and Research Dialogue](../../chapters/12-prompt-testing-dialogue/index.md)
+### Learning Objective
+
+Practice selecting neutral, open, probing, adversarial, and follow-up questions while maintaining persona fidelity and evidence boundaries.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/12-prompt-testing-dialogue/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

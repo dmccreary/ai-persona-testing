@@ -1,49 +1,55 @@
 ---
-title: Prompt Instruction Quality Auditor
-description: Critique a persona-evaluation prompt for objective alignment, role separation, context quality, task clarity, constraints, criteria, output structure, and uncertainty handling.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Prompt Instruction Quality Auditor"
+description: "Critique a persona-evaluation prompt for objective alignment, role separation, context quality, task clarity, constraints, criteria, output structure, and uncertainty handling."
+status: deployed
+quality_score: 98
+image: /sims/prompt-instruction-auditor/prompt-instruction-auditor.png
+og:image: /sims/prompt-instruction-auditor/prompt-instruction-auditor.png
+twitter:image: /sims/prompt-instruction-auditor/prompt-instruction-auditor.png
+social:
+   cards: false
 ---
 
 # Prompt Instruction Quality Auditor
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Prompt Instruction Quality Auditor MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Critique a persona-evaluation prompt for objective alignment, role separation, context quality, task clarity, constraints, criteria, output structure, and uncertainty handling.
 
-The full specification below is extracted from
-[Chapter 10: Prompt Engineering Foundations](../../chapters/10-prompt-engineering/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** prompt-instruction-auditor<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Evaluate (L5)
+## Iframe Embed Code
 
-**Bloom verb:** critique
-
-**Learning objective:** Critique a persona-evaluation prompt for objective alignment, role separation, context quality, task clarity, constraints, criteria, output structure, and uncertainty handling.
-
-**Interaction:** Learners annotate a prompt, select failure risks, and rewrite weak sections. The auditor runs scenario-based checks rather than assigning an unexplained total score.
-
-**Test cases:** Hidden instruction inside marketing copy, missing persona evidence, conflicting roles, vague “be unbiased” constraint, undefined rating scale, and output without citations.
-
-**Feedback:** Each issue links to the affected output and shows how a revised instruction changes the expected behavior. Compare mode displays version differences.
-
-**Responsive design:** Prompt and audit panel sit side by side on wide screens and become tabs on narrow screens. Support keyboard annotation and resize handling.
-
-**Instructional rationale:** Rubric-based prompt critique supports evaluation and prepares learners for systematic testing.
-
-Implementation: p5.js annotation overlay with semantic HTML prompt editor and tests.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/prompt-instruction-auditor/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 10: Prompt Engineering Foundations](../../chapters/10-prompt-engineering/index.md)
+### Learning Objective
+
+Critique a persona-evaluation prompt for objective alignment, role separation, context quality, task clarity, constraints, criteria, output structure, and uncertainty handling.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/10-prompt-engineering/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

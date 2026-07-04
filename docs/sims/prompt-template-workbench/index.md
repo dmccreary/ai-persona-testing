@@ -1,49 +1,55 @@
 ---
-title: Prompt Template Variable Workbench
-description: Implement a reusable prompt template by defining variables, validating inputs, locking stable instructions, and specifying missing-value behavior.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Prompt Template Variable Workbench"
+description: "Implement a reusable prompt template by defining variables, validating inputs, locking stable instructions, and specifying missing-value behavior."
+status: deployed
+quality_score: 98
+image: /sims/prompt-template-workbench/prompt-template-workbench.png
+og:image: /sims/prompt-template-workbench/prompt-template-workbench.png
+twitter:image: /sims/prompt-template-workbench/prompt-template-workbench.png
+social:
+   cards: false
 ---
 
 # Prompt Template Variable Workbench
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Prompt Template Variable Workbench MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Implement a reusable prompt template by defining variables, validating inputs, locking stable instructions, and specifying missing-value behavior.
 
-The full specification below is extracted from
-[Chapter 11: Structured Prompts and Reliable Outputs](../../chapters/11-structured-prompts/index.md).
+## How to Use
 
-```text
-Type: interactive infographic
-**sim-id:** prompt-template-workbench<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Apply (L3)
+## Iframe Embed Code
 
-**Bloom verb:** implement
-
-**Learning objective:** Implement a reusable prompt template by defining variables, validating inputs, locking stable instructions, and specifying missing-value behavior.
-
-**Layout:** Fixed template blocks on the left, variable registry on the right, rendered preview below.
-
-**Interaction:** Learners define source, type, required status, and validation for each variable, then populate three scenarios. The tool blocks unsafe overrides and shows unresolved placeholders.
-
-**Feedback:** Missing or malformed values produce targeted messages. Compare mode reveals accidental changes to locked instructions.
-
-**Responsive design:** Panels stack below 750 pixels, with keyboard editing, text export, and resize handling.
-
-**Instructional rationale:** Configuring and running a template in varied scenarios supports applying reusable prompt design.
-
-Implementation: Responsive p5.js block view with semantic HTML forms.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/prompt-template-workbench/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 11: Structured Prompts and Reliable Outputs](../../chapters/11-structured-prompts/index.md)
+### Learning Objective
+
+Implement a reusable prompt template by defining variables, validating inputs, locking stable instructions, and specifying missing-value behavior.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/11-structured-prompts/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

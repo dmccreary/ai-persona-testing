@@ -1,47 +1,55 @@
 ---
-title: Debate and Consensus Protocol Simulator
-description: Execute a debate protocol that preserves evidence, balanced turns, rational updating, minority positions, and unresolved disagreement.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Debate and Consensus Protocol Simulator"
+description: "Execute a debate protocol that preserves evidence, balanced turns, rational updating, minority positions, and unresolved disagreement."
+status: deployed
+quality_score: 98
+image: /sims/debate-consensus-protocol/debate-consensus-protocol.png
+og:image: /sims/debate-consensus-protocol/debate-consensus-protocol.png
+twitter:image: /sims/debate-consensus-protocol/debate-consensus-protocol.png
+social:
+   cards: false
 ---
 
 # Debate and Consensus Protocol Simulator
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Debate and Consensus Protocol Simulator MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Execute a debate protocol that preserves evidence, balanced turns, rational updating, minority positions, and unresolved disagreement.
 
-The full specification below is extracted from
-[Chapter 14: Multi-Agent Workflows, Debate, and Consensus](../../chapters/14-multi-agent-orchestration/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** debate-consensus-protocol<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Apply (L3)
+## Iframe Embed Code
 
-**Bloom verb:** execute
-
-**Learning objective:** Execute a debate protocol that preserves evidence, balanced turns, rational updating, minority positions, and unresolved disagreement.
-
-**Interaction:** Learners moderate three agents reviewing a claim. They select speakers, request evidence, flag repetition, introduce verified information, and decide whether to continue, synthesize, or stop.
-
-**Feedback:** The simulator identifies anchoring, unequal turns, unsupported certainty, false consensus, and changes made only under social pressure.
-
-**Responsive design:** Debate timeline and evidence panel become tabs on narrow screens, with keyboard controls and resize handling.
-
-**Instructional rationale:** Guided protocol execution supports applying fair discussion controls.
-
-Implementation: p5.js debate timeline with semantic transcript and evidence controls.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/debate-consensus-protocol/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 14: Multi-Agent Workflows, Debate, and Consensus](../../chapters/14-multi-agent-orchestration/index.md)
+### Learning Objective
+
+Execute a debate protocol that preserves evidence, balanced turns, rational updating, minority positions, and unresolved disagreement.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/14-multi-agent-orchestration/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

@@ -1,51 +1,53 @@
 ---
-title: Evidence Triangulation Studio
-description: Validate a marketing claim by combining appropriately independent synthetic, behavioral, qualitative, quantitative, and expert evidence.
-status: scaffold
-library: vis-network
-bloom_level: TBD
+title: "Evidence Triangulation Studio"
+description: "Validate a marketing claim by combining appropriately independent synthetic, behavioral, qualitative, quantitative, and expert evidence."
+status: deployed
+quality_score: 100
+image: /sims/evidence-triangulation-studio/evidence-triangulation-studio.png
+og:image: /sims/evidence-triangulation-studio/evidence-triangulation-studio.png
+twitter:image: /sims/evidence-triangulation-studio/evidence-triangulation-studio.png
+social:
+   cards: false
 ---
 
 # Evidence Triangulation Studio
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Evidence Triangulation Studio MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Validate a marketing claim by combining appropriately independent synthetic, behavioral, qualitative, quantitative, and expert evidence.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 4: Responsible AI, Privacy, and Governance](../../chapters/04-responsible-ai-governance/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: graph-model
-**sim-id:** evidence-triangulation-studio<br/>
-**Library:** vis-network<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Evaluate (L5)
-
-**Bloom verb:** validate
-
-**Learning objective:** Validate a marketing claim by combining appropriately independent synthetic, behavioral, qualitative, quantitative, and expert evidence.
-
-**Node types:** Claim, Synthetic Finding, Interview Theme, Survey Result, Behavioral Metric, Market Source, Expert Review, Assumption, and Limitation. Node properties show owner, date, method, and independence group.
-
-**Edges:** SUPPORTS, CONTRADICTS, SHARES_SOURCE_WITH, LIMITED_BY, and REQUIRES_VALIDATION. Clicking an edge explains its evidentiary meaning.
-
-**Interaction:** Learners build a support network for one of four claims. The credibility meter rewards method diversity and source independence, flags duplicated evidence, and lowers confidence when contradictory evidence is ignored.
-
-**Feedback:** Selecting “Ready to report” generates a claim audit explaining its supported scope, unresolved uncertainty, and next validation step.
-
-**Responsive design:** Force-directed graph with zoom, pan, drag, keyboard traversal, accessible side panel, and resize handling.
-
-**Instructional rationale:** Constructing and auditing a multi-source evidence network directly practices evaluation rather than simple recall.
-
-Implementation: vis-network with rule-based independence scoring and JSON scenarios.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/evidence-triangulation-studio/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 4: Responsible AI, Privacy, and Governance](../../chapters/04-responsible-ai-governance/index.md)
+### Learning Objective
+
+Validate a marketing claim by combining appropriately independent synthetic, behavioral, qualitative, quantitative, and expert evidence.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/04-responsible-ai-governance/index.md) - Full instructional context and specification.
+2. [vis-network documentation](https://visjs.github.io/vis-network/docs/network/) - Rendering-library reference.
+

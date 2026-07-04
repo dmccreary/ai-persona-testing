@@ -1,6 +1,7 @@
 ---
 title: AI Persona Testing Evidence Workflow
 description: Practice moving a marketing question through synthetic persona review to an explicit real-customer validation plan.
+status: deployed
 image: /sims/persona-testing-evidence-workflow/persona-testing-evidence-workflow.png
 og:image: /sims/persona-testing-evidence-workflow/persona-testing-evidence-workflow.png
 twitter:image: /sims/persona-testing-evidence-workflow/persona-testing-evidence-workflow.png

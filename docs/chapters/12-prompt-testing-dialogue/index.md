@@ -72,7 +72,7 @@ Test suites should include:
 
 #### Diagram: Prompt Test Suite Builder
 
-<iframe src="../../sims/prompt-test-suite-builder/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/prompt-test-suite-builder/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Prompt Test Suite Builder</summary>
@@ -129,7 +129,7 @@ The table summarizes comparison dimensions.
 
 #### Diagram: Controlled Prompt Comparison Lab
 
-<iframe src="../../sims/prompt-comparison-lab/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/prompt-comparison-lab/main.html" width="100%" height="652" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Controlled Prompt Comparison Lab</summary>
@@ -176,7 +176,7 @@ Diagnose conflicts with four questions:
 
 #### Diagram: Instruction Conflict Debugger
 
-<iframe src="../../sims/instruction-conflict-debugger/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/instruction-conflict-debugger/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Instruction Conflict Debugger</summary>
@@ -263,7 +263,7 @@ A useful progression is:
 
 #### Diagram: Research Dialogue Practice Studio
 
-<iframe src="../../sims/research-dialogue-studio/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/research-dialogue-studio/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Research Dialogue Practice Studio</summary>

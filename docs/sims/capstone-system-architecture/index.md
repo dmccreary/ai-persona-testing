@@ -1,49 +1,55 @@
 ---
-title: Capstone System Architecture
-description: Design an end-to-end capstone architecture integrating research, personas, prompts, agents, rubrics, graph memory, automation, human governance, validation, and reporting.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Capstone System Architecture"
+description: "Design an end-to-end capstone architecture integrating research, personas, prompts, agents, rubrics, graph memory, automation, human governance, validation, and reporting."
+status: deployed
+quality_score: 98
+image: /sims/capstone-system-architecture/capstone-system-architecture.png
+og:image: /sims/capstone-system-architecture/capstone-system-architecture.png
+twitter:image: /sims/capstone-system-architecture/capstone-system-architecture.png
+social:
+   cards: false
 ---
 
 # Capstone System Architecture
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Capstone System Architecture MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Design an end-to-end capstone architecture integrating research, personas, prompts, agents, rubrics, graph memory, automation, human governance, validation, and reporting.
 
-The full specification below is extracted from
-[Chapter 20: Automation, Reporting, and Capstone Systems](../../chapters/20-automation-reporting-capstone/index.md).
+## How to Use
 
-```text
-Type: diagram
-**sim-id:** capstone-system-architecture<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Create (L6)
+## Iframe Embed Code
 
-**Bloom verb:** design
-
-**Learning objective:** Design an end-to-end capstone architecture integrating research, personas, prompts, agents, rubrics, graph memory, automation, human governance, validation, and reporting.
-
-**Components:** Intake, Governance, Asset Registry, Persona Library, Prompt Registry, Agent Workflow, Evaluation Store, Knowledge Graph, Review Queue, Reporting, Decision Record, Validation Research, and Improvement Tracking.
-
-**Interaction:** Clicking any component reveals inputs, outputs, owner, tests, risks, and dependencies. Learners can remove a component and observe which controls or evidence paths fail.
-
-**Feedback:** Architecture checks flag missing ownership, circular approval, unvalidated external claims, sensitive data exposure, and reports without provenance.
-
-**Responsive design:** Layered architecture becomes collapsible vertical sections on narrow screens, with keyboard navigation and resize handling.
-
-**Instructional rationale:** Integrating all course systems into a governed architecture represents the Create-level capstone outcome.
-
-Implementation: Responsive p5.js architecture explorer with accessible detail panel.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/capstone-system-architecture/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 20: Automation, Reporting, and Capstone Systems](../../chapters/20-automation-reporting-capstone/index.md)
+### Learning Objective
+
+Design an end-to-end capstone architecture integrating research, personas, prompts, agents, rubrics, graph memory, automation, human governance, validation, and reporting.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/20-automation-reporting-capstone/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

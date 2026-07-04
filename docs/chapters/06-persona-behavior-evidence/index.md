@@ -70,7 +70,7 @@ These need types interact. A transparent implementation plan can meet a function
 
 #### Diagram: Need and Driver Trade-Off Map
 
-<iframe src="../../sims/need-driver-tradeoff-map/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/need-driver-tradeoff-map/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Need and Driver Trade-Off Map</summary>
@@ -124,7 +124,7 @@ A simplified buying sequence looks like this:
 
 #### Diagram: Trigger-to-Decision Journey Simulator
 
-<iframe src="../../sims/trigger-decision-journey/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/trigger-decision-journey/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Trigger-to-Decision Journey Simulator</summary>
@@ -173,7 +173,7 @@ The following planning table summarizes those distinctions.
 
 #### Diagram: Information and Channel Fit Lab
 
-<iframe src="../../sims/information-channel-fit/main.html" width="100%" height="510px" scrolling="no"></iframe>
+<iframe src="../../sims/information-channel-fit/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Information and Channel Fit Lab</summary>
@@ -255,7 +255,7 @@ Use a completion audit:
 
 #### Diagram: Persona Completeness Auditor
 
-<iframe src="../../sims/persona-completeness-auditor/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-completeness-auditor/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Persona Completeness Auditor</summary>

@@ -1,47 +1,55 @@
 ---
-title: Neutral Moderation Practice Lab
-description: Practice neutral moderation by selecting balanced questions, allocating turns, requesting evidence, and summarizing disagreement without steering.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Neutral Moderation Practice Lab"
+description: "Practice neutral moderation by selecting balanced questions, allocating turns, requesting evidence, and summarizing disagreement without steering."
+status: deployed
+quality_score: 98
+image: /sims/neutral-moderation-practice/neutral-moderation-practice.png
+og:image: /sims/neutral-moderation-practice/neutral-moderation-practice.png
+twitter:image: /sims/neutral-moderation-practice/neutral-moderation-practice.png
+social:
+   cards: false
 ---
 
 # Neutral Moderation Practice Lab
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Neutral Moderation Practice Lab MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Practice neutral moderation by selecting balanced questions, allocating turns, requesting evidence, and summarizing disagreement without steering.
 
-The full specification below is extracted from
-[Chapter 15: Moderation Risks and Brand Strategy](../../chapters/15-moderation-brand-strategy/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** neutral-moderation-practice<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Apply (L3)
+## Iframe Embed Code
 
-**Bloom verb:** practice
-
-**Learning objective:** Practice neutral moderation by selecting balanced questions, allocating turns, requesting evidence, and summarizing disagreement without steering.
-
-**Interaction:** Three agents discuss a campaign. Learners choose moderator actions at branching moments. The transcript highlights leading premises, unequal attention, praise cues, and distorted summaries.
-
-**Feedback:** Each action shows its likely effect on independence and participation. Learners can rewrite a leading intervention and replay the turn.
-
-**Responsive design:** Transcript and coaching panel become tabs on narrow screens, with keyboard choices and resize handling.
-
-**Instructional rationale:** Guided moderation with immediate consequence feedback supports applying neutral facilitation.
-
-Implementation: p5.js branching dialogue with semantic transcript controls.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/neutral-moderation-practice/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 15: Moderation Risks and Brand Strategy](../../chapters/15-moderation-brand-strategy/index.md)
+### Learning Objective
+
+Practice neutral moderation by selecting balanced questions, allocating turns, requesting evidence, and summarizing disagreement without steering.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/15-moderation-brand-strategy/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

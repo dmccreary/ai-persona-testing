@@ -74,7 +74,7 @@ The following checklist converts these ideas into a privacy review.
 
 #### Diagram: Persona Data Privacy Flow
 
-<iframe src="../../sims/persona-data-privacy-flow/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-data-privacy-flow/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Persona Data Privacy Flow</summary>
@@ -149,7 +149,7 @@ Possible evidence sources include:
 
 #### Diagram: Evidence Triangulation Studio
 
-<iframe src="../../sims/evidence-triangulation-studio/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/evidence-triangulation-studio/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Evidence Triangulation Studio</summary>
@@ -195,7 +195,7 @@ Confidence belongs to a claim for a particular use. A team can have high confide
 
 #### Diagram: Confidence Calibration Challenge
 
-<iframe src="../../sims/confidence-calibration-challenge/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/confidence-calibration-challenge/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Confidence Calibration Challenge</summary>
@@ -274,7 +274,7 @@ The following role table reinforces the governance model.
 
 #### Diagram: Governance and Ethical Escalation Simulator
 
-<iframe src="../../sims/governance-escalation-simulator/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/governance-escalation-simulator/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Governance and Ethical Escalation Simulator</summary>

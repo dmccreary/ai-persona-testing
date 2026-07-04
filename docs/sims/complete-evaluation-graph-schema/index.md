@@ -1,47 +1,53 @@
 ---
-title: Complete Evaluation Graph Schema
-description: Construct a complete evaluation schema connecting persona, asset, goal, pain point, reaction, criterion, evidence, finding, risk, recommendation, decision, implementation, and outcome nodes.
-status: scaffold
-library: vis-network
-bloom_level: TBD
+title: "Complete Evaluation Graph Schema"
+description: "Construct a complete evaluation schema connecting persona, asset, goal, pain point, reaction, criterion, evidence, finding, risk, recommendation, decision, implementation, and outcome nodes."
+status: deployed
+quality_score: 100
+image: /sims/complete-evaluation-graph-schema/complete-evaluation-graph-schema.png
+og:image: /sims/complete-evaluation-graph-schema/complete-evaluation-graph-schema.png
+twitter:image: /sims/complete-evaluation-graph-schema/complete-evaluation-graph-schema.png
+social:
+   cards: false
 ---
 
 # Complete Evaluation Graph Schema
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Complete Evaluation Graph Schema MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Construct a complete evaluation schema connecting persona, asset, goal, pain point, reaction, criterion, evidence, finding, risk, recommendation, decision, implementation, and outcome nodes.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 20: Automation, Reporting, and Capstone Systems](../../chapters/20-automation-reporting-capstone/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: graph-model
-**sim-id:** complete-evaluation-graph-schema<br/>
-**Library:** vis-network<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Create (L6)
-
-**Bloom verb:** construct
-
-**Learning objective:** Construct a complete evaluation schema connecting persona, asset, goal, pain point, reaction, criterion, evidence, finding, risk, recommendation, decision, implementation, and outcome nodes.
-
-**Interaction:** Learners add node types, define relationship direction, inspect required properties, and validate sample paths from source evidence to outcome.
-
-**Feedback:** The schema flags vague relationships, unsupported findings, recommendations without owners, and outcomes detached from decisions.
-
-**Responsive design:** Zoomable graph with keyboard traversal, searchable side panel, text triple view, and resize handling.
-
-**Instructional rationale:** Schema construction integrates the course's evidence and decision concepts at the Create level.
-
-Implementation: vis-network model editor with JSON schema validation.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/complete-evaluation-graph-schema/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 20: Automation, Reporting, and Capstone Systems](../../chapters/20-automation-reporting-capstone/index.md)
+### Learning Objective
+
+Construct a complete evaluation schema connecting persona, asset, goal, pain point, reaction, criterion, evidence, finding, risk, recommendation, decision, implementation, and outcome nodes.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/20-automation-reporting-capstone/index.md) - Full instructional context and specification.
+2. [vis-network documentation](https://visjs.github.io/vis-network/docs/network/) - Rendering-library reference.
+

@@ -1,49 +1,55 @@
 ---
-title: Page Task and Evidence Explorer
-description: Examine how page hierarchy, content, proof, navigation, and friction support or block a persona's task.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Page Task and Evidence Explorer"
+description: "Examine how page hierarchy, content, proof, navigation, and friction support or block a persona's task."
+status: deployed
+quality_score: 98
+image: /sims/page-task-evidence-explorer/page-task-evidence-explorer.png
+og:image: /sims/page-task-evidence-explorer/page-task-evidence-explorer.png
+twitter:image: /sims/page-task-evidence-explorer/page-task-evidence-explorer.png
+social:
+   cards: false
 ---
 
 # Page Task and Evidence Explorer
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Page Task and Evidence Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Examine how page hierarchy, content, proof, navigation, and friction support or block a persona's task.
 
-The full specification below is extracted from
-[Chapter 16: Evaluating Marketing Assets and Messaging](../../chapters/16-marketing-asset-evaluation/index.md).
+## How to Use
 
-```text
-Type: workflow
-**sim-id:** page-task-evidence-explorer<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Analyze (L4)
+## Iframe Embed Code
 
-**Bloom verb:** examine
-
-**Learning objective:** Examine how page hierarchy, content, proof, navigation, and friction support or block a persona's task.
-
-**Layout:** Responsive page wireframe beside a task path. Selectable regions include headline, navigation, value, proof, terms, form, and action.
-
-**Interaction:** Learners predict where a persona looks next, click regions to reveal content, and mark confusion, missing evidence, or task progress. Compare desktop and mobile reading order.
-
-**Feedback:** The tool distinguishes page-level failures from product or source-channel problems and preserves exact evidence.
-
-**Responsive design:** Wireframe scales and task panel stacks below 750 pixels, with keyboard region navigation.
-
-**Instructional rationale:** Tracing a goal through page evidence supports analysis of information architecture and friction.
-
-Implementation: p5.js interactive wireframe with semantic region buttons.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/page-task-evidence-explorer/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 16: Evaluating Marketing Assets and Messaging](../../chapters/16-marketing-asset-evaluation/index.md)
+### Learning Objective
+
+Examine how page hierarchy, content, proof, navigation, and friction support or block a persona's task.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/16-marketing-asset-evaluation/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

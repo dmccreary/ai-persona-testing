@@ -1,49 +1,53 @@
 ---
-title: Bias Pathway and Control Map
-description: Attribute a biased research outcome to model, persona selection, cultural assumptions, researcher interpretation, or automation design and select an appropriate control.
-status: scaffold
-library: vis-network
-bloom_level: TBD
+title: "Bias Pathway and Control Map"
+description: "Attribute a biased research outcome to model, persona selection, cultural assumptions, researcher interpretation, or automation design and select an appropriate control."
+status: deployed
+quality_score: 100
+image: /sims/bias-pathway-control-map/bias-pathway-control-map.png
+og:image: /sims/bias-pathway-control-map/bias-pathway-control-map.png
+twitter:image: /sims/bias-pathway-control-map/bias-pathway-control-map.png
+social:
+   cards: false
 ---
 
 # Bias Pathway and Control Map
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Bias Pathway and Control Map MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Attribute a biased research outcome to model, persona selection, cultural assumptions, researcher interpretation, or automation design and select an appropriate control.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 3: AI Capabilities, Limitations, and Bias](../../chapters/03-ai-limits-bias/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: graph-model
-**sim-id:** bias-pathway-control-map<br/>
-**Library:** vis-network<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Analyze (L4)
-
-**Bloom verb:** attribute
-
-**Learning objective:** Attribute a biased research outcome to model, persona selection, cultural assumptions, researcher interpretation, or automation design and select an appropriate control.
-
-**Node types:** Source Data, Model, Persona Set, Prompt, Marketing Asset, Raw Response, Aggregation, Researcher, Dashboard, Decision, Bias Risk, and Control. Each node shows owner and review status.
-
-**Edges:** INFLUENCES, SELECTS, FRAMES, SUMMARIZES, REVIEWS, and MITIGATES. Every edge is clickable and explains how bias can travel along it.
-
-**Interaction:** Learners choose a failure scenario, click the suspicious output, and trace upstream paths. They attach controls such as coverage review, prompt neutralization, cultural review, blind scoring, or evidence inspection. The system explains why a control acts at a particular point.
-
-**Visual design:** Force-directed graph with risk nodes in red and control nodes in green. Selection highlights the full causal neighborhood. Include zoom, pan, drag, keyboard traversal, and a text alternative.
-
-**Instructional rationale:** Causal tracing supports analysis because learners locate where a system-level bias entered rather than blaming a single component automatically.
-
-Implementation: vis-network with a responsive side panel and scenario-driven graph states.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/bias-pathway-control-map/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 3: AI Capabilities, Limitations, and Bias](../../chapters/03-ai-limits-bias/index.md)
+### Learning Objective
+
+Attribute a biased research outcome to model, persona selection, cultural assumptions, researcher interpretation, or automation design and select an appropriate control.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/03-ai-limits-bias/index.md) - Full instructional context and specification.
+2. [vis-network documentation](https://visjs.github.io/vis-network/docs/network/) - Rendering-library reference.
+

@@ -1,47 +1,55 @@
 ---
-title: Reporting and Dashboard Design Studio
-description: Compose executive, persona-comparison, heat-map, and recommendation views that preserve evidence, confidence, disagreement, accessibility, and decision context.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Reporting and Dashboard Design Studio"
+description: "Compose executive, persona-comparison, heat-map, and recommendation views that preserve evidence, confidence, disagreement, accessibility, and decision context."
+status: deployed
+quality_score: 98
+image: /sims/reporting-dashboard-studio/reporting-dashboard-studio.png
+og:image: /sims/reporting-dashboard-studio/reporting-dashboard-studio.png
+twitter:image: /sims/reporting-dashboard-studio/reporting-dashboard-studio.png
+social:
+   cards: false
 ---
 
 # Reporting and Dashboard Design Studio
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Reporting and Dashboard Design Studio MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Compose executive, persona-comparison, heat-map, and recommendation views that preserve evidence, confidence, disagreement, accessibility, and decision context.
 
-The full specification below is extracted from
-[Chapter 20: Automation, Reporting, and Capstone Systems](../../chapters/20-automation-reporting-capstone/index.md).
+## How to Use
 
-```text
-Type: interactive infographic
-**sim-id:** reporting-dashboard-studio<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Create (L6)
+## Iframe Embed Code
 
-**Bloom verb:** compose
-
-**Learning objective:** Compose executive, persona-comparison, heat-map, and recommendation views that preserve evidence, confidence, disagreement, accessibility, and decision context.
-
-**Interaction:** Learners select report widgets, connect each to graph queries, define audience and claim boundaries, and inspect drill-down paths. Missing provenance blocks publication.
-
-**Feedback:** The studio flags decorative metrics, inaccessible color-only heat maps, hidden uncertainty, and executive summaries that omit severe minority findings.
-
-**Responsive design:** Dashboard grid becomes an ordered mobile layout with keyboard widget controls and text exports.
-
-**Instructional rationale:** Designing linked report views supports creating evidence-centered communication.
-
-Implementation: p5.js dashboard composer with semantic widget controls.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/reporting-dashboard-studio/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 20: Automation, Reporting, and Capstone Systems](../../chapters/20-automation-reporting-capstone/index.md)
+### Learning Objective
+
+Compose executive, persona-comparison, heat-map, and recommendation views that preserve evidence, confidence, disagreement, accessibility, and decision context.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/20-automation-reporting-capstone/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

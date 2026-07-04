@@ -1,49 +1,53 @@
 ---
-title: Brand Strategy Alignment Map
-description: Examine alignment among positioning, promise, identity, personality, voice, tone, value proposition, product messaging, hierarchy, assets, and customer evidence.
-status: scaffold
-library: vis-network
-bloom_level: TBD
+title: "Brand Strategy Alignment Map"
+description: "Examine alignment among positioning, promise, identity, personality, voice, tone, value proposition, product messaging, hierarchy, assets, and customer evidence."
+status: deployed
+quality_score: 100
+image: /sims/brand-strategy-alignment/brand-strategy-alignment.png
+og:image: /sims/brand-strategy-alignment/brand-strategy-alignment.png
+twitter:image: /sims/brand-strategy-alignment/brand-strategy-alignment.png
+social:
+   cards: false
 ---
 
 # Brand Strategy Alignment Map
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Brand Strategy Alignment Map MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Examine alignment among positioning, promise, identity, personality, voice, tone, value proposition, product messaging, hierarchy, assets, and customer evidence.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 15: Moderation Risks and Brand Strategy](../../chapters/15-moderation-brand-strategy/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: graph-model
-**sim-id:** brand-strategy-alignment<br/>
-**Library:** vis-network<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Analyze (L4)
-
-**Bloom verb:** examine
-
-**Learning objective:** Examine alignment among positioning, promise, identity, personality, voice, tone, value proposition, product messaging, hierarchy, assets, and customer evidence.
-
-**Node types:** Audience, Positioning, Promise, Identity Element, Personality Trait, Voice Rule, Tone Choice, Value Proposition, Message, Asset, Experience Evidence, and Customer Finding.
-
-**Edges:** INFORMS, EXPRESSES, ADAPTS_TO, SUPPORTS, CONTRADICTS, and VALIDATED_BY. Every node and edge is selectable.
-
-**Interaction:** Learners trace one asset back to strategy, identify broken links, and attach evidence. Highlight mode shows unsupported promises or messages inconsistent with positioning.
-
-**Responsive design:** Zoomable graph with keyboard traversal, side panel, text hierarchy, and resize handling.
-
-**Instructional rationale:** Relationship tracing supports analysis of brand coherence.
-
-Implementation: vis-network alignment graph with accessible detail panel.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/brand-strategy-alignment/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 15: Moderation Risks and Brand Strategy](../../chapters/15-moderation-brand-strategy/index.md)
+### Learning Objective
+
+Examine alignment among positioning, promise, identity, personality, voice, tone, value proposition, product messaging, hierarchy, assets, and customer evidence.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/15-moderation-brand-strategy/index.md) - Full instructional context and specification.
+2. [vis-network documentation](https://visjs.github.io/vis-network/docs/network/) - Rendering-library reference.
+

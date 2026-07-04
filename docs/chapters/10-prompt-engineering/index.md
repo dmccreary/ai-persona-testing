@@ -81,7 +81,7 @@ Structure does not require a long prompt. It requires clear separation. Headings
 
 #### Diagram: Prompt Architecture Builder
 
-<iframe src="../../sims/prompt-architecture-builder/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/prompt-architecture-builder/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Prompt Architecture Builder</summary>
@@ -167,7 +167,7 @@ An **Evaluation Prompt** applies criteria to an asset or response. It defines wh
 
 #### Diagram: Prompt Role Routing Lab
 
-<iframe src="../../sims/prompt-role-routing/main.html" width="100%" height="510px" scrolling="no"></iframe>
+<iframe src="../../sims/prompt-role-routing/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Prompt Role Routing Lab</summary>
@@ -215,7 +215,7 @@ Use a context inventory:
 
 #### Diagram: Context Budget Laboratory
 
-<iframe src="../../sims/context-budget-lab/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/context-budget-lab/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Context Budget Laboratory</summary>
@@ -278,7 +278,7 @@ A practical evaluation sequence is:
 
 #### Diagram: Prompt Instruction Quality Auditor
 
-<iframe src="../../sims/prompt-instruction-auditor/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/prompt-instruction-auditor/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Prompt Instruction Quality Auditor</summary>

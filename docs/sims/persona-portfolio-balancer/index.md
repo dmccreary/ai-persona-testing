@@ -1,49 +1,55 @@
 ---
-title: Persona Portfolio Balancer
-description: Design a persona portfolio that balances primary, secondary, negative, edge-case, adversarial, international, accessibility, and customer-state perspectives.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Persona Portfolio Balancer"
+description: "Design a persona portfolio that balances primary, secondary, negative, edge-case, adversarial, international, accessibility, and customer-state perspectives."
+status: deployed
+quality_score: 98
+image: /sims/persona-portfolio-balancer/persona-portfolio-balancer.png
+og:image: /sims/persona-portfolio-balancer/persona-portfolio-balancer.png
+twitter:image: /sims/persona-portfolio-balancer/persona-portfolio-balancer.png
+social:
+   cards: false
 ---
 
 # Persona Portfolio Balancer
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Persona Portfolio Balancer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Design a persona portfolio that balances primary, secondary, negative, edge-case, adversarial, international, accessibility, and customer-state perspectives.
 
-The full specification below is extracted from
-[Chapter 7: Customer Segmentation and Persona Archetypes](../../chapters/07-segmentation-archetypes/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** persona-portfolio-balancer<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Create (L6)
+## Iframe Embed Code
 
-**Bloom verb:** design
-
-**Learning objective:** Design a persona portfolio that balances primary, secondary, negative, edge-case, adversarial, international, accessibility, and customer-state perspectives.
-
-**Controls:** Marketing decision selector, portfolio size from three to twelve, evidence coverage toggles, and role assignment. Persona candidate cards show needs, behaviors, context, source quality, and uncertainty.
-
-**Visual elements:** A coverage matrix compares selected personas across research roles, needs, channels, geography, access conditions, and lifecycle state. No demographic score is treated as diversity by itself.
-
-**Feedback:** The tool flags redundant personas, unsupported roles, missing critical perspectives, unfair negative-persona criteria, and token diversity that does not change behavior. Learners justify every inclusion.
-
-**Responsive and accessible design:** Matrix becomes stacked role cards below 750 pixels; provide keyboard selection, patterns, text report, and resize handling.
-
-**Instructional rationale:** Portfolio construction supports creating because learners synthesize evidence and testing goals into a bounded system.
-
-Implementation: p5.js portfolio workspace with semantic controls and exportable coverage report.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/persona-portfolio-balancer/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 7: Customer Segmentation and Persona Archetypes](../../chapters/07-segmentation-archetypes/index.md)
+### Learning Objective
+
+Design a persona portfolio that balances primary, secondary, negative, edge-case, adversarial, international, accessibility, and customer-state perspectives.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/07-segmentation-archetypes/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

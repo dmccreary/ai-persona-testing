@@ -65,7 +65,7 @@ A good purpose answers four questions:
 
 #### Diagram: Persona Purpose Canvas
 
-<iframe src="../../sims/persona-purpose-canvas/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-purpose-canvas/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Persona Purpose Canvas</summary>
@@ -137,7 +137,7 @@ Specify context as testable conditions:
 
 #### Diagram: Context Shift Response Explorer
 
-<iframe src="../../sims/context-shift-response/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/context-shift-response/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Context Shift Response Explorer</summary>
@@ -207,7 +207,7 @@ The concepts form a chain rather than a pile of attributes. A value can shape an
 
 #### Diagram: Persona Evidence Layer Builder
 
-<iframe src="../../sims/persona-evidence-layer-builder/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-evidence-layer-builder/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Persona Evidence Layer Builder</summary>
@@ -251,7 +251,7 @@ This structure gives the simulated persona reasons to attend to particular parts
 
 #### Diagram: Goal–Motivation–Need Network
 
-<iframe src="../../sims/goal-motivation-need-network/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/goal-motivation-need-network/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Goal–Motivation–Need Network</summary>

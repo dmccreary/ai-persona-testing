@@ -1,51 +1,55 @@
 ---
-title: Governance and Ethical Escalation Simulator
-description: Execute a governance workflow by assigning reviews, applying guardrails, preserving an audit trail, and escalating ethical concerns to an accountable decision owner.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Governance and Ethical Escalation Simulator"
+description: "Execute a governance workflow by assigning reviews, applying guardrails, preserving an audit trail, and escalating ethical concerns to an accountable decision owner."
+status: deployed
+quality_score: 98
+image: /sims/governance-escalation-simulator/governance-escalation-simulator.png
+og:image: /sims/governance-escalation-simulator/governance-escalation-simulator.png
+twitter:image: /sims/governance-escalation-simulator/governance-escalation-simulator.png
+social:
+   cards: false
 ---
 
 # Governance and Ethical Escalation Simulator
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Governance and Ethical Escalation Simulator MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Execute a governance workflow by assigning reviews, applying guardrails, preserving an audit trail, and escalating ethical concerns to an accountable decision owner.
 
-The full specification below is extracted from
-[Chapter 4: Responsible AI, Privacy, and Governance](../../chapters/04-responsible-ai-governance/index.md).
+## How to Use
 
-```text
-Type: workflow
-**sim-id:** governance-escalation-simulator<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Apply (L3)
+## Iframe Embed Code
 
-**Bloom verb:** execute
-
-**Learning objective:** Execute a governance workflow by assigning reviews, applying guardrails, preserving an audit trail, and escalating ethical concerns to an accountable decision owner.
-
-**Layout:** Swimlanes for Researcher, Privacy, Fairness, Domain Expert, Decision Owner, and Audit System. A case card advances through intake, risk screening, review, decision, and monitoring.
-
-**Interaction:** Learners choose reviewers and controls for scenarios involving sensitive health data, international personas, accessibility claims, and synthetic quotations. Decision points allow Proceed, Revise, Escalate, or Stop.
-
-**Feedback:** The simulator exposes missed stakeholders, inadequate controls, conflicting duties, and incomplete audit records. Clicking any audit event shows actor, time, rationale, and artifact version.
-
-**Completion:** A case passes only when purpose, data, evidence, disclosure, harm controls, accountable approval, and retention are addressed. The final screen explains that escalation is a successful safety action, not a workflow failure.
-
-**Responsive and accessible design:** Stack lanes on small screens, support keyboard navigation, and update layout on resize.
-
-**Instructional rationale:** Scenario decisions with consequences support applying because learners practice an operational governance process.
-
-Implementation: Responsive p5.js swimlane simulator with semantic controls and structured audit events.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/governance-escalation-simulator/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 4: Responsible AI, Privacy, and Governance](../../chapters/04-responsible-ai-governance/index.md)
+### Learning Objective
+
+Execute a governance workflow by assigning reviews, applying guardrails, preserving an audit trail, and escalating ethical concerns to an accountable decision owner.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/04-responsible-ai-governance/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

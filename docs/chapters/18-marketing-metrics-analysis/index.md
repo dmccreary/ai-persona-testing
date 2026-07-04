@@ -81,7 +81,7 @@ An **Accessibility Score** summarizes conformance or task accessibility across d
 
 #### Diagram: Marketing Construct Evidence Lab
 
-<iframe src="../../sims/marketing-construct-evidence/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/marketing-construct-evidence/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Marketing Construct Evidence Lab</summary>
@@ -126,7 +126,7 @@ Preserve raw measures and conditions. If the rubric changes, create a new baseli
 
 #### Diagram: Baseline and Benchmark Comparison Explorer
 
-<iframe src="../../sims/baseline-benchmark-explorer/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/baseline-benchmark-explorer/main.html" width="100%" height="652" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Baseline and Benchmark Comparison Explorer</summary>
@@ -190,7 +190,7 @@ Use a coding process:
 
 #### Diagram: Response Coding and Theme Workbench
 
-<iframe src="../../sims/response-coding-theme-workbench/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/response-coding-theme-workbench/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Response Coding and Theme Workbench</summary>
@@ -261,7 +261,7 @@ Trust signals can reduce confusion, but clutter can create more. Match the signa
 
 #### Diagram: Gap, Signal, and Confusion Map
 
-<iframe src="../../sims/gap-signal-confusion-map/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/gap-signal-confusion-map/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Gap, Signal, and Confusion Map</summary>

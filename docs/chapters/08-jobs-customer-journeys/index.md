@@ -68,7 +68,7 @@ The dimensions coexist. A manager adopting a scheduling tool wants to publish sh
 
 #### Diagram: Customer Job Statement Builder
 
-<iframe src="../../sims/customer-job-statement-builder/main.html" width="100%" height="510px" scrolling="no"></iframe>
+<iframe src="../../sims/customer-job-statement-builder/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Customer Job Statement Builder</summary>
@@ -126,7 +126,7 @@ Marketing often overemphasizes pull. A page lists benefits while ignoring habit 
 
 #### Diagram: Switching Forces Balance Lab
 
-<iframe src="../../sims/switching-forces-balance/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/switching-forces-balance/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Switching Forces Balance Lab</summary>
@@ -183,7 +183,7 @@ Map each stage using customer job, desired outcome, questions, emotions, actions
 
 #### Diagram: Evidence-Grounded Journey Mapper
 
-<iframe src="../../sims/evidence-grounded-journey/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/evidence-grounded-journey/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Evidence-Grounded Journey Mapper</summary>
@@ -229,7 +229,7 @@ Analyze friction using five questions:
 
 #### Diagram: Moment and Friction Prioritizer
 
-<iframe src="../../sims/moment-friction-prioritizer/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/moment-friction-prioritizer/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Moment and Friction Prioritizer</summary>

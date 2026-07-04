@@ -1,49 +1,55 @@
 ---
-title: Capability and Claim Boundary Explorer
-description: Judge whether an AI persona task supports brainstorming, directional insight, or a validated customer claim.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Capability and Claim Boundary Explorer"
+description: "Judge whether an AI persona task supports brainstorming, directional insight, or a validated customer claim."
+status: deployed
+quality_score: 98
+image: /sims/capability-claim-boundary/capability-claim-boundary.png
+og:image: /sims/capability-claim-boundary/capability-claim-boundary.png
+twitter:image: /sims/capability-claim-boundary/capability-claim-boundary.png
+social:
+   cards: false
 ---
 
 # Capability and Claim Boundary Explorer
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Capability and Claim Boundary Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Judge whether an AI persona task supports brainstorming, directional insight, or a validated customer claim.
 
-The full specification below is extracted from
-[Chapter 3: AI Capabilities, Limitations, and Bias](../../chapters/03-ai-limits-bias/index.md).
+## How to Use
 
-```text
-Type: interactive infographic
-**sim-id:** capability-claim-boundary<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Evaluate (L5)
+## Iframe Embed Code
 
-**Bloom verb:** judge
-
-**Learning objective:** Judge whether an AI persona task supports brainstorming, directional insight, or a validated customer claim.
-
-**Layout:** A responsive three-zone board labeled Generate, Investigate, and Validate. Marketing claim cards appear beside evidence cards describing model outputs, analytics, interviews, surveys, or verified sources.
-
-**Interaction:** Learners pair a claim with available evidence and place it in a zone. Feedback explains whether the wording exceeds the evidence. A rewrite control asks the learner to narrow an unsupported claim rather than merely marking it wrong.
-
-**Scenarios:** Include a tagline review, accessibility concern, pricing reaction, international launch, and demand estimate. Each scenario has at least one ambiguous answer that requires a written justification.
-
-**Accessibility:** Keyboard card movement, high-contrast patterns, and a text list alternative. Reflow zones vertically below 700 pixels and respond to resize events.
-
-**Instructional rationale:** Evaluating claim boundaries requires applying evidence criteria to consequential marketing statements.
-
-Implementation: Responsive p5.js board with semantic HTML cards and rule-based feedback.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/capability-claim-boundary/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 3: AI Capabilities, Limitations, and Bias](../../chapters/03-ai-limits-bias/index.md)
+### Learning Objective
+
+Judge whether an AI persona task supports brainstorming, directional insight, or a validated customer claim.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Evaluate** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/03-ai-limits-bias/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

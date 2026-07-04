@@ -1,49 +1,55 @@
 ---
-title: Structured Response Schema Lab
-description: Design and validate an output schema containing observation, interpretation, rating, evidence, confidence, recommendation, rationale, citation, and missing-data fields.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Structured Response Schema Lab"
+description: "Design and validate an output schema containing observation, interpretation, rating, evidence, confidence, recommendation, rationale, citation, and missing-data fields."
+status: deployed
+quality_score: 98
+image: /sims/structured-response-schema/structured-response-schema.png
+og:image: /sims/structured-response-schema/structured-response-schema.png
+twitter:image: /sims/structured-response-schema/structured-response-schema.png
+social:
+   cards: false
 ---
 
 # Structured Response Schema Lab
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Structured Response Schema Lab MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Design and validate an output schema containing observation, interpretation, rating, evidence, confidence, recommendation, rationale, citation, and missing-data fields.
 
-The full specification below is extracted from
-[Chapter 11: Structured Prompts and Reliable Outputs](../../chapters/11-structured-prompts/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** structured-response-schema<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Create (L6)
+## Iframe Embed Code
 
-**Bloom verb:** design
-
-**Learning objective:** Design and validate an output schema containing observation, interpretation, rating, evidence, confidence, recommendation, rationale, citation, and missing-data fields.
-
-**Interaction:** Learners assemble fields, define types and required status, set rating anchors, and validate sample persona responses. They repair missing citations, unsupported recommendations, and invalid confidence values.
-
-**Visual elements:** A schema tree, sample response, and traceability path. Clicking a field highlights every dependent field.
-
-**Feedback:** The tool explains why syntactic validity does not guarantee evidentiary validity and tests cross-field rules.
-
-**Responsive design:** Tree becomes a collapsible list on narrow screens, with keyboard editing, text export, and resize handling.
-
-**Instructional rationale:** Schema construction and sample validation support creating an analysis-ready response design.
-
-Implementation: p5.js schema visualization with semantic form controls.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/structured-response-schema/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 11: Structured Prompts and Reliable Outputs](../../chapters/11-structured-prompts/index.md)
+### Learning Objective
+
+Design and validate an output schema containing observation, interpretation, rating, evidence, confidence, recommendation, rationale, citation, and missing-data fields.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/11-structured-prompts/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

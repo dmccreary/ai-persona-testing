@@ -1,49 +1,53 @@
 ---
-title: Persona Evaluation Knowledge Graph Builder
-description: Construct a provenance-rich evaluation graph linking personas, assets, goals, pain points, reactions, evidence, risks, and recommendations.
-status: scaffold
-library: vis-network
-bloom_level: TBD
+title: "Persona Evaluation Knowledge Graph Builder"
+description: "Construct a provenance-rich evaluation graph linking personas, assets, goals, pain points, reactions, evidence, risks, and recommendations."
+status: deployed
+quality_score: 100
+image: /sims/persona-evaluation-graph-builder/persona-evaluation-graph-builder.png
+og:image: /sims/persona-evaluation-graph-builder/persona-evaluation-graph-builder.png
+twitter:image: /sims/persona-evaluation-graph-builder/persona-evaluation-graph-builder.png
+social:
+   cards: false
 ---
 
 # Persona Evaluation Knowledge Graph Builder
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Persona Evaluation Knowledge Graph Builder MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Construct a provenance-rich evaluation graph linking personas, assets, goals, pain points, reactions, evidence, risks, and recommendations.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 19: Risk-Based Recommendations and Knowledge Graphs](../../chapters/19-risk-knowledge-graphs/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: graph-model
-**sim-id:** persona-evaluation-graph-builder<br/>
-**Library:** vis-network<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Create (L6)
-
-**Bloom verb:** construct
-
-**Learning objective:** Construct a provenance-rich evaluation graph linking personas, assets, goals, pain points, reactions, evidence, risks, and recommendations.
-
-**Interaction:** Learners add typed nodes and relationships, validate direction and required properties, run sample queries, and inspect every evidence path.
-
-**Visual design:** Node color and shape indicate type; edge labels remain visible on selection. Side panel shows properties, source, confidence, and version.
-
-**Feedback:** The builder flags duplicate nodes, vague relationships, unsupported reactions, circular recommendation logic, and missing provenance.
-
-**Responsive design:** Zoom, pan, drag, keyboard traversal, text triple view, and resize handling.
-
-**Instructional rationale:** Building a typed relationship model supports creating and makes evidence structure explicit.
-
-Implementation: vis-network model editor with JSON export and schema validation.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/persona-evaluation-graph-builder/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 19: Risk-Based Recommendations and Knowledge Graphs](../../chapters/19-risk-knowledge-graphs/index.md)
+### Learning Objective
+
+Construct a provenance-rich evaluation graph linking personas, assets, goals, pain points, reactions, evidence, risks, and recommendations.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/19-risk-knowledge-graphs/index.md) - Full instructional context and specification.
+2. [vis-network documentation](https://visjs.github.io/vis-network/docs/network/) - Rendering-library reference.
+

@@ -1,47 +1,55 @@
 ---
-title: Evidence-Preserving Synthesis Workbench
-description: Synthesize multi-agent findings while preserving citations, minority opinions, conflicts, uncertainty, and distinct expert critique.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Evidence-Preserving Synthesis Workbench"
+description: "Synthesize multi-agent findings while preserving citations, minority opinions, conflicts, uncertainty, and distinct expert critique."
+status: deployed
+quality_score: 98
+image: /sims/evidence-synthesis-workbench/evidence-synthesis-workbench.png
+og:image: /sims/evidence-synthesis-workbench/evidence-synthesis-workbench.png
+twitter:image: /sims/evidence-synthesis-workbench/evidence-synthesis-workbench.png
+social:
+   cards: false
 ---
 
 # Evidence-Preserving Synthesis Workbench
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Evidence-Preserving Synthesis Workbench MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Synthesize multi-agent findings while preserving citations, minority opinions, conflicts, uncertainty, and distinct expert critique.
 
-The full specification below is extracted from
-[Chapter 15: Moderation Risks and Brand Strategy](../../chapters/15-moderation-brand-strategy/index.md).
+## How to Use
 
-```text
-Type: interactive infographic
-**sim-id:** evidence-synthesis-workbench<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Evaluate (L5)
+## Iframe Embed Code
 
-**Bloom verb:** synthesize
-
-**Learning objective:** Synthesize multi-agent findings while preserving citations, minority opinions, conflicts, uncertainty, and distinct expert critique.
-
-**Interaction:** Learners group structured findings into themes, inspect source links, classify conflicts, and draft a synthesis. A devil's-advocate control introduces a supported counterargument.
-
-**Feedback:** The workbench flags unsupported merging, vanished minority evidence, double-counted duplicate agents, and recommendations attributed to personas.
-
-**Responsive design:** Evidence tray and synthesis canvas stack on narrow screens, with keyboard grouping, text export, and resize handling.
-
-**Instructional rationale:** Evidence-based integration and conflict judgment support evaluation and synthesis.
-
-Implementation: Responsive p5.js card workspace with provenance graph.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/evidence-synthesis-workbench/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 15: Moderation Risks and Brand Strategy](../../chapters/15-moderation-brand-strategy/index.md)
+### Learning Objective
+
+Synthesize multi-agent findings while preserving citations, minority opinions, conflicts, uncertainty, and distinct expert critique.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/15-moderation-brand-strategy/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

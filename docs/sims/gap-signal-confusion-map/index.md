@@ -1,49 +1,53 @@
 ---
-title: Gap, Signal, and Confusion Map
-description: Attribute messaging gaps, credibility gaps, trust signals, and confusion points to specific asset evidence, persona context, and consequences.
-status: scaffold
-library: vis-network
-bloom_level: TBD
+title: "Gap, Signal, and Confusion Map"
+description: "Attribute messaging gaps, credibility gaps, trust signals, and confusion points to specific asset evidence, persona context, and consequences."
+status: deployed
+quality_score: 100
+image: /sims/gap-signal-confusion-map/gap-signal-confusion-map.png
+og:image: /sims/gap-signal-confusion-map/gap-signal-confusion-map.png
+twitter:image: /sims/gap-signal-confusion-map/gap-signal-confusion-map.png
+social:
+   cards: false
 ---
 
 # Gap, Signal, and Confusion Map
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Gap, Signal, and Confusion Map MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Attribute messaging gaps, credibility gaps, trust signals, and confusion points to specific asset evidence, persona context, and consequences.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 18: Marketing Metrics and Pattern Analysis](../../chapters/18-marketing-metrics-analysis/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: graph-model
-**sim-id:** gap-signal-confusion-map<br/>
-**Library:** vis-network<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Analyze (L4)
-
-**Bloom verb:** attribute
-
-**Learning objective:** Attribute messaging gaps, credibility gaps, trust signals, and confusion points to specific asset evidence, persona context, and consequences.
-
-**Node types:** Intended Message, Asset Element, Persona Interpretation, Evidence, Trust Signal, Confusion Point, Messaging Gap, Credibility Gap, and Action.
-
-**Interaction:** Select a gap to highlight its causal path, attach missing proof or revised message, and compare persona responses. Every edge reveals rationale.
-
-**Feedback:** The graph flags unsupported fixes and trust signals unrelated to the identified gap.
-
-**Responsive design:** Zoomable graph with keyboard traversal, side panel, text path view, and resize handling.
-
-**Instructional rationale:** Causal attribution across evidence supports analysis and targeted correction.
-
-Implementation: vis-network with editable evidence relationships.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/gap-signal-confusion-map/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 18: Marketing Metrics and Pattern Analysis](../../chapters/18-marketing-metrics-analysis/index.md)
+### Learning Objective
+
+Attribute messaging gaps, credibility gaps, trust signals, and confusion points to specific asset evidence, persona context, and consequences.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/18-marketing-metrics-analysis/index.md) - Full instructional context and specification.
+2. [vis-network documentation](https://visjs.github.io/vis-network/docs/network/) - Rendering-library reference.
+

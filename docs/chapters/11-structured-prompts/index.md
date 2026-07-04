@@ -70,7 +70,7 @@ Use a clarity test:
 
 #### Diagram: Prompt Specificity and Clarity Clinic
 
-<iframe src="../../sims/prompt-clarity-clinic/main.html" width="100%" height="510px" scrolling="no"></iframe>
+<iframe src="../../sims/prompt-clarity-clinic/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Prompt Specificity and Clarity Clinic</summary>
@@ -151,7 +151,7 @@ If a required variable is missing, return its name and stop evaluation.
 
 #### Diagram: Prompt Template Variable Workbench
 
-<iframe src="../../sims/prompt-template-workbench/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/prompt-template-workbench/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Prompt Template Variable Workbench</summary>
@@ -201,7 +201,7 @@ A safe chain workflow is:
 
 #### Diagram: Prompt Chain Trace Explorer
 
-<iframe src="../../sims/prompt-chain-trace/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/prompt-chain-trace/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Prompt Chain Trace Explorer</summary>
@@ -268,7 +268,7 @@ Together these fields create a trace: citation supports evidence; evidence suppo
 
 #### Diagram: Structured Response Schema Lab
 
-<iframe src="../../sims/structured-response-schema/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/structured-response-schema/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Structured Response Schema Lab</summary>

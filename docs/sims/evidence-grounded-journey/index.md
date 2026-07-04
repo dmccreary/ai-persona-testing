@@ -1,49 +1,55 @@
 ---
-title: Evidence-Grounded Journey Mapper
-description: Construct a customer journey connecting stages, jobs, outcomes, contexts, touchpoints, forces, evidence, and alternative paths.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Evidence-Grounded Journey Mapper"
+description: "Construct a customer journey connecting stages, jobs, outcomes, contexts, touchpoints, forces, evidence, and alternative paths."
+status: deployed
+quality_score: 98
+image: /sims/evidence-grounded-journey/evidence-grounded-journey.png
+og:image: /sims/evidence-grounded-journey/evidence-grounded-journey.png
+twitter:image: /sims/evidence-grounded-journey/evidence-grounded-journey.png
+social:
+   cards: false
 ---
 
 # Evidence-Grounded Journey Mapper
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Evidence-Grounded Journey Mapper MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Construct a customer journey connecting stages, jobs, outcomes, contexts, touchpoints, forces, evidence, and alternative paths.
 
-The full specification below is extracted from
-[Chapter 8: Jobs-to-Be-Done and Customer Journeys](../../chapters/08-jobs-customer-journeys/index.md).
+## How to Use
 
-```text
-Type: workflow
-**sim-id:** evidence-grounded-journey<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Create (L6)
+## Iframe Embed Code
 
-**Bloom verb:** construct
-
-**Learning objective:** Construct a customer journey connecting stages, jobs, outcomes, contexts, touchpoints, forces, evidence, and alternative paths.
-
-**Layout:** Responsive journey lanes with stages as columns and rows for Job, Outcome, Context, Action, Touchpoint, Evidence, Emotion, and Barrier.
-
-**Interaction:** Learners drag research notes into cells, create branches, and click a connector to explain why movement occurs. Unsupported cells remain visibly marked as assumptions.
-
-**Feedback:** The mapper flags company-centered stages, missing customer outcomes, unsupported linearity, and touchpoints without evidence. Compare mode overlays two personas.
-
-**Accessibility:** Keyboard editing, text export, collapsible rows, and vertical stage cards on narrow screens.
-
-**Instructional rationale:** Building and revising a journey model supports creating by integrating many evidence types into a coherent path.
-
-Implementation: Responsive p5.js journey canvas with semantic HTML editors.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/evidence-grounded-journey/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 8: Jobs-to-Be-Done and Customer Journeys](../../chapters/08-jobs-customer-journeys/index.md)
+### Learning Objective
+
+Construct a customer journey connecting stages, jobs, outcomes, contexts, touchpoints, forces, evidence, and alternative paths.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/08-jobs-customer-journeys/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

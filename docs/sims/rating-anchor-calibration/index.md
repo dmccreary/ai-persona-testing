@@ -1,47 +1,55 @@
 ---
-title: Rating Anchor Calibration Lab
-description: Apply anchored rating guidance to marketing evidence and calibrate disagreements among reviewers.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Rating Anchor Calibration Lab"
+description: "Apply anchored rating guidance to marketing evidence and calibrate disagreements among reviewers."
+status: deployed
+quality_score: 98
+image: /sims/rating-anchor-calibration/rating-anchor-calibration.png
+og:image: /sims/rating-anchor-calibration/rating-anchor-calibration.png
+twitter:image: /sims/rating-anchor-calibration/rating-anchor-calibration.png
+social:
+   cards: false
 ---
 
 # Rating Anchor Calibration Lab
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Rating Anchor Calibration Lab MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Apply anchored rating guidance to marketing evidence and calibrate disagreements among reviewers.
 
-The full specification below is extracted from
-[Chapter 17: Evaluation Rubrics, Scoring, and Evidence](../../chapters/17-rubrics-scoring-evidence/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** rating-anchor-calibration<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Apply (L3)
+## Iframe Embed Code
 
-**Bloom verb:** apply
-
-**Learning objective:** Apply anchored rating guidance to marketing evidence and calibrate disagreements among reviewers.
-
-**Interaction:** Learners rate asset excerpts on a five-level clarity scale, attach evidence, and compare with two reviewer ratings. Borderline cases require written rationale.
-
-**Feedback:** The tool reveals which anchor conditions were met, distinguishes missing evidence from poor performance, and shows whether disagreement comes from evidence or anchor interpretation.
-
-**Responsive design:** Evidence and anchor panels become tabs on narrow screens, with keyboard ratings and resize handling.
-
-**Instructional rationale:** Repeated anchored judgment with feedback supports applying and calibration.
-
-Implementation: p5.js rating interface with semantic HTML evidence controls.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/rating-anchor-calibration/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 17: Evaluation Rubrics, Scoring, and Evidence](../../chapters/17-rubrics-scoring-evidence/index.md)
+### Learning Objective
+
+Apply anchored rating guidance to marketing evidence and calibrate disagreements among reviewers.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/17-rubrics-scoring-evidence/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

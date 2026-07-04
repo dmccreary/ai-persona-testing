@@ -69,7 +69,7 @@ The following planning sequence turns those concepts into a usable brief.
 
 #### Diagram: Research Brief Builder
 
-<iframe src="../../sims/research-brief-builder/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/research-brief-builder/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Research Brief Builder</summary>
@@ -128,7 +128,7 @@ A sensible design balances these resources against decision risk. A reversible c
 
 #### Diagram: Sample, Time, Cost, and Claim Explorer
 
-<iframe src="../../sims/research-tradeoff-explorer/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/research-tradeoff-explorer/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Sample, Time, Cost, and Claim Explorer</summary>
@@ -194,7 +194,7 @@ The following matrix reinforces the distinction.
 
 #### Diagram: Validity and Reliability Diagnostic
 
-<iframe src="../../sims/validity-reliability-diagnostic/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/validity-reliability-diagnostic/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Validity and Reliability Diagnostic</summary>
@@ -260,7 +260,7 @@ These labels improve decision quality because they let a reader judge each state
 
 #### Diagram: Evidence-to-Claim Traceability Map
 
-<iframe src="../../sims/evidence-claim-traceability/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/evidence-claim-traceability/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Evidence-to-Claim Traceability Map</summary>

@@ -1,47 +1,55 @@
 ---
-title: Marketing Construct Evidence Lab
-description: Judge whether evidence supports a score for resonance, memorability, intent, credibility, relevance, differentiation, persuasion, or accessibility.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Marketing Construct Evidence Lab"
+description: "Judge whether evidence supports a score for resonance, memorability, intent, credibility, relevance, differentiation, persuasion, or accessibility."
+status: deployed
+quality_score: 98
+image: /sims/marketing-construct-evidence/marketing-construct-evidence.png
+og:image: /sims/marketing-construct-evidence/marketing-construct-evidence.png
+twitter:image: /sims/marketing-construct-evidence/marketing-construct-evidence.png
+social:
+   cards: false
 ---
 
 # Marketing Construct Evidence Lab
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Marketing Construct Evidence Lab MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Judge whether evidence supports a score for resonance, memorability, intent, credibility, relevance, differentiation, persuasion, or accessibility.
 
-The full specification below is extracted from
-[Chapter 18: Marketing Metrics and Pattern Analysis](../../chapters/18-marketing-metrics-analysis/index.md).
+## How to Use
 
-```text
-Type: interactive infographic
-**sim-id:** marketing-construct-evidence<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Evaluate (L5)
+## Iframe Embed Code
 
-**Bloom verb:** judge
-
-**Learning objective:** Judge whether evidence supports a score for resonance, memorability, intent, credibility, relevance, differentiation, persuasion, or accessibility.
-
-**Interaction:** Learners pair findings and sources with constructs, identify overclaims, and rewrite score interpretations. Some evidence supports several constructs with different limits.
-
-**Feedback:** The tool distinguishes synthetic hypothesis, expert check, customer report, behavioral measure, and experiment.
-
-**Responsive design:** Construct zones become tabs on narrow screens, with keyboard sorting and resize handling.
-
-**Instructional rationale:** Evidence-to-construct judgment supports evaluation and prevents metric laundering.
-
-Implementation: Responsive p5.js evidence sorting workspace.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/marketing-construct-evidence/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 18: Marketing Metrics and Pattern Analysis](../../chapters/18-marketing-metrics-analysis/index.md)
+### Learning Objective
+
+Judge whether evidence supports a score for resonance, memorability, intent, credibility, relevance, differentiation, persuasion, or accessibility.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/18-marketing-metrics-analysis/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

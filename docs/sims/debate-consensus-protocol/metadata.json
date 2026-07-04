@@ -1,11 +1,12 @@
 {
   "title": "Debate and Consensus Protocol Simulator",
   "description": "Execute a debate protocol that preserves evidence, balanced turns, rational updating, minority positions, and unresolved disagreement.",
-  "creator": "AI Persona Testing",
-  "author": "Dan McCreary",
+  "creator": "Dan McCreary",
   "date": "2026-07-03",
   "subject": [
-    "AI Persona Testing"
+    "AI Persona Testing",
+    "Marketing Research",
+    "Debate and Consensus Protocol Simulator"
   ],
   "type": "Interactive Simulation",
   "format": "text/html",
@@ -13,10 +14,53 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "debate-consensus-protocol",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
-  "chapter_number": 14,
-  "chapter_title": "Multi-Agent Workflows, Debate, and Consensus",
-  "chapter_dir": "14-multi-agent-orchestration"
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Debate and Consensus Protocol Simulator",
+    "learningObjectives": [
+      "Execute a debate protocol that preserves evidence, balanced turns, rational updating, minority positions, and unresolved disagreement."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Execute a debate protocol that preserves evidence, balanced turns, rational updating, minority positions, and unresolved disagreement."
+    ]
+  },
+  "chapter": "14-multi-agent-orchestration",
+  "completion_status": "deployed"
 }

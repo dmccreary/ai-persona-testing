@@ -1,47 +1,55 @@
 ---
-title: Trust and Clarity Evidence Lab
-description: Justify trust and clarity ratings using anchored dimensions, supporting evidence, confidence, persona context, and noncompensatory concerns.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Trust and Clarity Evidence Lab"
+description: "Justify trust and clarity ratings using anchored dimensions, supporting evidence, confidence, persona context, and noncompensatory concerns."
+status: deployed
+quality_score: 98
+image: /sims/trust-clarity-evidence/trust-clarity-evidence.png
+og:image: /sims/trust-clarity-evidence/trust-clarity-evidence.png
+twitter:image: /sims/trust-clarity-evidence/trust-clarity-evidence.png
+social:
+   cards: false
 ---
 
 # Trust and Clarity Evidence Lab
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Trust and Clarity Evidence Lab MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Justify trust and clarity ratings using anchored dimensions, supporting evidence, confidence, persona context, and noncompensatory concerns.
 
-The full specification below is extracted from
-[Chapter 17: Evaluation Rubrics, Scoring, and Evidence](../../chapters/17-rubrics-scoring-evidence/index.md).
+## How to Use
 
-```text
-Type: interactive infographic
-**sim-id:** trust-clarity-evidence<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Evaluate (L5)
+## Iframe Embed Code
 
-**Bloom verb:** justify
-
-**Learning objective:** Justify trust and clarity ratings using anchored dimensions, supporting evidence, confidence, persona context, and noncompensatory concerns.
-
-**Interaction:** Learners inspect an asset and persona, attach evidence to dimensions, select anchors, and assign confidence. The tool prevents scoring unsupported fields.
-
-**Feedback:** Compare mode shows how two personas can receive different justified ratings. Hidden evidence and missing qualifications trigger warnings.
-
-**Responsive design:** Asset, rubric, and evidence panels become tabs on narrow screens, with keyboard controls and text report.
-
-**Instructional rationale:** Evidence-linked scoring and justification support evaluation.
-
-Implementation: Responsive p5.js rubric workspace with semantic forms.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/trust-clarity-evidence/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 17: Evaluation Rubrics, Scoring, and Evidence](../../chapters/17-rubrics-scoring-evidence/index.md)
+### Learning Objective
+
+Justify trust and clarity ratings using anchored dimensions, supporting evidence, confidence, persona context, and noncompensatory concerns.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/17-rubrics-scoring-evidence/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

@@ -1,51 +1,55 @@
 ---
-title: Persona Completeness Auditor
-description: Assess a persona for evidence quality, causal coherence, relevant specificity, privacy, and completeness for a stated use.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Persona Completeness Auditor"
+description: "Assess a persona for evidence quality, causal coherence, relevant specificity, privacy, and completeness for a stated use."
+status: deployed
+quality_score: 98
+image: /sims/persona-completeness-auditor/persona-completeness-auditor.png
+og:image: /sims/persona-completeness-auditor/persona-completeness-auditor.png
+twitter:image: /sims/persona-completeness-auditor/persona-completeness-auditor.png
+social:
+   cards: false
 ---
 
 # Persona Completeness Auditor
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Persona Completeness Auditor MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Assess a persona for evidence quality, causal coherence, relevant specificity, privacy, and completeness for a stated use.
 
-The full specification below is extracted from
-[Chapter 6: Persona Motivations, Behaviors, and Evidence](../../chapters/06-persona-behavior-evidence/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** persona-completeness-auditor<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Evaluate (L5)
+## Iframe Embed Code
 
-**Bloom verb:** assess
-
-**Learning objective:** Assess a persona for evidence quality, causal coherence, relevant specificity, privacy, and completeness for a stated use.
-
-**Controls:** Purpose selector, profile-field checklist, source-status toggles, contradiction flag, sensitivity flag, and scenario completeness controls.
-
-**Visual elements:** A transparent radar-style quality view with axes for Purpose Fit, Evidence, Decision Logic, Scenario, Safety, and Uncertainty. Scores reveal criteria and never hide missing information behind one total.
-
-**Interaction:** Learners audit two profiles, revise weak fields, and compare improvements. The tool rewards removal of irrelevant fictional detail as well as addition of necessary evidence.
-
-**Feedback:** Every warning links to the exact field and explains whether to source, revise, remove, narrow, or mark unknown.
-
-**Responsive and accessible design:** Use labeled HTML controls, a table alternative, patterns, keyboard access, and resize events.
-
-**Instructional rationale:** Rubric-based revision supports evaluation by requiring judgments about fitness for purpose rather than profile length.
-
-Implementation: p5.js quality visualization with semantic form controls and exportable audit report.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/persona-completeness-auditor/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 6: Persona Motivations, Behaviors, and Evidence](../../chapters/06-persona-behavior-evidence/index.md)
+### Learning Objective
+
+Assess a persona for evidence quality, causal coherence, relevant specificity, privacy, and completeness for a stated use.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/06-persona-behavior-evidence/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

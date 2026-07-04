@@ -1,51 +1,55 @@
 ---
-title: Persona Fidelity Tuning Lab
-description: Differentiate task-relevant persona evidence from decorative realism, unsupported assumptions, and stereotype risk.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Persona Fidelity Tuning Lab"
+description: "Differentiate task-relevant persona evidence from decorative realism, unsupported assumptions, and stereotype risk."
+status: deployed
+quality_score: 98
+image: /sims/persona-fidelity-tuning/persona-fidelity-tuning.png
+og:image: /sims/persona-fidelity-tuning/persona-fidelity-tuning.png
+twitter:image: /sims/persona-fidelity-tuning/persona-fidelity-tuning.png
+social:
+   cards: false
 ---
 
 # Persona Fidelity Tuning Lab
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Persona Fidelity Tuning Lab MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Differentiate task-relevant persona evidence from decorative realism, unsupported assumptions, and stereotype risk.
 
-The full specification below is extracted from
-[Chapter 3: AI Capabilities, Limitations, and Bias](../../chapters/03-ai-limits-bias/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** persona-fidelity-tuning<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Analyze (L4)
+## Iframe Embed Code
 
-**Bloom verb:** differentiate
-
-**Learning objective:** Differentiate task-relevant persona evidence from decorative realism, unsupported assumptions, and stereotype risk.
-
-**Interaction pattern:** Learners receive a research question and a stack of persona attributes. They classify each attribute as Essential, Helpful, Irrelevant, Unsupported, or Sensitive. The persona's fidelity meter changes according to task relevance, not profile length.
-
-**Worked scenarios:** Evaluate a banking reminder, commuter campaign, health-service appointment page, and business software trial. Each scenario changes which attributes are relevant.
-
-**Feedback:** Clicking an attribute reveals its source and asks how it could affect behavior. Unsupported sensitive attributes trigger a warning and require a replacement grounded in goals or circumstances.
-
-**Controls:** Scenario selector, evidence-source filter, Reset, Compare Profiles, and Explain Score. The comparison view shows that a shorter evidence-based profile can outrank a vivid fictional one.
-
-**Responsive design:** Cards use two columns on wide screens and one column on narrow screens; all sorting has a keyboard mode and updates on resize.
-
-**Instructional rationale:** Classification across changing tasks supports analysis by showing that fidelity depends on purpose while realism can remain superficial.
-
-Implementation: p5.js card workspace with accessible DOM controls and scenario JSON.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/persona-fidelity-tuning/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 3: AI Capabilities, Limitations, and Bias](../../chapters/03-ai-limits-bias/index.md)
+### Learning Objective
+
+Differentiate task-relevant persona evidence from decorative realism, unsupported assumptions, and stereotype risk.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/03-ai-limits-bias/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

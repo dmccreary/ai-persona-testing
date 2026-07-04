@@ -1,47 +1,55 @@
 ---
-title: Prompt Test Suite Builder
-description: Design a balanced prompt test suite with routine, boundary, missing-data, adversarial, persona-fidelity, and schema cases.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Prompt Test Suite Builder"
+description: "Design a balanced prompt test suite with routine, boundary, missing-data, adversarial, persona-fidelity, and schema cases."
+status: deployed
+quality_score: 98
+image: /sims/prompt-test-suite-builder/prompt-test-suite-builder.png
+og:image: /sims/prompt-test-suite-builder/prompt-test-suite-builder.png
+twitter:image: /sims/prompt-test-suite-builder/prompt-test-suite-builder.png
+social:
+   cards: false
 ---
 
 # Prompt Test Suite Builder
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Prompt Test Suite Builder MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Design a balanced prompt test suite with routine, boundary, missing-data, adversarial, persona-fidelity, and schema cases.
 
-The full specification below is extracted from
-[Chapter 12: Prompt Testing and Research Dialogue](../../chapters/12-prompt-testing-dialogue/index.md).
+## How to Use
 
-```text
-Type: interactive infographic
-**sim-id:** prompt-test-suite-builder<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Create (L6)
+## Iframe Embed Code
 
-**Bloom verb:** design
-
-**Learning objective:** Design a balanced prompt test suite with routine, boundary, missing-data, adversarial, persona-fidelity, and schema cases.
-
-**Interaction:** Learners choose a prompt objective, inspect candidate test cards, and build a suite within a limited execution budget. A coverage map shows untested requirements and overrepresented happy paths.
-
-**Feedback:** Each case requires inputs, expected properties, acceptable variation, and failure signals. The tool flags exact-text expectations and cases that cannot diagnose a specific component.
-
-**Responsive design:** Coverage matrix becomes stacked cards on narrow screens, with keyboard selection, text export, and resize handling.
-
-**Instructional rationale:** Test-suite construction supports creating because learners combine risks and requirements into a new verification system.
-
-Implementation: Responsive p5.js coverage canvas with semantic case editor.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/prompt-test-suite-builder/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 12: Prompt Testing and Research Dialogue](../../chapters/12-prompt-testing-dialogue/index.md)
+### Learning Objective
+
+Design a balanced prompt test suite with routine, boundary, missing-data, adversarial, persona-fidelity, and schema cases.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/12-prompt-testing-dialogue/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

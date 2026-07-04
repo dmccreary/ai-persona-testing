@@ -1,47 +1,55 @@
 ---
-title: Evidence-to-Decision Trace
-description: Use a traceable workflow to convert evidence into risk, alternatives, decision, improvement hypothesis, implementation, validation, and learning.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Evidence-to-Decision Trace"
+description: "Use a traceable workflow to convert evidence into risk, alternatives, decision, improvement hypothesis, implementation, validation, and learning."
+status: deployed
+quality_score: 98
+image: /sims/evidence-decision-trace/evidence-decision-trace.png
+og:image: /sims/evidence-decision-trace/evidence-decision-trace.png
+twitter:image: /sims/evidence-decision-trace/evidence-decision-trace.png
+social:
+   cards: false
 ---
 
 # Evidence-to-Decision Trace
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Evidence-to-Decision Trace MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Use a traceable workflow to convert evidence into risk, alternatives, decision, improvement hypothesis, implementation, validation, and learning.
 
-The full specification below is extracted from
-[Chapter 19: Risk-Based Recommendations and Knowledge Graphs](../../chapters/19-risk-knowledge-graphs/index.md).
+## How to Use
 
-```text
-Type: workflow
-**sim-id:** evidence-decision-trace<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Apply (L3)
+## Iframe Embed Code
 
-**Bloom verb:** use
-
-**Learning objective:** Use a traceable workflow to convert evidence into risk, alternatives, decision, improvement hypothesis, implementation, validation, and learning.
-
-**Interaction:** Learners move a finding through decision gates, attach evidence, compare alternatives, and define a test. Every stage shows owner and confidence.
-
-**Feedback:** The workflow flags recommendations without findings, actions without owners, hypotheses without measures, and decisions that ignore contradictory evidence.
-
-**Responsive design:** Swimlane flow stacks on narrow screens, with keyboard controls and text audit trail.
-
-**Instructional rationale:** Executing the complete decision loop supports applying evidence-based improvement.
-
-Implementation: Responsive p5.js workflow with semantic artifacts.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/evidence-decision-trace/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 19: Risk-Based Recommendations and Knowledge Graphs](../../chapters/19-risk-knowledge-graphs/index.md)
+### Learning Objective
+
+Use a traceable workflow to convert evidence into risk, alternatives, decision, improvement hypothesis, implementation, validation, and learning.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/19-risk-knowledge-graphs/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

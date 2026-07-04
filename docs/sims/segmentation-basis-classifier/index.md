@@ -1,49 +1,55 @@
 ---
-title: Segmentation Basis Classifier
-description: Classify customer evidence by segmentation basis and judge whether the proposed difference is decision-relevant and actionable.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Segmentation Basis Classifier"
+description: "Classify customer evidence by segmentation basis and judge whether the proposed difference is decision-relevant and actionable."
+status: deployed
+quality_score: 98
+image: /sims/segmentation-basis-classifier/segmentation-basis-classifier.png
+og:image: /sims/segmentation-basis-classifier/segmentation-basis-classifier.png
+twitter:image: /sims/segmentation-basis-classifier/segmentation-basis-classifier.png
+social:
+   cards: false
 ---
 
 # Segmentation Basis Classifier
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Segmentation Basis Classifier MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Classify customer evidence by segmentation basis and judge whether the proposed difference is decision-relevant and actionable.
 
-The full specification below is extracted from
-[Chapter 7: Customer Segmentation and Persona Archetypes](../../chapters/07-segmentation-archetypes/index.md).
+## How to Use
 
-```text
-Type: interactive infographic
-**sim-id:** segmentation-basis-classifier<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Apply (L3)
+## Iframe Embed Code
 
-**Bloom verb:** classify
-
-**Learning objective:** Classify customer evidence by segmentation basis and judge whether the proposed difference is decision-relevant and actionable.
-
-**Interaction:** Learners sort evidence cards into Behavioral, Demographic, Psychographic, Needs-Based, or Value-Based zones. They then select the marketing decision each distinction could inform.
-
-**Feedback:** Cards can fit more than one basis; feedback explains the strongest interpretation and why mixed bases must remain explicit. Weak cards such as “modern customers” are rejected until operationalized.
-
-**Scenarios:** Subscription renewal, nonprofit donation, commuter service, and business software. Include contradictory and missing evidence.
-
-**Responsive design:** Five zones wrap into an accordion on narrow displays. Provide keyboard sorting, text alternatives, and resize handling.
-
-**Instructional rationale:** Sorting evidence and connecting it to action supports applying rather than merely recalling category names.
-
-Implementation: Responsive p5.js sorting canvas with semantic HTML cards.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/segmentation-basis-classifier/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 7: Customer Segmentation and Persona Archetypes](../../chapters/07-segmentation-archetypes/index.md)
+### Learning Objective
+
+Classify customer evidence by segmentation basis and judge whether the proposed difference is decision-relevant and actionable.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/07-segmentation-archetypes/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

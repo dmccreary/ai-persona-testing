@@ -1,51 +1,53 @@
 ---
-title: Need and Driver Trade-Off Map
-description: Organize emotional drivers, functional needs, and social needs into a causal network that explains a persona's competing priorities.
-status: scaffold
-library: vis-network
-bloom_level: TBD
+title: "Need and Driver Trade-Off Map"
+description: "Organize emotional drivers, functional needs, and social needs into a causal network that explains a persona's competing priorities."
+status: deployed
+quality_score: 100
+image: /sims/need-driver-tradeoff-map/need-driver-tradeoff-map.png
+og:image: /sims/need-driver-tradeoff-map/need-driver-tradeoff-map.png
+twitter:image: /sims/need-driver-tradeoff-map/need-driver-tradeoff-map.png
+social:
+   cards: false
 ---
 
 # Need and Driver Trade-Off Map
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Need and Driver Trade-Off Map MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Organize emotional drivers, functional needs, and social needs into a causal network that explains a persona's competing priorities.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 6: Persona Motivations, Behaviors, and Evidence](../../chapters/06-persona-behavior-evidence/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: graph-model
-**sim-id:** need-driver-tradeoff-map<br/>
-**Library:** vis-network<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Analyze (L4)
-
-**Bloom verb:** organize
-
-**Learning objective:** Organize emotional drivers, functional needs, and social needs into a causal network that explains a persona's competing priorities.
-
-**Node types:** Goal, Emotional Driver, Functional Need, Social Need, Constraint, Marketing Claim, and Evidence. Properties show source and confidence.
-
-**Edges:** SUPPORTS, CONFLICTS_WITH, REQUIRES, CONSTRAINED_BY, ADDRESSED_BY, and GROUNDED_IN. Every node and edge reveals a definition and example when selected.
-
-**Interaction:** Learners build a network for a purchase scenario, then change time pressure or stakeholder involvement. The tool highlights which needs become more important and asks the learner to explain why.
-
-**Feedback:** Disconnected claims and unsupported needs are flagged. A balance panel shows tensions without reducing them to one score.
-
-**Responsive design:** Force-directed network with zoom, drag, keyboard navigation, a text alternative, and resize handling.
-
-**Instructional rationale:** Relationship construction supports analysis because the learner must explain how different need types reinforce or conflict with one another.
-
-Implementation: vis-network model editor with accessible side panel and JSON export.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/need-driver-tradeoff-map/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 6: Persona Motivations, Behaviors, and Evidence](../../chapters/06-persona-behavior-evidence/index.md)
+### Learning Objective
+
+Organize emotional drivers, functional needs, and social needs into a causal network that explains a persona's competing priorities.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/06-persona-behavior-evidence/index.md) - Full instructional context and specification.
+2. [vis-network documentation](https://visjs.github.io/vis-network/docs/network/) - Rendering-library reference.
+

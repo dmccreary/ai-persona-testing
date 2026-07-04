@@ -1,6 +1,7 @@
 ---
 title: Research Question Method Navigator
 description: Classify marketing questions by research scope and evidence type, with immediate method feedback.
+status: deployed
 image: /sims/research-method-navigator/research-method-navigator.png
 og:image: /sims/research-method-navigator/research-method-navigator.png
 twitter:image: /sims/research-method-navigator/research-method-navigator.png

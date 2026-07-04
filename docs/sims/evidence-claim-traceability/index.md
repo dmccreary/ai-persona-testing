@@ -1,51 +1,53 @@
 ---
-title: Evidence-to-Claim Traceability Map
-description: Validate whether a marketing research claim is adequately supported by its source evidence, method, assumptions, and limitations.
-status: scaffold
-library: vis-network
-bloom_level: TBD
+title: "Evidence-to-Claim Traceability Map"
+description: "Validate whether a marketing research claim is adequately supported by its source evidence, method, assumptions, and limitations."
+status: deployed
+quality_score: 100
+image: /sims/evidence-claim-traceability/evidence-claim-traceability.png
+og:image: /sims/evidence-claim-traceability/evidence-claim-traceability.png
+twitter:image: /sims/evidence-claim-traceability/evidence-claim-traceability.png
+social:
+   cards: false
 ---
 
 # Evidence-to-Claim Traceability Map
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Evidence-to-Claim Traceability Map MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+## About This MicroSim
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+Validate whether a marketing research claim is adequately supported by its source evidence, method, assumptions, and limitations.
 
-## Specification
+## How to Use
 
-The full specification below is extracted from
-[Chapter 2: Research Design and Evidence Quality](../../chapters/02-research-design-evidence/index.md).
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-```text
-Type: graph-model
-**sim-id:** evidence-claim-traceability<br/>
-**Library:** vis-network<br/>
-**Status:** Specified
+## Iframe Embed Code
 
-**Bloom level:** Evaluate (L5)
-
-**Bloom verb:** validate
-
-**Learning objective:** Validate whether a marketing research claim is adequately supported by its source evidence, method, assumptions, and limitations.
-
-**Node types:** Decision, Research Question, Method, Evidence Item, Interpretation, Claim, Assumption, Constraint, and Limitation. Nodes show a short label plus properties such as source, date, and evidence status.
-
-**Edge types:** ANSWERS, PRODUCES, SUPPORTS, DEPENDS_ON, LIMITED_BY, and CONTRADICTS. Clicking an edge explains the relationship and displays the exact source passage or data field when available.
-
-**Sample graph:** A pricing-page decision connected to interview quotes, a survey result, three synthetic persona findings, and two proposed claims. One claim is deliberately too broad and displays a broken support path.
-
-**Interaction:** Hover shows properties; click highlights the evidence neighborhood; a “Trace claim” control reveals every supporting path; learners can attach or remove evidence and receive feedback about unsupported claims.
-
-**Layout and accessibility:** Hierarchical flow from question to claim, with zoom, pan, drag, keyboard node navigation, text-based graph alternative, and responsive resizing.
-
-**Instructional rationale:** Inspecting and repairing support paths requires evaluation against evidence-quality criteria.
-
-Implementation: vis-network with an accessible side panel and JSON-based sample cases.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/evidence-claim-traceability/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 2: Research Design and Evidence Quality](../../chapters/02-research-design-evidence/index.md)
+### Learning Objective
+
+Validate whether a marketing research claim is adequately supported by its source evidence, method, assumptions, and limitations.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Evaluate** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/02-research-design-evidence/index.md) - Full instructional context and specification.
+2. [vis-network documentation](https://visjs.github.io/vis-network/docs/network/) - Rendering-library reference.
+

@@ -1,49 +1,55 @@
 ---
-title: Customer State Transition Explorer
-description: Explain how experience, value, trust, price, changing needs, and service recovery can move customers among new, loyal, lapsed, budget, and premium states.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Customer State Transition Explorer"
+description: "Explain how experience, value, trust, price, changing needs, and service recovery can move customers among new, loyal, lapsed, budget, and premium states."
+status: deployed
+quality_score: 98
+image: /sims/customer-state-transition/customer-state-transition.png
+og:image: /sims/customer-state-transition/customer-state-transition.png
+twitter:image: /sims/customer-state-transition/customer-state-transition.png
+social:
+   cards: false
 ---
 
 # Customer State Transition Explorer
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Customer State Transition Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Explain how experience, value, trust, price, changing needs, and service recovery can move customers among new, loyal, lapsed, budget, and premium states.
 
-The full specification below is extracted from
-[Chapter 7: Customer Segmentation and Persona Archetypes](../../chapters/07-segmentation-archetypes/index.md).
+## How to Use
 
-```text
-Type: microsim
-**sim-id:** customer-state-transition<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Understand (L2)
+## Iframe Embed Code
 
-**Bloom verb:** explain
-
-**Learning objective:** Explain how experience, value, trust, price, changing needs, and service recovery can move customers among new, loyal, lapsed, budget, and premium states.
-
-**Data visibility requirements:** Show a customer timeline, the current relationship state, triggering event, evidence considered, and resulting state. Learners predict the transition before revealing it.
-
-**Controls:** Next/Previous, scenario selector, service-recovery toggle, value change, price change, and trust event. States are treated as overlapping lenses rather than mutually exclusive boxes.
-
-**Feedback:** The simulator explains why the same event can produce different transitions under different needs and risk. It rejects deterministic demographic rules.
-
-**Responsive design:** Timeline becomes vertical on narrow screens, with keyboard controls, text alternative, and resize response.
-
-**Instructional rationale:** Worked transitions support understanding by making state changes and their evidence visible step by step.
-
-Implementation: p5.js step-through timeline with accessible controls and scenario data.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/customer-state-transition/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 7: Customer Segmentation and Persona Archetypes](../../chapters/07-segmentation-archetypes/index.md)
+### Learning Objective
+
+Explain how experience, value, trust, price, changing needs, and service recovery can move customers among new, loyal, lapsed, budget, and premium states.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/07-segmentation-archetypes/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

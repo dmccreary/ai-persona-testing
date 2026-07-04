@@ -1,49 +1,55 @@
 ---
-title: Persona Release Quality Gate
-description: Execute a persona release workflow using documentation review, test cases, acceptance tests, benchmark comparison, approval, versioning, and rollback.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Persona Release Quality Gate"
+description: "Execute a persona release workflow using documentation review, test cases, acceptance tests, benchmark comparison, approval, versioning, and rollback."
+status: deployed
+quality_score: 98
+image: /sims/persona-release-quality-gate/persona-release-quality-gate.png
+og:image: /sims/persona-release-quality-gate/persona-release-quality-gate.png
+twitter:image: /sims/persona-release-quality-gate/persona-release-quality-gate.png
+social:
+   cards: false
 ---
 
 # Persona Release Quality Gate
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Persona Release Quality Gate MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Execute a persona release workflow using documentation review, test cases, acceptance tests, benchmark comparison, approval, versioning, and rollback.
 
-The full specification below is extracted from
-[Chapter 9: Persona Consistency, Validation, and Reuse](../../chapters/09-persona-quality-reuse/index.md).
+## How to Use
 
-```text
-Type: workflow
-**sim-id:** persona-release-quality-gate<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Apply (L3)
+## Iframe Embed Code
 
-**Bloom verb:** execute
-
-**Learning objective:** Execute a persona release workflow using documentation review, test cases, acceptance tests, benchmark comparison, approval, versioning, and rollback.
-
-**Workflow:** Change Request, Evidence Review, Profile Revision, Predicted Effects, Test Suite, Benchmark Comparison, Privacy/Fairness Review, Approval, Release, Monitoring, and Rollback.
-
-**Interaction:** Learners inspect a proposed update, choose tests, interpret results, and decide Release, Revise, or Reject. Every workflow node and connector reveals responsibility and artifact.
-
-**Feedback:** The simulator penalizes releases based only on average score, missing regression tests, outdated benchmarks, absent documentation, or unapproved purpose expansion.
-
-**Responsive design:** Swimlanes stack on narrow screens, with keyboard navigation, audit-log text view, and resize handling.
-
-**Instructional rationale:** Practicing a complete release decision supports applying governance and quality controls.
-
-Implementation: Responsive p5.js workflow simulator with structured test results.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/persona-release-quality-gate/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 9: Persona Consistency, Validation, and Reuse](../../chapters/09-persona-quality-reuse/index.md)
+### Learning Objective
+
+Execute a persona release workflow using documentation review, test cases, acceptance tests, benchmark comparison, approval, versioning, and rollback.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/09-persona-quality-reuse/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

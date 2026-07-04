@@ -96,7 +96,7 @@ nav:
     - Evidence-to-Claim Traceability Map: sims/evidence-claim-traceability/index.md
     - Evidence-to-Decision Trace: sims/evidence-decision-trace/index.md
     - Gap, Signal, and Confusion Map: sims/gap-signal-confusion-map/index.md
-    - Goal–Motivation–Need Network: sims/goal-motivation-need-network/index.md
+    - Goal\u2013Motivation\u2013Need Network: sims/goal-motivation-need-network/index.md
     - Governance and Ethical Escalation Simulator: sims/governance-escalation-simulator/index.md
     - Governed No-Code Evaluation Pipeline: sims/no-code-evaluation-pipeline/index.md
     - Hallucination Detection Workbench: sims/hallucination-detection-workbench/index.md
@@ -114,7 +114,7 @@ nav:
     - Neutral Moderation Practice Lab: sims/neutral-moderation-practice/index.md
     - Opinion Contamination Experiment: sims/opinion-contamination-experiment/index.md
     - Page Task and Evidence Explorer: sims/page-task-evidence-explorer/index.md
-    - Parallel–Sequential Trade-Off Explorer: sims/parallel-sequential-explorer/index.md
+    - Parallel\u2013Sequential Trade-Off Explorer: sims/parallel-sequential-explorer/index.md
     - Persona Completeness Auditor: sims/persona-completeness-auditor/index.md
     - Persona Consistency Test Bench: sims/persona-consistency-test-bench/index.md
     - Persona Data Privacy Flow: sims/persona-data-privacy-flow/index.md
@@ -152,6 +152,8 @@ nav:
     - Validity and Reliability Diagnostic: sims/validity-reliability-diagnostic/index.md
     - Visual Identity Evaluation Studio: sims/visual-identity-evaluation/index.md
     - Weighting and Normalization Explorer: sims/weighting-normalization-explorer/index.md
+
+
 
 
 

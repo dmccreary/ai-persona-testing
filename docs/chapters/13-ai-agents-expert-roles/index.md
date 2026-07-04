@@ -70,7 +70,7 @@ A strong agent specification answers:
 
 #### Diagram: Agent Specification Builder
 
-<iframe src="../../sims/agent-specification-builder/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/agent-specification-builder/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Agent Specification Builder</summary>
@@ -130,7 +130,7 @@ Calibrate autonomy using risk:
 
 #### Diagram: Agent Autonomy and Boundary Simulator
 
-<iframe src="../../sims/agent-autonomy-boundary/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/agent-autonomy-boundary/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Agent Autonomy and Boundary Simulator</summary>
@@ -176,7 +176,7 @@ Separate reviewer findings from customer reactions. An accessibility reviewer ca
 
 #### Diagram: Agent Role and Responsibility Map
 
-<iframe src="../../sims/agent-role-responsibility/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/agent-role-responsibility/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Agent Role and Responsibility Map</summary>
@@ -227,7 +227,7 @@ A **Consumer Research Agent** protects research quality. It checks questions, sa
 
 #### Diagram: Specialist Review Panel
 
-<iframe src="../../sims/specialist-review-panel/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/specialist-review-panel/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Specialist Review Panel</summary>

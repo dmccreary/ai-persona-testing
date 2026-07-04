@@ -1,11 +1,12 @@
 {
   "title": "Evidence Triangulation Studio",
   "description": "Validate a marketing claim by combining appropriately independent synthetic, behavioral, qualitative, quantitative, and expert evidence.",
-  "creator": "AI Persona Testing",
-  "author": "Dan McCreary",
+  "creator": "Dan McCreary",
   "date": "2026-07-03",
   "subject": [
-    "AI Persona Testing"
+    "AI Persona Testing",
+    "Marketing Research",
+    "Evidence Triangulation Studio"
   ],
   "type": "Interactive Simulation",
   "format": "text/html",
@@ -13,10 +14,53 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "evidence-triangulation-studio",
   "library": "vis-network",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
-  "chapter_number": 4,
-  "chapter_title": "Responsible AI, Privacy, and Governance",
-  "chapter_dir": "04-responsible-ai-governance"
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Evidence Triangulation Studio",
+    "learningObjectives": [
+      "Validate a marketing claim by combining appropriately independent synthetic, behavioral, qualitative, quantitative, and expert evidence."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Validate a marketing claim by combining appropriately independent synthetic, behavioral, qualitative, quantitative, and expert evidence."
+    ]
+  },
+  "chapter": "04-responsible-ai-governance",
+  "completion_status": "deployed"
 }

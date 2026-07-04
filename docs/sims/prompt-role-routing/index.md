@@ -1,47 +1,55 @@
 ---
-title: Prompt Role Routing Lab
-description: Classify instructions by persona, moderator, reviewer, skeptic, or evaluation role and repair conflicting authority.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Prompt Role Routing Lab"
+description: "Classify instructions by persona, moderator, reviewer, skeptic, or evaluation role and repair conflicting authority."
+status: deployed
+quality_score: 98
+image: /sims/prompt-role-routing/prompt-role-routing.png
+og:image: /sims/prompt-role-routing/prompt-role-routing.png
+twitter:image: /sims/prompt-role-routing/prompt-role-routing.png
+social:
+   cards: false
 ---
 
 # Prompt Role Routing Lab
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Prompt Role Routing Lab MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Classify instructions by persona, moderator, reviewer, skeptic, or evaluation role and repair conflicting authority.
 
-The full specification below is extracted from
-[Chapter 10: Prompt Engineering Foundations](../../chapters/10-prompt-engineering/index.md).
+## How to Use
 
-```text
-Type: interactive infographic
-**sim-id:** prompt-role-routing<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Apply (L3)
+## Iframe Embed Code
 
-**Bloom verb:** classify
-
-**Learning objective:** Classify instructions by persona, moderator, reviewer, skeptic, or evaluation role and repair conflicting authority.
-
-**Interaction:** Learners route instruction cards to role panels, inspect conflicts, and rewrite misplaced instructions. Scenarios include a moderator scoring participants, a persona writing executive recommendations, and a skeptic refusing valid evidence.
-
-**Feedback:** Every card explains why it belongs to a role and what failure occurs when roles are blended. A combined workflow view shows message handoffs.
-
-**Responsive design:** Role panels become tabs on narrow screens, with keyboard routing and resize handling.
-
-**Instructional rationale:** Sorting and repairing role instructions supports applying a separation-of-responsibilities model.
-
-Implementation: Responsive p5.js card lab with semantic HTML editors.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/prompt-role-routing/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 10: Prompt Engineering Foundations](../../chapters/10-prompt-engineering/index.md)
+### Learning Objective
+
+Classify instructions by persona, moderator, reviewer, skeptic, or evaluation role and repair conflicting authority.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Create** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/10-prompt-engineering/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

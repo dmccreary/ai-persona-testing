@@ -68,7 +68,7 @@ A basic persona-testing workflow can include:
 
 #### Diagram: Multi-Agent Workflow Composer
 
-<iframe src="../../sims/multi-agent-workflow-composer/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/multi-agent-workflow-composer/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Multi-Agent Workflow Composer</summary>
@@ -138,7 +138,7 @@ Design context in layers:
 
 #### Diagram: Context Contamination Laboratory
 
-<iframe src="../../sims/context-contamination-lab/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/context-contamination-lab/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Context Contamination Laboratory</summary>
@@ -178,7 +178,7 @@ Choose the pattern based on dependency, not convenience. Persona reactions shoul
 
 #### Diagram: Parallel–Sequential Trade-Off Explorer
 
-<iframe src="../../sims/parallel-sequential-explorer/main.html" width="100%" height="510px" scrolling="no"></iframe>
+<iframe src="../../sims/parallel-sequential-explorer/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Parallel–Sequential Trade-Off Explorer</summary>
@@ -243,7 +243,7 @@ A protocol should require:
 
 #### Diagram: Debate and Consensus Protocol Simulator
 
-<iframe src="../../sims/debate-consensus-protocol/main.html" width="100%" height="540px" scrolling="no"></iframe>
+<iframe src="../../sims/debate-consensus-protocol/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Debate and Consensus Protocol Simulator</summary>

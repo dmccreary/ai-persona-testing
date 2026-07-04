@@ -1,49 +1,55 @@
 ---
-title: Persona Data Privacy Flow
-description: Examine how personal data and sensitive attributes move from customer research into persona profiles, prompts, model providers, reports, and archives.
-status: scaffold
-library: p5.js
-bloom_level: TBD
+title: "Persona Data Privacy Flow"
+description: "Examine how personal data and sensitive attributes move from customer research into persona profiles, prompts, model providers, reports, and archives."
+status: deployed
+quality_score: 98
+image: /sims/persona-data-privacy-flow/persona-data-privacy-flow.png
+og:image: /sims/persona-data-privacy-flow/persona-data-privacy-flow.png
+twitter:image: /sims/persona-data-privacy-flow/persona-data-privacy-flow.png
+social:
+   cards: false
 ---
 
 # Persona Data Privacy Flow
 
+<iframe src="main.html" height="702" width="100%" scrolling="no"></iframe>
 
+[Run the Persona Data Privacy Flow MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+## About This MicroSim
 
-## Specification
+Examine how personal data and sensitive attributes move from customer research into persona profiles, prompts, model providers, reports, and archives.
 
-The full specification below is extracted from
-[Chapter 4: Responsible AI, Privacy, and Governance](../../chapters/04-responsible-ai-governance/index.md).
+## How to Use
 
-```text
-Type: workflow
-**sim-id:** persona-data-privacy-flow<br/>
-**Library:** p5.js<br/>
-**Status:** Specified
+Explore the visual elements and use the controls to compare states, reveal guidance, and explain how the displayed evidence supports or limits a decision. Values shown are instructional examples unless the chapter identifies an empirical source.
 
-**Bloom level:** Analyze (L4)
+## Iframe Embed Code
 
-**Bloom verb:** examine
-
-**Learning objective:** Examine how personal data and sensitive attributes move from customer research into persona profiles, prompts, model providers, reports, and archives.
-
-**Layout:** Responsive swimlanes for Customer, Research Team, Persona Repository, AI Tool, Report Consumer, and Archive. Data cards travel along labeled connectors.
-
-**Interaction:** Clicking a data card reveals purpose, consent status, sensitivity, retention, and access. Learners toggle proposed controls—aggregation, deletion, access restriction, local processing, or exclusion—and observe which exposure paths remain.
-
-**Decision points:** “Consent covers AI use?”, “Sensitive detail necessary?”, “External processor approved?”, and “Retention expired?” Each branch provides explanatory feedback.
-
-**Accessibility:** Every connector and decision has hover and keyboard focus text. A tabular alternative lists flows and controls. The diagram stacks lanes and recalculates paths on resize.
-
-**Instructional rationale:** Tracing information across an operational workflow supports analysis because privacy risk often emerges from movement and reuse rather than one isolated field.
-
-Implementation: Responsive p5.js swimlane diagram with accessible DOM data cards and control toggles.
+```html
+<iframe src="https://dmccreary.github.io/ai-persona-testing/sims/persona-data-privacy-flow/main.html" height="702" width="100%" scrolling="no"></iframe>
 ```
 
-## Related Resources
+## Lesson Plan
 
-- [Chapter 4: Responsible AI, Privacy, and Governance](../../chapters/04-responsible-ai-governance/index.md)
+### Learning Objective
+
+Examine how personal data and sensitive attributes move from customer research into persona profiles, prompts, model providers, reports, and archives.
+
+### Activity
+
+1. Predict what the first interaction will reveal.
+2. Explore each state and cite visible evidence.
+3. Apply the model to a new marketing scenario and identify its limits.
+
+### Assessment
+
+Learners should perform the **Analyze** task in the objective and distinguish synthetic output from externally validated evidence.
+
+## References
+
+1. [Chapter source](../../chapters/04-responsible-ai-governance/index.md) - Full instructional context and specification.
+2. [p5.js documentation](https://p5js.org/reference/) - Rendering-library reference.
+

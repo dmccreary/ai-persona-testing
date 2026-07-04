@@ -67,7 +67,7 @@ Five segmentation bases are especially useful:
 
 #### Diagram: Segmentation Basis Classifier
 
-<iframe src="../../sims/segmentation-basis-classifier/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/segmentation-basis-classifier/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Segmentation Basis Classifier</summary>
@@ -139,7 +139,7 @@ The table below reinforces these roles.
 
 #### Diagram: Persona Portfolio Balancer
 
-<iframe src="../../sims/persona-portfolio-balancer/main.html" width="100%" height="530px" scrolling="no"></iframe>
+<iframe src="../../sims/persona-portfolio-balancer/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Persona Portfolio Balancer</summary>
@@ -186,7 +186,7 @@ Use role-specific questions:
 
 #### Diagram: Stress-Testing Role Lab
 
-<iframe src="../../sims/stress-testing-role-lab/main.html" width="100%" height="520px" scrolling="no"></iframe>
+<iframe src="../../sims/stress-testing-role-lab/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Stress-Testing Role Lab</summary>
@@ -248,7 +248,7 @@ These states can change. A new customer can become loyal; a premium customer can
 
 #### Diagram: Customer State Transition Explorer
 
-<iframe src="../../sims/customer-state-transition/main.html" width="100%" height="510px" scrolling="no"></iframe>
+<iframe src="../../sims/customer-state-transition/main.html" width="100%" height="702" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Customer State Transition Explorer</summary>
