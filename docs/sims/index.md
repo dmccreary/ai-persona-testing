@@ -8,4 +8,6 @@ New MicroSims can be created with the `microsim-generator` skill, which routes
 to the appropriate library (p5.js, Chart.js, vis-network, Mermaid, Leaflet,
 Plotly, Venn.js).
 
-<!-- The MicroSim catalog is built up as new sims are added. -->
+## Available MicroSims
+
+- [Learning Graph Viewer](graph-viewer/index.md) — explore, search, and filter the course's 400-concept learning graph.

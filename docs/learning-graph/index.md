@@ -1,17 +1,25 @@
-# Learning Graph
+# Learning Graph for AI Persona Testing
 
-The learning graph captures how concepts in AI Persona Testing depend on each
-other. It is a Directed Acyclic Graph (DAG) — every concept has a path back to
-one or more foundational concepts that have no prerequisites.
+[Open Learning Graph Viewer Fullscreen](../sims/graph-viewer/main.html){ .md-button .md-button--primary }
 
-Once the `learning-graph-generator` skill runs, this section will be populated
-with:
+<iframe src="../sims/graph-viewer/main.html" width="100%" height="600px" frameborder="0"></iframe>
 
-- **Course Description Assessment** — quality review of `course-description.md`
-- **Concept Enumeration** — the ~200 concepts the book will cover
-- **Concept Taxonomy** — concepts grouped into 8–12 categories
-- **Graph Quality Analysis** — DAG structure, foundational and terminal nodes
-- **Taxonomy Distribution** — concept count per taxonomy category
+This section contains the learning graph for *AI Persona Testing for Marketing Professionals*. The graph maps 400 concepts and their prerequisite relationships so learners can follow coherent paths from AI and customer-research foundations to a complete, scalable persona-testing system.
 
-Use the `book-installer` skill (option 23) to add an interactive graph viewer
-once `learning-graph.json` exists.
+Each concept is a node in a Directed Acyclic Graph (DAG). An edge points from a concept to knowledge that should be understood first. The graph includes 14 taxonomy groups, 958 dependency edges, and two foundational entry points.
+
+## Course Description
+
+The [Course Description](../course-description.md) defines the course scope, audience, weekly progression, and Bloom-aligned learning outcomes used to select the concepts.
+
+## Learning Graph Files
+
+- [Concept List](concept-list.md) enumerates the 400 reviewed concept labels.
+- [Learning Graph CSV](learning-graph.csv) contains concept IDs, labels, dependencies, and taxonomy assignments.
+- [Learning Graph JSON](learning-graph.json) provides metadata, groups, nodes, and edges for a vis-network viewer.
+- [Concept Taxonomy](concept-taxonomy.md) defines the 14 primary categories.
+- [Course Description Assessment](course-description-assessment.md) records the 100/100 input-quality assessment.
+- [Graph Quality Metrics](quality-metrics.md) validates the DAG structure and learning pathways.
+- [Taxonomy Distribution](taxonomy-distribution.md) reports category counts and balance.
+
+The interactive viewer supports concept search, taxonomy filtering, connection highlighting, and live graph statistics.
