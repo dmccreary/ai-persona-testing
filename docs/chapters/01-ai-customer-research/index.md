@@ -14,6 +14,11 @@ Introduces AI, generative models, synthetic users, persona testing, and traditio
 
 Learners will be able to explain the core technologies and research traditions that support synthetic customer studies.
 
+!!! mascot-welcome "Welcome to Chapter 1"
+    ![Lens waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Let's look closer. This chapter connects the foundations of language models
+    with the research methods used to distinguish useful exploration from customer evidence.
+
 ## Concepts Covered
 
 This chapter covers the following 20 concepts from the learning graph:
@@ -64,6 +69,11 @@ The following table summarizes those methods after defining them. Notice that ne
 
 AI-assisted research belongs inside this established landscape. It is not a magical fifth method that replaces the others. It is a way to generate hypotheses, rehearse studies, expose weak assumptions, and organize possible reactions before spending time and money with real participants. Its outputs become useful when the team states what kind of evidence they are—and what they are not.
 
+!!! mascot-thinking "Evidence or Inference?"
+    ![Lens thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Is that evidence or inference? Keep an AI-generated reaction in the
+    hypothesis column until appropriate customer, behavioral, or market evidence supports it.
+
 #### Diagram: Research Question Method Navigator
 
 <iframe src="../../sims/research-method-navigator/main.html" width="100%" height="652" scrolling="no"></iframe>
@@ -104,8 +114,10 @@ Implementation: Responsive p5.js interface with DOM-based accessible controls an
 
 For a marketing professional, a useful mental model is “pattern-based language collaborator.” The model can explore interpretations rapidly, maintain a specified role, and impose structure on messy information. It cannot personally want a product, remember a childhood, feel financial pressure, or represent a population merely because its answer sounds human.
 
-!!! warning "Fluency Is Not Evidence"
-    A polished model response may still contain invented facts, stereotypes, or unjustified certainty. Treat fluency as a communication property, not as proof that the simulated reaction is true.
+!!! mascot-warning "Fluency Is Not Evidence"
+    ![Lens giving a warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    A polished model response may still contain invented facts, stereotypes, or unjustified certainty.
+    Treat fluency as a communication property, then ask what evidence supports the simulated reaction.
 
 ## How a Language Model Produces a Response
 
@@ -244,6 +256,11 @@ A basic workflow contains several checkpoints:
 
 This workflow produces value before a live study begins. It can reveal that a survey question is leading, that a product claim lacks evidence, or that a persona profile is too vague. It can also help a research team anticipate objections and improve its interview guide. Used this way, AI accelerates preparation rather than pretending to eliminate the need for people.
 
+!!! mascot-tip "Lens's Research Tip"
+    ![Lens giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Save the decision question, persona definitions, shared evidence, prompts, model settings,
+    and run date together. That record makes later comparisons and validation decisions traceable.
+
 #### Diagram: AI Persona Testing Evidence Workflow
 
 <iframe src="../../sims/persona-testing-evidence-workflow/main.html" width="100%" height="752" scrolling="no"></iframe>
@@ -331,6 +348,11 @@ Choose a marketing asset you know: a homepage, email, advertisement, product pag
 - Customer simulation, agent-based simulation, AI focus groups, and brand stress testing serve different research purposes.
 - Customer and market research answer different questions, while qualitative and quantitative research produce different forms of evidence.
 - AI persona testing is most defensible when it creates hypotheses, exposes assumptions, and leads to an explicit validation plan.
+
+!!! mascot-celebration "Evidence Boundaries Established"
+    ![Lens celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You can now distinguish synthetic hypotheses from customer and market evidence.
+    Chapter 2 turns that distinction into a reproducible research design.
 
 ## Review Questions
 

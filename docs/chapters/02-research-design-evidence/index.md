@@ -14,6 +14,11 @@ Examines focus groups, interviews, surveys, research objectives, validity, relia
 
 Learners will be able to define a research scope and distinguish strong evidence from weak or misleading findings.
 
+!!! mascot-welcome "Welcome to Chapter 2"
+    ![Lens waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Let's look closer. This chapter turns a business decision into research questions,
+    scope, methods, and evidence standards that make a study defensible.
+
 ## Concepts Covered
 
 This chapter covers the following 20 concepts from the learning graph:
@@ -122,6 +127,11 @@ AI should usually appear around human research, not impersonate it. Before a foc
 
 Qualitative sample planning often asks whether additional sessions still reveal meaningfully new themes. Quantitative planning considers expected effect size, uncertainty, confidence, and subgroup comparisons. Synthetic runs use a different logic: repeated runs can explore model variability and scenario coverage, but they do not increase the number of real customers observed.
 
+!!! mascot-warning "Synthetic Runs Are Not Participants"
+    ![Lens giving a warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Ten or one hundred synthetic runs may reveal model variability, but they do not add a single
+    real customer to the sample. Match every claim to the people and evidence actually observed.
+
 Three practical resources shape sample decisions. **Research Turnaround Time** is the elapsed time from question to usable finding. **Research Cost** includes recruiting, incentives, researcher labor, tools, analysis, and the opportunity cost of delay. Access is equally important: a desired audience may be difficult to recruit even when money and time are available.
 
 A sensible design balances these resources against decision risk. A reversible copy change may need quick directional research. A high-cost product launch, accessibility decision, or claim about a vulnerable audience deserves stronger human evidence.
@@ -183,6 +193,11 @@ Several forms of validity matter in practical work. Construct validity concerns 
 
 **Research Reliability** concerns consistency. Would the same procedure applied under comparable conditions produce a reasonably similar result? Reliability can be weakened by changing instructions, assets, scoring rules, or analysis methods between sessions. A result may be reliable but invalid: a miscalibrated scale can produce the same wrong weight every time. A result may also point toward a valid issue while being too unstable for confident use.
 
+!!! mascot-thinking "Two Different Quality Questions"
+    ![Lens thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    A consistent result can still measure the wrong thing. Ask whether the procedure supports the intended
+    interpretation, then ask whether comparable repetitions would behave consistently.
+
 The following matrix reinforces the distinction.
 
 | Pattern | Validity | Reliability | Interpretation |
@@ -241,6 +256,11 @@ For AI persona research, create a study package containing:
 - Analysis notes, limitations, and validation plan
 
 Repeatability supports internal learning across iterations. Reproducibility supports review, collaboration, and accountability. Neither guarantees validity; both make validity easier to inspect.
+
+!!! mascot-tip "Build an Audit Trail"
+    ![Lens giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Treat the study package as an audit trail, not an afterthought. Preserve version identifiers,
+    exclusions, settings, and human judgments so another researcher can inspect the reasoning.
 
 ## Directional Insight and Customer Evidence
 
@@ -333,6 +353,11 @@ Review a real or imagined marketing study and answer the following questions.
 - Repeatability and reproducibility require preserved procedures, inputs, versions, and reasoning.
 - Directional insight can guide action without pretending to be population truth.
 - Customer evidence comes from real customers or their documented behavior, not from simulated customer language alone.
+
+!!! mascot-celebration "A Defensible Evidence Chain"
+    ![Lens celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You can now trace a claim back through its evidence, procedure, scope, and research question.
+    Chapter 3 examines the AI limitations and biases that can weaken that chain.
 
 ## Review Questions
 
