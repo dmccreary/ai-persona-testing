@@ -1,0 +1,14 @@
+{
+  "sim_id": "need-driver-tradeoff-map",
+  "diagram_name": "Need and Driver Trade-Off Map",
+  "chapter_number": 6,
+  "chapter_title": "Persona Motivations, Behaviors, and Evidence",
+  "chapter_dir": "06-persona-behavior-evidence",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Organize emotional drivers, functional needs, and social needs into a causal network that explains a persona's competing priorities.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: graph-model\n**sim-id:** need-driver-tradeoff-map<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** organize\n\n**Learning objective:** Organize emotional drivers, functional needs, and social needs into a causal network that explains a persona's competing priorities.\n\n**Node types:** Goal, Emotional Driver, Functional Need, Social Need, Constraint, Marketing Claim, and Evidence. Properties show source and confidence.\n\n**Edges:** SUPPORTS, CONFLICTS_WITH, REQUIRES, CONSTRAINED_BY, ADDRESSED_BY, and GROUNDED_IN. Every node and edge reveals a definition and example when selected.\n\n**Interaction:** Learners build a network for a purchase scenario, then change time pressure or stakeholder involvement. The tool highlights which needs become more important and asks the learner to explain why.\n\n**Feedback:** Disconnected claims and unsupported needs are flagged. A balance panel shows tensions without reducing them to one score.\n\n**Responsive design:** Force-directed network with zoom, drag, keyboard navigation, a text alternative, and resize handling.\n\n**Instructional rationale:** Relationship construction supports analysis because the learner must explain how different need types reinforce or conflict with one another.\n\nImplementation: vis-network model editor with accessible side panel and JSON export."
+}

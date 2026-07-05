@@ -1,0 +1,14 @@
+{
+  "sim_id": "switching-forces-balance",
+  "diagram_name": "Switching Forces Balance Lab",
+  "chapter_number": 8,
+  "chapter_title": "Jobs-to-Be-Done and Customer Journeys",
+  "chapter_dir": "08-jobs-customer-journeys",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Examine how push, pull, habit, and anxiety forces combine to produce switching, delay, or retention.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** switching-forces-balance<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** examine\n\n**Learning objective:** Examine how push, pull, habit, and anxiety forces combine to produce switching, delay, or retention.\n\n**Controls:** Sliders for each force, evidence toggles, deadline, reversibility, and stakeholder support. Defaults show moderate push and pull with strong habit.\n\n**Visual elements:** A transparent force balance and decision path. Changing a control reveals which evidence or circumstance altered the balance; no conversion probability is claimed.\n\n**Interaction:** Learners predict Switch, Delay, or Stay, adjust a marketing intervention, and receive feedback about whether it strengthens pull, reduces anxiety, or ignores the real barrier.\n\n**Responsive design:** Scale horizontally on wide screens and stack controls below the balance on narrow screens. Include keyboard controls and text summary.\n\n**Instructional rationale:** Manipulating forces and interpreting consequences supports analysis of a multi-causal decision.\n\nImplementation: p5.js force visualization with accessible HTML sliders."
+}

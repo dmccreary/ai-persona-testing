@@ -1,0 +1,14 @@
+{
+  "sim_id": "agent-role-responsibility",
+  "diagram_name": "Agent Role and Responsibility Map",
+  "chapter_number": 13,
+  "chapter_title": "Designing AI Agents and Expert Roles",
+  "chapter_dir": "13-ai-agents-expert-roles",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Differentiate persona, moderator, skeptic, expert reviewer, and synthesis responsibilities and detect conflicting authority.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: graph-model\n**sim-id:** agent-role-responsibility<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** differentiate\n\n**Learning objective:** Differentiate persona, moderator, skeptic, expert reviewer, and synthesis responsibilities and detect conflicting authority.\n\n**Node types:** Agent Role, Goal, Input, Tool, Output, Decision, Human Owner, and Boundary. Edges show RECEIVES, PERFORMS, PRODUCES, REVIEWS, APPROVES, and ESCALATES_TO.\n\n**Interaction:** Learners assign responsibilities in a workflow. The graph flags missing owners, two roles controlling one decision, persona-to-recommendation shortcuts, and outputs without reviewers.\n\n**Responsive design:** Selectable graph with zoom, drag, keyboard traversal, side panel, text matrix, and resize handling.\n\n**Instructional rationale:** Mapping authority relationships supports analysis of role separation.\n\nImplementation: vis-network responsibility graph with rule-based conflict checks."
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Prompt Architecture Builder",
+  "description": "Construct a complete persona-evaluation prompt from objective, role, audience, context, task, constraints, criteria, and output components.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Prompt Architecture Builder"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "prompt-architecture-builder",
+  "library": "p5.js",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Prompt Architecture Builder",
+    "learningObjectives": [
+      "Construct a complete persona-evaluation prompt from objective, role, audience, context, task, constraints, criteria, and output components."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Construct a complete persona-evaluation prompt from objective, role, audience, context, task, constraints, criteria, and output components."
+    ]
+  },
+  "chapter": "10-prompt-engineering",
+  "completion_status": "deployed"
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Research Question Method Navigator",
+  "creator": "Dan McCreary",
+  "subject": ["Marketing Research", "Research Methods", "Evidence Classification"],
+  "description": "Classify marketing questions by customer or market scope and qualitative or quantitative evidence, with immediate explanatory feedback.",
+  "date": "2026-07-03",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "research-method-navigator",
+  "library": "p5.js",
+  "bloomLevel": "Apply",
+  "educational": {
+    "gradeLevel": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Selecting research methods",
+    "learningObjectives": [
+      "Classify a marketing question by research scope and evidence type, then justify the selected method."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 650
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive exploration",
+    "keyQuestions": ["What evidence would answer this question?"],
+    "commonMisconceptions": ["Every research question has exactly one defensible method."],
+    "assessmentOpportunities": ["Ten classification scenarios with immediate feedback."]
+  },
+  "chapter": "01-ai-customer-research"
+}

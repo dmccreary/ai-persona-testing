@@ -1,0 +1,14 @@
+{
+  "sim_id": "bias-pathway-control-map",
+  "diagram_name": "Bias Pathway and Control Map",
+  "chapter_number": 3,
+  "chapter_title": "AI Capabilities, Limitations, and Bias",
+  "chapter_dir": "03-ai-limits-bias",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Attribute a biased research outcome to model, persona selection, cultural assumptions, researcher interpretation, or automation design and select an appropriate control.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: graph-model\n**sim-id:** bias-pathway-control-map<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** attribute\n\n**Learning objective:** Attribute a biased research outcome to model, persona selection, cultural assumptions, researcher interpretation, or automation design and select an appropriate control.\n\n**Node types:** Source Data, Model, Persona Set, Prompt, Marketing Asset, Raw Response, Aggregation, Researcher, Dashboard, Decision, Bias Risk, and Control. Each node shows owner and review status.\n\n**Edges:** INFLUENCES, SELECTS, FRAMES, SUMMARIZES, REVIEWS, and MITIGATES. Every edge is clickable and explains how bias can travel along it.\n\n**Interaction:** Learners choose a failure scenario, click the suspicious output, and trace upstream paths. They attach controls such as coverage review, prompt neutralization, cultural review, blind scoring, or evidence inspection. The system explains why a control acts at a particular point.\n\n**Visual design:** Force-directed graph with risk nodes in red and control nodes in green. Selection highlights the full causal neighborhood. Include zoom, pan, drag, keyboard traversal, and a text alternative.\n\n**Instructional rationale:** Causal tracing supports analysis because learners locate where a system-level bias entered rather than blaming a single component automatically.\n\nImplementation: vis-network with a responsive side panel and scenario-driven graph states."
+}

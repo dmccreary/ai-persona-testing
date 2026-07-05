@@ -1,0 +1,66 @@
+{
+  "title": "Confidence Calibration Challenge",
+  "description": "Assess evidence quality and assign a defensible confidence level with a specific uncertainty disclosure.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Confidence Calibration Challenge"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "confidence-calibration-challenge",
+  "library": "p5.js",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Confidence Calibration Challenge",
+    "learningObjectives": [
+      "Assess evidence quality and assign a defensible confidence level with a specific uncertainty disclosure."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Assess evidence quality and assign a defensible confidence level with a specific uncertainty disclosure."
+    ]
+  },
+  "chapter": "04-responsible-ai-governance",
+  "completion_status": "deployed"
+}

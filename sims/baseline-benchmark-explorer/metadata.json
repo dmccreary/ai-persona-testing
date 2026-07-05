@@ -1,0 +1,66 @@
+{
+  "title": "Baseline and Benchmark Comparison Explorer",
+  "description": "Compare an asset with valid baselines and benchmarks while detecting incompatible conditions and unstable differences.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Baseline and Benchmark Comparison Explorer"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "baseline-benchmark-explorer",
+  "library": "Chart.js",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Baseline and Benchmark Comparison Explorer",
+    "learningObjectives": [
+      "Compare an asset with valid baselines and benchmarks while detecting incompatible conditions and unstable differences."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Chart.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 650
+    },
+    "responsive": true,
+    "dependencies": [
+      "Chart.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Compare an asset with valid baselines and benchmarks while detecting incompatible conditions and unstable differences."
+    ]
+  },
+  "chapter": "18-marketing-metrics-analysis",
+  "completion_status": "deployed"
+}

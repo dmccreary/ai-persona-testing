@@ -1,0 +1,14 @@
+{
+  "sim_id": "multi-agent-workflow-composer",
+  "diagram_name": "Multi-Agent Workflow Composer",
+  "chapter_number": 14,
+  "chapter_title": "Multi-Agent Workflows, Debate, and Consensus",
+  "chapter_dir": "14-multi-agent-orchestration",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Construct a multi-agent workflow with bounded roles, validated handoffs, human review, exception paths, and an accountable final decision.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: workflow\n**sim-id:** multi-agent-workflow-composer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** construct\n\n**Learning objective:** Construct a multi-agent workflow with bounded roles, validated handoffs, human review, exception paths, and an accountable final decision.\n\n**Interaction:** Learners drag persona, moderator, specialist, skeptic, validator, synthesis, and human-review stages onto a canvas. They connect typed outputs to compatible inputs and define stop conditions.\n\n**Feedback:** The composer flags redundant roles, cycles, missing validation, persona-to-decision shortcuts, and outputs with no consumer or owner.\n\n**Responsive design:** Canvas becomes an ordered stage list on narrow screens, with keyboard editing, text export, and resize handling.\n\n**Instructional rationale:** Workflow construction supports creating by integrating roles, evidence, and controls into a functioning system.\n\nImplementation: Responsive p5.js workflow builder with semantic stage forms."
+}

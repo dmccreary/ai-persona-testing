@@ -1,0 +1,14 @@
+{
+  "sim_id": "prompt-architecture-builder",
+  "diagram_name": "Prompt Architecture Builder",
+  "chapter_number": 10,
+  "chapter_title": "Prompt Engineering Foundations",
+  "chapter_dir": "10-prompt-engineering",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Construct a complete persona-evaluation prompt from objective, role, audience, context, task, constraints, criteria, and output components.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** prompt-architecture-builder<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** construct\n\n**Learning objective:** Construct a complete persona-evaluation prompt from objective, role, audience, context, task, constraints, criteria, and output components.\n\n**Layout:** A responsive stack of labeled prompt blocks beside a component tray. A live preview shows the assembled prompt and highlights boundaries.\n\n**Interaction:** Learners select a marketing scenario, arrange blocks, edit content, and run a rule-based completeness check. The tool flags conflicting authority, missing evidence boundaries, vague tasks, and outputs that cannot be compared.\n\n**Feedback:** Clicking a block shows its definition, purpose, and one weak and strong example. A “remove block” experiment shows the likely failure mode.\n\n**Accessibility:** Keyboard ordering, text-only editor, visible focus, and vertical layout on narrow screens.\n\n**Instructional rationale:** Building and debugging a prompt architecture supports creating and makes prompt quality inspectable.\n\nImplementation: Responsive p5.js block workspace with semantic HTML editor and export."
+}

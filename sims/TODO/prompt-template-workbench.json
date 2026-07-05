@@ -1,0 +1,14 @@
+{
+  "sim_id": "prompt-template-workbench",
+  "diagram_name": "Prompt Template Variable Workbench",
+  "chapter_number": 11,
+  "chapter_title": "Structured Prompts and Reliable Outputs",
+  "chapter_dir": "11-structured-prompts",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Implement a reusable prompt template by defining variables, validating inputs, locking stable instructions, and specifying missing-value behavior.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** prompt-template-workbench<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** implement\n\n**Learning objective:** Implement a reusable prompt template by defining variables, validating inputs, locking stable instructions, and specifying missing-value behavior.\n\n**Layout:** Fixed template blocks on the left, variable registry on the right, rendered preview below.\n\n**Interaction:** Learners define source, type, required status, and validation for each variable, then populate three scenarios. The tool blocks unsafe overrides and shows unresolved placeholders.\n\n**Feedback:** Missing or malformed values produce targeted messages. Compare mode reveals accidental changes to locked instructions.\n\n**Responsive design:** Panels stack below 750 pixels, with keyboard editing, text export, and resize handling.\n\n**Instructional rationale:** Configuring and running a template in varied scenarios supports applying reusable prompt design.\n\nImplementation: Responsive p5.js block view with semantic HTML forms."
+}

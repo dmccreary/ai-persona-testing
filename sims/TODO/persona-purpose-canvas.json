@@ -1,0 +1,14 @@
+{
+  "sim_id": "persona-purpose-canvas",
+  "diagram_name": "Persona Purpose Canvas",
+  "chapter_number": 5,
+  "chapter_title": "Building Complete Customer Personas",
+  "chapter_dir": "05-customer-personas",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Formulate a bounded persona purpose connecting a customer pattern, use context, evaluation task, decision, and explicit exclusions.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** persona-purpose-canvas<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** formulate\n\n**Learning objective:** Formulate a bounded persona purpose connecting a customer pattern, use context, evaluation task, decision, and explicit exclusions.\n\n**Layout:** Five responsive canvas zones labeled Represents, Situation, Evaluates, Informs, and Does Not Establish. A scenario tray provides evidence and business-decision cards.\n\n**Interaction:** Learners drag relevant cards into zones, discard irrelevant detail, and edit a generated purpose sentence. The system flags purposes that name only demographics, omit a decision, or claim population authority.\n\n**Feedback:** Clicking a card explains its relevance. A “Change the decision” button demonstrates that the same audience may require a different persona design for pricing, accessibility, onboarding, or brand-trust research.\n\n**Accessibility:** Keyboard card controls, visible focus, text export, and stacked layout below 700 pixels. Respond to window resize events.\n\n**Instructional rationale:** A synthesis canvas supports creating because learners combine research and decision constraints into an original persona purpose.\n\nImplementation: Responsive p5.js workspace with semantic HTML card editors."
+}

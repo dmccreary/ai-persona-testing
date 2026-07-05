@@ -1,0 +1,66 @@
+{
+  "title": "Structured Response Schema Lab",
+  "description": "Design and validate an output schema containing observation, interpretation, rating, evidence, confidence, recommendation, rationale, citation, and missing-data fields.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Structured Response Schema Lab"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "structured-response-schema",
+  "library": "p5.js",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Structured Response Schema Lab",
+    "learningObjectives": [
+      "Design and validate an output schema containing observation, interpretation, rating, evidence, confidence, recommendation, rationale, citation, and missing-data fields."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Design and validate an output schema containing observation, interpretation, rating, evidence, confidence, recommendation, rationale, citation, and missing-data fields."
+    ]
+  },
+  "chapter": "11-structured-prompts",
+  "completion_status": "deployed"
+}

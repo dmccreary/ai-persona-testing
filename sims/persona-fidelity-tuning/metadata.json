@@ -1,0 +1,66 @@
+{
+  "title": "Persona Fidelity Tuning Lab",
+  "description": "Differentiate task-relevant persona evidence from decorative realism, unsupported assumptions, and stereotype risk.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Persona Fidelity Tuning Lab"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "persona-fidelity-tuning",
+  "library": "p5.js",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Persona Fidelity Tuning Lab",
+    "learningObjectives": [
+      "Differentiate task-relevant persona evidence from decorative realism, unsupported assumptions, and stereotype risk."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Differentiate task-relevant persona evidence from decorative realism, unsupported assumptions, and stereotype risk."
+    ]
+  },
+  "chapter": "03-ai-limits-bias",
+  "completion_status": "deployed"
+}

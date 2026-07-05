@@ -1,0 +1,2613 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Privacy, consent, evidence controls, fairness, harm assessment, governance, accountability, and escalation for persona testing.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/ai-persona-testing/chapters/04-responsible-ai-governance/">
+      
+      
+        <link rel="prev" href="../03-ai-limits-bias/quiz/">
+      
+      
+        <link rel="next" href="quiz/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Responsible AI, Privacy, and Governance - AI Persona Testing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-K08R4KBEXL"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-K08R4KBEXL",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-K08R4KBEXL",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Responsible AI, Privacy, and Governance - AI Persona Testing" >
+      
+        <meta  property="og:description"  content="Privacy, consent, evidence controls, fairness, harm assessment, governance, accountability, and escalation for persona testing." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/ai-persona-testing/assets/images/social/chapters/04-responsible-ai-governance/index.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/ai-persona-testing/chapters/04-responsible-ai-governance/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Responsible AI, Privacy, and Governance - AI Persona Testing" >
+      
+        <meta  name="twitter:description"  content="Privacy, consent, evidence controls, fairness, harm assessment, governance, accountability, and escalation for persona testing." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/ai-persona-testing/assets/images/social/chapters/04-responsible-ai-governance/index.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#responsible-ai-privacy-and-governance" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="AI Persona Testing" class="md-header__button md-logo" aria-label="AI Persona Testing" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI Persona Testing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Responsible AI, Privacy, and Governance
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/ai-persona-testing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="AI Persona Testing" class="md-nav__button md-logo" aria-label="AI Persona Testing" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    AI Persona Testing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/ai-persona-testing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About the Book
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../01-ai-customer-research/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    1. AI-Powered Customer Research Foundations
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../02-research-design-evidence/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    2. Research Design and Evidence Quality
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../03-ai-limits-bias/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    3. AI Capabilities, Limitations, and Bias
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  <span class="md-ellipsis">
+    4. Responsible AI, Privacy, and Governance
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            4. Responsible AI, Privacy, and Governance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../05-customer-personas/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    5. Building Complete Customer Personas
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../06-persona-behavior-evidence/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    6. Persona Motivations, Behaviors, and Evidence
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../07-segmentation-archetypes/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    7. Customer Segmentation and Persona Archetypes
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../08-jobs-customer-journeys/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    8. Jobs-to-Be-Done and Customer Journeys
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../09-persona-quality-reuse/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    9. Persona Consistency, Validation, and Reuse
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../10-prompt-engineering/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    10. Prompt Engineering Foundations
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../11-structured-prompts/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    11. Structured Prompts and Reliable Outputs
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../12-prompt-testing-dialogue/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    12. Prompt Testing and Research Dialogue
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../13-ai-agents-expert-roles/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    13. Designing AI Agents and Expert Roles
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../14-multi-agent-orchestration/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    14. Multi-Agent Workflows, Debate, and Consensus
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../15-moderation-brand-strategy/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    15. Moderation Risks and Brand Strategy
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../16-marketing-asset-evaluation/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    16. Evaluating Marketing Assets and Messaging
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../17-rubrics-scoring-evidence/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    17. Evaluation Rubrics, Scoring, and Evidence
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../18-marketing-metrics-analysis/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    18. Marketing Metrics and Pattern Analysis
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../19-risk-knowledge-graphs/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    19. Risk-Based Recommendations and Knowledge Graphs
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../20-automation-reporting-capstone/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    20. Automation, Reporting, and Capstone Systems
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feature-checklist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Feature Checklist
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#responsibility-starts-before-the-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Responsibility Starts Before the Prompt
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Responsibility Starts Before the Prompt">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-persona-data-privacy-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Persona Data Privacy Flow
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minimize-data-and-disclose-the-persona" class="md-nav__link">
+    <span class="md-ellipsis">
+      Minimize Data and Disclose the Persona
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#from-synthetic-hypothesis-to-verified-finding" class="md-nav__link">
+    <span class="md-ellipsis">
+      From Synthetic Hypothesis to Verified Finding
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="From Synthetic Hypothesis to Verified Finding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-evidence-triangulation-studio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Evidence Triangulation Studio
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communicating-uncertainty-honestly" class="md-nav__link">
+    <span class="md-ellipsis">
+      Communicating Uncertainty Honestly
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Communicating Uncertainty Honestly">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-confidence-calibration-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Confidence Calibration Challenge
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guardrails-fairness-harm-and-misuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Guardrails, Fairness, Harm, and Misuse
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#governance-makes-responsibility-durable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Governance Makes Responsibility Durable
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Governance Makes Responsibility Durable">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-governance-and-ethical-escalation-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Governance and Ethical Escalation Simulator
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#worked-example-a-health-service-persona-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: A Health-Service Persona Library
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-design-a-governance-control-set" class="md-nav__link">
+    <span class="md-ellipsis">
+      Practice: Design a Governance Control Set
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review Questions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/ai-persona-testing/blob/main/docs/chapters/04-responsible-ai-governance/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="responsible-ai-privacy-and-governance">Responsible AI, Privacy, and Governance<a class="headerlink" href="#responsible-ai-privacy-and-governance" title="Permanent link">&para;</a></h1>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>Establishes responsible practices for consent, privacy, sensitive data, transparency, fairness, oversight, governance, auditing, accountability, and escalation in AI-assisted research.</p>
+<p>Learners will be able to design ethical guardrails and governance controls for a persona-testing program.</p>
+<h2 id="concepts-covered">Concepts Covered<a class="headerlink" href="#concepts-covered" title="Permanent link">&para;</a></h2>
+<p>This chapter covers the following 20 concepts from the learning graph:</p>
+<ol>
+<li>Informed Consent</li>
+<li>Customer Privacy</li>
+<li>Personal Data</li>
+<li>Sensitive Attributes</li>
+<li>Data Minimization</li>
+<li>Persona Disclosure</li>
+<li>Synthetic Data</li>
+<li>Real Customer Validation</li>
+<li>Evidence Triangulation</li>
+<li>Claim Verification</li>
+<li>Uncertainty Disclosure</li>
+<li>Confidence Calibration</li>
+<li>Ethical Guardrails</li>
+<li>Fairness Review</li>
+<li>Harm Assessment</li>
+<li>Misuse Prevention</li>
+<li>Research Governance</li>
+<li>Audit Trail</li>
+<li>Decision Accountability</li>
+<li>Ethical Escalation</li>
+</ol>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<p>This chapter builds on concepts from:</p>
+<ul>
+<li><a href="../01-ai-customer-research/">Chapter 1: AI-Powered Customer Research Foundations</a></li>
+<li><a href="../02-research-design-evidence/">Chapter 2: Research Design and Evidence Quality</a></li>
+<li><a href="../03-ai-limits-bias/">Chapter 3: AI Capabilities, Limitations, and Bias</a></li>
+</ul>
+<hr />
+<h2 id="responsibility-starts-before-the-prompt">Responsibility Starts Before the Prompt<a class="headerlink" href="#responsibility-starts-before-the-prompt" title="Permanent link">&para;</a></h2>
+<p>Responsible persona testing begins before anyone opens an AI tool. The team must decide whether it should use the data, whether people understand the intended use, what harms could follow, and who can stop the work. A technically impressive workflow built on inappropriate data is still a failed research system.</p>
+<p><strong>Informed Consent</strong> means a person voluntarily agrees to a clearly explained use of their information. Meaningful consent identifies the purpose, data involved, expected users, important risks, retention period, and ability to withdraw where applicable. A broad statement such as “we may use data to improve services” may not adequately explain that interview material will shape AI personas.</p>
+<p><strong>Customer Privacy</strong> is the customer's interest in controlling access to information, behavior, identity, and inferences about them. Privacy is broader than secrecy. A support conversation may already be known to a company, yet using it to create a persistent persona can create a new purpose and a new risk.</p>
+<p><strong>Personal Data</strong> is information linked or reasonably linkable to a person. Names and email addresses are obvious examples, but device identifiers, detailed histories, voice recordings, and combinations of ordinary facts may also identify someone. <strong>Sensitive Attributes</strong> are characteristics that can create greater harm when exposed or misused, such as health, disability, race, ethnicity, religion, sexual orientation, precise location, or financial hardship.</p>
+<p>Do not assume removing a name makes a rich customer story anonymous. Detailed events can reidentify a person. Governance should examine the full context and applicable rules, not rely on a cosmetic deletion.</p>
+<p>The following checklist converts these ideas into a privacy review.</p>
+<ul>
+<li>Is the purpose specific and communicated?</li>
+<li>Does consent cover this purpose and this AI use?</li>
+<li>Which fields identify or could reidentify a person?</li>
+<li>Which sensitive attributes are present or inferred?</li>
+<li>Who needs access, and who does not?</li>
+<li>How long will source data, personas, prompts, and responses remain?</li>
+<li>Can the objective be achieved with less or safer data?</li>
+<li>What happens if a person withdraws or corrects information?</li>
+</ul>
+<h4 id="diagram-persona-data-privacy-flow">Diagram: Persona Data Privacy Flow<a class="headerlink" href="#diagram-persona-data-privacy-flow" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/persona-data-privacy-flow/main.html" width="100%" height="702" scrolling="no"></iframe>
+
+<details>
+<summary>Persona Data Privacy Flow</summary>
+<p>Type: workflow
+<strong>sim-id:</strong> persona-data-privacy-flow<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Specified</p>
+<p><strong>Bloom level:</strong> Analyze (L4)</p>
+<p><strong>Bloom verb:</strong> examine</p>
+<p><strong>Learning objective:</strong> Examine how personal data and sensitive attributes move from customer research into persona profiles, prompts, model providers, reports, and archives.</p>
+<p><strong>Layout:</strong> Responsive swimlanes for Customer, Research Team, Persona Repository, AI Tool, Report Consumer, and Archive. Data cards travel along labeled connectors.</p>
+<p><strong>Interaction:</strong> Clicking a data card reveals purpose, consent status, sensitivity, retention, and access. Learners toggle proposed controls—aggregation, deletion, access restriction, local processing, or exclusion—and observe which exposure paths remain.</p>
+<p><strong>Decision points:</strong> “Consent covers AI use?”, “Sensitive detail necessary?”, “External processor approved?”, and “Retention expired?” Each branch provides explanatory feedback.</p>
+<p><strong>Accessibility:</strong> Every connector and decision has hover and keyboard focus text. A tabular alternative lists flows and controls. The diagram stacks lanes and recalculates paths on resize.</p>
+<p><strong>Instructional rationale:</strong> Tracing information across an operational workflow supports analysis because privacy risk often emerges from movement and reuse rather than one isolated field.</p>
+<p>Implementation: Responsive p5.js swimlane diagram with accessible DOM data cards and control toggles.</p>
+</details>
+<h2 id="minimize-data-and-disclose-the-persona">Minimize Data and Disclose the Persona<a class="headerlink" href="#minimize-data-and-disclose-the-persona" title="Permanent link">&para;</a></h2>
+<p><strong>Data Minimization</strong> means collecting, using, and retaining only the data reasonably necessary for a defined purpose. It asks more than “Could this detail make the persona richer?” The question is “Does this detail materially improve the research task enough to justify its risk?”</p>
+<p>Minimization can happen at several stages. During collection, avoid asking for irrelevant sensitive information. During persona design, replace individual stories with aggregated patterns when detail is unnecessary. During prompting, supply only the fields needed for the evaluation. During reporting, remove raw personal details. During retention, delete temporary material on schedule.</p>
+<p><strong>Persona Disclosure</strong> clearly tells report readers that a persona and its statements are synthetic. Disclosure should appear near the output, not only in a buried methodology note. A synthetic quotation should never be formatted in a way that invites readers to mistake it for a customer's actual words.</p>
+<p>Useful disclosure language includes three parts:</p>
+<ol>
+<li><strong>Identity:</strong> “This response was generated by an AI persona.”</li>
+<li><strong>Basis:</strong> “The persona was constructed from aggregated research themes and stated assumptions.”</li>
+<li><strong>Boundary:</strong> “The response is a hypothesis and does not represent measured customer opinion.”</li>
+</ol>
+<p><strong>Synthetic Data</strong> is artificially generated data designed to resemble patterns in real data without directly reproducing source records. It can reduce some privacy risks, but “synthetic” does not mean automatically safe. Generated records can leak source patterns, preserve bias, or be reidentified when combined with other information. Teams should test privacy and utility rather than trusting the label.</p>
+<p>The table summarizes the controls after they have been defined.</p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Minimization Action</th>
+<th>Disclosure or Safety Check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Source research</td>
+<td>Collect only decision-relevant fields</td>
+<td>Confirm purpose and consent</td>
+</tr>
+<tr>
+<td>Persona construction</td>
+<td>Aggregate patterns and remove unique detail</td>
+<td>Record sources and assumptions</td>
+</tr>
+<tr>
+<td>Prompt execution</td>
+<td>Send only fields needed for the task</td>
+<td>Review provider and retention settings</td>
+</tr>
+<tr>
+<td>Reporting</td>
+<td>Separate synthetic text from customer quotations</td>
+<td>Place disclosure beside findings</td>
+</tr>
+<tr>
+<td>Archiving</td>
+<td>Retain only approved artifacts</td>
+<td>Enforce deletion and access schedules</td>
+</tr>
+</tbody>
+</table>
+<h2 id="from-synthetic-hypothesis-to-verified-finding">From Synthetic Hypothesis to Verified Finding<a class="headerlink" href="#from-synthetic-hypothesis-to-verified-finding" title="Permanent link">&para;</a></h2>
+<p><strong>Real Customer Validation</strong> tests an important synthetic hypothesis with people, behavior, or ethically collected customer evidence. Validation does not mean asking customers to approve an AI response word for word. It means designing an appropriate study that can test the underlying concern.</p>
+<p><strong>Evidence Triangulation</strong> compares information from different sources, methods, analysts, or time periods. Agreement among genuinely independent evidence sources increases confidence. Repeating the same model prompt one hundred times is not strong triangulation because the runs share a model, training history, context, and design.</p>
+<p>Possible evidence sources include:</p>
+<ul>
+<li>Synthetic persona responses for rapid hypothesis generation</li>
+<li>Customer interviews for lived explanations and language</li>
+<li>Behavioral analytics for observed actions</li>
+<li>Surveys for standardized self-report across a designed sample</li>
+<li>Usability tests for task performance</li>
+<li>Support records for recurring problems</li>
+<li>Market sources for category and competitor facts</li>
+<li>Expert review for domain-specific risks</li>
+</ul>
+<p><strong>Claim Verification</strong> checks whether a reported statement is supported by its cited evidence. Verification includes factual claims, numerical claims, quotations, causal explanations, and statements about customer groups. Each claim should be traceable to a source and should not be broader than the source allows.</p>
+<h4 id="diagram-evidence-triangulation-studio">Diagram: Evidence Triangulation Studio<a class="headerlink" href="#diagram-evidence-triangulation-studio" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/evidence-triangulation-studio/main.html" width="100%" height="702" scrolling="no"></iframe>
+
+<details>
+<summary>Evidence Triangulation Studio</summary>
+<p>Type: graph-model
+<strong>sim-id:</strong> evidence-triangulation-studio<br/>
+<strong>Library:</strong> vis-network<br/>
+<strong>Status:</strong> Specified</p>
+<p><strong>Bloom level:</strong> Evaluate (L5)</p>
+<p><strong>Bloom verb:</strong> validate</p>
+<p><strong>Learning objective:</strong> Validate a marketing claim by combining appropriately independent synthetic, behavioral, qualitative, quantitative, and expert evidence.</p>
+<p><strong>Node types:</strong> Claim, Synthetic Finding, Interview Theme, Survey Result, Behavioral Metric, Market Source, Expert Review, Assumption, and Limitation. Node properties show owner, date, method, and independence group.</p>
+<p><strong>Edges:</strong> SUPPORTS, CONTRADICTS, SHARES_SOURCE_WITH, LIMITED_BY, and REQUIRES_VALIDATION. Clicking an edge explains its evidentiary meaning.</p>
+<p><strong>Interaction:</strong> Learners build a support network for one of four claims. The credibility meter rewards method diversity and source independence, flags duplicated evidence, and lowers confidence when contradictory evidence is ignored.</p>
+<p><strong>Feedback:</strong> Selecting “Ready to report” generates a claim audit explaining its supported scope, unresolved uncertainty, and next validation step.</p>
+<p><strong>Responsive design:</strong> Force-directed graph with zoom, pan, drag, keyboard traversal, accessible side panel, and resize handling.</p>
+<p><strong>Instructional rationale:</strong> Constructing and auditing a multi-source evidence network directly practices evaluation rather than simple recall.</p>
+<p>Implementation: vis-network with rule-based independence scoring and JSON scenarios.</p>
+</details>
+<h2 id="communicating-uncertainty-honestly">Communicating Uncertainty Honestly<a class="headerlink" href="#communicating-uncertainty-honestly" title="Permanent link">&para;</a></h2>
+<p><strong>Uncertainty Disclosure</strong> explains what is unknown, unstable, assumed, or outside the evidence. It should identify meaningful limitations without drowning the decision-maker in generic disclaimers. “AI may make mistakes” is too vague. “The international personas were not grounded in local interviews, so cultural findings are exploratory” is actionable.</p>
+<p><strong>Confidence Calibration</strong> aligns expressed confidence with the quality and consistency of evidence. Calibration is not the same as asking a model to produce a percentage. A model-generated “92% confidence” has little meaning unless the score has been validated against outcomes. Teams can use transparent levels tied to criteria instead.</p>
+<p>For example:</p>
+<ul>
+<li><strong>Low confidence:</strong> Synthetic hypothesis with limited grounding or unstable runs</li>
+<li><strong>Moderate confidence:</strong> Stable synthetic pattern aligned with one independent evidence source</li>
+<li><strong>High confidence for a narrow claim:</strong> Multiple independent sources, appropriate customer validation, and no material unresolved contradiction</li>
+</ul>
+<p>Confidence belongs to a claim for a particular use. A team can have high confidence that a headline contains technical jargon and low confidence about whether that jargon reduces sales. Use different confidence judgments rather than averaging unlike questions into one impressive number.</p>
+<h4 id="diagram-confidence-calibration-challenge">Diagram: Confidence Calibration Challenge<a class="headerlink" href="#diagram-confidence-calibration-challenge" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/confidence-calibration-challenge/main.html" width="100%" height="702" scrolling="no"></iframe>
+
+<details>
+<summary>Confidence Calibration Challenge</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> confidence-calibration-challenge<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Specified</p>
+<p><strong>Bloom level:</strong> Evaluate (L5)</p>
+<p><strong>Bloom verb:</strong> assess</p>
+<p><strong>Learning objective:</strong> Assess evidence quality and assign a defensible confidence level with a specific uncertainty disclosure.</p>
+<p><strong>Controls:</strong> Evidence-source toggles, run-stability slider, persona-grounding selector, contradiction indicator, and validation-status selector. Learners set Low, Moderate, or High confidence and write a one-sentence disclosure.</p>
+<p><strong>Scenarios:</strong> Brand clarity, accessibility, purchase intent, cultural interpretation, and competitor fact. Each scenario reveals evidence in stages.</p>
+<p><strong>Feedback:</strong> The tool compares the learner's rating with a criteria-based range, highlights overconfidence or underconfidence, and critiques whether the disclosure names the material uncertainty.</p>
+<p><strong>Visual design:</strong> Evidence cards feed a transparent balance scale rather than a fake precision gauge. Patterns and labels supplement color.</p>
+<p><strong>Responsive behavior:</strong> Cards wrap by available width; controls remain keyboard accessible and re-render on resize.</p>
+<p><strong>Instructional rationale:</strong> Calibration requires repeated judgment against evidence criteria and immediate feedback about the gap between certainty and support.</p>
+<p>Implementation: p5.js balance visualization with semantic HTML controls and rubric feedback.</p>
+</details>
+<h2 id="guardrails-fairness-harm-and-misuse">Guardrails, Fairness, Harm, and Misuse<a class="headerlink" href="#guardrails-fairness-harm-and-misuse" title="Permanent link">&para;</a></h2>
+<p><strong>Ethical Guardrails</strong> are enforceable boundaries that prevent or interrupt unacceptable use. A policy statement becomes a guardrail only when connected to a control: a blocked data field, required review, role-based access rule, prohibited claim, or escalation trigger.</p>
+<p>Guardrails can operate before, during, and after execution:</p>
+<ul>
+<li>Before: approved purposes, data review, persona evidence requirements, user training</li>
+<li>During: input filtering, access controls, prompt constraints, logging, prohibited inferences</li>
+<li>After: output review, claim verification, disclosure checks, retention and deletion</li>
+</ul>
+<p><strong>Fairness Review</strong> examines whether the design or outcome creates unjustified differences among people or groups. It checks representation, stereotype risk, language quality, accessibility, error distribution, and whose interests shape the criteria. Fairness does not always mean identical treatment; it means differences must be relevant, justified, and reviewed for harm.</p>
+<p><strong>Harm Assessment</strong> identifies possible negative consequences, their severity, likelihood, reversibility, and affected parties. Harms may include exclusion, discrimination, privacy loss, reputational damage, manipulation, bad business decisions, or the erasure of minority viewpoints. Assess the harm of acting on a wrong result and the harm of failing to act on a true concern.</p>
+<p><strong>Misuse Prevention</strong> anticipates use beyond the intended purpose. A persona library created to test copy might later be used to target vulnerable customers, infer sensitive traits, replace required accessibility research, or fabricate customer endorsements. Controls should restrict purpose, access, export, and downstream reuse.</p>
+<p>A practical harm review asks:</p>
+<ol>
+<li>Who could be affected directly or indirectly?</li>
+<li>What could go wrong if the output is wrong?</li>
+<li>What could go wrong even if the output is accurate?</li>
+<li>Which groups carry more risk or have less power to challenge the decision?</li>
+<li>Can the harm be reversed?</li>
+<li>Which control reduces likelihood or severity?</li>
+<li>What evidence and authority are required before proceeding?</li>
+</ol>
+<h2 id="governance-makes-responsibility-durable">Governance Makes Responsibility Durable<a class="headerlink" href="#governance-makes-responsibility-durable" title="Permanent link">&para;</a></h2>
+<p><strong>Research Governance</strong> is the system of roles, policies, review processes, standards, and controls that directs research work. It answers who may conduct a persona test, which tools and data are approved, what documentation is required, and which decisions require additional review.</p>
+<p>An <strong>Audit Trail</strong> is a chronological record of important actions and changes. For an AI persona study it may include approvals, source versions, persona revisions, prompt versions, model identifiers, run timestamps, exclusions, reviewer comments, score overrides, report changes, and final decisions. Logs should be useful for investigation, not collected without purpose forever.</p>
+<p><strong>Decision Accountability</strong> assigns a person or role responsibility for the decision and its consequences. “The AI recommended it” is not an accountable answer. The decision owner must understand the evidence, limitations, and unresolved risks well enough to accept, modify, defer, or reject the recommendation.</p>
+<p><strong>Ethical Escalation</strong> moves a concern to a person or group with greater expertise or authority. Escalation triggers should be defined before pressure builds. Examples include sensitive-attribute use, vulnerable audiences, potential discrimination, high-impact decisions, unresolved privacy questions, material disagreement among reviewers, or attempts to remove disclosure.</p>
+<p>The following role table reinforces the governance model.</p>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Primary Responsibility</th>
+<th>Cannot Delegate to the Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Study owner</td>
+<td>Purpose, scope, and method</td>
+<td>Whether the study is necessary</td>
+</tr>
+<tr>
+<td>Privacy reviewer</td>
+<td>Lawful and appropriate data use</td>
+<td>Consent interpretation and risk acceptance</td>
+</tr>
+<tr>
+<td>Domain reviewer</td>
+<td>Factual and contextual quality</td>
+<td>Professional judgment in the domain</td>
+</tr>
+<tr>
+<td>Fairness reviewer</td>
+<td>Representation and differential harm</td>
+<td>Whose interests deserve protection</td>
+</tr>
+<tr>
+<td>Decision owner</td>
+<td>Final business action</td>
+<td>Accountability for consequences</td>
+</tr>
+<tr>
+<td>Audit owner</td>
+<td>Record quality and retention</td>
+<td>Whether evidence is sufficient for review</td>
+</tr>
+</tbody>
+</table>
+<h4 id="diagram-governance-and-ethical-escalation-simulator">Diagram: Governance and Ethical Escalation Simulator<a class="headerlink" href="#diagram-governance-and-ethical-escalation-simulator" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/governance-escalation-simulator/main.html" width="100%" height="702" scrolling="no"></iframe>
+
+<details>
+<summary>Governance and Ethical Escalation Simulator</summary>
+<p>Type: workflow
+<strong>sim-id:</strong> governance-escalation-simulator<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Specified</p>
+<p><strong>Bloom level:</strong> Apply (L3)</p>
+<p><strong>Bloom verb:</strong> execute</p>
+<p><strong>Learning objective:</strong> Execute a governance workflow by assigning reviews, applying guardrails, preserving an audit trail, and escalating ethical concerns to an accountable decision owner.</p>
+<p><strong>Layout:</strong> Swimlanes for Researcher, Privacy, Fairness, Domain Expert, Decision Owner, and Audit System. A case card advances through intake, risk screening, review, decision, and monitoring.</p>
+<p><strong>Interaction:</strong> Learners choose reviewers and controls for scenarios involving sensitive health data, international personas, accessibility claims, and synthetic quotations. Decision points allow Proceed, Revise, Escalate, or Stop.</p>
+<p><strong>Feedback:</strong> The simulator exposes missed stakeholders, inadequate controls, conflicting duties, and incomplete audit records. Clicking any audit event shows actor, time, rationale, and artifact version.</p>
+<p><strong>Completion:</strong> A case passes only when purpose, data, evidence, disclosure, harm controls, accountable approval, and retention are addressed. The final screen explains that escalation is a successful safety action, not a workflow failure.</p>
+<p><strong>Responsive and accessible design:</strong> Stack lanes on small screens, support keyboard navigation, and update layout on resize.</p>
+<p><strong>Instructional rationale:</strong> Scenario decisions with consequences support applying because learners practice an operational governance process.</p>
+<p>Implementation: Responsive p5.js swimlane simulator with semantic controls and structured audit events.</p>
+</details>
+<h2 id="worked-example-a-health-service-persona-library">Worked Example: A Health-Service Persona Library<a class="headerlink" href="#worked-example-a-health-service-persona-library" title="Permanent link">&para;</a></h2>
+<p>A health-service marketing team wants personas based on support transcripts. The proposed purpose is testing appointment reminders. The transcripts contain names, medical conditions, insurance details, and emotional accounts. A broad service agreement exists, but it does not clearly explain using conversations to create AI personas.</p>
+<p>Governance pauses the project. The privacy reviewer asks whether consent and purpose support the reuse. The study owner determines that most raw detail is unnecessary. The team develops aggregated patterns from an approved research process, excludes diagnoses and identifying events, and documents which assumptions replace missing evidence.</p>
+<p>Persona disclosure appears in every synthetic report. Claims about accessibility and trust require real customer validation. Evidence triangulation combines synthetic stress tests, usability sessions, delivery analytics, and accessibility expert review. Confidence remains moderate where only synthetic and expert evidence exists.</p>
+<p>Guardrails prohibit targeting individuals, inferring conditions, generating testimonials, and exporting profiles. The fairness review checks language and representation. Harm assessment identifies the risk that an inaccurate reminder could expose private information on a shared device. The workflow escalates message-content decisions to privacy and clinical reviewers.</p>
+<p>The audit trail records approvals, data transformations, persona versions, prompt runs, excluded outputs, and the decision owner's rationale. The result is slower than copying transcripts into a prompt—and far safer, more credible, and more reusable.</p>
+<h2 id="practice-design-a-governance-control-set">Practice: Design a Governance Control Set<a class="headerlink" href="#practice-design-a-governance-control-set" title="Permanent link">&para;</a></h2>
+<p>Choose one persona-testing scenario and create a one-page control plan.</p>
+<ol>
+<li>State the approved purpose and prohibited purposes.</li>
+<li>Identify personal data and sensitive attributes.</li>
+<li>Explain the consent or other appropriate basis for use.</li>
+<li>Apply data minimization at collection, persona, prompt, report, and retention stages.</li>
+<li>Write a persona disclosure.</li>
+<li>Name one real-customer validation activity and two independent evidence sources.</li>
+<li>Define confidence levels and an uncertainty disclosure.</li>
+<li>Select fairness and harm review criteria.</li>
+<li>Define at least three misuse-prevention guardrails.</li>
+<li>Name the decision owner, audit records, and escalation triggers.</li>
+</ol>
+<details class="question">
+<summary>What if governance slows the project?</summary>
+<p>Governance should be proportional, but speed alone does not justify hidden data reuse or unsupported claims. Good governance creates reusable approvals, templates, and controls so future low-risk work can move faster without abandoning responsibility.</p>
+</details>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Consent, privacy, personal data, and sensitive attributes must be addressed before persona construction.</li>
+<li>Data minimization reduces unnecessary exposure throughout the data lifecycle.</li>
+<li>Persona disclosure prevents synthetic speech from being mistaken for customer testimony.</li>
+<li>Synthetic data can reduce some risks but still requires privacy, bias, and reidentification review.</li>
+<li>Real-customer validation, triangulation, and claim verification turn hypotheses into stronger evidence.</li>
+<li>Uncertainty disclosure and confidence calibration keep language proportional to support.</li>
+<li>Guardrails, fairness review, harm assessment, and misuse prevention make ethics operational.</li>
+<li>Governance assigns roles; audit trails preserve actions; accountability names the decision owner; escalation handles risks beyond ordinary authority.</li>
+</ul>
+<h2 id="review-questions">Review Questions<a class="headerlink" href="#review-questions" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Why can deidentified customer material still create privacy risk?</li>
+<li>How does data minimization apply after data collection?</li>
+<li>What must a useful persona disclosure communicate?</li>
+<li>Why are repeated model runs weak evidence triangulation?</li>
+<li>How should confidence be calibrated without inventing precise percentages?</li>
+<li>What turns an ethical principle into an enforceable guardrail?</li>
+<li>Which events should trigger ethical escalation in a persona-testing program?</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../03-ai-limits-bias/quiz/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Quiz">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Quiz
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="quiz/" class="md-footer__link md-footer__link--next" aria-label="Next: Quiz">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Quiz
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

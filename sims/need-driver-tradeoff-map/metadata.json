@@ -1,0 +1,66 @@
+{
+  "title": "Need and Driver Trade-Off Map",
+  "description": "Organize emotional drivers, functional needs, and social needs into a causal network that explains a persona's competing priorities.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Need and Driver Trade-Off Map"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "need-driver-tradeoff-map",
+  "library": "vis-network",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Need and Driver Trade-Off Map",
+    "learningObjectives": [
+      "Organize emotional drivers, functional needs, and social needs into a causal network that explains a persona's competing priorities."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Organize emotional drivers, functional needs, and social needs into a causal network that explains a persona's competing priorities."
+    ]
+  },
+  "chapter": "06-persona-behavior-evidence",
+  "completion_status": "deployed"
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Agent Role and Responsibility Map",
+  "description": "Differentiate persona, moderator, skeptic, expert reviewer, and synthesis responsibilities and detect conflicting authority.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Agent Role and Responsibility Map"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "agent-role-responsibility",
+  "library": "vis-network",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Agent Role and Responsibility Map",
+    "learningObjectives": [
+      "Differentiate persona, moderator, skeptic, expert reviewer, and synthesis responsibilities and detect conflicting authority."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Differentiate persona, moderator, skeptic, expert reviewer, and synthesis responsibilities and detect conflicting authority."
+    ]
+  },
+  "chapter": "13-ai-agents-expert-roles",
+  "completion_status": "deployed"
+}

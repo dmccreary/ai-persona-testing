@@ -1,0 +1,14 @@
+{
+  "sim_id": "parallel-sequential-explorer",
+  "diagram_name": "Parallel–Sequential Trade-Off Explorer",
+  "chapter_number": 14,
+  "chapter_title": "Multi-Agent Workflows, Debate, and Consensus",
+  "chapter_dir": "14-multi-agent-orchestration",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Justify parallel, sequential, or hybrid execution based on task dependency, independence, latency, cost, contamination, and error propagation.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** parallel-sequential-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** justify\n\n**Learning objective:** Justify parallel, sequential, or hybrid execution based on task dependency, independence, latency, cost, contamination, and error propagation.\n\n**Interaction:** Learners arrange the same roles in three patterns and inspect predicted consequences. Parameter controls adjust dependency strength, review budget, context sensitivity, and urgency.\n\n**Feedback:** The tool flags sequential persona anchoring, parallel stages with missing prerequisites, and hybrid plans without a clear convergence gate.\n\n**Responsive design:** Flows stack on narrow screens, with keyboard arrangement and text comparison.\n\n**Instructional rationale:** Multi-criteria design judgment supports evaluation.\n\nImplementation: Responsive p5.js flow comparison with accessible controls."
+}

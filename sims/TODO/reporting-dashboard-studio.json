@@ -1,0 +1,14 @@
+{
+  "sim_id": "reporting-dashboard-studio",
+  "diagram_name": "Reporting and Dashboard Design Studio",
+  "chapter_number": 20,
+  "chapter_title": "Automation, Reporting, and Capstone Systems",
+  "chapter_dir": "20-automation-reporting-capstone",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Compose executive, persona-comparison, heat-map, and recommendation views that preserve evidence, confidence, disagreement, accessibility, and decision context.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** reporting-dashboard-studio<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** compose\n\n**Learning objective:** Compose executive, persona-comparison, heat-map, and recommendation views that preserve evidence, confidence, disagreement, accessibility, and decision context.\n\n**Interaction:** Learners select report widgets, connect each to graph queries, define audience and claim boundaries, and inspect drill-down paths. Missing provenance blocks publication.\n\n**Feedback:** The studio flags decorative metrics, inaccessible color-only heat maps, hidden uncertainty, and executive summaries that omit severe minority findings.\n\n**Responsive design:** Dashboard grid becomes an ordered mobile layout with keyboard widget controls and text exports.\n\n**Instructional rationale:** Designing linked report views supports creating evidence-centered communication.\n\nImplementation: p5.js dashboard composer with semantic widget controls."
+}

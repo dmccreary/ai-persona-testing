@@ -1,0 +1,66 @@
+{
+  "title": "Complete Evaluation Graph Schema",
+  "description": "Construct a complete evaluation schema connecting persona, asset, goal, pain point, reaction, criterion, evidence, finding, risk, recommendation, decision, implementation, and outcome nodes.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Complete Evaluation Graph Schema"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "complete-evaluation-graph-schema",
+  "library": "vis-network",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Complete Evaluation Graph Schema",
+    "learningObjectives": [
+      "Construct a complete evaluation schema connecting persona, asset, goal, pain point, reaction, criterion, evidence, finding, risk, recommendation, decision, implementation, and outcome nodes."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Construct a complete evaluation schema connecting persona, asset, goal, pain point, reaction, criterion, evidence, finding, risk, recommendation, decision, implementation, and outcome nodes."
+    ]
+  },
+  "chapter": "20-automation-reporting-capstone",
+  "completion_status": "deployed"
+}

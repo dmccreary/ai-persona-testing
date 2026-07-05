@@ -1,0 +1,66 @@
+{
+  "title": "Persona Data Privacy Flow",
+  "description": "Examine how personal data and sensitive attributes move from customer research into persona profiles, prompts, model providers, reports, and archives.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Persona Data Privacy Flow"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "persona-data-privacy-flow",
+  "library": "p5.js",
+  "bloomLevel": "Analyze",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Persona Data Privacy Flow",
+    "learningObjectives": [
+      "Examine how personal data and sensitive attributes move from customer research into persona profiles, prompts, model providers, reports, and archives."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Examine how personal data and sensitive attributes move from customer research into persona profiles, prompts, model providers, reports, and archives."
+    ]
+  },
+  "chapter": "04-responsible-ai-governance",
+  "completion_status": "deployed"
+}

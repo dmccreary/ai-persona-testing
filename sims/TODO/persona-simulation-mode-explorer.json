@@ -1,0 +1,14 @@
+{
+  "sim_id": "persona-simulation-mode-explorer",
+  "diagram_name": "Persona Simulation Mode Explorer",
+  "chapter_number": 1,
+  "chapter_title": "AI-Powered Customer Research Foundations",
+  "chapter_dir": "01-ai-customer-research",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Differentiate customer simulation, agent-based simulation, AI focus groups, and brand stress testing by purpose, number of agents, interaction pattern, and expected evidence.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** persona-simulation-mode-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** differentiate\n\n**Learning objective:** Differentiate customer simulation, agent-based simulation, AI focus groups, and brand stress testing by purpose, number of agents, interaction pattern, and expected evidence.\n\n**Layout:** Four selectable mode cards surround a central marketing asset card. Selecting a mode redraws the participants and message paths: one persona for customer simulation, several independent agents for agent-based simulation, a moderated round table for an AI focus group, and adversarial probes for brand stress testing.\n\n**Interactive feedback:** Hovering a participant reveals its role; clicking a message path explains what information flows along it. A comparison tray lets learners pin two modes and inspect differences. A scenario quiz asks which mode best fits goals such as “find unclear claims” or “observe disagreement.”\n\n**Visual language:** Blue for customer perspectives, purple for moderators, orange for expert reviewers, and red for stress probes. Include a legend and a text-only alternative.\n\n**Responsive design:** Rearrange the four cards into a vertical accordion on narrow screens and recalculate connector paths on every resize event.\n\n**Instructional rationale:** A selectable comparison supports analysis because the learner must examine structural differences and match each method to a research purpose.\n\nImplementation: Responsive p5.js node-and-link display with accessible HTML comparison controls."
+}

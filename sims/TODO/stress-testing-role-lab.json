@@ -1,0 +1,14 @@
+{
+  "sim_id": "stress-testing-role-lab",
+  "diagram_name": "Stress-Testing Role Lab",
+  "chapter_number": 7,
+  "chapter_title": "Customer Segmentation and Persona Archetypes",
+  "chapter_dir": "07-segmentation-archetypes",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Differentiate negative, edge-case, adversarial, and skeptical persona roles and select the correct role for a research risk.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** stress-testing-role-lab<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** differentiate\n\n**Learning objective:** Differentiate negative, edge-case, adversarial, and skeptical persona roles and select the correct role for a research risk.\n\n**Interaction:** Scenario cards describe a customer, condition, or test goal. Learners assign the appropriate role, identify the evidence required, and write a fair prompt.\n\n**Feedback:** The tool flags insulting negative personas, implausible edge cases, adversarial prompts that manufacture failure, and skeptics who cannot be persuaded by evidence.\n\n**Scenarios:** Free-trial misuse, low-bandwidth checkout, exaggerated sustainability claim, hidden renewal term, and unsupported medical claim.\n\n**Responsive design:** Cards and role zones stack on narrow screens, with keyboard controls and resize events.\n\n**Instructional rationale:** Comparing closely related testing roles requires analysis of purpose, conditions, and fair behavior.\n\nImplementation: Responsive p5.js classification lab with editable prompt feedback."
+}

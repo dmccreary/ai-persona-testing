@@ -1,0 +1,14 @@
+{
+  "sim_id": "persona-portfolio-balancer",
+  "diagram_name": "Persona Portfolio Balancer",
+  "chapter_number": 7,
+  "chapter_title": "Customer Segmentation and Persona Archetypes",
+  "chapter_dir": "07-segmentation-archetypes",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Design a persona portfolio that balances primary, secondary, negative, edge-case, adversarial, international, accessibility, and customer-state perspectives.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** persona-portfolio-balancer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** design\n\n**Learning objective:** Design a persona portfolio that balances primary, secondary, negative, edge-case, adversarial, international, accessibility, and customer-state perspectives.\n\n**Controls:** Marketing decision selector, portfolio size from three to twelve, evidence coverage toggles, and role assignment. Persona candidate cards show needs, behaviors, context, source quality, and uncertainty.\n\n**Visual elements:** A coverage matrix compares selected personas across research roles, needs, channels, geography, access conditions, and lifecycle state. No demographic score is treated as diversity by itself.\n\n**Feedback:** The tool flags redundant personas, unsupported roles, missing critical perspectives, unfair negative-persona criteria, and token diversity that does not change behavior. Learners justify every inclusion.\n\n**Responsive and accessible design:** Matrix becomes stacked role cards below 750 pixels; provide keyboard selection, patterns, text report, and resize handling.\n\n**Instructional rationale:** Portfolio construction supports creating because learners synthesize evidence and testing goals into a bounded system.\n\nImplementation: p5.js portfolio workspace with semantic controls and exportable coverage report."
+}

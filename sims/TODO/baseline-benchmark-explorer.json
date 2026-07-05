@@ -1,0 +1,14 @@
+{
+  "sim_id": "baseline-benchmark-explorer",
+  "diagram_name": "Baseline and Benchmark Comparison Explorer",
+  "chapter_number": 18,
+  "chapter_title": "Marketing Metrics and Pattern Analysis",
+  "chapter_dir": "18-marketing-metrics-analysis",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Compare an asset with valid baselines and benchmarks while detecting incompatible conditions and unstable differences.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: chart\n**sim-id:** baseline-benchmark-explorer<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** compare\n\n**Learning objective:** Compare an asset with valid baselines and benchmarks while detecting incompatible conditions and unstable differences.\n\n**Chart:** Interactive grouped bars and interval markers by criterion and persona. Hover reveals asset, version, context, rubric, run count, confidence, and evidence.\n\n**Controls:** Reference type, persona, criterion, version, and compatible-only filter. Sensitivity view shows whether conclusions survive plausible variation.\n\n**Feedback:** The tool blocks comparisons with mismatched criteria or contexts until the learner explains and corrects them.\n\n**Responsive design:** Charts stack on narrow screens with keyboard access and table alternative.\n\n**Instructional rationale:** Conditional comparison supports analysis rather than superficial ranking.\n\nImplementation: Responsive Chart.js visualization with metadata validation."
+}

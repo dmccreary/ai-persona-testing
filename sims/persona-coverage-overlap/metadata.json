@@ -1,0 +1,66 @@
+{
+  "title": "Portfolio Coverage and Overlap Explorer",
+  "description": "Assess a persona portfolio for meaningful differentiation, redundant overlap, decision coverage, diversity, and influence balance.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Portfolio Coverage and Overlap Explorer"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "persona-coverage-overlap",
+  "library": "vis-network",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Portfolio Coverage and Overlap Explorer",
+    "learningObjectives": [
+      "Assess a persona portfolio for meaningful differentiation, redundant overlap, decision coverage, diversity, and influence balance."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Assess a persona portfolio for meaningful differentiation, redundant overlap, decision coverage, diversity, and influence balance."
+    ]
+  },
+  "chapter": "09-persona-quality-reuse",
+  "completion_status": "deployed"
+}

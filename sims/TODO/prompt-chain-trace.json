@@ -1,0 +1,14 @@
+{
+  "sim_id": "prompt-chain-trace",
+  "diagram_name": "Prompt Chain Trace Explorer",
+  "chapter_number": 11,
+  "chapter_title": "Structured Prompts and Reliable Outputs",
+  "chapter_dir": "11-structured-prompts",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Examine how data, evidence, uncertainty, and errors move through a multi-stage prompt chain.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: workflow\n**sim-id:** prompt-chain-trace<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** examine\n\n**Learning objective:** Examine how data, evidence, uncertainty, and errors move through a multi-stage prompt chain.\n\n**Workflow:** Input Validation, Claim Extraction, Persona Review, Expert Review, Evidence Check, Synthesis, and Report. Each node displays prompt version and schema.\n\n**Interaction:** Learners click handoffs to inspect payloads, inject a missing field or unsupported claim, and choose Stop, Repair, Retry, or Continue. Downstream effects become visible.\n\n**Feedback:** The simulator highlights lost citations, collapsed disagreement, instruction injection, and incompatible schema versions.\n\n**Responsive design:** Horizontal flow becomes a vertical trace on narrow screens; every node and connector is keyboard accessible and responds to resize.\n\n**Instructional rationale:** Tracing propagation and controls supports analysis of system behavior.\n\nImplementation: Responsive p5.js workflow with structured sample payloads."
+}

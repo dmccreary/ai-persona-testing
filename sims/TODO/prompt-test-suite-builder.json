@@ -1,0 +1,14 @@
+{
+  "sim_id": "prompt-test-suite-builder",
+  "diagram_name": "Prompt Test Suite Builder",
+  "chapter_number": 12,
+  "chapter_title": "Prompt Testing and Research Dialogue",
+  "chapter_dir": "12-prompt-testing-dialogue",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Design a balanced prompt test suite with routine, boundary, missing-data, adversarial, persona-fidelity, and schema cases.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** prompt-test-suite-builder<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** design\n\n**Learning objective:** Design a balanced prompt test suite with routine, boundary, missing-data, adversarial, persona-fidelity, and schema cases.\n\n**Interaction:** Learners choose a prompt objective, inspect candidate test cards, and build a suite within a limited execution budget. A coverage map shows untested requirements and overrepresented happy paths.\n\n**Feedback:** Each case requires inputs, expected properties, acceptable variation, and failure signals. The tool flags exact-text expectations and cases that cannot diagnose a specific component.\n\n**Responsive design:** Coverage matrix becomes stacked cards on narrow screens, with keyboard selection, text export, and resize handling.\n\n**Instructional rationale:** Test-suite construction supports creating because learners combine risks and requirements into a new verification system.\n\nImplementation: Responsive p5.js coverage canvas with semantic case editor."
+}

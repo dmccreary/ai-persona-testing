@@ -1,0 +1,14 @@
+{
+  "sim_id": "structured-response-schema",
+  "diagram_name": "Structured Response Schema Lab",
+  "chapter_number": 11,
+  "chapter_title": "Structured Prompts and Reliable Outputs",
+  "chapter_dir": "11-structured-prompts",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Design and validate an output schema containing observation, interpretation, rating, evidence, confidence, recommendation, rationale, citation, and missing-data fields.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** structured-response-schema<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** design\n\n**Learning objective:** Design and validate an output schema containing observation, interpretation, rating, evidence, confidence, recommendation, rationale, citation, and missing-data fields.\n\n**Interaction:** Learners assemble fields, define types and required status, set rating anchors, and validate sample persona responses. They repair missing citations, unsupported recommendations, and invalid confidence values.\n\n**Visual elements:** A schema tree, sample response, and traceability path. Clicking a field highlights every dependent field.\n\n**Feedback:** The tool explains why syntactic validity does not guarantee evidentiary validity and tests cross-field rules.\n\n**Responsive design:** Tree becomes a collapsible list on narrow screens, with keyboard editing, text export, and resize handling.\n\n**Instructional rationale:** Schema construction and sample validation support creating an analysis-ready response design.\n\nImplementation: p5.js schema visualization with semantic form controls."
+}

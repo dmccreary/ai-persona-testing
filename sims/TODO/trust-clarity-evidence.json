@@ -1,0 +1,14 @@
+{
+  "sim_id": "trust-clarity-evidence",
+  "diagram_name": "Trust and Clarity Evidence Lab",
+  "chapter_number": 17,
+  "chapter_title": "Evaluation Rubrics, Scoring, and Evidence",
+  "chapter_dir": "17-rubrics-scoring-evidence",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Justify trust and clarity ratings using anchored dimensions, supporting evidence, confidence, persona context, and noncompensatory concerns.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** trust-clarity-evidence<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** justify\n\n**Learning objective:** Justify trust and clarity ratings using anchored dimensions, supporting evidence, confidence, persona context, and noncompensatory concerns.\n\n**Interaction:** Learners inspect an asset and persona, attach evidence to dimensions, select anchors, and assign confidence. The tool prevents scoring unsupported fields.\n\n**Feedback:** Compare mode shows how two personas can receive different justified ratings. Hidden evidence and missing qualifications trigger warnings.\n\n**Responsive design:** Asset, rubric, and evidence panels become tabs on narrow screens, with keyboard controls and text report.\n\n**Instructional rationale:** Evidence-linked scoring and justification support evaluation.\n\nImplementation: Responsive p5.js rubric workspace with semantic forms."
+}

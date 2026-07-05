@@ -1,0 +1,14 @@
+{
+  "sim_id": "persona-evaluation-graph-builder",
+  "diagram_name": "Persona Evaluation Knowledge Graph Builder",
+  "chapter_number": 19,
+  "chapter_title": "Risk-Based Recommendations and Knowledge Graphs",
+  "chapter_dir": "19-risk-knowledge-graphs",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Construct a provenance-rich evaluation graph linking personas, assets, goals, pain points, reactions, evidence, risks, and recommendations.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: graph-model\n**sim-id:** persona-evaluation-graph-builder<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom level:** Create (L6)\n\n**Bloom verb:** construct\n\n**Learning objective:** Construct a provenance-rich evaluation graph linking personas, assets, goals, pain points, reactions, evidence, risks, and recommendations.\n\n**Interaction:** Learners add typed nodes and relationships, validate direction and required properties, run sample queries, and inspect every evidence path.\n\n**Visual design:** Node color and shape indicate type; edge labels remain visible on selection. Side panel shows properties, source, confidence, and version.\n\n**Feedback:** The builder flags duplicate nodes, vague relationships, unsupported reactions, circular recommendation logic, and missing provenance.\n\n**Responsive design:** Zoom, pan, drag, keyboard traversal, text triple view, and resize handling.\n\n**Instructional rationale:** Building a typed relationship model supports creating and makes evidence structure explicit.\n\nImplementation: vis-network model editor with JSON export and schema validation."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "research-dialogue-studio",
+  "diagram_name": "Research Dialogue Practice Studio",
+  "chapter_number": 12,
+  "chapter_title": "Prompt Testing and Research Dialogue",
+  "chapter_dir": "12-prompt-testing-dialogue",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Practice selecting neutral, open, probing, adversarial, and follow-up questions while maintaining persona fidelity and evidence boundaries.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** research-dialogue-studio<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** practice\n\n**Learning objective:** Practice selecting neutral, open, probing, adversarial, and follow-up questions while maintaining persona fidelity and evidence boundaries.\n\n**Interaction:** A persona produces a short response to a marketing asset. Learners select or write the next question. The dialogue branches and displays feedback on leading assumptions, depth, evidence, and role pressure.\n\n**Controls:** Question-type filter, Neutrality Check, Persona Fidelity meter, Evidence Trace, Undo, and Compare Path. No score rewards agreement with the marketer.\n\n**Feedback:** The system explains how each question shaped the next response and offers a more neutral alternative when needed.\n\n**Responsive design:** Conversation and coaching panel become tabs on narrow screens, with keyboard input and resize handling.\n\n**Instructional rationale:** Guided dialogue practice with immediate feedback supports applying question-design principles.\n\nImplementation: p5.js conversation map with semantic HTML chat and coaching controls."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "campaign-consistency-map",
+  "diagram_name": "Cross-Channel Campaign Consistency Map",
+  "chapter_number": 16,
+  "chapter_title": "Evaluating Marketing Assets and Messaging",
+  "chapter_dir": "16-marketing-asset-evaluation",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Compare campaign assets across channels for message continuity, appropriate adaptation, proof, tone, audience, and action.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: graph-model\n**sim-id:** campaign-consistency-map<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** compare\n\n**Learning objective:** Compare campaign assets across channels for message continuity, appropriate adaptation, proof, tone, audience, and action.\n\n**Node types:** Campaign Goal, Persona, Journey Stage, Advertisement, Social Post, Email, Video, Landing Page, Claim, Proof, and Action.\n\n**Edges:** LEADS_TO, EXPRESSES, ADAPTS, SUPPORTS, CONTRADICTS, and TARGETS. Every element reveals evidence and version.\n\n**Interaction:** Select a journey path, compare message changes, and flag intentional adaptation or inconsistency. The system highlights broken promises and missing proof.\n\n**Responsive design:** Zoomable graph with keyboard navigation, side panel, text path alternative, and resize handling.\n\n**Instructional rationale:** Cross-asset relationship comparison supports analysis of campaign systems.\n\nImplementation: vis-network graph with accessible detail and filtering."
+}

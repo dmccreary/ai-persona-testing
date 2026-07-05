@@ -1,0 +1,14 @@
+{
+  "sim_id": "persona-testing-evidence-workflow",
+  "diagram_name": "AI Persona Testing Evidence Workflow",
+  "chapter_number": 1,
+  "chapter_title": "AI-Powered Customer Research Foundations",
+  "chapter_dir": "01-ai-customer-research",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Use a staged AI persona testing workflow to transform a marketing question into synthetic findings and an explicit real-customer validation plan.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: workflow\n**sim-id:** persona-testing-evidence-workflow<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** use\n\n**Learning objective:** Use a staged AI persona testing workflow to transform a marketing question into synthetic findings and an explicit real-customer validation plan.\n\n**Workflow steps:** Decision question, persona selection, shared evidence package, independent reviews, optional moderated discussion, pattern comparison, limitation review, validation decision, and research handoff.\n\n**Interaction:** Each step is clickable and opens a side panel containing its input, action, output, and quality check. Learners can load one of three scenarios—a landing page, an advertisement, or a new service concept—and drag evidence artifacts to the correct workflow stage. Decision diamonds ask whether a claim is synthetic, externally verified, or unresolved.\n\n**Feedback:** Incorrect placements explain why the artifact belongs elsewhere. Completing the workflow produces a two-column report separating synthetic hypotheses from validated evidence. Every connector has hover text describing what passes to the next stage.\n\n**Visual style:** Responsive swimlane workflow with lanes for Marketing Team, Persona System, and Human Research. Use blue for inputs, purple for simulation, gold for analysis, and green for validation.\n\n**Accessibility and sizing:** Target 1,000 by 540 pixels, scale fluidly to container width, stack swimlanes below 700 pixels, respond to window resize events, and provide keyboard drag alternatives.\n\n**Instructional rationale:** Applying requires learners to place evidence and decisions into a new scenario, with feedback that corrects workflow misunderstandings.\n\nImplementation: p5.js for the workflow canvas and semantic HTML controls for scenarios, artifacts, and the report panel."
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Persona Portfolio Balancer",
+  "description": "Design a persona portfolio that balances primary, secondary, negative, edge-case, adversarial, international, accessibility, and customer-state perspectives.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Persona Portfolio Balancer"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "persona-portfolio-balancer",
+  "library": "p5.js",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Persona Portfolio Balancer",
+    "learningObjectives": [
+      "Design a persona portfolio that balances primary, secondary, negative, edge-case, adversarial, international, accessibility, and customer-state perspectives."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Design a persona portfolio that balances primary, secondary, negative, edge-case, adversarial, international, accessibility, and customer-state perspectives."
+    ]
+  },
+  "chapter": "07-segmentation-archetypes",
+  "completion_status": "deployed"
+}

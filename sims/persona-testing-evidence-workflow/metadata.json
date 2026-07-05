@@ -1,0 +1,52 @@
+{
+  "title": "AI Persona Testing Evidence Workflow",
+  "creator": "Dan McCreary",
+  "subject": ["AI Persona Testing", "Evidence", "Research Workflow"],
+  "description": "Practice moving a marketing question through synthetic persona review to an explicit real-customer validation plan.",
+  "date": "2026-07-03",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "persona-testing-evidence-workflow",
+  "library": "p5.js",
+  "bloomLevel": "Apply",
+  "educational": {
+    "gradeLevel": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "AI persona testing evidence workflow",
+    "learningObjectives": [
+      "Use a staged workflow to transform a marketing question into synthetic findings and a real-customer validation plan."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 750
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive exploration",
+    "keyQuestions": ["Which claims remain synthetic, and what evidence would validate them?"],
+    "commonMisconceptions": ["Repeated synthetic agreement is equivalent to real-customer validation."],
+    "assessmentOpportunities": ["Place nine artifacts into the correct workflow stages."]
+  },
+  "chapter": "01-ai-customer-research"
+}

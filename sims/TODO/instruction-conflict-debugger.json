@@ -1,0 +1,14 @@
+{
+  "sim_id": "instruction-conflict-debugger",
+  "diagram_name": "Instruction Conflict Debugger",
+  "chapter_number": 12,
+  "chapter_title": "Prompt Testing and Research Dialogue",
+  "chapter_dir": "12-prompt-testing-dialogue",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Deconstruct a prompt into instruction sources, identify ambiguity and conflict, apply hierarchy, and select refusal, clarification, or execution.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** instruction-conflict-debugger<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** deconstruct\n\n**Learning objective:** Deconstruct a prompt into instruction sources, identify ambiguity and conflict, apply hierarchy, and select refusal, clarification, or execution.\n\n**Data visibility requirements:** Show system rules, template rules, user task, persona data, asset text, and prior-stage output in separate labeled layers. Imperative text inside data is highlighted.\n\n**Interaction:** Learners connect conflicting statements, assign authority, and rewrite the lower-priority instruction. The tool simulates likely failure if the conflict remains.\n\n**Feedback:** Cases cover missing data versus required completeness, role fidelity versus expert advice, concise output versus required evidence, and prompt injection inside an asset.\n\n**Responsive design:** Layers stack as collapsible panels on narrow screens, with keyboard annotation and resize handling.\n\n**Instructional rationale:** Layer-by-layer conflict analysis supports deconstruction and causal diagnosis.\n\nImplementation: p5.js instruction map with semantic text panels."
+}

@@ -1,0 +1,401 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Artificial Intelligence,,AIFND
+2,Generative AI,1,AIFND
+3,Large Language Models,2,AIFND
+4,Language Model Tokens,3,AIFND
+5,Model Context Window,3|4,AIFND
+6,Model Instructions,3,AIFND
+7,Model Responses,3|6,AIFND
+8,Probabilistic Output,3|7,AIFND
+9,Synthetic Users,1|7,AIFND
+10,Synthetic Personas,9,AIFND
+11,AI Persona Testing,9|10,AIFND
+12,Synthetic User Research,10|11,AIFND
+13,Customer Simulation,9|11,AIFND
+14,Agent-Based Simulation,1|13,AIFND
+15,AI Focus Groups,11|14,AIFND
+16,Brand Stress Testing,11|13,AIFND
+17,Customer Research,,AIFND
+18,Market Research,17,AIFND
+19,Qualitative Research,17,AIFND
+20,Quantitative Research,17|19,AIFND
+21,Traditional Focus Groups,17|18,RSRCH
+22,Customer Interviews,18|20,RSRCH
+23,Customer Surveys,18|19,RSRCH
+24,Research Sample Size,17|18,RSRCH
+25,Research Turnaround Time,17|18|21,RSRCH
+26,Research Cost,18|20,RSRCH
+27,Iterative Research,18|24,RSRCH
+28,Exploratory Research,18|19,RSRCH
+29,Evaluative Research,18|21,RSRCH
+30,Research Questions,17|18|21,RSRCH
+31,Research Objectives,18|19,RSRCH
+32,Research Scope,18|20,RSRCH
+33,Research Assumptions,18|21,RSRCH
+34,Research Constraints,18|24,RSRCH
+35,Research Validity,18|24|30,RSRCH
+36,Research Reliability,17|18,RSRCH
+37,Repeatable Evaluation,18|19,RSRCH
+38,Reproducible Results,18|20,RSRCH
+39,Directional Insight,18|21,RSRCH
+40,Customer Evidence,18|24|30,RSRCH
+41,AI Capabilities,1|3,RSRCH
+42,AI Limitations,41,RSRCH
+43,Simulation Fidelity,13|42,RSRCH
+44,Persona Realism,8|41,RSRCH
+45,Response Variability,1|11|41,RSRCH
+46,Model Hallucination,38|41,RSRCH
+47,Hallucination Detection,35|41,RSRCH
+48,Model Bias,3|42,RSRCH
+49,Automation Bias,11|36|41,RSRCH
+50,Confirmation Bias,1|11|29|41,RSRCH
+51,Selection Bias,22|34|35|41|46,RSRCH
+52,Cultural Bias,3|27|39|41,RSRCH
+53,Stereotype Risk,32|41|43|44,RSRCH
+54,False Confidence,17|25|37|41,RSRCH
+55,Feedback Credibility,35|42,RSRCH
+56,Human Judgment,17|23|47|55,RSRCH
+57,Human Oversight,28|40|41|48,RSRCH
+58,Responsible AI,1|33|42|45|56,RSRCH
+59,Ethical AI Use,26|38|41,RSRCH
+60,Research Transparency,1|31|35|41,RSRCH
+61,Informed Consent,58|60,ETHIC
+62,Customer Privacy,17|61,ETHIC
+63,Personal Data,35|61,ETHIC
+64,Sensitive Attributes,61|62,ETHIC
+65,Data Minimization,58|61|62,ETHIC
+66,Persona Disclosure,48|61,ETHIC
+67,Synthetic Data,61|65,ETHIC
+68,Real Customer Validation,17|43|56,ETHIC
+69,Evidence Triangulation,61|68,ETHIC
+70,Claim Verification,58|61|68,ETHIC
+71,Uncertainty Disclosure,55|61,ETHIC
+72,Confidence Calibration,17|61|63,ETHIC
+73,Ethical Guardrails,35|61,ETHIC
+74,Fairness Review,60|61,ETHIC
+75,Harm Assessment,61|66|70|73,ETHIC
+76,Misuse Prevention,61|68,ETHIC
+77,Research Governance,58|64|73|74,ETHIC
+78,Audit Trail,61|72,ETHIC
+79,Decision Accountability,48|61,ETHIC
+80,Ethical Escalation,61|65|67,ETHIC
+81,Customer Persona,10|17,PERDS
+82,Persona Purpose,81,PERDS
+83,Persona Template,81|82,PERDS
+84,Persona Profile,9|81,PERDS
+85,Persona Identity,9|81,PERDS
+86,Persona Background,9|81,PERDS
+87,Persona Narrative,10|81,PERDS
+88,Persona Context,9|81,PERDS
+89,Persona Demographics,81|83,PERDS
+90,Persona Psychographics,81|83,PERDS
+91,Persona Behaviors,81|83,PERDS
+92,Persona Preferences,81|88,PERDS
+93,Persona Attitudes,30|81,PERDS
+94,Persona Values,81|90,PERDS
+95,Persona Beliefs,17|81|88,PERDS
+96,Persona Goals,81|83,PERDS
+97,Persona Motivations,81|96,PERDS
+98,Persona Needs,81|96,PERDS
+99,Persona Pain Points,81|82,PERDS
+100,Persona Frustrations,81|94|98,PERDS
+101,Emotional Drivers,30|81,PERDS
+102,Functional Needs,81|90,PERDS
+103,Social Needs,10|81,PERDS
+104,Buying Behaviors,81|91,PERDS
+105,Purchase Triggers,17|68|81,PERDS
+106,Purchase Barriers,81|91,PERDS
+107,Decision Criteria,96|98|104,PERDS
+108,Information Needs,9|81,PERDS
+109,Media Habits,81|84|86|108,PERDS
+110,Channel Preferences,81|86|97|101,PERDS
+111,Technology Comfort,30|81|106,PERDS
+112,Price Sensitivity,81|87|90|99,PERDS
+113,Risk Tolerance,81|92|107,PERDS
+114,Brand Loyalty,81|83|85,PERDS
+115,Trust Disposition,81|88|96|102,PERDS
+116,Persona Quote,17|81|95,PERDS
+117,Persona Scenario,81|88|96|100,PERDS
+118,Persona Evidence Base,68|81|93|105,PERDS
+119,Persona Specificity,81|96,PERDS
+120,Persona Completeness,9|30|81|103,PERDS
+121,Customer Segmentation,17|81,PERQ
+122,Behavioral Segmentation,89|121,PERQ
+123,Demographic Segmentation,104|121,PERQ
+124,Psychographic Segmentation,91|121,PERQ
+125,Needs-Based Segmentation,107|117|121,PERQ
+126,Value-Based Segmentation,96|121,PERQ
+127,Customer Archetypes,81|121,PERQ
+128,Primary Persona,121|127,PERQ
+129,Secondary Persona,96|121,PERQ
+130,Negative Persona,17|90|121,PERQ
+131,Edge-Case Persona,97|121,PERQ
+132,Adversarial Persona,81|121,PERQ
+133,International Persona,98|121,PERQ
+134,Accessibility Persona,89|121,PERQ
+135,Skeptical Customer,96|104|121,PERQ
+136,Loyal Customer,90|121,PERQ
+137,New Customer,107|121,PERQ
+138,Lapsed Customer,91|121,PERQ
+139,Budget Customer,117|121,PERQ
+140,Premium Customer,94|104|121,PERQ
+141,Jobs-to-Be-Done,96|98|121,PERQ
+142,Customer Job,17|121,PERQ
+143,Functional Job,117|121,PERQ
+144,Emotional Job,90|121,PERQ
+145,Social Job,98|107|121,PERQ
+146,Desired Outcome,89|121,PERQ
+147,Customer Progress,94|121,PERQ
+148,Switching Forces,121|127,PERQ
+149,Push Forces,90|121,PERQ
+150,Pull Forces,94|107|121,PERQ
+151,Habit Forces,81|121,PERQ
+152,Anxiety Forces,98|121,PERQ
+153,Customer Circumstance,121|146,PERQ
+154,Use Context,97|121,PERQ
+155,Customer Journey,17|81|117,PERQ
+156,Journey Stage,121|127,PERQ
+157,Customer Touchpoint,81|121,PERQ
+158,Moment of Truth,98|121,PERQ
+159,Journey Friction,121|146,PERQ
+160,Journey Opportunity,91|121|155,PERQ
+161,Persona Consistency,10|81|91,PERQ
+162,Behavioral Consistency,117|161,PERQ
+163,Character Fidelity,127|161,PERQ
+164,Persona Drift,117|161,PERQ
+165,Drift Detection,10|91|161,PERQ
+166,Persona Validation,118|161,PERQ
+167,Persona Quality,119|161|166,PERQ
+168,Persona Differentiation,119|161,PERQ
+169,Persona Overlap,121|132|144|156|161,PERQ
+170,Persona Coverage,10|125|137|149|161|166,PERQ
+171,Persona Diversity,130|142|154|161|167,PERQ
+172,Persona Balance,117|123|135|147|159|161,PERQ
+173,Persona Refinement,128|140|152|161|166,PERQ
+174,Persona Versioning,133|145|157|167|173,PERQ
+175,Persona Library,126|138|150|162|166|174,PERQ
+176,Persona Reuse,131|143|161|173,PERQ
+177,Persona Documentation,117|124|136|148|160|161,PERQ
+178,Persona Test Case,129|141|153|161|166,PERQ
+179,Persona Acceptance Test,122|134|158|161|175,PERQ
+180,Persona Benchmark,119|121|139|151|161|163,PERQ
+181,Prompt Engineering,3|6,PRMPT
+182,Prompt Objective,81|181,PRMPT
+183,Prompt Structure,181|182,PRMPT
+184,System Prompt,6|183,PRMPT
+185,User Prompt,181|183|184,PRMPT
+186,Persona Prompt,83|181,PRMPT
+187,Moderator Prompt,5|181,PRMPT
+188,Reviewer Prompt,161|181,PRMPT
+189,Skeptic Prompt,7|181,PRMPT
+190,Evaluation Prompt,81|181|183,PRMPT
+191,Prompt Context,5|181,PRMPT
+192,Context Management,81|181,PRMPT
+193,Context Prioritization,181|191,PRMPT
+194,Context Compression,83|181,PRMPT
+195,Role Definition,183|184,PRMPT
+196,Task Definition,3|181,PRMPT
+197,Audience Definition,181|196,PRMPT
+198,Constraint Definition,83|181,PRMPT
+199,Evaluation Instructions,183|196|198,PRMPT
+200,Output Instructions,183|199,PRMPT
+201,Prompt Specificity,7|181,PRMPT
+202,Prompt Clarity,161|181,PRMPT
+203,Prompt Grounding,5|181,PRMPT
+204,Prompt Examples,3|181,PRMPT
+205,Few-Shot Examples,81|181|196,PRMPT
+206,Prompt Variables,181|191,PRMPT
+207,Reusable Prompts,181|183|206,PRMPT
+208,Prompt Templates,183|207,PRMPT
+209,Prompt Chaining,181|195,PRMPT
+210,Prompt Versioning,207|208,PRMPT
+211,Structured Output,7|200,PRMPT
+212,Output Schema,211,PRMPT
+213,Response Format,117|181,PRMPT
+214,Rating Scale Output,181|202,PRMPT
+215,Evidence Field,181|202|211,PRMPT
+216,Confidence Field,8|181,PRMPT
+217,Recommendation Field,181|184,PRMPT
+218,Rationale Field,181|201,PRMPT
+219,Citation Field,181|210,PRMPT
+220,Missing Data Handling,7|181|199,PRMPT
+221,Prompt Testing,181|202|203,PTEST
+222,Prompt Test Case,203|221,PTEST
+223,Prompt Benchmark,203|221,PTEST
+224,Prompt Comparison,207|221,PTEST
+225,Prompt Iteration,221|222|224,PTEST
+226,Prompt Failure Mode,8|221,PTEST
+227,Ambiguous Instructions,201|221,PTEST
+228,Conflicting Instructions,7|221,PTEST
+229,Instruction Hierarchy,161|221,PTEST
+230,Response Consistency,161|221,PTEST
+231,Hallucination Reduction,211|221,PTEST
+232,Character Maintenance,221|227,PTEST
+233,Neutral Question Design,161|221,PTEST
+234,Leading Questions,210|221,PTEST
+235,Open-Ended Questions,221|223|226,PTEST
+236,Probing Questions,55|221,PTEST
+237,Adversarial Questions,208|221,PTEST
+238,Follow-Up Questions,221|225,PTEST
+239,Reflection Prompt,8|221,PTEST
+240,Synthesis Prompt,211|230|239,PTEST
+241,AI Agent,1|6,AGENT
+242,Agent Role,195|241,AGENT
+243,Agent Goal,196|241,AGENT
+244,Agent Instructions,184|241,AGENT
+245,Agent Context,196|211|241,AGENT
+246,Agent Memory,241|243,AGENT
+247,Agent Tools,3|241,AGENT
+248,Agent Output,6|241,AGENT
+249,Agent Autonomy,241|246,AGENT
+250,Agent Boundaries,198|241|249,AGENT
+251,Persona Agent,81|241,AGENT
+252,Moderator Agent,187|241,AGENT
+253,Expert Reviewer Agent,188|241,AGENT
+254,Skeptic Agent,189|241,AGENT
+255,Brand Strategist Agent,184|198|241,AGENT
+256,Competitive Analyst Agent,241|243,AGENT
+257,Copywriting Expert Agent,241|250,AGENT
+258,Visual Design Critic,195|241,AGENT
+259,Behavioral Expert Agent,241|244,AGENT
+260,Consumer Research Agent,1|7|241,AGENT
+261,Multi-Agent System,241|251,MULTI
+262,Agent Orchestration,261,MULTI
+263,Agent Workflow,262,MULTI
+264,Agent Handoff,241|261,MULTI
+265,Agent Coordination,251|253|261,MULTI
+266,Agent Independence,249|261,MULTI
+267,Shared Context,261|266,MULTI
+268,Isolated Context,245|261,MULTI
+269,Parallel Evaluation,261|266|268,MULTI
+270,Sequential Evaluation,253|261|263,MULTI
+271,Independent Review,261|266,MULTI
+272,Round-Table Discussion,251|271,MULTI
+273,Moderated Discussion,252|272,MULTI
+274,Agent Debate,261|272,MULTI
+275,Debate Protocol,241|244|261,MULTI
+276,Turn Taking,251|261,MULTI
+277,Discussion Agenda,261|272,MULTI
+278,Consensus Generation,273|274|277,MULTI
+279,Minority Opinion,253|261,MULTI
+280,Disagreement Analysis,252|261|267,MULTI
+281,Moderator Neutrality,261|274,MULTI
+282,Reviewer Independence,243|261,MULTI
+283,Groupthink Risk,252|261,MULTI
+284,Opinion Contamination,261|266,MULTI
+285,Persona Cross-Talk,249|261|273,MULTI
+286,Response Aggregation,269|270|271,MULTI
+287,Finding Synthesis,278|280|286,MULTI
+288,Conflict Resolution,261|265,MULTI
+289,Expert Critique,261|272,MULTI
+290,Devil's Advocate,254|274,MULTI
+291,Marketing Asset,17|81,BRAND
+292,Brand Identity,291,BRAND
+293,Brand Positioning,292,BRAND
+294,Brand Promise,292|293,BRAND
+295,Brand Personality,261|271|291,BRAND
+296,Brand Voice,292|295,BRAND
+297,Brand Tone,104|291,BRAND
+298,Value Proposition,293|294,BRAND
+299,Product Messaging,296|298,BRAND
+300,Message Hierarchy,17|96|291,BRAND
+301,Messaging Consistency,296|299|300,BRAND
+302,Visual Identity,81|291,BRAND
+303,Logo Evaluation,291|302,BRAND
+304,Color Evaluation,291|292,BRAND
+305,Typography Evaluation,17|291|299,BRAND
+306,Image Evaluation,96|291,BRAND
+307,Website Evaluation,291|301|302,BRAND
+308,Landing Page Evaluation,291|297,BRAND
+309,Product Page Evaluation,30|291,BRAND
+310,Advertisement Evaluation,261|269|291,BRAND
+311,Video Evaluation,291|295,BRAND
+312,Campaign Evaluation,291|301,BRAND
+313,Social Content Evaluation,107|291,BRAND
+314,Email Evaluation,291|293,BRAND
+315,Tagline Evaluation,291|298|300,BRAND
+316,Headline Evaluation,98|291,BRAND
+317,Call-to-Action Evaluation,287|291,BRAND
+318,Customer Journey Review,155|291,BRAND
+319,Competitive Comparison,293|291,BRAND
+320,Brand Differentiation,293|298|319,BRAND
+321,Evaluation Framework,30|291,RUBRC
+322,Evaluation Criterion,321,RUBRC
+323,Evaluation Rubric,321|322,RUBRC
+324,Rubric Dimension,199|321,RUBRC
+325,Rubric Completeness,298|321|323,RUBRC
+326,Rubric Fairness,291|321,RUBRC
+327,Scoring System,323|324,RUBRC
+328,Rating Scale,321|324,RUBRC
+329,Scale Anchors,321|328,RUBRC
+330,Scoring Guidance,211|215|321,RUBRC
+331,Weighted Criteria,55|321,RUBRC
+332,Score Normalization,38|321,RUBRC
+333,Confidence Rating,216|327,RUBRC
+334,Evidence Collection,69|321,RUBRC
+335,Supporting Evidence,70|321|333,RUBRC
+336,Evidence Quality,334|335,RUBRC
+337,Factual Critique,321|328,RUBRC
+338,Emotional Reaction,321|335,RUBRC
+339,Trust Score,323|327|334,RUBRC
+340,Clarity Score,217|321|336,RUBRC
+341,Emotional Resonance,321|324,RUBRC
+342,Memorability Score,321|331,RUBRC
+343,Purchase Intent,104|323|327,RUBRC
+344,Credibility Score,211|321,RUBRC
+345,Relevance Score,298|321|327,RUBRC
+346,Differentiation Score,321|327,RUBRC
+347,Persuasiveness Score,321|334,RUBRC
+348,Accessibility Score,69|321,RUBRC
+349,Evaluation Baseline,216|321,RUBRC
+350,Comparative Benchmark,327|349,RUBRC
+351,Pattern Detection,286|321|334,ANLYS
+352,Cross-Persona Comparison,286|351,ANLYS
+353,Response Coding,333|351,ANLYS
+354,Theme Identification,351|353,ANLYS
+355,Sentiment Pattern,55|351|353,ANLYS
+356,Contradiction Detection,301|351,ANLYS
+357,Messaging Gap,351|356,ANLYS
+358,Credibility Gap,287|351,ANLYS
+359,Trust Signal,69|351,ANLYS
+360,Confusion Point,35|334|351,ANLYS
+361,Risk Assessment,351|356,ANLYS
+362,Risk Severity,333|351,ANLYS
+363,Risk Likelihood,351|362,ANLYS
+364,Recommendation,287|334|351,ANLYS
+365,Recommendation Priority,361|364,ANLYS
+366,Business Impact,321|351,ANLYS
+367,Implementation Effort,333|351,ANLYS
+368,Evidence-Based Decision,334|336|364,ANLYS
+369,Improvement Hypothesis,351|362,ANLYS
+370,Iterative Improvement,225|368|369,ANLYS
+371,Knowledge Graph,17|81|334,GRAPH
+372,Graph Node,371,GRAPH
+373,Graph Edge,371|372,GRAPH
+374,Graph Relationship,372|373,GRAPH
+375,Graph-Based Evaluation,321|334|371,GRAPH
+376,Persona Node,371|373,GRAPH
+377,Asset Node,364|371,GRAPH
+378,Goal Node,155|371,GRAPH
+379,Pain Point Node,371|372,GRAPH
+380,Reaction Node,98|371|373,GRAPH
+381,Criterion Node,155|371,GRAPH
+382,Recommendation Node,291|371,GRAPH
+383,Evidence Node,371|376,GRAPH
+384,Relationship Type,373|374,GRAPH
+385,Organizational Memory,371|374,GRAPH
+386,Evaluation History,174|371|385,GRAPH
+387,No-Code Workflow,263|321,WORKF
+388,Workflow Automation,263|321|387,WORKF
+389,Evaluation Pipeline,263|321|388,WORKF
+390,Automated Summarization,240|287|389,WORKF
+391,Automated Comparison,286|352|389,WORKF
+392,Automated Reporting,287|364|389,WORKF
+393,Executive Summary,287|364|392,WORKF
+394,Persona Comparison Report,286|352|392,WORKF
+395,Evaluation Heat Map,327|352|392,WORKF
+396,Recommendation List,364|365|392,WORKF
+397,Improvement Plan,365|367|370,WORKF
+398,Executive Dashboard,393|394|395|396,WORKF
+399,Capstone System,175|210|263|323|375|389|398,WORKF
+400,Scalable Research Process,77|176|388|399,WORKF

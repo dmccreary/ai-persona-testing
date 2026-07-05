@@ -1,0 +1,14 @@
+{
+  "sim_id": "hallucination-detection-workbench",
+  "diagram_name": "Hallucination Detection Workbench",
+  "chapter_number": 3,
+  "chapter_title": "AI Capabilities, Limitations, and Bias",
+  "chapter_dir": "03-ai-limits-bias",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Validate model statements by tracing each factual claim to supplied context, external evidence, or an explicit persona interpretation.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** hallucination-detection-workbench<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** validate\n\n**Learning objective:** Validate model statements by tracing each factual claim to supplied context, external evidence, or an explicit persona interpretation.\n\n**Data visibility requirements:** The left pane shows a product brief with numbered evidence sentences. The center pane shows a persona response with selectable claims. The right pane displays claim status: Supported, Interpretation, Contradicted, or Unsupported.\n\n**Interaction:** Learners highlight a claim and attach an evidence sentence or classification. Immediate feedback explains whether the evidence actually supports the claim. A second round introduces a plausible but nonexistent competitor statistic.\n\n**Controls:** Scenario selector, Show Sources, Verify Claim, Reveal Hint, and Reset. A final report counts unsupported claims and shows corrected wording.\n\n**Responsive behavior and accessibility:** Stack panes on small screens, maintain numbered cross-links, support keyboard highlights, and resize dynamically.\n\n**Instructional rationale:** A worked evidence-tracing task supports applying because learners practice the same verification procedure required in a real study.\n\nImplementation: p5.js highlighting layer with semantic HTML source and response panes."
+}

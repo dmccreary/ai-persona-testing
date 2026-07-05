@@ -1,0 +1,14 @@
+{
+  "sim_id": "neutral-moderation-practice",
+  "diagram_name": "Neutral Moderation Practice Lab",
+  "chapter_number": 15,
+  "chapter_title": "Moderation Risks and Brand Strategy",
+  "chapter_dir": "15-moderation-brand-strategy",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Practice neutral moderation by selecting balanced questions, allocating turns, requesting evidence, and summarizing disagreement without steering.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** neutral-moderation-practice<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** practice\n\n**Learning objective:** Practice neutral moderation by selecting balanced questions, allocating turns, requesting evidence, and summarizing disagreement without steering.\n\n**Interaction:** Three agents discuss a campaign. Learners choose moderator actions at branching moments. The transcript highlights leading premises, unequal attention, praise cues, and distorted summaries.\n\n**Feedback:** Each action shows its likely effect on independence and participation. Learners can rewrite a leading intervention and replay the turn.\n\n**Responsive design:** Transcript and coaching panel become tabs on narrow screens, with keyboard choices and resize handling.\n\n**Instructional rationale:** Guided moderation with immediate consequence feedback supports applying neutral facilitation.\n\nImplementation: p5.js branching dialogue with semantic transcript controls."
+}

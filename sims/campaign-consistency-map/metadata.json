@@ -1,0 +1,66 @@
+{
+  "title": "Cross-Channel Campaign Consistency Map",
+  "description": "Compare campaign assets across channels for message continuity, appropriate adaptation, proof, tone, audience, and action.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Cross-Channel Campaign Consistency Map"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "campaign-consistency-map",
+  "library": "vis-network",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Cross-Channel Campaign Consistency Map",
+    "learningObjectives": [
+      "Compare campaign assets across channels for message continuity, appropriate adaptation, proof, tone, audience, and action."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Compare campaign assets across channels for message continuity, appropriate adaptation, proof, tone, audience, and action."
+    ]
+  },
+  "chapter": "16-marketing-asset-evaluation",
+  "completion_status": "deployed"
+}

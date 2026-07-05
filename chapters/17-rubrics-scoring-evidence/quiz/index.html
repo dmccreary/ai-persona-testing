@@ -1,0 +1,2501 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An interactive intelligent textbook covering methods and best practices for testing AI personas.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/ai-persona-testing/chapters/17-rubrics-scoring-evidence/quiz/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../../18-marketing-metrics-analysis/">
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Quiz - AI Persona Testing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-K08R4KBEXL"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-K08R4KBEXL",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-K08R4KBEXL",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Quiz - AI Persona Testing" >
+      
+        <meta  property="og:description"  content="An interactive intelligent textbook covering methods and best practices for testing AI personas." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/ai-persona-testing/assets/images/social/chapters/17-rubrics-scoring-evidence/quiz.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/ai-persona-testing/chapters/17-rubrics-scoring-evidence/quiz/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Quiz - AI Persona Testing" >
+      
+        <meta  name="twitter:description"  content="An interactive intelligent textbook covering methods and best practices for testing AI personas." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/ai-persona-testing/assets/images/social/chapters/17-rubrics-scoring-evidence/quiz.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quiz-evaluation-rubrics-scoring-and-evidence" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="AI Persona Testing" class="md-header__button md-logo" aria-label="AI Persona Testing" data-md-component="logo">
+      
+  <img src="../../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI Persona Testing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quiz
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/ai-persona-testing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="AI Persona Testing" class="md-nav__button md-logo" aria-label="AI Persona Testing" data-md-component="logo">
+      
+  <img src="../../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    AI Persona Testing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/ai-persona-testing" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About the Book
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../01-ai-customer-research/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    1. AI-Powered Customer Research Foundations
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../02-research-design-evidence/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    2. Research Design and Evidence Quality
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../03-ai-limits-bias/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    3. AI Capabilities, Limitations, and Bias
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../04-responsible-ai-governance/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    4. Responsible AI, Privacy, and Governance
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../05-customer-personas/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    5. Building Complete Customer Personas
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../06-persona-behavior-evidence/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    6. Persona Motivations, Behaviors, and Evidence
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../07-segmentation-archetypes/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    7. Customer Segmentation and Persona Archetypes
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../08-jobs-customer-journeys/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    8. Jobs-to-Be-Done and Customer Journeys
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../09-persona-quality-reuse/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    9. Persona Consistency, Validation, and Reuse
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../10-prompt-engineering/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    10. Prompt Engineering Foundations
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../11-structured-prompts/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    11. Structured Prompts and Reliable Outputs
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../12-prompt-testing-dialogue/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    12. Prompt Testing and Research Dialogue
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../13-ai-agents-expert-roles/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    13. Designing AI Agents and Expert Roles
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../14-multi-agent-orchestration/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    14. Multi-Agent Workflows, Debate, and Consensus
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../15-moderation-brand-strategy/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    15. Moderation Risks and Brand Strategy
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../16-marketing-asset-evaluation/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    16. Evaluating Marketing Assets and Messaging
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_18" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    17. Evaluation Rubrics, Scoring, and Evidence
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_18" id="__nav_4_18_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_18_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_18">
+            <span class="md-nav__icon md-icon"></span>
+            17. Evaluation Rubrics, Scoring, and Evidence
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-which-definition-best-describes-evaluation-rubric" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Which definition best describes Evaluation Rubric?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-which-statement-best-explains-evaluation-framework-in-this-chapters-research-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Which statement best explains Evaluation Framework in this chapter's research context?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-which-statement-best-explains-evidence-collection-in-this-chapters-research-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Which statement best explains Evidence Collection in this chapter's research context?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-a-marketing-team-encounters-this-situation-a-team-wants-to-operationalize-this-requirement-during-a-persona-test-a-defined-method-for-converting-evidence-based-judgments-into-comparable-numbers-categories-or-ordered-ratings-which-concept-should-guide-its-interpretation" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. A marketing team encounters this situation: A team wants to operationalize this requirement during a persona test: A defined method for converting evidence-based judgments into comparable numbers, categories, or ordered ratings. Which concept should guide its interpretation?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-a-marketing-team-encounters-this-situation-a-team-wants-to-operationalize-this-requirement-during-a-persona-test-a-reviewers-structured-estimate-of-how-strongly-the-available-evidence-supports-a-finding-or-score-which-concept-should-guide-its-interpretation" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. A marketing team encounters this situation: A team wants to operationalize this requirement during a persona test: A reviewer’s structured estimate of how strongly the available evidence supports a finding or score. Which concept should guide its interpretation?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-which-analysis-most-accurately-distinguishes-rubric-dimension-from-factual-critique" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Which analysis most accurately distinguishes Rubric Dimension from Factual Critique?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-which-analysis-most-accurately-distinguishes-rating-scale-from-clarity-score" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Which analysis most accurately distinguishes Rating Scale from Clarity Score?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-which-analysis-most-accurately-distinguishes-supporting-evidence-from-evaluation-rubric" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Which analysis most accurately distinguishes Supporting Evidence from Evaluation Rubric?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-a-team-wants-to-demonstrate-evidence-quality-in-a-defensible-evaluation-which-proposal-should-it-approve" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. A team wants to demonstrate Evidence Quality in a defensible evaluation. Which proposal should it approve?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-which-design-best-integrates-evaluation-criterion-into-a-repeatable-persona-testing-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Which design best integrates Evaluation Criterion into a repeatable persona-testing workflow?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../18-marketing-metrics-analysis/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    18. Marketing Metrics and Pattern Analysis
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../19-risk-knowledge-graphs/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    19. Risk-Based Recommendations and Knowledge Graphs
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../20-automation-reporting-capstone/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    20. Automation, Reporting, and Capstone Systems
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../feature-checklist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Feature Checklist
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-which-definition-best-describes-evaluation-rubric" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Which definition best describes Evaluation Rubric?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-which-statement-best-explains-evaluation-framework-in-this-chapters-research-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Which statement best explains Evaluation Framework in this chapter's research context?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-which-statement-best-explains-evidence-collection-in-this-chapters-research-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Which statement best explains Evidence Collection in this chapter's research context?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-a-marketing-team-encounters-this-situation-a-team-wants-to-operationalize-this-requirement-during-a-persona-test-a-defined-method-for-converting-evidence-based-judgments-into-comparable-numbers-categories-or-ordered-ratings-which-concept-should-guide-its-interpretation" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. A marketing team encounters this situation: A team wants to operationalize this requirement during a persona test: A defined method for converting evidence-based judgments into comparable numbers, categories, or ordered ratings. Which concept should guide its interpretation?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-a-marketing-team-encounters-this-situation-a-team-wants-to-operationalize-this-requirement-during-a-persona-test-a-reviewers-structured-estimate-of-how-strongly-the-available-evidence-supports-a-finding-or-score-which-concept-should-guide-its-interpretation" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. A marketing team encounters this situation: A team wants to operationalize this requirement during a persona test: A reviewer’s structured estimate of how strongly the available evidence supports a finding or score. Which concept should guide its interpretation?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-which-analysis-most-accurately-distinguishes-rubric-dimension-from-factual-critique" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Which analysis most accurately distinguishes Rubric Dimension from Factual Critique?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-which-analysis-most-accurately-distinguishes-rating-scale-from-clarity-score" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Which analysis most accurately distinguishes Rating Scale from Clarity Score?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-which-analysis-most-accurately-distinguishes-supporting-evidence-from-evaluation-rubric" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Which analysis most accurately distinguishes Supporting Evidence from Evaluation Rubric?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-a-team-wants-to-demonstrate-evidence-quality-in-a-defensible-evaluation-which-proposal-should-it-approve" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. A team wants to demonstrate Evidence Quality in a defensible evaluation. Which proposal should it approve?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-which-design-best-integrates-evaluation-criterion-into-a-repeatable-persona-testing-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Which design best integrates Evaluation Criterion into a repeatable persona-testing workflow?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/ai-persona-testing/blob/main/docs/chapters/17-rubrics-scoring-evidence/quiz.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="quiz-evaluation-rubrics-scoring-and-evidence">Quiz: Evaluation Rubrics, Scoring, and Evidence<a class="headerlink" href="#quiz-evaluation-rubrics-scoring-and-evidence" title="Permanent link">&para;</a></h1>
+<p>Test your understanding of evaluation rubrics, scoring, and evidence with these review questions.</p>
+<hr />
+<h4 id="1-which-definition-best-describes-evaluation-rubric">1. Which definition best describes <strong>Evaluation Rubric</strong>?<a class="headerlink" href="#1-which-definition-best-describes-evaluation-rubric" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>An organized approach that connects a research objective with criteria, methods, evidence, analysis, and decisions.</li>
+<li>The degree to which rubric criteria and scoring avoid irrelevant disadvantage, stereotypes, and unequal standards.</li>
+<li>A set of criteria, rating levels, and anchors used to produce consistent, evidence-based judgments.</li>
+<li>Instructions that explain how reviewers should choose ratings, handle uncertainty, and cite supporting observations.</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. A set of criteria, rating levels, and anchors used to produce consistent, evidence-based judgments. Recognizing the precise definition prevents the term from being substituted for a nearby but different idea. The alternatives instead point toward Evaluation Framework, Rubric Fairness, Scoring Guidance, or detach the concept from the evidence and decision it is meant to support. Keeping those ideas distinct helps the team state its method, claim, and limits explicitly.</p>
+<p><strong>Concept Tested:</strong> Evaluation Rubric</p>
+<p><strong>See:</strong> <a href="../../../glossary/#evaluation-rubric">Evaluation Rubric</a></p>
+</details>
+<hr />
+<h4 id="2-which-statement-best-explains-evaluation-framework-in-this-chapters-research-context">2. Which statement best explains <strong>Evaluation Framework</strong> in this chapter's research context?<a class="headerlink" href="#2-which-statement-best-explains-evaluation-framework-in-this-chapters-research-context" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>It refers to this idea: The degree to which a rubric covers every criterion needed to answer the stated evaluation objective.</li>
+<li>It refers to this idea: An organized approach that connects a research objective with criteria, methods, evidence, analysis, and decisions.</li>
+<li>It refers to this idea: Plain-language descriptions of what specific points on a rating scale mean and what evidence supports them.</li>
+<li>It refers to this idea: A reviewer’s structured estimate of how strongly the available evidence supports a finding or score.</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. An organized approach that connects a research objective with criteria, methods, evidence, analysis, and decisions. The option explains the concept's function, not merely a tool or output associated with it. The alternatives instead point toward Rubric Completeness, Scale Anchors, Confidence Rating, or detach the concept from the evidence and decision it is meant to support. Keeping those ideas distinct helps the team state its method, claim, and limits explicitly.</p>
+<p><strong>Concept Tested:</strong> Evaluation Framework</p>
+<p><strong>See:</strong> <a href="../../../glossary/#evaluation-framework">Evaluation Framework</a></p>
+</details>
+<hr />
+<h4 id="3-which-statement-best-explains-evidence-collection-in-this-chapters-research-context">3. Which statement best explains <strong>Evidence Collection</strong> in this chapter's research context?<a class="headerlink" href="#3-which-statement-best-explains-evidence-collection-in-this-chapters-research-context" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>It refers to this idea: A defined method for converting evidence-based judgments into comparable numbers, categories, or ordered ratings.</li>
+<li>It refers to this idea: Evaluation criteria assigned different influence on the total result according to their importance to the decision.</li>
+<li>It refers to this idea: The strength of evidence judged by its relevance, source credibility, specificity, consistency, and independence.</li>
+<li>It refers to this idea: The deliberate capture of observations, quotations, source facts, and response details that support evaluation findings.</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. The deliberate capture of observations, quotations, source facts, and response details that support evaluation findings. The option explains the concept's function, not merely a tool or output associated with it. The alternatives instead point toward Scoring System, Weighted Criteria, Evidence Quality, or detach the concept from the evidence and decision it is meant to support. Keeping those ideas distinct helps the team state its method, claim, and limits explicitly.</p>
+<p><strong>Concept Tested:</strong> Evidence Collection</p>
+<p><strong>See:</strong> <a href="../../../glossary/#evidence-collection">Evidence Collection</a></p>
+</details>
+<hr />
+<h4 id="4-a-marketing-team-encounters-this-situation-a-team-wants-to-operationalize-this-requirement-during-a-persona-test-a-defined-method-for-converting-evidence-based-judgments-into-comparable-numbers-categories-or-ordered-ratings-which-concept-should-guide-its-interpretation">4. A marketing team encounters this situation: A team wants to operationalize this requirement during a persona test: A defined method for converting evidence-based judgments into comparable numbers, categories, or ordered ratings. Which concept should guide its interpretation?<a class="headerlink" href="#4-a-marketing-team-encounters-this-situation-a-team-wants-to-operationalize-this-requirement-during-a-persona-test-a-defined-method-for-converting-evidence-based-judgments-into-comparable-numbers-categories-or-ordered-ratings-which-concept-should-guide-its-interpretation" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Weighted Criteria</li>
+<li>Scoring System</li>
+<li>Supporting Evidence</li>
+<li>Trust Score</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. A defined method for converting evidence-based judgments into comparable numbers, categories, or ordered ratings. The situation calls for this concept because its defining purpose matches the action or evidence described. The alternatives instead point toward Weighted Criteria, Supporting Evidence, Trust Score, or detach the concept from the evidence and decision it is meant to support. Keeping those ideas distinct helps the team state its method, claim, and limits explicitly.</p>
+<p><strong>Concept Tested:</strong> Scoring System</p>
+<p><strong>See:</strong> <a href="../../../glossary/#scoring-system">Scoring System</a></p>
+</details>
+<hr />
+<h4 id="5-a-marketing-team-encounters-this-situation-a-team-wants-to-operationalize-this-requirement-during-a-persona-test-a-reviewers-structured-estimate-of-how-strongly-the-available-evidence-supports-a-finding-or-score-which-concept-should-guide-its-interpretation">5. A marketing team encounters this situation: A team wants to operationalize this requirement during a persona test: A reviewer’s structured estimate of how strongly the available evidence supports a finding or score. Which concept should guide its interpretation?<a class="headerlink" href="#5-a-marketing-team-encounters-this-situation-a-team-wants-to-operationalize-this-requirement-during-a-persona-test-a-reviewers-structured-estimate-of-how-strongly-the-available-evidence-supports-a-finding-or-score-which-concept-should-guide-its-interpretation" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Confidence Rating</li>
+<li>Evidence Collection</li>
+<li>Emotional Reaction</li>
+<li>Evaluation Criterion</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. A reviewer’s structured estimate of how strongly the available evidence supports a finding or score. The situation calls for this concept because its defining purpose matches the action or evidence described. The alternatives instead point toward Evidence Collection, Emotional Reaction, Evaluation Criterion, or detach the concept from the evidence and decision it is meant to support. Keeping those ideas distinct helps the team state its method, claim, and limits explicitly.</p>
+<p><strong>Concept Tested:</strong> Confidence Rating</p>
+<p><strong>See:</strong> <a href="../../../glossary/#confidence-rating">Confidence Rating</a></p>
+</details>
+<hr />
+<h4 id="6-which-analysis-most-accurately-distinguishes-rubric-dimension-from-factual-critique">6. Which analysis most accurately distinguishes <strong>Rubric Dimension</strong> from <strong>Factual Critique</strong>?<a class="headerlink" href="#6-which-analysis-most-accurately-distinguishes-rubric-dimension-from-factual-critique" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Rubric Dimension concerns A distinct aspect of performance that an evaluation rubric measures, such as clarity, trust, or relevance; Factual Critique concerns An evaluation focused on whether an asset’s statements are accurate, supportable, complete, and not misleading.</li>
+<li>Rubric Dimension and Factual Critique are interchangeable labels for exactly the same practice.</li>
+<li>Rubric Dimension concerns An evaluation focused on whether an asset’s statements are accurate, supportable, complete, and not misleading; Factual Critique concerns A distinct aspect of performance that an evaluation rubric measures, such as clarity, trust, or relevance.</li>
+<li>The distinction depends only on which software product the team selects.</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. A distinct aspect of performance that an evaluation rubric measures, such as clarity, trust, or relevance. The comparison preserves each concept's distinct purpose instead of reversing or collapsing the two meanings. The alternatives instead point toward Factual Critique, Evaluation Framework, Rubric Fairness, or detach the concept from the evidence and decision it is meant to support. Keeping those ideas distinct helps the team state its method, claim, and limits explicitly.</p>
+<p><strong>Concept Tested:</strong> Rubric Dimension</p>
+<p><strong>See:</strong> <a href="../../../glossary/#rubric-dimension">Rubric Dimension</a></p>
+</details>
+<hr />
+<h4 id="7-which-analysis-most-accurately-distinguishes-rating-scale-from-clarity-score">7. Which analysis most accurately distinguishes <strong>Rating Scale</strong> from <strong>Clarity Score</strong>?<a class="headerlink" href="#7-which-analysis-most-accurately-distinguishes-rating-scale-from-clarity-score" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Rating Scale and Clarity Score are interchangeable labels for exactly the same practice.</li>
+<li>Rating Scale concerns A rating of how easily an intended audience can understand an asset’s main message and required action; Clarity Score concerns An ordered set of response choices used to represent different levels of a measured quality.</li>
+<li>Rating Scale concerns An ordered set of response choices used to represent different levels of a measured quality; Clarity Score concerns A rating of how easily an intended audience can understand an asset’s main message and required action.</li>
+<li>The distinction depends only on which software product the team selects.</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. An ordered set of response choices used to represent different levels of a measured quality. The comparison preserves each concept's distinct purpose instead of reversing or collapsing the two meanings. The alternatives instead point toward Clarity Score, Rubric Dimension, Scale Anchors, or detach the concept from the evidence and decision it is meant to support. Keeping those ideas distinct helps the team state its method, claim, and limits explicitly.</p>
+<p><strong>Concept Tested:</strong> Rating Scale</p>
+<p><strong>See:</strong> <a href="../../../glossary/#rating-scale">Rating Scale</a></p>
+</details>
+<hr />
+<h4 id="8-which-analysis-most-accurately-distinguishes-supporting-evidence-from-evaluation-rubric">8. Which analysis most accurately distinguishes <strong>Supporting Evidence</strong> from <strong>Evaluation Rubric</strong>?<a class="headerlink" href="#8-which-analysis-most-accurately-distinguishes-supporting-evidence-from-evaluation-rubric" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Supporting Evidence and Evaluation Rubric are interchangeable labels for exactly the same practice.</li>
+<li>Supporting Evidence concerns A set of criteria, rating levels, and anchors used to produce consistent, evidence-based judgments; Evaluation Rubric concerns Specific recorded information that directly justifies a finding, rating, risk, or recommendation.</li>
+<li>The distinction depends only on which software product the team selects.</li>
+<li>Supporting Evidence concerns Specific recorded information that directly justifies a finding, rating, risk, or recommendation; Evaluation Rubric concerns A set of criteria, rating levels, and anchors used to produce consistent, evidence-based judgments.</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. Specific recorded information that directly justifies a finding, rating, risk, or recommendation. The comparison preserves each concept's distinct purpose instead of reversing or collapsing the two meanings. The alternatives instead point toward Evaluation Rubric, Scoring System, Weighted Criteria, or detach the concept from the evidence and decision it is meant to support. Keeping those ideas distinct helps the team state its method, claim, and limits explicitly.</p>
+<p><strong>Concept Tested:</strong> Supporting Evidence</p>
+<p><strong>See:</strong> <a href="../../../glossary/#supporting-evidence">Supporting Evidence</a></p>
+</details>
+<hr />
+<h4 id="9-a-team-wants-to-demonstrate-evidence-quality-in-a-defensible-evaluation-which-proposal-should-it-approve">9. A team wants to demonstrate <strong>Evidence Quality</strong> in a defensible evaluation. Which proposal should it approve?<a class="headerlink" href="#9-a-team-wants-to-demonstrate-evidence-quality-in-a-defensible-evaluation-which-proposal-should-it-approve" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>The team implements a proposal centered on this different requirement: The degree to which rubric criteria and scoring avoid irrelevant disadvantage, stereotypes, and unequal standards.</li>
+<li>A team wants to operationalize this requirement during a persona test: The strength of evidence judged by its relevance, source credibility, specificity, consistency, and independence.</li>
+<li>The team implements a proposal centered on this different requirement: Instructions that explain how reviewers should choose ratings, handle uncertainty, and cite supporting observations.</li>
+<li>The team implements a proposal centered on this different requirement: The deliberate capture of observations, quotations, source facts, and response details that support evaluation findings.</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. The strength of evidence judged by its relevance, source credibility, specificity, consistency, and independence. The approved proposal directly demonstrates the stated criterion and can be checked against evidence. The alternatives instead point toward Rubric Fairness, Scoring Guidance, Evidence Collection, or detach the concept from the evidence and decision it is meant to support. Keeping those ideas distinct helps the team state its method, claim, and limits explicitly.</p>
+<p><strong>Concept Tested:</strong> Evidence Quality</p>
+<p><strong>See:</strong> <a href="../../../glossary/#evidence-quality">Evidence Quality</a></p>
+</details>
+<hr />
+<h4 id="10-which-design-best-integrates-evaluation-criterion-into-a-repeatable-persona-testing-workflow">10. Which design best integrates <strong>Evaluation Criterion</strong> into a repeatable persona-testing workflow?<a class="headerlink" href="#10-which-design-best-integrates-evaluation-criterion-into-a-repeatable-persona-testing-workflow" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Mention evaluation criterion in the project title but leave its meaning and success criteria unstated.</li>
+<li>Replace the workflow with a one-time discussion that produces no stored evidence or assigned owner.</li>
+<li>Choose tools first, then assume their default settings automatically satisfy evaluation criterion.</li>
+<li>Build a documented workflow that operationalizes this principle: A single stated standard against which an asset or response is judged. Assign an owner and verify the result before reuse.</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. A single stated standard against which an asset or response is judged. The design turns the concept into an owned, documented, and verifiable part of the workflow. The alternatives instead point toward Scoring Guidance, Evidence Collection, Emotional Reaction, or detach the concept from the evidence and decision it is meant to support. Keeping those ideas distinct helps the team state its method, claim, and limits explicitly.</p>
+<p><strong>Concept Tested:</strong> Evaluation Criterion</p>
+<p><strong>See:</strong> <a href="../../../glossary/#evaluation-criterion">Evaluation Criterion</a></p>
+</details>
+<hr />
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Content">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Content
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../18-marketing-metrics-analysis/" class="md-footer__link md-footer__link--next" aria-label="Next: Content">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Content
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

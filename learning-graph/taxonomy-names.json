@@ -1,0 +1,16 @@
+{
+  "AIFND": "AI And Research Foundations",
+  "RSRCH": "Research Design And AI Limits",
+  "ETHIC": "Ethics Privacy And Governance",
+  "PERDS": "Persona Design",
+  "PERQ": "Persona Segmentation And Quality",
+  "PRMPT": "Prompt Design And Outputs",
+  "PTEST": "Prompt Testing And Dialogue",
+  "AGENT": "Agent Design And Roles",
+  "MULTI": "Multi-Agent Orchestration",
+  "BRAND": "Brand And Asset Evaluation",
+  "RUBRC": "Rubrics Scores And Evidence",
+  "ANLYS": "Analysis And Recommendations",
+  "GRAPH": "Graph-Based Knowledge Models",
+  "WORKF": "Automation Reporting And Capstone"
+}

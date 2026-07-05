@@ -1,0 +1,14 @@
+{
+  "sim_id": "prompt-role-routing",
+  "diagram_name": "Prompt Role Routing Lab",
+  "chapter_number": 10,
+  "chapter_title": "Prompt Engineering Foundations",
+  "chapter_dir": "10-prompt-engineering",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Classify instructions by persona, moderator, reviewer, skeptic, or evaluation role and repair conflicting authority.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** prompt-role-routing<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** classify\n\n**Learning objective:** Classify instructions by persona, moderator, reviewer, skeptic, or evaluation role and repair conflicting authority.\n\n**Interaction:** Learners route instruction cards to role panels, inspect conflicts, and rewrite misplaced instructions. Scenarios include a moderator scoring participants, a persona writing executive recommendations, and a skeptic refusing valid evidence.\n\n**Feedback:** Every card explains why it belongs to a role and what failure occurs when roles are blended. A combined workflow view shows message handoffs.\n\n**Responsive design:** Role panels become tabs on narrow screens, with keyboard routing and resize handling.\n\n**Instructional rationale:** Sorting and repairing role instructions supports applying a separation-of-responsibilities model.\n\nImplementation: Responsive p5.js card lab with semantic HTML editors."
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Bias Pathway and Control Map",
+  "description": "Attribute a biased research outcome to model, persona selection, cultural assumptions, researcher interpretation, or automation design and select an appropriate control.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Bias Pathway and Control Map"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "bias-pathway-control-map",
+  "library": "vis-network",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Bias Pathway and Control Map",
+    "learningObjectives": [
+      "Attribute a biased research outcome to model, persona selection, cultural assumptions, researcher interpretation, or automation design and select an appropriate control."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Attribute a biased research outcome to model, persona selection, cultural assumptions, researcher interpretation, or automation design and select an appropriate control."
+    ]
+  },
+  "chapter": "03-ai-limits-bias",
+  "completion_status": "deployed"
+}

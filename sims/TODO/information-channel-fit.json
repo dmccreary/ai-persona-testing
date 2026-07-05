@@ -1,0 +1,14 @@
+{
+  "sim_id": "information-channel-fit",
+  "diagram_name": "Information and Channel Fit Lab",
+  "chapter_number": 6,
+  "chapter_title": "Persona Motivations, Behaviors, and Evidence",
+  "chapter_dir": "06-persona-behavior-evidence",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Use persona information needs, media habits, channel preferences, technology comfort, context, and accessibility requirements to choose an appropriate communication path.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** information-channel-fit<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** use\n\n**Learning objective:** Use persona information needs, media habits, channel preferences, technology comfort, context, and accessibility requirements to choose an appropriate communication path.\n\n**Layout:** A matrix with journey stages as columns and information tasks as rows. Message cards and channel cards sit in a tray.\n\n**Interaction:** Learners place a message and channel at each stage for a selected persona. Feedback explains mismatches, such as using a public social channel for a private account issue or a long video for an urgent factual check.\n\n**Controls:** Persona selector, journey stage, urgency, privacy level, device, and accessibility need. Compare mode shows two defensible channel plans.\n\n**Responsive design:** Matrix becomes an accordion on narrow displays, with keyboard placement and resize handling.\n\n**Instructional rationale:** Scenario-based placement supports applying because channel fit must be reasoned from context rather than memorized.\n\nImplementation: Responsive p5.js matrix with accessible DOM cards."
+}

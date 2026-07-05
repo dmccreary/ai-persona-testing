@@ -1,0 +1,14 @@
+{
+  "sim_id": "no-code-evaluation-pipeline",
+  "diagram_name": "Governed No-Code Evaluation Pipeline",
+  "chapter_number": 20,
+  "chapter_title": "Automation, Reporting, and Capstone Systems",
+  "chapter_dir": "20-automation-reporting-capstone",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Implement a no-code evaluation pipeline with validation, independent agents, human gates, exception handling, audit records, and graph updates.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: workflow\n**sim-id:** no-code-evaluation-pipeline<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** implement\n\n**Learning objective:** Implement a no-code evaluation pipeline with validation, independent agents, human gates, exception handling, audit records, and graph updates.\n\n**Layout:** Swimlanes for Requester, No-Code Platform, AI Agents, Reviewers, Decision Owner, and Knowledge Graph.\n\n**Interaction:** Learners configure triggers, actions, conditions, approvals, retries, timeouts, and stop paths. Failure scenarios include missing consent, invalid schema, agent timeout, and high-severity risk.\n\n**Feedback:** The simulator flags automation without ownership, reviews without source evidence, unsafe retries, and graph writes before approval.\n\n**Responsive design:** Swimlanes stack on narrow screens, with keyboard configuration and text workflow export.\n\n**Instructional rationale:** Configuring an operational pipeline supports applying the full workflow.\n\nImplementation: Responsive p5.js visual workflow simulator."
+}

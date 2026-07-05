@@ -1,0 +1,14 @@
+{
+  "sim_id": "research-method-navigator",
+  "diagram_name": "Research Question Method Navigator",
+  "chapter_number": 1,
+  "chapter_title": "AI-Powered Customer Research Foundations",
+  "chapter_dir": "01-ai-customer-research",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Given a marketing question, classify it as customer research or market research and as primarily qualitative or quantitative, then justify the selected method.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: interactive infographic\n**sim-id:** research-method-navigator<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Apply (L3)\n\n**Bloom verb:** classify\n\n**Learning objective:** Given a marketing question, classify it as customer research or market research and as primarily qualitative or quantitative, then justify the selected method.\n\n**Layout:** A responsive two-column canvas. The left column presents one question card at a time, such as “Why do first-time visitors distrust this pricing page?” or “What percentage of trial users convert within 30 days?” The right column contains four labeled method zones: Customer–Qualitative, Customer–Quantitative, Market–Qualitative, and Market–Quantitative.\n\n**Interaction:** Learners drag each question into a zone. The system immediately displays specific feedback explaining what the question seeks, what evidence would answer it, and when a mixed-method design would be stronger. A “Show another defensible answer” button reveals ambiguity rather than pretending every question has one perfect method.\n\n**Progress feedback:** Display ten scenarios, an accuracy counter, and a reasoning-quality prompt after every third decision. Record classification attempts and revisions as learning events.\n\n**Accessibility:** Provide keyboard selection, visible focus states, text alternatives for every card, and a high-contrast palette. Respond to window resize events by stacking columns on narrow screens.\n\n**Instructional rationale:** Classification with immediate explanation supports applying because learners must select a method for a new question, not merely recall definitions.\n\nImplementation: Responsive p5.js interface with DOM-based accessible controls and a JSON scenario bank."
+}

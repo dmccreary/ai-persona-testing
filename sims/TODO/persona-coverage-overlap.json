@@ -1,0 +1,14 @@
+{
+  "sim_id": "persona-coverage-overlap",
+  "diagram_name": "Portfolio Coverage and Overlap Explorer",
+  "chapter_number": 9,
+  "chapter_title": "Persona Consistency, Validation, and Reuse",
+  "chapter_dir": "09-persona-quality-reuse",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Assess a persona portfolio for meaningful differentiation, redundant overlap, decision coverage, diversity, and influence balance.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: graph-model\n**sim-id:** persona-coverage-overlap<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** assess\n\n**Learning objective:** Assess a persona portfolio for meaningful differentiation, redundant overlap, decision coverage, diversity, and influence balance.\n\n**Node types:** Persona, Need, Behavior, Context, Criterion, Risk, Journey State, and Evidence Source. Similarity edges show shared decision features, not demographic appearance.\n\n**Interaction:** Select a persona to highlight its coverage neighborhood, adjust overlap threshold, remove a profile, and observe lost or preserved coverage. Weight controls reveal influence imbalance.\n\n**Feedback:** The tool identifies near duplicates, uncovered high-priority risks, unsupported diversity claims, and unjustified weights. Learners must justify merge, retain, or add decisions.\n\n**Responsive design:** Force graph with zoom, pan, keyboard traversal, side panel, text matrix alternative, and resize handling.\n\n**Instructional rationale:** Evaluating network coverage and redundancy supports portfolio-level judgment.\n\nImplementation: vis-network with a transparent similarity function and accessible matrix view."
+}

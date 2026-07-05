@@ -1,0 +1,14 @@
+{
+  "sim_id": "persona-drift-monitor",
+  "diagram_name": "Persona Drift Monitor",
+  "chapter_number": 9,
+  "chapter_title": "Persona Consistency, Validation, and Reuse",
+  "chapter_dir": "09-persona-quality-reuse",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Examine persona behavior across versions and identify factual, goal, expertise, preference, and tone drift.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: chart\n**sim-id:** persona-drift-monitor<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** examine\n\n**Learning objective:** Examine persona behavior across versions and identify factual, goal, expertise, preference, and tone drift.\n\n**Chart:** Multi-series line and event chart. X-axis shows test date or version. Y-axis shows transparent rubric scores for five fidelity dimensions. Model, prompt, and evidence updates appear as selectable event markers.\n\n**Interaction:** Hover reveals exact score, test case, evidence excerpt, and version. Learners toggle dimensions, select a suspicious change, and inspect before/after responses. A threshold control demonstrates sensitivity without declaring one universal cutoff.\n\n**Feedback:** The tool asks whether the change is expected, harmful, or an intentional persona refinement, then compares the answer with documented change notes.\n\n**Responsive design:** Chart legend collapses on small screens; provide a table alternative and keyboard data navigation.\n\n**Instructional rationale:** Pattern finding across versions supports analysis and makes drift attributable to change events.\n\nImplementation: Responsive Chart.js visualization linked to accessible response panels."
+}

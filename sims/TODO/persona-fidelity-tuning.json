@@ -1,0 +1,14 @@
+{
+  "sim_id": "persona-fidelity-tuning",
+  "diagram_name": "Persona Fidelity Tuning Lab",
+  "chapter_number": 3,
+  "chapter_title": "AI Capabilities, Limitations, and Bias",
+  "chapter_dir": "03-ai-limits-bias",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Differentiate task-relevant persona evidence from decorative realism, unsupported assumptions, and stereotype risk.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** persona-fidelity-tuning<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Analyze (L4)\n\n**Bloom verb:** differentiate\n\n**Learning objective:** Differentiate task-relevant persona evidence from decorative realism, unsupported assumptions, and stereotype risk.\n\n**Interaction pattern:** Learners receive a research question and a stack of persona attributes. They classify each attribute as Essential, Helpful, Irrelevant, Unsupported, or Sensitive. The persona's fidelity meter changes according to task relevance, not profile length.\n\n**Worked scenarios:** Evaluate a banking reminder, commuter campaign, health-service appointment page, and business software trial. Each scenario changes which attributes are relevant.\n\n**Feedback:** Clicking an attribute reveals its source and asks how it could affect behavior. Unsupported sensitive attributes trigger a warning and require a replacement grounded in goals or circumstances.\n\n**Controls:** Scenario selector, evidence-source filter, Reset, Compare Profiles, and Explain Score. The comparison view shows that a shorter evidence-based profile can outrank a vivid fictional one.\n\n**Responsive design:** Cards use two columns on wide screens and one column on narrow screens; all sorting has a keyboard mode and updates on resize.\n\n**Instructional rationale:** Classification across changing tasks supports analysis by showing that fidelity depends on purpose while realism can remain superficial.\n\nImplementation: p5.js card workspace with accessible DOM controls and scenario JSON."
+}

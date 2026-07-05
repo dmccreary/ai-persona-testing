@@ -1,0 +1,66 @@
+{
+  "title": "Evidence-to-Claim Traceability Map",
+  "description": "Validate whether a marketing research claim is adequately supported by its source evidence, method, assumptions, and limitations.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Evidence-to-Claim Traceability Map"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "evidence-claim-traceability",
+  "library": "vis-network",
+  "bloomLevel": "Evaluate",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Evidence-to-Claim Traceability Map",
+    "learningObjectives": [
+      "Validate whether a marketing research claim is adequately supported by its source evidence, method, assumptions, and limitations."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Validate whether a marketing research claim is adequately supported by its source evidence, method, assumptions, and limitations."
+    ]
+  },
+  "chapter": "02-research-design-evidence",
+  "completion_status": "deployed"
+}

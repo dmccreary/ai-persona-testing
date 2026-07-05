@@ -1,0 +1,66 @@
+{
+  "title": "Customer Job Statement Builder",
+  "description": "Formulate an evidence-grounded customer job statement containing circumstance, desired progress, functional outcome, emotional outcome, and social responsibility.",
+  "creator": "Dan McCreary",
+  "date": "2026-07-03",
+  "subject": [
+    "AI Persona Testing",
+    "Marketing Research",
+    "Customer Job Statement Builder"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "customer-job-statement-builder",
+  "library": "p5.js",
+  "bloomLevel": "Create",
+  "educational": {
+    "gradeLevel": [
+      "Undergraduate",
+      "Professional"
+    ],
+    "subjectArea": "Marketing Research",
+    "topic": "Customer Job Statement Builder",
+    "learningObjectives": [
+      "Formulate an evidence-grounded customer job statement containing circumstance, desired progress, functional outcome, emotional outcome, and social responsibility."
+    ],
+    "bloomsTaxonomy": "Create",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic familiarity with customer research and AI personas"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive evidence exploration",
+    "keyQuestions": [
+      "What evidence supports this interpretation?",
+      "What remains synthetic or uncertain?"
+    ],
+    "commonMisconceptions": [
+      "Synthetic agreement is equivalent to validated customer evidence."
+    ],
+    "assessmentOpportunities": [
+      "Formulate an evidence-grounded customer job statement containing circumstance, desired progress, functional outcome, emotional outcome, and social responsibility."
+    ]
+  },
+  "chapter": "08-jobs-customer-journeys",
+  "completion_status": "deployed"
+}

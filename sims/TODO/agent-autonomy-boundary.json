@@ -1,0 +1,14 @@
+{
+  "sim_id": "agent-autonomy-boundary",
+  "diagram_name": "Agent Autonomy and Boundary Simulator",
+  "chapter_number": 13,
+  "chapter_title": "Designing AI Agents and Expert Roles",
+  "chapter_dir": "13-ai-agents-expert-roles",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Assess an agent action by consequence, reversibility, data sensitivity, tool scope, and required human approval.",
+  "completion_status": "specified",
+  "extracted_date": "2026-07-03",
+  "specification": "Type: microsim\n**sim-id:** agent-autonomy-boundary<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom level:** Evaluate (L5)\n\n**Bloom verb:** assess\n\n**Learning objective:** Assess an agent action by consequence, reversibility, data sensitivity, tool scope, and required human approval.\n\n**Controls:** Action selector, consequence, reversibility, sensitivity, external communication, cost limit, and evidence quality. Learners assign Allow, Allow with Log, Require Approval, Escalate, or Prohibit.\n\n**Feedback:** The simulator explains why a harmless drafting action differs from publishing, exporting data, or changing a decision record. It exposes boundaries missed by one-dimensional risk scores.\n\n**Responsive design:** Controls and decision path stack on narrow screens, with keyboard access and text summary.\n\n**Instructional rationale:** Scenario judgment against explicit criteria supports evaluation of autonomy.\n\nImplementation: p5.js decision visualization with accessible controls."
+}
