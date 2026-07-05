@@ -1,6 +1,7 @@
 /* ============================================
    Learning Mascot: Lens the Evidence Explorer
    Pedagogical agent for AI Persona Testing
+   Note that the mascots images are not square, so the width and height are set separately to avoid distortion.
    ============================================ */
 
 :root {
@@ -9,6 +10,8 @@
   --mascot-bg: #eceff1;
   --mascot-border: #78909c;
   --mascot-size: 90px;
+  --mascot-width: 60px;
+  --mascot-height: 90px;
 }
 
 .md-typeset .admonition.mascot-welcome,
@@ -118,8 +121,9 @@
 
 .md-typeset .mascot-admonition-img {
   float: left;
-  width: var(--mascot-size);
-  height: var(--mascot-size);
+  /* Set the width and height to avoid distortion of non-square mascot images */
+  width: var(--mascot-width);
+  height: var(--mascot-height);
   margin: 0 .5em 0 0;
   object-fit: contain;
   pointer-events: none;
@@ -128,5 +132,6 @@
 @media screen and (max-width: 480px) {
   :root {
     --mascot-size: 72px;
+    --mascot-width: 48px;
   }
 }
