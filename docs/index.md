@@ -1,40 +1,81 @@
 ---
-title: 'AI Persona Testing'
-description: 'An interactive intelligent textbook covering methods and best practices for testing AI personas.'
-image: img/cover.png
+title: AI Persona Testing
+description: Learn to build evidence-aware AI persona testing systems for marketing research without programming.
+image: /img/cover.png
+og:image: /img/cover.png
+twitter:image: /img/cover.png
+hide:
+  - toc
 ---
+<style>
+.md-content__inner h1 {display: none !important;}
+</style>
 
 # AI Persona Testing
 
 <figure markdown>
-  ![AI Persona Testing cover](./img/cover.png){ width="100%" }
+  [![AI Persona Testing cover](./img/cover.png){ width="100%" }](chapters/01-ai-customer-research/index.md)
 </figure>
 
-An interactive intelligent textbook covering methods and best practices for testing AI personas.
+Build practical, repeatable systems for testing marketing ideas with AI
+personas—without confusing synthetic reactions with evidence from real
+customers.
 
-## Getting Started
+This free, interactive textbook guides marketing professionals from the
+foundations of AI-assisted customer research through persona design, prompt
+testing, multi-agent workflows, evaluation rubrics, knowledge graphs, and
+automated reporting. No programming experience is required.
 
-This is an intelligent textbook built with MkDocs Material. Use the navigation
-sidebar on the left to explore chapters, the learning graph, MicroSims, and
-supporting reference content.
+!!! mascot-thinking "Evidence or Inference?"
+    ![Lens thinking](./img/mascot/thinking.png){ class="mascot-admonition-img" }
+    AI personas can help you explore possibilities and expose weak assumptions.
+    What supports the claim—and what still needs to be tested with real people?
 
-## Front Matter
+## What You Will Learn
 
-- **About** — audience, prerequisites, and how to read the book
-- **Course Description** — the seed document used to generate the learning graph
+By working through the book, you will learn how to:
 
-## Chapters
+- design useful, evidence-grounded customer personas
+- write prompts that produce structured and repeatable evaluations
+- recognize hallucinations, bias, persona drift, and unsupported confidence
+- orchestrate persona, moderator, skeptic, analyst, and expert agents
+- evaluate marketing assets with rubrics, scores, confidence ratings, and traceable evidence
+- turn findings into prioritized recommendations, knowledge graphs, and reports
+- build a governed, no-code AI persona testing workflow
 
-The main body of the book lives under [Chapters](chapters/index.md). Each
-chapter has its own folder with a two-digit prefix (e.g. `01-introduction`).
+## Explore the Book
 
-## Learning Graph
+- **[20 Chapters](chapters/index.md)** — Follow a prerequisite-aware path from
+  research foundations to a complete capstone system.
+- **[Interactive MicroSims](sims/index.md)** — Practice research design,
+  persona construction, prompt testing, orchestration, and evaluation in the
+  browser.
+- **[Learning Graph](learning-graph/index.md)** — Explore how the book's 400
+  concepts connect and which ideas support later skills.
+- **[Chapter Quizzes](chapters/01-ai-customer-research/quiz.md)** — Check your
+  understanding with explanations and immediate feedback.
+- **[Glossary](glossary.md)** — Look up precise definitions for the core
+  concepts used throughout the course.
+- **[FAQ](faq.md)** — Find concise answers to common questions and follow links
+  into the relevant chapters.
 
-The [Learning Graph](learning-graph/index.md) shows how concepts depend on each
-other. Concepts are introduced in dependency order so prerequisites are always
-covered before they are used.
+## Who This Book Is For
 
-## MicroSims
+This book is designed for marketing managers, brand strategists, product
+marketers, UX researchers, customer-experience professionals, consultants,
+agency teams, founders, and business leaders. You need basic computer skills,
+familiarity with marketing, and curiosity about AI—not a background in
+programming, statistics, or machine learning.
 
-Interactive simulations live under [MicroSims](sims/index.md). Each MicroSim
-focuses on one concept and is embeddable as an iframe inside chapter content.
+## How to Use This Book
+
+New to AI persona testing? Begin with Chapter 1 and work through the chapters
+in order. Each chapter builds on concepts introduced earlier and includes
+interactive practice and a quiz.
+
+Already experienced with AI or customer research? Use the learning graph and
+chapter overview to identify the shortest safe path to the topic you need.
+
+[**Start Chapter 1: AI-Powered Customer Research Foundations →**](chapters/01-ai-customer-research/index.md){ .md-button .md-button--primary }
+
+[About this book](about.md){ .md-button }
