@@ -386,3 +386,5 @@ Reliable structure makes uncertainty visible and actionable.
 5. How do output schema and response format differ?
 6. Why should recommendations remain separate from persona reactions?
 7. What should happen when required evidence is missing?
+
+[See Annotated References](./references.md)

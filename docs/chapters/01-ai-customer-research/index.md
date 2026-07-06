@@ -363,3 +363,5 @@ Choose a marketing asset you know: a homepage, email, advertisement, product pag
 5. When would brand stress testing be more useful than a friendly AI focus group?
 6. Why does increasing the number of simulated personas not create a representative quantitative sample?
 7. What evidence would move a repeated synthetic pattern toward a human-validated finding?
+
+[See Annotated References](./references.md)

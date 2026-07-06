@@ -354,3 +354,5 @@ Choose one persona-testing scenario and create a one-page control plan.
 5. How should confidence be calibrated without inventing precise percentages?
 6. What turns an ethical principle into an enforceable guardrail?
 7. Which events should trigger ethical escalation in a persona-testing program?
+
+[See Annotated References](./references.md)

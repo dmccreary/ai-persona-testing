@@ -385,3 +385,5 @@ A reflection prompt separates asset facts from persona inference. A synthesis pr
 5. How can a neutral question remain specific?
 6. When does an adversarial question become unfairly leading?
 7. Why must a synthesis prompt preserve minority findings?
+
+[See Annotated References](./references.md)

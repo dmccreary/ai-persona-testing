@@ -361,3 +361,5 @@ Choose a real marketing decision and construct one persona.
 5. How do behavior, preference, attitude, value, and belief differ?
 6. What is the relationship among goals, motivations, and needs?
 7. How can a frustration help reveal an underlying pain point?
+
+[See Annotated References](./references.md)

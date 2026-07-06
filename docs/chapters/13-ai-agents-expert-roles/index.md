@@ -352,3 +352,5 @@ The result is more complex than one giant prompt but easier to test, govern, and
 5. Why should a moderator not produce the final judgment?
 6. How does a persona agent differ from an expert reviewer?
 7. Which specialist roles would you select for a crisis communication test, and why?
+
+[See Annotated References](./references.md)

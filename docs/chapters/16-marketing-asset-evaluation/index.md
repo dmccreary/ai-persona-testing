@@ -381,3 +381,5 @@ The team revises hierarchy, proof, qualifications, contrast, icon detail, and ca
 5. What can make a call to action unclear despite being visually prominent?
 6. Which controls make competitive comparison fair?
 7. What turns a difference into meaningful brand differentiation?
+
+[See Annotated References](./references.md)

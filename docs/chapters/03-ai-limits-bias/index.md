@@ -341,3 +341,5 @@ Select a synthetic finding from an earlier exercise or create one for a marketin
 5. Why can repeated consistent output still create false confidence?
 6. What makes human oversight meaningful rather than symbolic?
 7. Which disclosures should appear in a transparent AI persona research report?
+
+[See Annotated References](./references.md)

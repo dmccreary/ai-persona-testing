@@ -371,3 +371,5 @@ Choose one persona and produce these artifacts.
 5. When should overlapping personas be merged rather than retained?
 6. What must be checked before persona reuse?
 7. How do test cases, acceptance tests, and benchmarks serve different purposes?
+
+[See Annotated References](./references.md)

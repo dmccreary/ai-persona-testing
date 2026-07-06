@@ -414,3 +414,5 @@ The agency scales by reusing governed components and learning from outcomes, not
 5. Which drill-down information should an executive dashboard preserve?
 6. What minimum components belong in the capstone system?
 7. How should an organization measure research scale without rewarding output volume alone?
+
+[See Annotated References](./references.md)

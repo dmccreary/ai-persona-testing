@@ -379,3 +379,5 @@ Choose a persona and marketing asset.
 5. How do role, task, audience, and constraint definitions work together?
 6. Why can structured output still be invalid?
 7. Which prompt component would you inspect first when personas invent product facts?
+
+[See Annotated References](./references.md)

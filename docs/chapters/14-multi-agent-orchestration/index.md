@@ -398,3 +398,5 @@ The synthesis records factual consensus, interpretive disagreement, and the mino
 5. What makes a debate protocol evidence-centered?
 6. Why is agent consensus not population evidence?
 7. How should factual, interpretive, and value disagreements be handled differently?
+
+[See Annotated References](./references.md)

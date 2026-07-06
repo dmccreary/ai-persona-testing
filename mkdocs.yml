@@ -43,63 +43,83 @@ nav:
       - 1. AI-Powered Customer Research Foundations:
           - Content: chapters/01-ai-customer-research/index.md
           - Quiz: chapters/01-ai-customer-research/quiz.md
+          - Annotated References: chapters/01-ai-customer-research/references.md
       - 2. Research Design and Evidence Quality:
           - Content: chapters/02-research-design-evidence/index.md
           - Quiz: chapters/02-research-design-evidence/quiz.md
+          - Annotated References: chapters/02-research-design-evidence/references.md
       - 3. AI Capabilities, Limitations, and Bias:
           - Content: chapters/03-ai-limits-bias/index.md
           - Quiz: chapters/03-ai-limits-bias/quiz.md
+          - Annotated References: chapters/03-ai-limits-bias/references.md
       - 4. Responsible AI, Privacy, and Governance:
           - Content: chapters/04-responsible-ai-governance/index.md
           - Quiz: chapters/04-responsible-ai-governance/quiz.md
+          - Annotated References: chapters/04-responsible-ai-governance/references.md
       - 5. Building Complete Customer Personas:
           - Content: chapters/05-customer-personas/index.md
           - Quiz: chapters/05-customer-personas/quiz.md
+          - Annotated References: chapters/05-customer-personas/references.md
       - 6. Persona Motivations, Behaviors, and Evidence:
           - Content: chapters/06-persona-behavior-evidence/index.md
           - Quiz: chapters/06-persona-behavior-evidence/quiz.md
+          - Annotated References: chapters/06-persona-behavior-evidence/references.md
       - 7. Customer Segmentation and Persona Archetypes:
           - Content: chapters/07-segmentation-archetypes/index.md
           - Quiz: chapters/07-segmentation-archetypes/quiz.md
+          - Annotated References: chapters/07-segmentation-archetypes/references.md
       - 8. Jobs-to-Be-Done and Customer Journeys:
           - Content: chapters/08-jobs-customer-journeys/index.md
           - Quiz: chapters/08-jobs-customer-journeys/quiz.md
+          - Annotated References: chapters/08-jobs-customer-journeys/references.md
       - 9. Persona Consistency, Validation, and Reuse:
           - Content: chapters/09-persona-quality-reuse/index.md
           - Quiz: chapters/09-persona-quality-reuse/quiz.md
+          - Annotated References: chapters/09-persona-quality-reuse/references.md
       - 10. Prompt Engineering Foundations:
           - Content: chapters/10-prompt-engineering/index.md
           - Quiz: chapters/10-prompt-engineering/quiz.md
+          - Annotated References: chapters/10-prompt-engineering/references.md
       - 11. Structured Prompts and Reliable Outputs:
           - Content: chapters/11-structured-prompts/index.md
           - Quiz: chapters/11-structured-prompts/quiz.md
+          - Annotated References: chapters/11-structured-prompts/references.md
       - 12. Prompt Testing and Research Dialogue:
           - Content: chapters/12-prompt-testing-dialogue/index.md
           - Quiz: chapters/12-prompt-testing-dialogue/quiz.md
+          - Annotated References: chapters/12-prompt-testing-dialogue/references.md
       - 13. Designing AI Agents and Expert Roles:
           - Content: chapters/13-ai-agents-expert-roles/index.md
           - Quiz: chapters/13-ai-agents-expert-roles/quiz.md
+          - Annotated References: chapters/13-ai-agents-expert-roles/references.md
       - 14. Multi-Agent Workflows, Debate, and Consensus:
           - Content: chapters/14-multi-agent-orchestration/index.md
           - Quiz: chapters/14-multi-agent-orchestration/quiz.md
+          - Annotated References: chapters/14-multi-agent-orchestration/references.md
       - 15. Moderation Risks and Brand Strategy:
           - Content: chapters/15-moderation-brand-strategy/index.md
           - Quiz: chapters/15-moderation-brand-strategy/quiz.md
+          - Annotated References: chapters/15-moderation-brand-strategy/references.md
       - 16. Evaluating Marketing Assets and Messaging:
           - Content: chapters/16-marketing-asset-evaluation/index.md
           - Quiz: chapters/16-marketing-asset-evaluation/quiz.md
+          - Annotated References: chapters/16-marketing-asset-evaluation/references.md
       - 17. Evaluation Rubrics, Scoring, and Evidence:
           - Content: chapters/17-rubrics-scoring-evidence/index.md
           - Quiz: chapters/17-rubrics-scoring-evidence/quiz.md
+          - Annotated References: chapters/17-rubrics-scoring-evidence/references.md
       - 18. Marketing Metrics and Pattern Analysis:
           - Content: chapters/18-marketing-metrics-analysis/index.md
           - Quiz: chapters/18-marketing-metrics-analysis/quiz.md
+          - Annotated References: chapters/18-marketing-metrics-analysis/references.md
       - 19. Risk-Based Recommendations and Knowledge Graphs:
           - Content: chapters/19-risk-knowledge-graphs/index.md
           - Quiz: chapters/19-risk-knowledge-graphs/quiz.md
+          - Annotated References: chapters/19-risk-knowledge-graphs/references.md
       - 20. Automation, Reporting, and Capstone Systems:
           - Content: chapters/20-automation-reporting-capstone/index.md
           - Quiz: chapters/20-automation-reporting-capstone/quiz.md
+          - Annotated References: chapters/20-automation-reporting-capstone/references.md
 
   - MicroSims:
     - List of MicroSims: sims/index.md
@@ -191,6 +211,11 @@ nav:
   - Learning Graph:
       - Introduction: learning-graph/index.md
       - Course Description Assessment: learning-graph/course-description-assessment.md
+      - Background Notes: learning-graph/background-notes.md
+      - Book Metrics: learning-graph/book-metrics.md
+      - Chapter Metrics: learning-graph/chapter-metrics.md
+      - Glossary Quality Report: learning-graph/glossary-quality-report.md
+      - LinkedIn Announcement: learning-graph/linkedin-announcement.md
       - Concept Enumeration: learning-graph/concept-list.md
       - Concept Taxonomy: learning-graph/concept-taxonomy.md
       - Graph Quality Analysis: learning-graph/quality-metrics.md
@@ -290,6 +315,8 @@ exclude_docs: |
   **/image-prompts*.md
   **/cover-prompt.md
   **/TODO.md
+  img/cover-image-prompt.md
+  img/mascot/character-sheet.md
 
 # Rebuild on changes during `mkdocs serve`
 watch:

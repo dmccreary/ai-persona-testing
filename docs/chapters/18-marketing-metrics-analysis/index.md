@@ -395,3 +395,5 @@ The team revises the claim, adds a trust signal linked to supported integrations
 5. Which contradiction types require prompt review rather than customer research?
 6. How do messaging and credibility gaps differ?
 7. What makes an element a meaningful trust signal?
+
+[See Annotated References](./references.md)

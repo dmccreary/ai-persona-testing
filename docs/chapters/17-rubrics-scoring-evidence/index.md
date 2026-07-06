@@ -388,3 +388,5 @@ Transparent measures support accountable marketing judgment.
 5. How does confidence differ from performance rating?
 6. Why must factual critique and emotional reaction remain separate?
 7. What does sensitivity analysis reveal about a recommendation?
+
+[See Annotated References](./references.md)

@@ -335,3 +335,5 @@ Using a persona from Chapter 5, add the following layers.
 5. What makes a persona quote responsible and useful?
 6. Why is “unknown” sometimes a sign of persona completeness?
 7. How should a team decide whether persona detail is specific enough?
+
+[See Annotated References](./references.md)

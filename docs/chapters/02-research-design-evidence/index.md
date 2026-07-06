@@ -368,3 +368,5 @@ Review a real or imagined marketing study and answer the following questions.
 5. Can a study be reliable but invalid? Give an example.
 6. What information must be preserved for a persona evaluation to be reproducible?
 7. How should a report distinguish directional insight from customer evidence?
+
+[See Annotated References](./references.md)

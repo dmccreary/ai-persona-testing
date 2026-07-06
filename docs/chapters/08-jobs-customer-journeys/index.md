@@ -343,3 +343,5 @@ Choose one persona and marketing decision.
 5. How does customer circumstance differ from use context?
 6. What makes a touchpoint a moment of truth?
 7. Why is removing every form of journey friction a poor goal?
+
+[See Annotated References](./references.md)

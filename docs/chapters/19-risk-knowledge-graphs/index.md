@@ -407,3 +407,5 @@ Provenance matters.
 5. What is the difference among a graph node, edge, and relationship?
 6. Which properties should a reaction node preserve?
 7. What governance controls prevent a knowledge graph from spreading unsupported claims?
+
+[See Annotated References](./references.md)

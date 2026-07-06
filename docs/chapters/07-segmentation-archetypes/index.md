@@ -344,3 +344,5 @@ Choose a campaign or customer journey and complete the following steps.
 5. Why is translation insufficient for an international persona?
 6. When should an accessibility persona be treated as primary rather than exceptional?
 7. Why can a premium customer still be price sensitive?
+
+[See Annotated References](./references.md)

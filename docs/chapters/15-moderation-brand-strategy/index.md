@@ -382,3 +382,5 @@ Coherent brands earn trust through consistent delivery.
 5. What is the difference between brand voice and tone?
 6. How does a value proposition differ from a feature list?
 7. Why can message hierarchy vary by persona and journey stage?
+
+[See Annotated References](./references.md)
