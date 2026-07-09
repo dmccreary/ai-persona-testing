@@ -11,7 +11,7 @@
 
 ## View the Live Site
 
-Read the interactive textbook at
+Read the interactive textbook about AI Persona Testing at
 [https://dmccreary.github.io/ai-persona-testing/](https://dmccreary.github.io/ai-persona-testing/).
 
 ## Overview
@@ -25,6 +25,8 @@ The book progresses from AI-assisted customer-research foundations through evide
 persona design, prompt testing, multi-agent workflows, evaluation rubrics, knowledge graphs, and automated reporting.
 A prerequisite-aware learning graph organizes the curriculum, while browser-based MicroSims, chapter quizzes, a
 glossary, and an FAQ support active learning and quick reference.
+
+This book is notable in the history of interactive intelligent textbooks because it is the first book created entirely with OpenAI Codex running ChatGPT 5.5.  All of the [hundred plus interactive textbooks](https://dmccreary.github.io/intelligent-textbooks/case-studies/) were mostly created with Claude Code.  The inclusion of image generation directly in Codex made the generation of this textbook a key milestone.
 
 ## Site Status and Metrics
 
